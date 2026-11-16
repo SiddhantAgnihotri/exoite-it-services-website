@@ -1,51 +1,51 @@
+import { Link } from "react-router-dom";
+import { ArrowRight } from "lucide-react";
 const technologies = [
-    "React",
-    "Next.js",
-    "Node.js",
-    "Express.js",
-    "MongoDB",
-    "MySQL",
-    "Firebase",
-    "Flutter",
-    "React Native",
-    "Cloudinary",
-    "Vercel",
-    
+  "React",
+  "Next.js",
+  "Node.js",
+  "Express.js",
+  "MongoDB",
+  "MySQL",
+  "Firebase",
+  "Flutter",
+  "React Native",
+  "Cloudinary",
+  "Vercel",
 ];
-
-const Technologies = () => {
-    return (
-        <section id="technologies" className="bg-white px-5 py-20 md:py-24">
-            <div className="mx-auto max-w-7xl text-center">
-                <p className="text-sm font-bold uppercase tracking-[0.22em] text-blue-600">
-                    Technologies
-                </p>
-
-                <h2 className="mt-4 text-[30px] font-extrabold tracking-tight text-slate-950 md:text-[40px]">
-                    Technologies We Use
-                </h2>
-
-                <p className="mx-auto mt-5 max-w-2xl text-[16px] leading-7 text-slate-600">
-                    We use modern and reliable technologies to build responsive websites,
-                    scalable web applications, mobile apps, APIs and cloud-based software
-                    solutions.
-                </p>
-
-                <div className="mt-12 grid gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-                    {technologies.map((tech) => (
-                        <div
-                            key={tech}
-                            className="rounded-2xl border border-slate-200 bg-white px-5 py-4 text-center shadow-sm transition duration-300 hover:-translate-y-1 hover:border-blue-200 hover:bg-blue-50 hover:shadow-md"
-                        >
-                            <span className="text-[15px] font-bold text-slate-800">
-                                {tech}
-                            </span>
-                        </div>
-                    ))}
-                </div>
-            </div>
-        </section>
-    );
-};
-
-export default Technologies;
+export default function Technologies() {
+  return (
+    <section className="section section-neutral">
+      <div className="container expertise-layout">
+        <div>
+          <p className="eyebrow">Our toolkit</p>
+          <h2>
+            Good choices.
+            <br />
+            Solid foundations.
+          </h2>
+          <p className="section-description">
+            We choose technologies around the requirements, the people using
+            your product and how it needs to grow.
+          </p>
+          <Link to="/services" className="text-link">
+            Explore our expertise <ArrowRight size={16} />
+          </Link>
+        </div>
+        <ul className="technology-list" aria-label="Technologies we use">
+          {technologies.map((tech, index) => (
+            <li key={tech}>
+              <span className="tech-initial" aria-hidden="true">
+                {tech.slice(0, 2)}
+              </span>
+              {tech}
+              <span className="tech-index">
+                {String(index + 1).padStart(2, "0")}
+              </span>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </section>
+  );
+}

@@ -1,0 +1,539 @@
+{
+  "withoutJavaScript": [
+    {
+      "path": "/",
+      "status": 200,
+      "title": "Website & Software Development Company in Kanpur | Exoite IT Services",
+      "h1": "Building Digital Solutions for Modern Businesses.",
+      "mainVisible": true
+    },
+    {
+      "path": "/about",
+      "status": 200,
+      "title": "About Exoite IT Services | IT Company in Kanpur",
+      "h1": "A growing company. A practical outlook.",
+      "mainVisible": true
+    },
+    {
+      "path": "/services",
+      "status": 200,
+      "title": "Website, App & Custom Software Development Services | Exoite",
+      "h1": "Practical technology. Purposeful outcomes.",
+      "mainVisible": true
+    },
+    {
+      "path": "/products",
+      "status": 200,
+      "title": "Exoite Social Media Platform | In Development | Exoite IT Services",
+      "h1": "Exoite Social Media Platform",
+      "mainVisible": true
+    },
+    {
+      "path": "/portfolio",
+      "status": 200,
+      "title": "Software Demos & Solution Concepts | Exoite IT Services",
+      "h1": "Ideas that solve everyday challenges.",
+      "mainVisible": true
+    },
+    {
+      "path": "/training",
+      "status": 200,
+      "title": "IT Training & Coding Workshops in Kanpur | Exoite IT Services",
+      "h1": "Learn by doing. Build with understanding.",
+      "mainVisible": true
+    },
+    {
+      "path": "/contact",
+      "status": 200,
+      "title": "Contact Exoite IT Services | Discuss Your Project",
+      "h1": "A good project starts with a conversation.",
+      "mainVisible": true
+    },
+    {
+      "path": "/insights",
+      "status": 200,
+      "title": "Website & Software Planning Guides | Exoite Insights",
+      "h1": "Better questions. More useful digital decisions.",
+      "mainVisible": true
+    },
+    {
+      "path": "/services/website-development",
+      "status": 200,
+      "title": "Website Development Services | Exoite IT Services",
+      "h1": "A website that makes your business easier to understand.",
+      "mainVisible": true
+    },
+    {
+      "path": "/services/custom-software-development",
+      "status": 200,
+      "title": "Custom Software Development Services | Exoite IT Services",
+      "h1": "Software planned around your everyday work.",
+      "mainVisible": true
+    },
+    {
+      "path": "/services/mobile-app-development",
+      "status": 200,
+      "title": "Mobile App Development Services | Exoite IT Services",
+      "h1": "Useful mobile experiences, designed around your users.",
+      "mainVisible": true
+    },
+    {
+      "path": "/services/school-institute-solutions",
+      "status": 200,
+      "title": "School and Institute Solutions Services | Exoite IT Services",
+      "h1": "Education systems that fit the institution behind them.",
+      "mainVisible": true
+    },
+    {
+      "path": "/services/digital-marketing",
+      "status": 200,
+      "title": "Digital Marketing Services | Exoite IT Services",
+      "h1": "A clearer presence, built around your audience.",
+      "mainVisible": true
+    },
+    {
+      "path": "/services/it-training",
+      "status": 200,
+      "title": "IT Training Services | Exoite IT Services",
+      "h1": "Practical learning, with a clear starting point.",
+      "mainVisible": true
+    },
+    {
+      "path": "/portfolio/examify",
+      "status": 200,
+      "title": "Online Examination Portal / Examify | Illustrative Solution Study | Exoite",
+      "h1": "Online Examination Portal / Examify",
+      "mainVisible": true
+    },
+    {
+      "path": "/portfolio/inventory-management",
+      "status": 200,
+      "title": "Inventory Management System | Illustrative Solution Study | Exoite",
+      "h1": "Inventory Management System",
+      "mainVisible": true
+    },
+    {
+      "path": "/portfolio/learning-management-system",
+      "status": 200,
+      "title": "Learning Management System | Illustrative Solution Study | Exoite",
+      "h1": "Learning Management System",
+      "mainVisible": true
+    },
+    {
+      "path": "/insights/choosing-a-business-website",
+      "status": 200,
+      "title": "Choosing a business website: start with the job it needs to do | Exoite Insights",
+      "h1": "Choosing a business website: start with the job it needs to do",
+      "mainVisible": true
+    },
+    {
+      "path": "/insights/school-website-development-considerations",
+      "status": 200,
+      "title": "Planning a school website: information, access and responsibility | Exoite Insights",
+      "h1": "Planning a school website: information, access and responsibility",
+      "mainVisible": true
+    },
+    {
+      "path": "/insights/when-a-business-needs-custom-software",
+      "status": 200,
+      "title": "When does a business need custom software? | Exoite Insights",
+      "h1": "When does a business need custom software?",
+      "mainVisible": true
+    },
+    {
+      "path": "/privacy-policy",
+      "status": 200,
+      "title": "Privacy Policy | Review Draft | Exoite IT Services",
+      "h1": "Privacy Policy",
+      "mainVisible": true
+    },
+    {
+      "path": "/terms-of-service",
+      "status": 200,
+      "title": "Terms of Service | Review Draft | Exoite IT Services",
+      "h1": "Terms of Service",
+      "mainVisible": true
+    }
+  ],
+  "whatsappLinks": [
+    {
+      "path": "/",
+      "number": "/916394732841",
+      "message": true
+    },
+    {
+      "path": "/",
+      "number": "/916394732841",
+      "message": true
+    },
+    {
+      "path": "/",
+      "number": "/916394732841",
+      "message": true
+    },
+    {
+      "path": "/about",
+      "number": "/916394732841",
+      "message": true
+    },
+    {
+      "path": "/about",
+      "number": "/916394732841",
+      "message": true
+    },
+    {
+      "path": "/about",
+      "number": "/916394732841",
+      "message": true
+    },
+    {
+      "path": "/services",
+      "number": "/916394732841",
+      "message": true
+    },
+    {
+      "path": "/services",
+      "number": "/916394732841",
+      "message": true
+    },
+    {
+      "path": "/services",
+      "number": "/916394732841",
+      "message": true
+    },
+    {
+      "path": "/products",
+      "number": "/916394732841",
+      "message": true
+    },
+    {
+      "path": "/products",
+      "number": "/916394732841",
+      "message": true
+    },
+    {
+      "path": "/portfolio",
+      "number": "/916394732841",
+      "message": true
+    },
+    {
+      "path": "/portfolio",
+      "number": "/916394732841",
+      "message": true
+    },
+    {
+      "path": "/portfolio",
+      "number": "/916394732841",
+      "message": true
+    },
+    {
+      "path": "/training",
+      "number": "/916394732841",
+      "message": true
+    },
+    {
+      "path": "/training",
+      "number": "/916394732841",
+      "message": true
+    },
+    {
+      "path": "/training",
+      "number": "/916394732841",
+      "message": true
+    },
+    {
+      "path": "/training",
+      "number": "/916394732841",
+      "message": true
+    },
+    {
+      "path": "/training",
+      "number": "/916394732841",
+      "message": true
+    },
+    {
+      "path": "/training",
+      "number": "/916394732841",
+      "message": true
+    },
+    {
+      "path": "/training",
+      "number": "/916394732841",
+      "message": true
+    },
+    {
+      "path": "/training",
+      "number": "/916394732841",
+      "message": true
+    },
+    {
+      "path": "/training",
+      "number": "/916394732841",
+      "message": true
+    },
+    {
+      "path": "/training",
+      "number": "/916394732841",
+      "message": true
+    },
+    {
+      "path": "/contact",
+      "number": "/916394732841",
+      "message": true
+    },
+    {
+      "path": "/contact",
+      "number": "/916394732841",
+      "message": true
+    },
+    {
+      "path": "/contact",
+      "number": "/916394732841",
+      "message": true
+    },
+    {
+      "path": "/contact",
+      "number": "/916394732841",
+      "message": true
+    },
+    {
+      "path": "/insights",
+      "number": "/916394732841",
+      "message": true
+    },
+    {
+      "path": "/insights",
+      "number": "/916394732841",
+      "message": true
+    },
+    {
+      "path": "/services/website-development",
+      "number": "/916394732841",
+      "message": true
+    },
+    {
+      "path": "/services/website-development",
+      "number": "/916394732841",
+      "message": true
+    },
+    {
+      "path": "/services/custom-software-development",
+      "number": "/916394732841",
+      "message": true
+    },
+    {
+      "path": "/services/custom-software-development",
+      "number": "/916394732841",
+      "message": true
+    },
+    {
+      "path": "/services/mobile-app-development",
+      "number": "/916394732841",
+      "message": true
+    },
+    {
+      "path": "/services/mobile-app-development",
+      "number": "/916394732841",
+      "message": true
+    },
+    {
+      "path": "/services/school-institute-solutions",
+      "number": "/916394732841",
+      "message": true
+    },
+    {
+      "path": "/services/school-institute-solutions",
+      "number": "/916394732841",
+      "message": true
+    },
+    {
+      "path": "/services/digital-marketing",
+      "number": "/916394732841",
+      "message": true
+    },
+    {
+      "path": "/services/digital-marketing",
+      "number": "/916394732841",
+      "message": true
+    },
+    {
+      "path": "/services/it-training",
+      "number": "/916394732841",
+      "message": true
+    },
+    {
+      "path": "/services/it-training",
+      "number": "/916394732841",
+      "message": true
+    },
+    {
+      "path": "/portfolio/examify",
+      "number": "/916394732841",
+      "message": true
+    },
+    {
+      "path": "/portfolio/examify",
+      "number": "/916394732841",
+      "message": true
+    },
+    {
+      "path": "/portfolio/inventory-management",
+      "number": "/916394732841",
+      "message": true
+    },
+    {
+      "path": "/portfolio/inventory-management",
+      "number": "/916394732841",
+      "message": true
+    },
+    {
+      "path": "/portfolio/learning-management-system",
+      "number": "/916394732841",
+      "message": true
+    },
+    {
+      "path": "/portfolio/learning-management-system",
+      "number": "/916394732841",
+      "message": true
+    },
+    {
+      "path": "/insights/choosing-a-business-website",
+      "number": "/916394732841",
+      "message": true
+    },
+    {
+      "path": "/insights/choosing-a-business-website",
+      "number": "/916394732841",
+      "message": true
+    },
+    {
+      "path": "/insights/school-website-development-considerations",
+      "number": "/916394732841",
+      "message": true
+    },
+    {
+      "path": "/insights/school-website-development-considerations",
+      "number": "/916394732841",
+      "message": true
+    },
+    {
+      "path": "/insights/when-a-business-needs-custom-software",
+      "number": "/916394732841",
+      "message": true
+    },
+    {
+      "path": "/insights/when-a-business-needs-custom-software",
+      "number": "/916394732841",
+      "message": true
+    },
+    {
+      "path": "/privacy-policy",
+      "number": "/916394732841",
+      "message": true
+    },
+    {
+      "path": "/privacy-policy",
+      "number": "/916394732841",
+      "message": true
+    },
+    {
+      "path": "/terms-of-service",
+      "number": "/916394732841",
+      "message": true
+    },
+    {
+      "path": "/terms-of-service",
+      "number": "/916394732841",
+      "message": true
+    }
+  ],
+  "links": {
+    "/": 200,
+    "/services/website-development": 200,
+    "/services/custom-software-development": 200,
+    "/services/mobile-app-development": 200,
+    "/services/school-institute-solutions": 200,
+    "/services/digital-marketing": 200,
+    "/services/it-training": 200,
+    "/services": 200,
+    "/portfolio": 200,
+    "/products": 200,
+    "/about": 200,
+    "/insights": 200,
+    "/contact": 200,
+    "/training": 200,
+    "/portfolio/examify": 200,
+    "/assets/portfolio-exam-portal-1280-BmdmAkpL.webp": 200,
+    "/portfolio/inventory-management": 200,
+    "/assets/portfolio-inventory-1280-xTxXaMkL.webp": 200,
+    "/portfolio/learning-management-system": 200,
+    "/assets/portfolio-lms-1280-BQ2KKzxu.webp": 200,
+    "/insights/choosing-a-business-website": 200,
+    "/insights/school-website-development-considerations": 200,
+    "/insights/when-a-business-needs-custom-software": 200,
+    "/privacy-policy": 200,
+    "/terms-of-service": 200,
+    "/robots.txt": 200,
+    "/sitemap.xml": 200
+  },
+  "overlap": {
+    "viewport": {
+      "width": 390,
+      "height": 900
+    },
+    "phone": {
+      "x": 35,
+      "y": 830.375,
+      "width": 320,
+      "height": 54.796875,
+      "top": 830.375,
+      "right": 355,
+      "bottom": 885.171875,
+      "left": 35
+    },
+    "whatsapp": {
+      "x": 320,
+      "y": 830,
+      "width": 48,
+      "height": 48,
+      "top": 830,
+      "right": 368,
+      "bottom": 878,
+      "left": 320
+    },
+    "overlaps": true,
+    "overlapArea": 1666.875,
+    "hitTargetsWhatsApp": true
+  },
+  "fallback": {
+    "javascriptEnabled": false,
+    "navigationMethod": "GET",
+    "queryKeys": [
+      "name",
+      "email",
+      "phone",
+      "service",
+      "budget",
+      "timeline",
+      "message"
+    ],
+    "personalFieldsInUrl": [
+      "name",
+      "email",
+      "phone",
+      "message"
+    ],
+    "enquiryDelivered": false
+  },
+  "fonts": {
+    "headingLoaded": true,
+    "bodyLoaded": true
+  },
+  "history": {
+    "serviceTitle": "Website, App & Custom Software Development Services | Exoite",
+    "backTitle": "Website & Software Development Company in Kanpur | Exoite IT Services",
+    "forwardTitle": "Website, App & Custom Software Development Services | Exoite",
+    "passed": true
+  },
+  "error": "locator.getAttribute: Error: strict mode violation: locator('meta[name=robots]') resolved to 2 elements:\n    1) <meta name=\"robots\" content=\"index,follow\"/> aka locator('meta[name=\"robots\"]').first()\n    2) <meta name=\"robots\" content=\"noindex,follow\"/> aka locator('meta[name=\"robots\"]').nth(1)\n\nCall log:\n\u001b[2m  - waiting for locator('meta[name=robots]')\u001b[22m\n\n    at C:\\Users\\ROBOTICS\\Work\\web-dev\\projects\\exoite-it-services\\.qa-tools\\focused.mjs:51:169"
+}

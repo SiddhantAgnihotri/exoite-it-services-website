@@ -1,0 +1,189 @@
+import { chromium } from './node_modules/playwright/index.mjs';
+import AxeBuilder from './node_modules/@axe-core/playwright/dist/index.mjs';
+import { mkdir, writeFile, readFile } from 'node:fs/promises';
+import { createHash } from 'node:crypto';
+import { pages, origin } from '../src/data/seo.js';
+import { serviceDetails } from '../src/data/serviceDetails.js';
+
+const base = 'http://127.0.0.1:4173';
+const directory = 'artifacts/production-verification';
+await mkdir(directory, { recursive: true });
+const report = { date: '2026-11-17', tool: 'Playwright 1.65.1, axe-core Playwright 4.14.0', routes: [], interactions: [], failures: [], consoleErrors: [], networkFailures: [] };
+const browser = await chromium.launch({ headless: true, executablePath: 'C:/Program Files/Google/Chrome/Application/chrome.exe' });
+report.browser = await browser.version();
+const check = (name, passed, details) => { report.interactions.push({ name, passed, details }); if (!passed) report.failures.push({ name, details }); };
+const slug = path => path === '/' ? 'home' : path.slice(1).replaceAll('/', '--');
+
+try {
+  await Promise.all([390, 768, 1440].map(async width => {
+    const context = await browser.newContext({ viewport: { width, height: 900 }, deviceScaleFactor: 1 });
+    const page = await context.newPage();
+    page.setDefaultTimeout(12000);
+    let currentRoute = '/';
+    page.on('pageerror', error => report.consoleErrors.push({ width, path: currentRoute, type: 'pageerror', message: error.message }));
+    page.on('console', event => { if (event.type() === 'error') report.consoleErrors.push({ width, path: currentRoute, type: 'console', message: event.text() }); });
+    page.on('requestfailed', request => report.networkFailures.push({ width, path: currentRoute, url: request.url(), error: request.failure()?.errorText }));
+    for (const [path, meta] of Object.entries(pages)) {
+      currentRoute = path;
+      try {
+        const response = await page.goto(base + path, { waitUntil: 'load', timeout: 25000 });
+        await page.evaluate(() => Promise.race([document.fonts.ready, new Promise(resolve => setTimeout(resolve, 6000))]));
+        await page.evaluate(async () => {
+          for (const img of document.images) { img.scrollIntoView({ block: 'center', behavior: 'instant' }); await new Promise(resolve => requestAnimationFrame(() => requestAnimationFrame(resolve))); }
+          await Promise.race([Promise.all([...document.images].map(img => img.decode().catch(() => {}))), new Promise(resolve => setTimeout(resolve, 6000))]);
+          window.scrollTo({ top: 0, behavior: 'instant' });
+        });
+        const layout = await page.evaluate(() => ({
+          viewport: innerWidth, documentWidth: document.documentElement.scrollWidth,
+          overflowing: [...document.querySelectorAll('body *')].filter(element => { const r = element.getBoundingClientRect(); const style = getComputedStyle(element); return r.width > 0 && r.height > 0 && style.visibility !== 'hidden' && (r.right > innerWidth + 1 || r.left < -1); }).slice(0, 12).map(element => ({ tag: element.tagName, class: element.className?.baseVal || element.className, text: element.textContent?.trim().slice(0, 100), rect: { left: element.getBoundingClientRect().left, right: element.getBoundingClientRect().right } })),
+          brokenImages: [...document.images].filter(img => !img.complete || !img.naturalWidth).map(img => img.src),
+          canonical: document.querySelector('link[rel=canonical]')?.href,
+          robots: document.querySelector('meta[name=robots]')?.content,
+          h1Count: document.querySelectorAll('h1').length,
+          fonts: { heading: getComputedStyle(document.querySelector('h1')).fontFamily, body: getComputedStyle(document.body).fontFamily, ready: document.fonts.status },
+          whatsapp: [...document.querySelectorAll('a[href^="https://wa.me/"]')].map(a => ({ url: a.href, name: a.getAttribute('aria-label') || a.textContent.trim() })),
+        }));
+        const axe = await new AxeBuilder({ page }).withTags(['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa', 'wcag22aa']).analyze();
+        const screenshot = `${directory}/${slug(path)}-${width}.png`;
+        await page.screenshot({ path: screenshot, fullPage: true, animations: 'disabled' });
+        const entry = { path, width, status: response.status(), title: await page.title(), ...layout, screenshot, accessibility: { violations: axe.violations.map(({ id, impact, description, help, helpUrl, nodes }) => ({ id, impact, description, help, helpUrl, nodes: nodes.map(({ target, html, failureSummary }) => ({ target, html, failureSummary })) })), incomplete: axe.incomplete.map(({ id, nodes }) => ({ id, count: nodes.length })) } };
+        report.routes.push(entry);
+        if (entry.status !== 200 || entry.canonical !== origin + path || entry.robots !== (meta.noindex ? 'noindex,follow' : 'index,follow') || layout.h1Count !== 1 || layout.brokenImages.length || layout.documentWidth > width + 1) report.failures.push({ path, width, type: 'route/layout', entry });
+      } catch (error) { report.failures.push({ path, width, type: 'exception', message: error.message }); }
+      await writeFile(`${directory}/browser-results.partial.json`, JSON.stringify(report, null, 2));
+    }
+    console.log(`Rendered ${width}px: ${report.routes.filter(item => item.width === width).length}/22 routes; screenshots and axe results saved.`);
+    await context.close();
+  }));
+
+  const context = await browser.newContext({ viewport: { width: 390, height: 900 } });
+  const page = await context.newPage();
+  page.setDefaultTimeout(10000);
+  let deliveryMode = 'success', deliveries = 0, lastPayload;
+  await context.route('https://api.web3forms.com/submit', async route => {
+    deliveries++;
+    lastPayload = route.request().postDataJSON();
+    if (deliveryMode === 'network') return route.abort('failed');
+    await new Promise(resolve => setTimeout(resolve, 250));
+    await route.fulfill({ status: deliveryMode === 'http' ? 500 : 200, contentType: 'application/json', body: deliveryMode === 'malformed' ? 'invalid JSON' : JSON.stringify({ success: deliveryMode === 'success' }) });
+  });
+  await context.route('https://wa.me/**', route => route.fulfill({ status: 200, contentType: 'text/html', body: '<title>Mock WhatsApp handoff</title><p>No message was sent.</p>' }));
+  await page.goto(base + '/');
+  await page.getByRole('button', { name: 'Open menu', exact: true }).click();
+  check('390px mobile menu opens', await page.locator('#mobile-menu').isVisible() && await page.getByRole('button', { name: 'Close menu', exact: true }).getAttribute('aria-expanded') === 'true');
+  await page.keyboard.press('Escape');
+  check('Escape closes mobile menu and restores focus', !(await page.locator('#mobile-menu').isVisible()) && await page.locator('.menu-toggle').evaluate(element => element === document.activeElement));
+  await page.getByRole('button', { name: 'Open menu', exact: true }).click();
+  await page.locator('#mobile-menu').getByRole('link', { name: 'About', exact: true }).click();
+  await page.waitForURL('**/about');
+  check('Mobile navigation changes route and closes menu', !(await page.locator('#mobile-menu').isVisible()) && (await page.title()).includes('About'));
+  await page.goto(base + '/products');
+  await page.getByRole('button', { name: 'Content', exact: true }).click();
+  check('Product preview switches to Content after hydration', await page.getByRole('button', { name: 'Content', exact: true }).getAttribute('aria-pressed') === 'true' && await page.locator('.content-view').count() === 1);
+  await page.getByRole('button', { name: 'Calendar', exact: true }).click();
+  check('Product preview switches back to Calendar', await page.getByRole('button', { name: 'Calendar', exact: true }).getAttribute('aria-pressed') === 'true');
+  await page.goto(base + '/');
+  const faq = page.locator('.faq-list details').first();
+  await faq.locator('summary').click();
+  check('FAQ opens with native disclosure', await faq.getAttribute('open') !== null);
+  await faq.locator('summary').press('Enter');
+  check('FAQ toggles by keyboard', await faq.getAttribute('open') === null);
+
+  for (const service of serviceDetails) {
+    await page.goto(base + '/services/' + service.slug);
+    await page.getByRole('link', { name: 'Enquire Now', exact: true }).first().click();
+    await page.waitForURL('**/contact?service=*');
+    await page.waitForFunction(value => document.querySelector('#enquiry-service').value === value, service.enquiry);
+    check(`Service enquiry preselects ${service.name}`, await page.locator('#enquiry-service').inputValue() === service.enquiry);
+  }
+  const fillValid = async () => {
+    await page.locator('#enquiry-name').fill('Production QA Example');
+    await page.locator('#enquiry-email').fill('qa@example.com');
+    await page.locator('#enquiry-phone').fill('+91 98765 43210');
+    await page.locator('#enquiry-service').selectOption('Website Development');
+    await page.locator('#enquiry-message').fill('Mock-only production verification. Do not send a real enquiry.');
+    await page.locator('#enquiry-budget').fill('Scope to discuss');
+    await page.locator('#enquiry-timeline').fill('Flexible');
+  };
+  await page.goto(base + '/contact');
+  await page.getByRole('button', { name: 'Send enquiry', exact: true }).click();
+  check('Empty required fields block network submission', deliveries === 0 && await page.locator('#enquiry-name').evaluate(element => !element.checkValidity()));
+  await fillValid();
+  await page.locator('#enquiry-email').fill('invalid-email');
+  await page.getByRole('button', { name: 'Send enquiry', exact: true }).click();
+  check('Invalid email blocked by native validation', deliveries === 0 && await page.locator('#enquiry-email').evaluate(element => element.validity.typeMismatch));
+  await page.locator('#enquiry-email').fill('qa@example.com');
+  await page.locator('#enquiry-phone').fill('12');
+  await page.getByRole('button', { name: 'Send enquiry', exact: true }).click();
+  check('Short phone is rejected', deliveries === 0 && await page.locator('#enquiry-phone').evaluate(element => !element.checkValidity()));
+  await page.locator('#enquiry-phone').fill('1234567890123456');
+  await page.getByRole('button', { name: 'Send enquiry', exact: true }).click();
+  await page.getByText('Please enter a phone number with', { exact: false }).waitFor();
+  check('Overlong phone rejected by application validation', deliveries === 0);
+  await fillValid();
+  await page.locator('#enquiry-name').fill('   ');
+  await page.getByRole('button', { name: 'Send enquiry', exact: true }).click();
+  await page.getByText('Please enter your name and project message.', { exact: true }).waitFor();
+  check('Whitespace-only name rejected without submission', deliveries === 0);
+  await fillValid();
+  const bot = page.locator('#botcheck');
+  await bot.evaluate(element => { element.checked = true; });
+  await page.getByRole('button', { name: 'Send enquiry', exact: true }).click();
+  check('Honeypot prevents submission', deliveries === 0);
+  await bot.evaluate(element => { element.checked = false; });
+  const wa = page.getByRole('link', { name: 'Send via WhatsApp', exact: true });
+  const waUrl = new URL(await wa.getAttribute('href'));
+  check('WhatsApp fallback has correct number and encoded form context', waUrl.pathname === '/916394732841' && waUrl.searchParams.get('text').includes('Timeline: Flexible') && waUrl.searchParams.get('text').includes('Website Development'));
+  const popupPromise = page.waitForEvent('popup');
+  await wa.click();
+  const popup = await popupPromise;
+  await popup.waitForLoadState();
+  check('WhatsApp opens the expected destination with mocked handoff', popup.url().startsWith('https://wa.me/916394732841?text='));
+  await popup.close();
+  await page.locator('form').evaluate(form => { form.requestSubmit(); form.requestSubmit(); });
+  await page.getByRole('button', { name: 'Sending your enquiry...', exact: true }).waitFor();
+  check('Submission loading disables button', await page.getByRole('button', { name: 'Sending your enquiry...', exact: true }).isDisabled());
+  await page.getByText('Enquiry sent', { exact: true }).waitFor();
+  check('Confirmed success resets fields and avoids duplicate requests', deliveries === 1 && await page.locator('#enquiry-name').inputValue() === '' && lastPayload.timeline === 'Flexible');
+  for (const mode of ['http', 'rejected', 'malformed', 'network']) {
+    deliveryMode = mode;
+    await fillValid();
+    await page.getByRole('button', { name: 'Send enquiry', exact: true }).click();
+    await page.getByText("We couldn't send your enquiry", { exact: true }).waitFor();
+    await page.getByRole('button', { name: 'Send enquiry', exact: true }).waitFor();
+    check(`Provider ${mode} failure retains form data and fallback`, await page.locator('#enquiry-name').inputValue() === 'Production QA Example' && await wa.isVisible());
+  }
+  await page.setViewportSize({ width: 1440, height: 900 });
+  await page.goto(base + '/');
+  await page.locator('.nav-disclosure summary').click();
+  check('Desktop Services disclosure opens', await page.locator('.nav-services-panel').isVisible());
+  await page.keyboard.press('Escape');
+  check('Escape closes Services disclosure and returns focus', !(await page.locator('.nav-services-panel').isVisible()) && await page.locator('.nav-disclosure summary').evaluate(element => element === document.activeElement));
+  await page.goto(base + '/');
+  await page.keyboard.press('Tab');
+  check('Skip link is first keyboard focus target', await page.evaluate(() => document.activeElement?.className === 'skip-link'));
+  await page.keyboard.press('Enter');
+  check('Skip link targets main content', await page.evaluate(() => document.activeElement?.id === 'main-content'));
+  await page.emulateMedia({ reducedMotion: 'reduce' });
+  check('Reduced motion disables smooth scroll', await page.evaluate(() => getComputedStyle(document.documentElement).scrollBehavior === 'auto'));
+  await page.emulateMedia({ reducedMotion: 'no-preference' });
+  await context.close();
+} catch (error) {
+  report.failures.push({ type: 'interaction-exception', message: error.stack });
+} finally {
+  await browser.close();
+  report.summary = {
+    renderedRouteViewportChecks: report.routes.length,
+    screenshots: report.routes.length,
+    routeOrInteractionFailures: report.failures.length,
+    interactionChecks: report.interactions.length,
+    accessibilityViolations: report.routes.reduce((sum, route) => sum + route.accessibility.violations.length, 0),
+    accessibilityRules: [...new Set(report.routes.flatMap(route => route.accessibility.violations.map(v => v.id)))],
+    horizontalOverflow: report.routes.filter(route => route.documentWidth > route.width + 1).map(({ path, width, documentWidth }) => ({ path, width, documentWidth })),
+    consoleErrors: report.consoleErrors.length,
+  };
+  await writeFile(`${directory}/browser-results.json`, JSON.stringify(report, null, 2));
+  console.log(JSON.stringify(report.summary, null, 2));
+  console.log('Interaction failures:', JSON.stringify(report.interactions.filter(item => !item.passed)));
+  if (report.failures.length) console.log('Failures:', JSON.stringify(report.failures.map(item => ({ path: item.path, width: item.width, type: item.type, message: item.message }))));
+}

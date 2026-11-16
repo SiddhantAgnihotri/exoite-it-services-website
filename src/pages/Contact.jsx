@@ -1,55 +1,63 @@
-import { useState } from "react";
-import PageHero from "../components/ui/PageHero";
+import { Link, useLocation } from "react-router-dom";
+import { useEffect, useRef, useState } from "react";
 import {
-    Mail,
-    MapPin,
-    Phone,
-    Send,
-    CheckCircle2,
-    Loader2,
-    MessageCircle,
-    Clock,
-    BriefcaseBusiness,
+  Mail,
+  MapPin,
+  Phone,
+  CheckCircle2,
+  ArrowRight,
+  MessageCircle,
 } from "lucide-react";
+import {
+  enquiryContext,
+  validateEnquiry,
+  submitEnquiry,
+  enquiryServices,
+} from "../data/enquiry";
 import { siteConfig } from "../data/siteConfig";
-
-const services = [
-    "Website Development",
-    "Custom Software Development",
-    "Mobile App Development",
-    "School / Institute Software",
-    "Digital Marketing",
-    "IT Training",
-    "Other",
-];
+import PageHero from "../components/ui/PageHero";
+const services = enquiryServices;
 
 const Contact = () => {
-    const [formData, setFormData] = useState({
-        name: "",
-        phone: "",
-        email: "",
-        service: "",
-        budget: "",
-        message: "",
-    });
+  const { search } = useLocation();
+  const submitting = useRef(false);
+  const feedbackRef = useRef(null);
+  const [formReady, setFormReady] = useState(false);
+  const [formData, setFormData] = useState({
+    name: "",
+    phone: "",
+    email: "",
+    service: "",
+    budget: "",
+    timeline: "",
+    message: "",
+  });
 
-    const [status, setStatus] = useState({
-        loading: false,
-        success: false,
-        error: "",
-    });
+  useEffect(() => {
+    // Keep native controls inert until the submission handler is attached.
+    // eslint-disable-next-line react-hooks/set-state-in-effect
+    setFormReady(true);
+    // Synchronize enquiry links after hydration; static HTML has no query string.
+    setFormData((prev) => ({ ...prev, ...enquiryContext(search) }));
+  }, [search]);
 
-    const handleChange = (e) => {
-        const { name, value } = e.target;
+  const [status, setStatus] = useState({
+    loading: false,
+    success: false,
+    error: "",
+  });
 
-        setFormData((prev) => ({
-            ...prev,
-            [name]: value,
-        }));
-    };
+  const handleChange = (e) => {
+    const { name, value } = e.target;
 
-    const createWhatsAppMessage = () => {
-        return `Hello Exoite IT Services,
+    setFormData((prev) => ({
+      ...prev,
+      [name]: value,
+    }));
+  };
+
+  const createWhatsAppMessage = () => {
+    return `Hello Exoite IT Services,
 
 I want to discuss a project.
 
@@ -58,405 +66,320 @@ Phone: ${formData.phone}
 Email: ${formData.email}
 Service Required: ${formData.service}
 Budget: ${formData.budget || "Not mentioned"}
+Timeline: ${formData.timeline || "Not mentioned"}
 
 Message:
 ${formData.message}`;
-    };
+  };
 
-    const whatsappFormLink = `https://wa.me/${siteConfig.whatsappNumber
-        }?text=${encodeURIComponent(createWhatsAppMessage())}`;
+  const whatsappFormLink = `https://wa.me/${
+    siteConfig.whatsappNumber
+  }?text=${encodeURIComponent(createWhatsAppMessage())}`;
 
-    const handleSubmit = async (e) => {
-        e.preventDefault();
+  const handleSubmit = async (e) => {
+    e.preventDefault();
 
-        setStatus({
-            loading: true,
-            success: false,
-            error: "",
-        });
+    if (submitting.current || new FormData(e.currentTarget).get("botcheck"))
+      return;
+    const validationError = validateEnquiry(formData);
+    if (validationError) {
+      setStatus({ loading: false, success: false, error: validationError });
+      feedbackRef.current?.focus();
+      return;
+    }
+    submitting.current = true;
+    setStatus({
+      loading: true,
+      success: false,
+      error: "",
+    });
 
-        try {
-            const payload = {
-                access_key: "4c23bf19-15ad-4cc1-9469-45e61eedd701",
-                subject: "New Website Enquiry - Exoite IT Services",
-                from_name: "Exoite IT Services Website",
-                name: formData.name,
-                phone: formData.phone,
-                email: formData.email,
-                service: formData.service,
-                budget: formData.budget,
-                message: formData.message,
-            };
+    try {
+      await submitEnquiry(formData);
 
-            const response = await fetch("https://api.web3forms.com/submit", {
-                method: "POST",
-                headers: {
-                    "Content-Type": "application/json",
-                    Accept: "application/json",
-                },
-                body: JSON.stringify(payload),
-            });
+      setStatus({
+        loading: false,
+        success: true,
+        error: "",
+      });
 
-            const result = await response.json();
+      setFormData({
+        name: "",
+        phone: "",
+        email: "",
+        service: "",
+        budget: "",
+        timeline: "",
+        message: "",
+      });
+    } catch {
+      setStatus({
+        loading: false,
+        success: false,
+        error: "Message could not be sent. Please contact us on WhatsApp.",
+      });
+    } finally {
+      submitting.current = false;
+      feedbackRef.current?.focus();
+    }
+  };
 
-            if (result.success) {
-                setStatus({
-                    loading: false,
-                    success: true,
-                    error: "",
-                });
-
-                setFormData({
-                    name: "",
-                    phone: "",
-                    email: "",
-                    service: "",
-                    budget: "",
-                    message: "",
-                });
-            } else {
-                throw new Error(result.message || "Something went wrong.");
-            }
-        } catch (error) {
-            setStatus({
-                loading: false,
-                success: false,
-                error: "Message could not be sent. Please contact us on WhatsApp.",
-            });
-        }
-    };
-
-    return (
-        <main>
-            <PageHero
-                label="Contact Us"
-                title="Let’s Discuss Your Website, App or Software Requirement"
-                description="Share your project details with Exoite IT Services. We will understand your requirement and suggest the right digital solution."
-            />
-
-            <section className="bg-slate-50 px-5 py-16 md:py-20">
-                <div className="mx-auto max-w-7xl">
-                    {/* Top Contact Cards */}
-                    <div className="mb-10 grid gap-5 md:grid-cols-3">
-                        <div className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm">
-                            <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-blue-50 text-blue-600">
-                                <Phone size={22} />
-                            </div>
-                            <h3 className="mt-4 text-lg font-bold text-slate-950">
-                                Call / WhatsApp
-                            </h3>
-                            <p className="mt-2 text-sm text-slate-600">
-                                +{siteConfig.whatsappNumber}
-                            </p>
-                        </div>
-
-                        <div className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm">
-                            <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-blue-50 text-blue-600">
-                                <Mail size={22} />
-                            </div>
-                            <h3 className="mt-4 text-lg font-bold text-slate-950">Email</h3>
-                            <p className="mt-2 text-sm text-slate-600">
-                                contact@exoiteitservices.com
-                            </p>
-                        </div>
-
-                        <div className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm">
-                            <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-blue-50 text-blue-600">
-                                <MapPin size={22} />
-                            </div>
-                            <h3 className="mt-4 text-lg font-bold text-slate-950">
-                                Location
-                            </h3>
-                            <p className="mt-2 text-sm text-slate-600">
-                                Kanpur, Uttar Pradesh, India
-                            </p>
-                        </div>
-                    </div>
-
-                    <div className="grid gap-8 lg:grid-cols-[1.1fr_0.9fr]">
-                        {/* Form */}
-                        <div className="rounded-[28px] border border-slate-200 bg-white p-6 shadow-sm md:p-8">
-                            <div className="mb-8">
-                                <p className="text-sm font-bold uppercase tracking-[0.2em] text-blue-600">
-                                    Project Enquiry
-                                </p>
-
-                                <h2 className="mt-3 text-[28px] font-extrabold tracking-tight text-slate-950 md:text-[34px]">
-                                    Tell us what you want to build
-                                </h2>
-
-                                <p className="mt-3 max-w-2xl text-[15px] leading-7 text-slate-600">
-                                    Fill this form and your enquiry will be sent to{" "}
-                                    <span className="font-semibold text-slate-900">
-                                        contact@exoiteitservices.com
-                                    </span>
-                                    .
-                                </p>
-                            </div>
-
-                            {status.success && (
-                                <div className="mb-6 flex items-start gap-3 rounded-2xl border border-green-200 bg-green-50 p-4 text-green-700">
-                                    <CheckCircle2 className="mt-0.5 shrink-0" size={20} />
-                                    <p className="text-sm font-semibold">
-                                        Your message has been sent successfully. We will contact you
-                                        soon.
-                                    </p>
-                                </div>
-                            )}
-
-                            {status.error && (
-                                <div className="mb-6 rounded-2xl border border-red-200 bg-red-50 p-4 text-sm font-semibold text-red-700">
-                                    {status.error}
-                                </div>
-                            )}
-
-                            <form onSubmit={handleSubmit} className="space-y-5">
-                                <div className="grid gap-5 md:grid-cols-2">
-                                    <div>
-                                        <label className="text-sm font-semibold text-slate-800">
-                                            Full Name *
-                                        </label>
-                                        <input
-                                            type="text"
-                                            name="name"
-                                            required
-                                            value={formData.name}
-                                            onChange={handleChange}
-                                            placeholder="Enter your name"
-                                            className="mt-2 w-full rounded-xl border border-slate-200 bg-white px-4 py-3 text-sm text-slate-900 outline-none transition placeholder:text-slate-400 focus:border-blue-500 focus:ring-4 focus:ring-blue-100"
-                                        />
-                                    </div>
-
-                                    <div>
-                                        <label className="text-sm font-semibold text-slate-800">
-                                            Phone Number *
-                                        </label>
-                                        <input
-                                            type="tel"
-                                            name="phone"
-                                            required
-                                            value={formData.phone}
-                                            onChange={handleChange}
-                                            placeholder="Enter phone number"
-                                            className="mt-2 w-full rounded-xl border border-slate-200 bg-white px-4 py-3 text-sm text-slate-900 outline-none transition placeholder:text-slate-400 focus:border-blue-500 focus:ring-4 focus:ring-blue-100"
-                                        />
-                                    </div>
-                                </div>
-
-                                <div className="grid gap-5 md:grid-cols-2">
-                                    <div>
-                                        <label className="text-sm font-semibold text-slate-800">
-                                            Email Address *
-                                        </label>
-                                        <input
-                                            type="email"
-                                            name="email"
-                                            required
-                                            value={formData.email}
-                                            onChange={handleChange}
-                                            placeholder="Enter email address"
-                                            className="mt-2 w-full rounded-xl border border-slate-200 bg-white px-4 py-3 text-sm text-slate-900 outline-none transition placeholder:text-slate-400 focus:border-blue-500 focus:ring-4 focus:ring-blue-100"
-                                        />
-                                    </div>
-
-                                    <div>
-                                        <label className="text-sm font-semibold text-slate-800">
-                                            Service Required *
-                                        </label>
-                                        <select
-                                            name="service"
-                                            required
-                                            value={formData.service}
-                                            onChange={handleChange}
-                                            className="mt-2 w-full rounded-xl border border-slate-200 bg-white px-4 py-3 text-sm text-slate-900 outline-none transition focus:border-blue-500 focus:ring-4 focus:ring-blue-100"
-                                        >
-                                            <option value="">Select service</option>
-                                            {services.map((service) => (
-                                                <option key={service} value={service}>
-                                                    {service}
-                                                </option>
-                                            ))}
-                                        </select>
-                                    </div>
-                                </div>
-
-                                <div>
-                                    <label className="text-sm font-semibold text-slate-800">
-                                        Estimated Budget
-                                    </label>
-                                    <input
-                                        type="text"
-                                        name="budget"
-                                        value={formData.budget}
-                                        onChange={handleChange}
-                                        placeholder="Example: ₹10,000 - ₹25,000"
-                                        className="mt-2 w-full rounded-xl border border-slate-200 bg-white px-4 py-3 text-sm text-slate-900 outline-none transition placeholder:text-slate-400 focus:border-blue-500 focus:ring-4 focus:ring-blue-100"
-                                    />
-                                </div>
-
-                                <div>
-                                    <label className="text-sm font-semibold text-slate-800">
-                                        Project Message *
-                                    </label>
-                                    <textarea
-                                        name="message"
-                                        required
-                                        rows="5"
-                                        value={formData.message}
-                                        onChange={handleChange}
-                                        placeholder="Tell us about your website, app, software, training or digital requirement..."
-                                        className="mt-2 w-full resize-none rounded-xl border border-slate-200 bg-white px-4 py-3 text-sm text-slate-900 outline-none transition placeholder:text-slate-400 focus:border-blue-500 focus:ring-4 focus:ring-blue-100"
-                                    />
-                                </div>
-
-                                <div className="flex flex-col gap-3 sm:flex-row">
-                                    <button
-                                        type="submit"
-                                        disabled={status.loading}
-                                        className="inline-flex flex-1 items-center justify-center gap-2 rounded-full bg-blue-600 px-6 py-3.5 text-sm font-semibold text-white transition hover:bg-blue-700 disabled:cursor-not-allowed disabled:opacity-70"
-                                    >
-                                        {status.loading ? (
-                                            <>
-                                                <Loader2 className="animate-spin" size={17} />
-                                                Sending...
-                                            </>
-                                        ) : (
-                                            <>
-                                                Send Enquiry
-                                                <Send size={17} />
-                                            </>
-                                        )}
-                                    </button>
-
-                                    <a
-                                        href={whatsappFormLink}
-                                        target="_blank"
-                                        rel="noreferrer"
-                                        className="inline-flex flex-1 items-center justify-center gap-2 rounded-full border border-slate-300 bg-white px-6 py-3.5 text-sm font-semibold text-slate-800 transition hover:border-blue-600 hover:text-blue-600"
-                                    >
-                                        <MessageCircle size={17} />
-                                        Send via WhatsApp
-                                    </a>
-                                </div>
-                            </form>
-                        </div>
-
-                        {/* Right Side */}
-                        <div className="space-y-6">
-                            <div className="rounded-[28px] bg-slate-950 p-7 text-white shadow-sm">
-                                <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-white/10 text-white">
-                                    <MessageCircle size={23} />
-                                </div>
-
-                                <h3 className="mt-5 text-[26px] font-extrabold leading-tight">
-                                    Prefer direct discussion?
-                                </h3>
-
-                                <p className="mt-3 text-sm leading-6 text-slate-300">
-                                    Contact us directly on WhatsApp for a quick project
-                                    discussion and requirement understanding.
-                                </p>
-
-                                <a
-                                    href={siteConfig.whatsappLink}
-                                    target="_blank"
-                                    rel="noreferrer"
-                                    className="mt-6 inline-flex w-full items-center justify-center gap-2 rounded-full bg-blue-600 px-5 py-3 text-sm font-semibold text-white transition hover:bg-blue-700"
-                                >
-                                    Chat on WhatsApp
-                                    <MessageCircle size={17} />
-                                </a>
-                            </div>
-
-                            <div className="rounded-[28px] border border-slate-200 bg-white p-7 shadow-sm">
-                                <h3 className="text-[22px] font-extrabold text-slate-950">
-                                    What happens after you submit?
-                                </h3>
-
-                                <div className="mt-6 space-y-5">
-                                    <div className="flex gap-4">
-                                        <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-blue-50 text-sm font-bold text-blue-600">
-                                            1
-                                        </div>
-                                        <div>
-                                            <h4 className="font-bold text-slate-900">
-                                                Requirement Review
-                                            </h4>
-                                            <p className="mt-1 text-sm leading-6 text-slate-600">
-                                                We check your requirement and understand your business
-                                                need.
-                                            </p>
-                                        </div>
-                                    </div>
-
-                                    <div className="flex gap-4">
-                                        <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-blue-50 text-sm font-bold text-blue-600">
-                                            2
-                                        </div>
-                                        <div>
-                                            <h4 className="font-bold text-slate-900">
-                                                Discussion Call
-                                            </h4>
-                                            <p className="mt-1 text-sm leading-6 text-slate-600">
-                                                We connect with you to discuss features, timeline and
-                                                budget.
-                                            </p>
-                                        </div>
-                                    </div>
-
-                                    <div className="flex gap-4">
-                                        <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-blue-50 text-sm font-bold text-blue-600">
-                                            3
-                                        </div>
-                                        <div>
-                                            <h4 className="font-bold text-slate-900">
-                                                Project Plan
-                                            </h4>
-                                            <p className="mt-1 text-sm leading-6 text-slate-600">
-                                                We suggest the right solution and next steps for your
-                                                project.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className="rounded-[28px] border border-slate-200 bg-white p-7 shadow-sm">
-                                <h3 className="text-[22px] font-extrabold text-slate-950">
-                                    Services You Can Discuss
-                                </h3>
-
-                                <div className="mt-5 flex flex-wrap gap-2">
-                                    {services.slice(0, 6).map((service) => (
-                                        <span
-                                            key={service}
-                                            className="rounded-full bg-slate-100 px-3 py-2 text-xs font-semibold text-slate-700"
-                                        >
-                                            {service}
-                                        </span>
-                                    ))}
-                                </div>
-
-                                <div className="mt-6 flex items-center gap-3 rounded-2xl bg-blue-50 p-4">
-                                    <Clock className="text-blue-600" size={20} />
-                                    <p className="text-sm font-semibold text-slate-700">
-                                        Response time: usually within 24 hours.
-                                    </p>
-                                </div>
-
-                                <div className="mt-4 flex items-center gap-3 rounded-2xl bg-slate-50 p-4">
-                                    <BriefcaseBusiness className="text-blue-600" size={20} />
-                                    <p className="text-sm font-semibold text-slate-700">
-                                        Remote services available across India.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+  return (
+    <main className="contact-page">
+      <PageHero
+        label="Contact Exoite"
+        title="A good project starts with a conversation."
+        description="Tell us what you want to build, improve or explore. Share your requirements and we will discuss a practical way forward."
+      />
+      <section className="section">
+        <div className="container contact-layout">
+          <div className="contact-form-panel">
+            <p className="eyebrow">Project enquiry</p>
+            <h2>What do you have in mind?</h2>
+            <p>
+              Fields marked * are required. A few details will help us
+              understand your project.
+            </p>
+            <div
+              className="form-feedback"
+              ref={feedbackRef}
+              tabIndex={-1}
+              aria-live="polite"
+              aria-atomic="true"
+            >
+              {status.success && (
+                <>
+                  <strong>
+                    <CheckCircle2 size={17} aria-hidden="true" />
+                    Enquiry sent
+                  </strong>
+                  <p>
+                    Thank you for sharing your requirements. We will contact you
+                    using the details provided.
+                  </p>
+                </>
+              )}
+              {status.error && (
+                <>
+                  <strong>We couldn't send your enquiry</strong>
+                  <p>{status.error}</p>
+                </>
+              )}
+            </div>
+            <form
+              className="enquiry-form"
+              method="post"
+              action="/contact"
+              onSubmit={handleSubmit}
+              aria-busy={status.loading}
+            >
+              <noscript>
+                <p className="form-notice">
+                  JavaScript is required to send this form securely. The form
+                  is disabled. Please use the email, phone or Chat on WhatsApp
+                  options below to contact us.
+                </p>
+              </noscript>
+              <fieldset className="enquiry-controls" disabled={!formReady}>
+              <div hidden aria-hidden="true">
+                <label htmlFor="botcheck">Leave this field empty</label>
+                <input
+                  type="checkbox"
+                  id="botcheck"
+                  name="botcheck"
+                  tabIndex={-1}
+                />
+              </div>
+              <div className="form-fields">
+                <div className="form-field">
+                  <label htmlFor="enquiry-name">Full name *</label>
+                  <input
+                    id="enquiry-name"
+                    name="name"
+                    type="text"
+                    autoComplete="name"
+                    maxLength={100}
+                    required
+                    value={formData.name}
+                    onChange={handleChange}
+                    placeholder="Your name"
+                  />
                 </div>
-            </section>
-        </main>
-    );
+                <div className="form-field">
+                  <label htmlFor="enquiry-email">Email address *</label>
+                  <input
+                    id="enquiry-email"
+                    name="email"
+                    type="email"
+                    autoComplete="email"
+                    maxLength={254}
+                    required
+                    value={formData.email}
+                    onChange={handleChange}
+                    placeholder="you@company.com"
+                  />
+                </div>
+                <div className="form-field">
+                  <label htmlFor="enquiry-phone">Phone number *</label>
+                  <input
+                    id="enquiry-phone"
+                    name="phone"
+                    type="tel"
+                    autoComplete="tel"
+                    maxLength={25}
+                    pattern="[+0-9\(\) .\-]{7,25}"
+                    title="Enter 7 to 15 digits. Spaces, brackets and a leading + are allowed."
+                    required
+                    value={formData.phone}
+                    onChange={handleChange}
+                    placeholder="Include your country code"
+                  />
+                </div>
+                <div className="form-field">
+                  <label htmlFor="enquiry-service">Interested in *</label>
+                  <select
+                    id="enquiry-service"
+                    name="service"
+                    required
+                    value={formData.service}
+                    onChange={handleChange}
+                  >
+                    <option value="">Select a service</option>
+                    {services.map((service) => (
+                      <option key={service} value={service}>
+                        {service}
+                      </option>
+                    ))}
+                  </select>
+                </div>
+                <div className="form-field">
+                  <label htmlFor="enquiry-budget">
+                    Estimated budget{" "}
+                    <span className="small-note">(optional)</span>
+                  </label>
+                  <input
+                    id="enquiry-budget"
+                    name="budget"
+                    type="text"
+                    maxLength={100}
+                    value={formData.budget}
+                    onChange={handleChange}
+                    placeholder="An approximate range, if you have one"
+                  />
+                </div>
+                <div className="form-field">
+                  <label htmlFor="enquiry-timeline">
+                    Preferred timeline{" "}
+                    <span className="small-note">(optional)</span>
+                  </label>
+                  <input
+                    id="enquiry-timeline"
+                    name="timeline"
+                    type="text"
+                    maxLength={120}
+                    value={formData.timeline}
+                    onChange={handleChange}
+                    placeholder="Target date or flexible"
+                  />
+                </div>
+                <div className="form-field full">
+                  <label htmlFor="enquiry-message">About your project *</label>
+                  <textarea
+                    id="enquiry-message"
+                    name="message"
+                    rows={5}
+                    maxLength={5000}
+                    required
+                    value={formData.message}
+                    onChange={handleChange}
+                    placeholder="Your goals, the challenges you want to solve and any features you have in mind..."
+                  />
+                </div>
+              </div>
+              <p className="form-notice">
+                Your details are used to respond to your enquiry and sent
+                through Web3Forms. Please do not include passwords or sensitive
+                information.{" "}
+                <Link to="/privacy-policy">Read the privacy policy draft</Link>.
+              </p>
+              <div className="form-actions">
+                <button
+                  type="submit"
+                  className="button button-primary"
+                  disabled={status.loading}
+                >
+                  {status.loading ? "Sending your enquiry..." : "Send enquiry"}
+                  <ArrowRight size={16} aria-hidden="true" />
+                </button>
+                <a
+                  className="button button-secondary"
+                  href={whatsappFormLink}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <MessageCircle size={16} aria-hidden="true" />
+                  Send via WhatsApp
+                </a>
+              </div>
+              </fieldset>
+            </form>
+          </div>
+          <aside className="contact-sidebar">
+            <p className="eyebrow">Prefer a direct conversation?</p>
+            <h2>We're here to understand.</h2>
+            <p>
+              Based in Kanpur, working remotely with businesses and institutions
+              across India and internationally.
+            </p>
+            <div className="contact-method">
+              <Mail size={20} aria-hidden="true" />
+              <div>
+                <h3>Email us</h3>
+                <a href={"mailto:" + siteConfig.email}>{siteConfig.email}</a>
+              </div>
+            </div>
+            <div className="contact-method">
+              <Phone size={20} aria-hidden="true" />
+              <div>
+                <h3>Call or WhatsApp</h3>
+                <a href={"tel:+" + siteConfig.whatsappNumber}>
+                  +{siteConfig.whatsappNumber}
+                </a>
+              </div>
+            </div>
+            <div className="contact-method">
+              <MapPin size={20} aria-hidden="true" />
+              <div>
+                <h3>Our location</h3>
+                <p>{siteConfig.location}</p>
+              </div>
+            </div>
+            <a
+              className="button button-secondary"
+              href={siteConfig.whatsappLink}
+              target="_blank"
+              rel="noreferrer"
+            >
+              Chat on WhatsApp <ArrowRight size={15} />
+            </a>
+            <div className="contact-next">
+              <h3>What happens next?</h3>
+              <ol>
+                <li>
+                  <span>01</span>We review your requirements.
+                </li>
+                <li>
+                  <span>02</span>We discuss the details together.
+                </li>
+                <li>
+                  <span>03</span>We suggest a scope and next steps.
+                </li>
+              </ol>
+            </div>
+          </aside>
+        </div>
+      </section>
+    </main>
+  );
 };
-
 export default Contact;

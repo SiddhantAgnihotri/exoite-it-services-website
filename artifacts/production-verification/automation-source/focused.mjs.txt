@@ -1,0 +1,53 @@
+import {chromium} from './node_modules/playwright/index.mjs';
+import {readFile,writeFile} from 'node:fs/promises';
+import {pages,origin} from '../src/data/seo.js';
+const output='artifacts/production-verification';
+const browser=await chromium.launch({headless:true,executablePath:'C:/Program Files/Google/Chrome/Application/chrome.exe'});
+const result={withoutJavaScript:[],whatsappLinks:[],links:{},overlap:null,fallback:null};
+try{
+  const context=await browser.newContext({javaScriptEnabled:false,viewport:{width:390,height:900}});
+  const page=await context.newPage();
+  const internal=new Set();
+  for(const path of Object.keys(pages)){
+    const response=await page.goto('http://127.0.0.1:4173'+path,{waitUntil:'domcontentloaded',timeout:30000});
+    result.withoutJavaScript.push({path,status:response.status(),title:await page.title(),h1:await page.locator('h1').innerText(),mainVisible:await page.locator('main').isVisible()});
+    for(const href of await page.locator('a[href]').evaluateAll(elements=>elements.map(element=>element.getAttribute('href')))){
+      if(href.startsWith('/'))internal.add(new URL(href,'http://127.0.0.1:4173').pathname);
+      if(href.startsWith('https://wa.me/')){const u=new URL(href);result.whatsappLinks.push({path,number:u.pathname,message:!!u.searchParams.get('text')});}
+    }
+  }
+  for(const path of internal){const r=await context.request.get('http://127.0.0.1:4173'+path);result.links[path]=r.status();}
+  for(const path of ['/robots.txt','/sitemap.xml']){const r=await context.request.get('http://127.0.0.1:4173'+path);result.links[path]=r.status();}
+  await page.goto('http://127.0.0.1:4173/contact',{waitUntil:'domcontentloaded',timeout:30000});
+  for(const [id,value]of Object.entries({name:'NoJS QA Example',email:'qa@example.com',phone:'+91 98765 43210',message:'Synthetic no-JavaScript verification'}))await page.locator('#enquiry-'+id).fill(value);
+  await page.locator('#enquiry-service').selectOption('Website Development');
+  await Promise.all([page.waitForURL(url=>url.searchParams.has('email')),page.getByRole('button',{name:'Send enquiry',exact:true}).click()]);
+  const url=new URL(page.url());
+  result.fallback={javascriptEnabled:false,navigationMethod:'GET',queryKeys:[...url.searchParams.keys()],personalFieldsInUrl:['name','email','phone','message'].filter(key=>url.searchParams.has(key)),enquiryDelivered:false};
+  await page.screenshot({path:output+'/contact-no-javascript.png',fullPage:true});
+  await context.close();
+  const interactive=await browser.newContext({viewport:{width:390,height:900}});
+  const live=await interactive.newPage();
+  await live.goto('http://127.0.0.1:4173/contact',{waitUntil:'domcontentloaded',timeout:30000});
+  await live.evaluate(()=>document.fonts.ready);
+  result.overlap=await live.evaluate(()=>{
+    const phone=document.querySelector('#enquiry-phone').getBoundingClientRect();
+    const wa=document.querySelector('.whatsapp-button').getBoundingClientRect();
+    const intersection={left:Math.max(phone.left,wa.left),right:Math.min(phone.right,wa.right),top:Math.max(phone.top,wa.top),bottom:Math.min(phone.bottom,wa.bottom)};
+    const overlaps=intersection.right>intersection.left&&intersection.bottom>intersection.top;
+    const target=overlaps?document.elementFromPoint((intersection.left+intersection.right)/2,(intersection.top+intersection.bottom)/2):null;
+    return{viewport:{width:innerWidth,height:innerHeight},phone:phone.toJSON(),whatsapp:wa.toJSON(),overlaps,overlapArea:overlaps?(intersection.right-intersection.left)*(intersection.bottom-intersection.top):0,hitTargetsWhatsApp:!!target?.closest('.whatsapp-button')};
+  });
+  await live.screenshot({path:output+'/contact-390-viewport.png',fullPage:false});
+  await live.goto('http://127.0.0.1:4173/',{waitUntil:'domcontentloaded',timeout:30000});
+  await live.evaluate(()=>document.fonts.ready);
+  result.fonts=await live.evaluate(()=>({headingLoaded:document.fonts.check('600 16px "Plus Jakarta Sans"'),bodyLoaded:document.fonts.check('400 16px Inter')}));
+  await live.setViewportSize({width:1440,height:900});
+  await live.goto('http://127.0.0.1:4173/',{waitUntil:'domcontentloaded',timeout:30000});
+  await live.getByRole('link',{name:'Explore Our Services',exact:true}).click();await live.waitForURL('**/services');
+  const serviceTitle=await live.title();await live.goBack({waitUntil:'domcontentloaded'});const backTitle=await live.title();await live.goForward({waitUntil:'domcontentloaded'});const forwardTitle=await live.title();
+  result.history={serviceTitle,backTitle,forwardTitle,passed:serviceTitle===forwardTitle&&backTitle!==serviceTitle};
+  await live.goto('http://127.0.0.1:4173/not-a-real-page',{waitUntil:'domcontentloaded',timeout:30000});
+  result.localUnknown={status:(await live.request.get(live.url())).status(),heading:await live.locator('h1').innerText(),robots:await live.locator('meta[name=robots]').getAttribute('content')};
+  await interactive.close();
+}catch(error){result.error=error.stack;}finally{await browser.close();await writeFile(output+'/focused-results.json',JSON.stringify(result,null,2));console.log(JSON.stringify({...result,whatsappLinks:{checked:result.whatsappLinks.length,invalid:result.whatsappLinks.filter(link=>link.number!=='/916394732841'||!link.message)},withoutJavaScript:{count:result.withoutJavaScript.length,passed:result.withoutJavaScript.every(item=>item.status===200&&item.mainVisible&&item.h1)}} ,null,2));}

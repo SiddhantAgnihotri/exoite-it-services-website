@@ -1,0 +1,17 @@
+import {chromium} from './node_modules/playwright/index.mjs';
+import {writeFile} from 'node:fs/promises';
+import assert from 'node:assert/strict';
+const browser=await chromium.launch({headless:true,executablePath:'C:/Program Files/Google/Chrome/Application/chrome.exe'});
+try {
+const page=await browser.newPage({viewport:{width:1440,height:900}});
+await page.goto('http://127.0.0.1:4173/training',{waitUntil:'domcontentloaded'});
+const samples=await page.evaluate(()=>{
+ const background=el=>{for(let node=el;node;node=node.parentElement){const color=getComputedStyle(node).backgroundColor;if(color!=='rgba(0, 0, 0, 0)')return color;}return 'rgb(255, 255, 255)';};
+ const muted=[...document.querySelectorAll('p')].filter(p=>getComputedStyle(p).color==='rgb(95, 111, 133)');
+ const pairs=[['muted on white',muted.find(p=>background(p)==='rgb(255, 255, 255)')],['muted on gray',muted.find(p=>background(p)==='rgb(245, 247, 250)')],['white on navy',document.querySelector('.site-footer h2')],['white on blue',document.querySelector('.button-primary')]];
+ return pairs.map(([name,el])=>({name,found:!!el,text:el?.textContent.trim().slice(0,80),foreground:el&&getComputedStyle(el).color,background:el&&background(el)}));
+});
+const lum=rgb=>rgb.match(/[\d.]+/g).slice(0,3).map(c=>Number(c)/255).map(c=>c<=.04045?c/12.92:((c+.055)/1.055)**2.4).reduce((n,c,i)=>n+c*[.2126,.7152,.0722][i],0);
+for(const s of samples){assert.ok(s.found,s.name);const values=[lum(s.foreground),lum(s.background)].sort((a,b)=>a-b);s.ratio=(values[1]+.05)/(values[0]+.05);assert.ok(s.ratio>=4.5,s.name);}
+await writeFile('artifacts/production-fixes/computed-contrast.json',JSON.stringify(samples,null,2));console.log(samples);
+}finally{await browser.close();}

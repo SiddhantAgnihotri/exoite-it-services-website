@@ -1,0 +1,15 @@
+import {chromium} from './node_modules/playwright/index.mjs';
+import {writeFile} from 'node:fs/promises';
+const browser=await chromium.launch({headless:true,executablePath:'C:/Program Files/Google/Chrome/Application/chrome.exe'});
+const context=await browser.newContext({viewport:{width:1440,height:900}});const page=await context.newPage();
+const evidence=[];
+const collect=async label=>{await page.waitForTimeout(300);const value=await page.evaluate(()=>({path:location.pathname,title:document.title,titles:[...document.querySelectorAll('title')].map(e=>e.textContent),descriptions:[...document.querySelectorAll('meta[name=description]')].map(e=>e.content),robots:[...document.querySelectorAll('meta[name=robots]')].map(e=>e.content),canonicals:[...document.querySelectorAll('link[rel=canonical]')].map(e=>e.href),ogTitles:[...document.querySelectorAll('meta[property="og:title"]')].map(e=>e.content),h1:document.querySelector('h1')?.textContent}));evidence.push({label,...value});console.log(JSON.stringify({label,...value}));};
+try{
+ await page.goto('http://127.0.0.1:4173/',{waitUntil:'domcontentloaded',timeout:30000});await collect('direct home');
+ await page.getByRole('link',{name:'Explore Our Services',exact:true}).click();await page.waitForURL('**/services');await collect('client navigation to services');
+ await page.locator('.service-detail').first().getByRole('link',{name:'Explore this service'}).click();await page.waitForURL('**/services/website-development');await collect('client navigation to service detail');
+ await page.getByRole('link',{name:'Enquire Now',exact:true}).first().click();await page.waitForURL('**/contact?service=*');await collect('client navigation to contact');
+ await page.goto('http://127.0.0.1:4173/contact',{waitUntil:'domcontentloaded',timeout:30000});await collect('direct contact');
+ await page.locator('.footer-legal').getByRole('link',{name:'Privacy Policy (draft)'}).click();await page.waitForURL('**/privacy-policy');await collect('client navigation to noindex privacy draft');
+ await page.goto('http://127.0.0.1:4173/not-a-real-page',{waitUntil:'domcontentloaded',timeout:30000});await collect('Vite unknown route fallback');
+}catch(error){evidence.push({error:error.stack});console.log(error.stack)}finally{await browser.close();await writeFile('artifacts/production-verification/metadata-navigation.json',JSON.stringify(evidence,null,2));}

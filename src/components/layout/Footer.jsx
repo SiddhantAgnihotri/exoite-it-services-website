@@ -1,53 +1,84 @@
+import { Link } from "react-router-dom";
+import { ArrowUpRight } from "lucide-react";
 import { siteConfig } from "../../data/siteConfig";
-
-const Footer = () => {
-    return (
-        <footer className="bg-slate-950 px-5 py-14 text-white">
-            <div className="mx-auto grid max-w-7xl gap-10 md:grid-cols-4">
-                <div className="md:col-span-2">
-                    <div className="flex items-center gap-3">
-                        <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-gradient-to-br from-blue-600 to-cyan-500 font-black text-white">
-                            E
-                        </div>
-
-                        <div>
-                            <h2 className="text-xl font-black">{siteConfig.companyName}</h2>
-                            <p className="text-sm text-slate-400">{siteConfig.tagline}</p>
-                        </div>
-                    </div>
-
-                    <p className="mt-5 max-w-md leading-7 text-slate-400">
-                        Building websites, mobile apps, custom software, LMS, ERP and
-                        digital solutions for businesses, schools, institutes and startups.
-                    </p>
-                </div>
-
-                <div>
-                    <h3 className="font-black text-white">Services</h3>
-                    <div className="mt-4 space-y-3 text-sm text-slate-400">
-                        <p>Website Development</p>
-                        <p>Custom Software</p>
-                        <p>Mobile Apps</p>
-                        <p>IT Training</p>
-                    </div>
-                </div>
-
-                <div>
-                    <h3 className="font-black text-white">Contact</h3>
-                    <div className="mt-4 space-y-3 text-sm text-slate-400">
-                        <p>{siteConfig.location}</p>
-                        <p>{siteConfig.email}</p>
-                        <p>+{siteConfig.whatsappNumber}</p>
-                    </div>
-                </div>
-            </div>
-
-            <div className="mx-auto mt-10 max-w-7xl border-t border-white/10 pt-6 text-center text-sm text-slate-500">
-                © {new Date().getFullYear()} {siteConfig.companyName}. All rights
-                reserved.
-            </div>
-        </footer>
-    );
-};
-
-export default Footer;
+import { serviceDetails } from "../../data/serviceDetails";
+import logo from "../../assets/logo.png";
+export default function Footer() {
+  return (
+    <footer className="site-footer">
+      <div className="container footer-grid company-footer-grid">
+        <div className="footer-intro">
+          <Link className="brand" to="/">
+            <img
+              src={logo}
+              width={40}
+              height={40}
+              alt="Exoite IT Services logo"
+            />
+            <span>
+              <strong>Exoite</strong>
+              <span>IT Services</span>
+            </span>
+          </Link>
+          <p>Empowering Digital Future</p>
+          <p>
+            An MSME-registered business for websites, apps, software, education
+            technology and IT training. Based in Kanpur, working remotely across
+            India and internationally.
+          </p>
+        </div>
+        <div>
+          <h2>Services</h2>
+          <div className="footer-links">
+            {serviceDetails.map((service) => (
+              <Link to={"/services/" + service.slug} key={service.slug}>
+                {service.name}
+              </Link>
+            ))}
+          </div>
+        </div>
+        <div>
+          <h2>Explore Exoite</h2>
+          <div className="footer-links">
+            <Link to="/about">About the company</Link>
+            <Link to="/portfolio">Solution studies</Link>
+            <Link to="/insights">Insights</Link>
+            <Link to="/training">Training programs</Link>
+            <Link to="/products">
+              Our upcoming product <ArrowUpRight size={13} />
+            </Link>
+            <span className="footer-product-status">
+              Exoite Social Media Platform
+              <br />
+              In Development
+            </span>
+          </div>
+        </div>
+        <div className="footer-contact">
+          <h2>Start a conversation</h2>
+          <a href={"mailto:" + siteConfig.email}>{siteConfig.email}</a>
+          <a href={"tel:+" + siteConfig.whatsappNumber}>
+            +{siteConfig.whatsappNumber}
+          </a>
+          <a href={siteConfig.whatsappLink} target="_blank" rel="noreferrer">
+            Chat on WhatsApp <ArrowUpRight size={14} />
+          </a>
+          <p>{siteConfig.location}</p>
+          <Link to="/contact" className="footer-enquiry">
+            Send an enquiry <ArrowUpRight size={15} />
+          </Link>
+        </div>
+      </div>
+      <div className="container footer-bottom">
+        <p>
+          &copy; {new Date().getFullYear()} Exoite IT Services. All rights
+          reserved.
+        </p>
+        <div className="footer-legal">
+          <Link to="/privacy-policy">Privacy Policy (draft)</Link>
+          <Link to="/terms-of-service">Terms of Service (draft)</Link>
+        </div>
+      </div>
+    </footer>
+  );
+}

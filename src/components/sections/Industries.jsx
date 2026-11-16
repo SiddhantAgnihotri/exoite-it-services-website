@@ -1,91 +1,76 @@
-import {
-    School,
-    Store,
-    Dumbbell,
-    Building2,
-    GraduationCap,
-    BriefcaseBusiness,
-} from "lucide-react";
-
+import { Link } from "react-router-dom";
+import { ArrowUpRight, Plus } from "lucide-react";
 const industries = [
-    {
-        icon: School,
-        title: "Schools",
-        desc: "School websites, ERP, examination portals and student management systems.",
-    },
-    {
-        icon: GraduationCap,
-        title: "Coaching Institutes",
-        desc: "LMS, admission forms, batch management and online learning portals.",
-    },
-    {
-        icon: Store,
-        title: "Local Businesses",
-        desc: "Business websites, Google presence, enquiry systems and digital branding.",
-    },
-    {
-        icon: Dumbbell,
-        title: "Gyms & Academies",
-        desc: "Membership management, attendance, fee tracking and promotional websites.",
-    },
-    {
-        icon: Building2,
-        title: "Startups",
-        desc: "MVP development, landing pages, dashboards and scalable software systems.",
-    },
-    {
-        icon: BriefcaseBusiness,
-        title: "Professionals",
-        desc: "Portfolio websites, personal branding, appointment pages and service landing pages.",
-    },
+  [
+    "Schools and educational institutions",
+    "Institution websites, admissions information, assessment portals and administrative workflows.",
+    "school-institute-solutions",
+  ],
+  [
+    "Coaching and training institutes",
+    "Course information, batch-related workflows, learner access and learning platforms.",
+    "school-institute-solutions",
+  ],
+  [
+    "Retail and e-commerce businesses",
+    "Product information, catalogue planning, inventory workflows and customer enquiries.",
+    "custom-software-development",
+  ],
+  [
+    "Healthcare and clinics",
+    "Public service information, appointment enquiries and scoped administrative tools. Patient-data workflows need a separate privacy and access review.",
+    "website-development",
+  ],
+  [
+    "Restaurants and hospitality",
+    "Menus, property or venue information, booking enquiries and operational workflows.",
+    "website-development",
+  ],
+  [
+    "Startups and professional services",
+    "Business websites, product prototypes, client portals and purpose-built internal tools.",
+    "custom-software-development",
+  ],
 ];
-
-const Industries = () => {
-    return (
-        <section id="industries" className="section-soft px-5 py-24">
-            <div className="mx-auto max-w-7xl">
-                <div className="mx-auto max-w-2xl text-center">
-                    <p className="text-sm font-black uppercase tracking-[0.3em] text-blue-600">
-                        Industries
-                    </p>
-
-                    <h2 className="mt-4 text-3xl font-black text-slate-950 md:text-5xl">
-                        We Serve Different Business Needs
-                    </h2>
-
-                    <p className="mt-5 text-slate-600">
-                        Our services are useful for education, local business, startups,
-                        academies and professional service providers.
-                    </p>
-                </div>
-
-                <div className="mt-14 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-                    {industries.map((item) => {
-                        const Icon = item.icon;
-
-                        return (
-                            <div
-                                key={item.title}
-                                className="light-card group rounded-3xl p-7 transition hover:-translate-y-2"
-                            >
-                                <div className="relative z-10 mb-5 flex h-14 w-14 items-center justify-center rounded-2xl bg-blue-50 text-blue-600 transition group-hover:bg-blue-600 group-hover:text-white">
-                                    <Icon size={28} />
-                                </div>
-
-                                <h3 className="relative z-10 text-xl font-black text-slate-950">
-                                    {item.title}
-                                </h3>
-
-                                <p className="relative z-10 mt-3 leading-7 text-slate-600">
-                                    {item.desc}
-                                </p>
-                            </div>
-                        );
-                    })}
-                </div>
-            </div>
-        </section>
-    );
-};
-
-export default Industries;
+export default function Industries() {
+  return (
+    <section className="section industries-editorial" id="industries">
+      <div className="container industries-layout">
+        <div className="industry-introduction">
+          <p className="eyebrow">03 / Relevant to your world</p>
+          <h2>Different contexts. The same care for the details.</h2>
+          <p>
+            Education, commerce and everyday services each have their own
+            people, processes and constraints.
+          </p>
+          <div className="industry-pullquote">
+            <span>Education technology</span>
+            <p>Built around learners. Considered for the people behind them.</p>
+            <Link to="/services/school-institute-solutions">
+              Explore education solutions <ArrowUpRight size={16} />
+            </Link>
+          </div>
+          <p className="small-note">
+            Potential use cases, not a claim of prior client work in these
+            sectors.
+          </p>
+        </div>
+        <div className="industry-rows">
+          {industries.map(([title, description, slug], index) => (
+            <details key={title} open={index === 0}>
+              <summary>
+                <span>0{index + 1}</span>
+                <h3>{title}</h3>
+                <Plus size={17} className="accordion-plus" aria-hidden="true" />
+              </summary>
+              <p>{description}</p>
+              <Link to={"/services/" + slug} className="text-link">
+                Explore a relevant service <ArrowUpRight size={15} />
+              </Link>
+            </details>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}

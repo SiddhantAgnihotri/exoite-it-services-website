@@ -15,3 +15,6 @@ export const siteConfig = {
         )}`;
     },
 };
+export function whatsappLinkFor(context) {
+    return `https://wa.me/${siteConfig.whatsappNumber}?text=${encodeURIComponent(`Hello Exoite IT Services, I would like to enquire about ${context}.`)}`;
+}

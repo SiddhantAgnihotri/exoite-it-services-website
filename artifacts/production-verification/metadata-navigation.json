@@ -1,0 +1,153 @@
+[
+  {
+    "label": "direct home",
+    "path": "/",
+    "title": "Website & Software Development Company in Kanpur | Exoite IT Services",
+    "titles": [
+      "Website & Software Development Company in Kanpur | Exoite IT Services"
+    ],
+    "descriptions": [
+      "Exoite IT Services builds websites, mobile apps and custom software in Kanpur for businesses across India and internationally. Discuss your project."
+    ],
+    "robots": [
+      "index,follow"
+    ],
+    "canonicals": [
+      "https://exoiteitservices.com/"
+    ],
+    "ogTitles": [
+      "Website & Software Development Company in Kanpur | Exoite IT Services"
+    ],
+    "h1": "Building Digital Solutions for Modern Businesses."
+  },
+  {
+    "label": "client navigation to services",
+    "path": "/services",
+    "title": "Website, App & Custom Software Development Services | Exoite",
+    "titles": [
+      "Website, App & Custom Software Development Services | Exoite"
+    ],
+    "descriptions": [
+      "Explore website development, mobile apps, custom software, school management systems, LMS development and digital marketing from Exoite IT Services."
+    ],
+    "robots": [
+      "index,follow"
+    ],
+    "canonicals": [
+      "https://exoiteitservices.com/services"
+    ],
+    "ogTitles": [
+      "Website, App & Custom Software Development Services | Exoite"
+    ],
+    "h1": "Practical technology. Purposeful outcomes."
+  },
+  {
+    "label": "client navigation to service detail",
+    "path": "/services/website-development",
+    "title": "Website Development Services | Exoite IT Services",
+    "titles": [
+      "Website Development Services | Exoite IT Services"
+    ],
+    "descriptions": [
+      "Website development for businesses, startups and institutions in Kanpur, across India and remotely worldwide. Plan a clear, responsive site around real enquiries."
+    ],
+    "robots": [
+      "index,follow"
+    ],
+    "canonicals": [
+      "https://exoiteitservices.com/services/website-development"
+    ],
+    "ogTitles": [
+      "Website Development Services | Exoite IT Services"
+    ],
+    "h1": "A website that makes your business easier to understand."
+  },
+  {
+    "label": "client navigation to contact",
+    "path": "/contact",
+    "title": "Contact Exoite IT Services | Discuss Your Project",
+    "titles": [
+      "Contact Exoite IT Services | Discuss Your Project"
+    ],
+    "descriptions": [
+      "Contact Exoite IT Services in Kanpur for websites, mobile apps, custom software or IT training. Send an enquiry or discuss your requirements on WhatsApp."
+    ],
+    "robots": [
+      "index,follow"
+    ],
+    "canonicals": [
+      "https://exoiteitservices.com/contact"
+    ],
+    "ogTitles": [
+      "Contact Exoite IT Services | Discuss Your Project"
+    ],
+    "h1": "A good project starts with a conversation."
+  },
+  {
+    "label": "direct contact",
+    "path": "/contact",
+    "title": "Contact Exoite IT Services | Discuss Your Project",
+    "titles": [
+      "Contact Exoite IT Services | Discuss Your Project"
+    ],
+    "descriptions": [
+      "Contact Exoite IT Services in Kanpur for websites, mobile apps, custom software or IT training. Send an enquiry or discuss your requirements on WhatsApp."
+    ],
+    "robots": [
+      "index,follow"
+    ],
+    "canonicals": [
+      "https://exoiteitservices.com/contact"
+    ],
+    "ogTitles": [
+      "Contact Exoite IT Services | Discuss Your Project"
+    ],
+    "h1": "A good project starts with a conversation."
+  },
+  {
+    "label": "client navigation to noindex privacy draft",
+    "path": "/privacy-policy",
+    "title": "Privacy Policy | Review Draft | Exoite IT Services",
+    "titles": [
+      "Privacy Policy | Review Draft | Exoite IT Services"
+    ],
+    "descriptions": [
+      "Draft privacy information for enquiries to Exoite IT Services. Business-specific processing and retention details require approval before adoption."
+    ],
+    "robots": [
+      "noindex,follow"
+    ],
+    "canonicals": [
+      "https://exoiteitservices.com/privacy-policy"
+    ],
+    "ogTitles": [
+      "Privacy Policy | Review Draft | Exoite IT Services"
+    ],
+    "h1": "Privacy Policy"
+  },
+  {
+    "label": "Vite unknown route fallback",
+    "path": "/not-a-real-page",
+    "title": "Page Not Found | Exoite IT Services",
+    "titles": [
+      "Page Not Found | Exoite IT Services",
+      "Website & Software Development Company in Kanpur | Exoite IT Services"
+    ],
+    "descriptions": [
+      "Exoite IT Services builds websites, mobile apps and custom software in Kanpur for businesses across India and internationally. Discuss your project.",
+      "This page could not be found. Explore Exoite IT Services or contact us for help."
+    ],
+    "robots": [
+      "index,follow",
+      "noindex,follow"
+    ],
+    "canonicals": [
+      "https://exoiteitservices.com/"
+    ],
+    "ogTitles": [
+      "Website & Software Development Company in Kanpur | Exoite IT Services",
+      "Page Not Found | Exoite IT Services"
+    ],
+    "h1": "We couldn't find that page"
+  }
+]
