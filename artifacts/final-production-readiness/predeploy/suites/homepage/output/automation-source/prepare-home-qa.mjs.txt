@@ -1,2 +1,0 @@
-import {readFile,writeFile} from 'node:fs/promises';
-let s=await readFile('artifacts/final-premium-review/automation-source/final-sections.mjs.txt','utf8');s=s.replaceAll('artifacts/final-premium-review','artifacts/homepage-premium').replace("const routes=['/','/services','/services/ai-automation','/portfolio','/products','/about','/training','/contact'];","const routes=['/'];");await writeFile('.qa-tools/home-sections.mjs',s);

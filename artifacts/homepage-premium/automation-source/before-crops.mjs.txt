@@ -1,2 +1,0 @@
-import sharp from 'sharp';
-for(const width of [390,1440]){const file=`artifacts/homepage-premium/before/home-${width}.png`;const meta=await sharp(file).metadata();for(let index=0;index<3;index++){const top=index===0?0:index===1?Math.round(meta.height*.25):Math.round(meta.height*.62);await sharp(file).extract({left:0,top,width,height:Math.min(width===390?1800:1800,meta.height-top)}).resize({width:width===390?390:1000}).png().toFile(`artifacts/homepage-premium/before/review-${width}-${index}.png`);}}

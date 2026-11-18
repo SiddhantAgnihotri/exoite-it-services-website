@@ -1,6 +1,0 @@
-{
-  "schema": "https://openapi.vercel.sh/vercel.json",
-  "scope": "Unmodified property schemas for the three configured fields: buildCommand, outputDirectory, routes. Unused vendor fields excluded because the upstream schema mixes draft syntax.",
-  "valid": true,
-  "errors": null
-}

@@ -1,9 +1,0 @@
-import {readFileSync as readFile,writeFileSync as writeFile,existsSync} from 'node:fs';
-import {resolve,dirname} from 'node:path';
-const report='docs/final-premium-website-review.md';const contents=readFile(report,'utf8');const missing=[];
-for(const match of contents.matchAll(/\]\(([^)]+)\)/g)){if(!match[1].startsWith('http')&&!existsSync(resolve(dirname(report),match[1])))missing.push(match[1]);}
-const command=JSON.parse(readFile('artifacts/final-premium-review/command-results.json','utf8'));
-const route=JSON.parse(readFile('artifacts/final-premium-review/browser-results.json','utf8'));
-const checks={reportLinksMissing:missing,commandResults:command,routeSummary:route.summary,screenshotCount:route.routes.filter(r=>existsSync(r.screenshot)).length};
-writeFile('artifacts/final-premium-review/final-evidence-check.json',JSON.stringify(checks,null,2));console.log(JSON.stringify(checks));if(missing.length||Object.values(command).some(Boolean)||route.routes.length!==156||route.summary.failures||route.summary.accessibilityViolations||route.summary.unresolvedNetworkFailures)process.exit(1);
-

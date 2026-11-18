@@ -1,9 +1,0 @@
-import { chromium } from './node_modules/playwright/index.mjs';
-import AxeBuilder from './node_modules/@axe-core/playwright/dist/index.mjs';
-import {readFile,writeFile} from 'node:fs/promises';
-const dir='artifacts/final-premium-review';const routes=JSON.parse(await readFile(dir+'/browser-results.json','utf8')).routes.filter(r=>r.accessibility.incomplete.length);const results=[];
-const browser=await chromium.launch({headless:true,executablePath:'C:/Program Files/Google/Chrome/Application/chrome.exe'});
-try {for(const {path,width} of routes){const context=await browser.newContext({viewport:{width,height:900}});const page=await context.newPage();await page.goto('http://127.0.0.1:4173'+path);await page.evaluate(()=>document.fonts.ready);const axe=await new AxeBuilder({page}).withTags(['wcag2a','wcag2aa','wcag21a','wcag21aa','wcag22aa']).analyze();results.push({path,width,violations:axe.violations,incomplete:axe.incomplete});await context.close();}}
-finally{await browser.close();await writeFile(dir+'/axe-manual-review.json',JSON.stringify(results,null,2));}
-console.log(JSON.stringify(results.map(r=>({path:r.path,width:r.width,violations:r.violations.length,incomplete:r.incomplete.map(i=>({id:i.id,nodes:i.nodes.map(n=>({html:n.html,target:n.target,summary:n.failureSummary,any:n.any.map(a=>({id:a.id,message:a.message,data:a.data})),all:n.all}))}))})),null,2));
-
