@@ -1,0 +1,1 @@
+import{readFile}from'node:fs/promises';const r=JSON.parse(await readFile('artifacts/hero-motion-refinement/browser-results.json','utf8'));console.log(JSON.stringify({checks:r.checks.length,failures:r.failures.map(f=>({name:f.name,details:f.details,exception:f.exception})),errors:r.errors,axe:r.accessibility.map(a=>({width:a.width,mode:a.mode,violations:a.violations}))},null,2));

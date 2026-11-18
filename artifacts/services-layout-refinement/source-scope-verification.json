@@ -1,0 +1,19 @@
+{
+  "method": "SHA-256 of every file under src/, scripts/, public/ plus index.html, vercel.json, package.json, package-lock.json — before (source-before.sha256) and after (source-after.sha256)",
+  "modified": [
+    "src/components/sections/Services.jsx",
+    "src/styles/services-motion.css"
+  ],
+  "added": [
+    "scripts/services-layout-refinement.browser.mjs"
+  ],
+  "unexpected": [],
+  "filesBefore": 188,
+  "filesAfter": 189,
+  "unchangedExistingFiles": 186,
+  "hero": [
+    { "path": "src/components/sections/Hero.jsx", "sha256": "1a91fabc10a2efc741489f6748dfbaf1c355bfffaabe900129350d23ec50dedf", "matchesHeroReport": true },
+    { "path": "src/components/ui/HeroMotionVisual.jsx", "sha256": "f6c95524f19a3c07b98a4ed7e528c769285b3e20a184f323f847dcda61b0239f", "matchesHeroReport": true },
+    { "path": "src/styles/hero-motion.css", "sha256": "a2d51fed505ec9e81e4adcfd829a7c8fae4b2f67bf6c690f972d47c267cdea33", "matchesHeroReport": true }
+  ]
+}

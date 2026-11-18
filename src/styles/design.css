@@ -3,9 +3,20 @@
   --white: #ffffff;
   --navy: #14213d;
   --blue: #2563eb;
-  --surface: #f5f7fa;
+  --surface: #f8fafc;
+  --text: #0f172a;
   --muted: #5f6f85;
+  --on-dark-muted: #cbd5e1;
   --border: #e2e8f0;
+  --content-width: 1280px;
+  --gutter: 48px;
+  --section-space: 104px;
+  --heading-gap: 48px;
+  --grid-gap: 32px;
+  --card-padding: 32px;
+  --radius: 12px;
+  --control-radius: 8px;
+  --shadow-soft: 0 12px 32px rgb(20 33 61 / 6%);
   --heading: "Plus Jakarta Sans", Inter, system-ui, sans-serif;
   --body: Inter, system-ui, -apple-system, "Segoe UI", sans-serif;
 }
@@ -21,8 +32,8 @@ html {
 body {
   margin: 0;
   background: var(--white);
-  color: var(--navy);
-  font: 400 15px/1.8 var(--body);
+  color: var(--text);
+  font: 400 16px/1.75 var(--body);
   -webkit-font-smoothing: antialiased;
 }
 h1,
@@ -39,20 +50,20 @@ h3,
 h4 {
   font-family: var(--heading);
   font-weight: 600;
-  letter-spacing: -0.04em;
-  line-height: 1.28;
+  letter-spacing: -0.035em;
+  line-height: 1.2;
   color: var(--navy);
   text-wrap: balance;
 }
 h1 {
-  font-size: clamp(34px, 3.6vw, 52px);
+  font-size: clamp(36px, 3.8vw, 56px);
 }
 h2 {
-  font-size: clamp(28px, 2.8vw, 38px);
+  font-size: clamp(30px, 3vw, 44px);
   white-space: pre-line;
 }
 h3 {
-  font-size: 21px;
+  font-size: clamp(22px, 1.8vw, 26px);
   letter-spacing: -0.025em;
 }
 p {
@@ -118,7 +129,7 @@ ol {
   color: var(--white);
 }
 .container {
-  width: min(1240px, calc(100% - 64px));
+  width: min(var(--content-width), calc(100% - var(--gutter) * 2));
   margin-inline: auto;
 }
 :where(
@@ -136,7 +147,7 @@ ol {
   min-width: 0;
 }
 .section {
-  padding-block: 80px;
+  padding-block: var(--section-space);
 }
 .section-neutral {
   background: var(--surface);
@@ -146,7 +157,7 @@ ol {
   gap: 10px;
   align-items: center;
   color: var(--blue);
-  font-size: 10px;
+  font-size: 12px;
   line-height: 1.5;
   font-weight: 600;
   letter-spacing: 0.11em;
@@ -167,7 +178,7 @@ ol {
   grid-template-columns: 1.3fr 1fr;
   align-items: end;
   gap: 70px;
-  margin-bottom: 40px;
+  margin-bottom: var(--heading-gap);
 }
 .section-heading-aside {
   max-width: 420px;
@@ -195,9 +206,9 @@ ol {
   gap: 18px;
   min-height: 48px;
   border: 1px solid transparent;
-  border-radius: 5px;
-  padding: 12px 21px;
-  font-size: 12px;
+  border-radius: var(--control-radius);
+  padding: 14px 22px;
+  font-size: 14px;
   font-weight: 600;
   line-height: 1.55;
   transition:

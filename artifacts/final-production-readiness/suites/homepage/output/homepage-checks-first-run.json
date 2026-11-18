@@ -1,0 +1,1281 @@
+{
+  "checks": [
+    {
+      "name": "360: ten ordered chapters",
+      "passed": true,
+      "details": [
+        "hero company-hero",
+        "section home-introduction",
+        "section services-editorial",
+        "section ai-feature",
+        "section work-section",
+        "section industries-editorial",
+        "section home-process",
+        "section product-editorial",
+        "section insights-editorial",
+        "contact-cta"
+      ]
+    },
+    {
+      "name": "360: readable, bounded composition",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "360: comfortable hero actions and preserved destinations",
+      "passed": true
+    },
+    {
+      "name": "360: uncropped project illustrations",
+      "passed": true,
+      "details": [
+        {
+          "ratio": 1.6020942408376964,
+          "fit": "contain"
+        },
+        {
+          "ratio": 1.6020942408376964,
+          "fit": "contain"
+        },
+        {
+          "ratio": 1.6020942408376964,
+          "fit": "contain"
+        }
+      ]
+    },
+    {
+      "name": "360: workflow step 1 keyboard and state",
+      "passed": true,
+      "details": {
+        "width": 360,
+        "step": 1,
+        "height": 791,
+        "selected": "true",
+        "heading": "A useful starting point."
+      }
+    },
+    {
+      "name": "360: workflow step 2 keyboard and state",
+      "passed": true,
+      "details": {
+        "width": 360,
+        "step": 2,
+        "height": 791,
+        "selected": "true",
+        "heading": "Make the next step clearer."
+      }
+    },
+    {
+      "name": "360: workflow step 3 keyboard and state",
+      "passed": true,
+      "details": {
+        "width": 360,
+        "step": 3,
+        "height": 791,
+        "selected": "true",
+        "heading": "Bring the context together."
+      }
+    },
+    {
+      "name": "360: workflow step 4 keyboard and state",
+      "passed": true,
+      "details": {
+        "width": 360,
+        "step": 4,
+        "height": 791,
+        "selected": "true",
+        "heading": "Keep people in control."
+      }
+    },
+    {
+      "name": "360: workflow reserves height across all steps",
+      "passed": true,
+      "details": [
+        791,
+        791,
+        791,
+        791
+      ]
+    },
+    {
+      "name": "360: example restarts on touch",
+      "passed": true
+    },
+    {
+      "name": "360: example advances on touch",
+      "passed": true
+    },
+    {
+      "name": "360: demo makes no request or navigation",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "360: AI feature leads to existing service",
+      "passed": true
+    },
+    {
+      "name": "360: project CTA reaches enabled privacy-safe form",
+      "passed": true
+    },
+    {
+      "name": "390: ten ordered chapters",
+      "passed": true,
+      "details": [
+        "hero company-hero",
+        "section home-introduction",
+        "section services-editorial",
+        "section ai-feature",
+        "section work-section",
+        "section industries-editorial",
+        "section home-process",
+        "section product-editorial",
+        "section insights-editorial",
+        "contact-cta"
+      ]
+    },
+    {
+      "name": "390: readable, bounded composition",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "390: comfortable hero actions and preserved destinations",
+      "passed": true
+    },
+    {
+      "name": "390: uncropped project illustrations",
+      "passed": true,
+      "details": [
+        {
+          "ratio": 1.6,
+          "fit": "contain"
+        },
+        {
+          "ratio": 1.6,
+          "fit": "contain"
+        },
+        {
+          "ratio": 1.6,
+          "fit": "contain"
+        }
+      ]
+    },
+    {
+      "name": "390: workflow step 1 keyboard and state",
+      "passed": true,
+      "details": {
+        "width": 390,
+        "step": 1,
+        "height": 791,
+        "selected": "true",
+        "heading": "A useful starting point."
+      }
+    },
+    {
+      "name": "390: workflow step 2 keyboard and state",
+      "passed": true,
+      "details": {
+        "width": 390,
+        "step": 2,
+        "height": 791,
+        "selected": "true",
+        "heading": "Make the next step clearer."
+      }
+    },
+    {
+      "name": "390: workflow step 3 keyboard and state",
+      "passed": true,
+      "details": {
+        "width": 390,
+        "step": 3,
+        "height": 791,
+        "selected": "true",
+        "heading": "Bring the context together."
+      }
+    },
+    {
+      "name": "390: workflow step 4 keyboard and state",
+      "passed": true,
+      "details": {
+        "width": 390,
+        "step": 4,
+        "height": 791,
+        "selected": "true",
+        "heading": "Keep people in control."
+      }
+    },
+    {
+      "name": "390: workflow reserves height across all steps",
+      "passed": true,
+      "details": [
+        791,
+        791,
+        791,
+        791
+      ]
+    },
+    {
+      "name": "390: example restarts on touch",
+      "passed": true
+    },
+    {
+      "name": "390: example advances on touch",
+      "passed": true
+    },
+    {
+      "name": "390: demo makes no request or navigation",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "390: AI feature leads to existing service",
+      "passed": true
+    },
+    {
+      "name": "390: project CTA reaches enabled privacy-safe form",
+      "passed": true
+    },
+    {
+      "name": "768: ten ordered chapters",
+      "passed": true,
+      "details": [
+        "hero company-hero",
+        "section home-introduction",
+        "section services-editorial",
+        "section ai-feature",
+        "section work-section",
+        "section industries-editorial",
+        "section home-process",
+        "section product-editorial",
+        "section insights-editorial",
+        "contact-cta"
+      ]
+    },
+    {
+      "name": "768: readable, bounded composition",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "768: comfortable hero actions and preserved destinations",
+      "passed": true
+    },
+    {
+      "name": "768: uncropped project illustrations",
+      "passed": true,
+      "details": [
+        {
+          "ratio": 1.5979899497487438,
+          "fit": "contain"
+        },
+        {
+          "ratio": 1.5979899497487438,
+          "fit": "contain"
+        },
+        {
+          "ratio": 1.5979899497487438,
+          "fit": "contain"
+        }
+      ]
+    },
+    {
+      "name": "768: workflow step 1 keyboard and state",
+      "passed": true,
+      "details": {
+        "width": 768,
+        "step": 1,
+        "height": 664,
+        "selected": "true",
+        "heading": "A useful starting point."
+      }
+    },
+    {
+      "name": "768: workflow step 2 keyboard and state",
+      "passed": true,
+      "details": {
+        "width": 768,
+        "step": 2,
+        "height": 664,
+        "selected": "true",
+        "heading": "Make the next step clearer."
+      }
+    },
+    {
+      "name": "768: workflow step 3 keyboard and state",
+      "passed": true,
+      "details": {
+        "width": 768,
+        "step": 3,
+        "height": 664,
+        "selected": "true",
+        "heading": "Bring the context together."
+      }
+    },
+    {
+      "name": "768: workflow step 4 keyboard and state",
+      "passed": true,
+      "details": {
+        "width": 768,
+        "step": 4,
+        "height": 664,
+        "selected": "true",
+        "heading": "Keep people in control."
+      }
+    },
+    {
+      "name": "768: workflow reserves height across all steps",
+      "passed": true,
+      "details": [
+        664,
+        664,
+        664,
+        664
+      ]
+    },
+    {
+      "name": "768: example restarts on touch",
+      "passed": true
+    },
+    {
+      "name": "768: example advances on touch",
+      "passed": true
+    },
+    {
+      "name": "768: demo makes no request or navigation",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "768: AI feature leads to existing service",
+      "passed": false
+    },
+    {
+      "name": "768: project CTA reaches enabled privacy-safe form",
+      "passed": true
+    },
+    {
+      "name": "1024: ten ordered chapters",
+      "passed": true,
+      "details": [
+        "hero company-hero",
+        "section home-introduction",
+        "section services-editorial",
+        "section ai-feature",
+        "section work-section",
+        "section industries-editorial",
+        "section home-process",
+        "section product-editorial",
+        "section insights-editorial",
+        "contact-cta"
+      ]
+    },
+    {
+      "name": "1024: readable, bounded composition",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "1024: comfortable hero actions and preserved destinations",
+      "passed": true
+    },
+    {
+      "name": "1024: uncropped project illustrations",
+      "passed": true,
+      "details": [
+        {
+          "ratio": 1.6013986013986015,
+          "fit": "contain"
+        },
+        {
+          "ratio": 1.6013986013986015,
+          "fit": "contain"
+        },
+        {
+          "ratio": 1.6013986013986015,
+          "fit": "contain"
+        }
+      ]
+    },
+    {
+      "name": "1024: workflow step 1 keyboard and state",
+      "passed": true,
+      "details": {
+        "width": 1024,
+        "step": 1,
+        "height": 780,
+        "selected": "true",
+        "heading": "A useful starting point."
+      }
+    },
+    {
+      "name": "1024: workflow step 2 keyboard and state",
+      "passed": true,
+      "details": {
+        "width": 1024,
+        "step": 2,
+        "height": 780,
+        "selected": "true",
+        "heading": "Make the next step clearer."
+      }
+    },
+    {
+      "name": "1024: workflow step 3 keyboard and state",
+      "passed": true,
+      "details": {
+        "width": 1024,
+        "step": 3,
+        "height": 780,
+        "selected": "true",
+        "heading": "Bring the context together."
+      }
+    },
+    {
+      "name": "1024: workflow step 4 keyboard and state",
+      "passed": true,
+      "details": {
+        "width": 1024,
+        "step": 4,
+        "height": 780,
+        "selected": "true",
+        "heading": "Keep people in control."
+      }
+    },
+    {
+      "name": "1024: workflow reserves height across all steps",
+      "passed": true,
+      "details": [
+        780,
+        780,
+        780,
+        780
+      ]
+    },
+    {
+      "name": "1024: example restarts on touch",
+      "passed": true
+    },
+    {
+      "name": "1024: example advances on touch",
+      "passed": true
+    },
+    {
+      "name": "1024: demo makes no request or navigation",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "1024: AI feature leads to existing service",
+      "passed": true
+    },
+    {
+      "name": "1024: project CTA reaches enabled privacy-safe form",
+      "passed": true
+    },
+    {
+      "name": "1440: ten ordered chapters",
+      "passed": true,
+      "details": [
+        "hero company-hero",
+        "section home-introduction",
+        "section services-editorial",
+        "section ai-feature",
+        "section work-section",
+        "section industries-editorial",
+        "section home-process",
+        "section product-editorial",
+        "section insights-editorial",
+        "contact-cta"
+      ]
+    },
+    {
+      "name": "1440: readable, bounded composition",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "1440: comfortable hero actions and preserved destinations",
+      "passed": true
+    },
+    {
+      "name": "1440: uncropped project illustrations",
+      "passed": true,
+      "details": [
+        {
+          "ratio": 1.6,
+          "fit": "contain"
+        },
+        {
+          "ratio": 1.6,
+          "fit": "contain"
+        },
+        {
+          "ratio": 1.6,
+          "fit": "contain"
+        }
+      ]
+    },
+    {
+      "name": "1440: workflow step 1 keyboard and state",
+      "passed": true,
+      "details": {
+        "width": 1440,
+        "step": 1,
+        "height": 676,
+        "selected": "true",
+        "heading": "A useful starting point."
+      }
+    },
+    {
+      "name": "1440: workflow step 2 keyboard and state",
+      "passed": true,
+      "details": {
+        "width": 1440,
+        "step": 2,
+        "height": 676,
+        "selected": "true",
+        "heading": "Make the next step clearer."
+      }
+    },
+    {
+      "name": "1440: workflow step 3 keyboard and state",
+      "passed": true,
+      "details": {
+        "width": 1440,
+        "step": 3,
+        "height": 676,
+        "selected": "true",
+        "heading": "Bring the context together."
+      }
+    },
+    {
+      "name": "1440: workflow step 4 keyboard and state",
+      "passed": true,
+      "details": {
+        "width": 1440,
+        "step": 4,
+        "height": 676,
+        "selected": "true",
+        "heading": "Keep people in control."
+      }
+    },
+    {
+      "name": "1440: workflow reserves height across all steps",
+      "passed": true,
+      "details": [
+        676,
+        676,
+        676,
+        676
+      ]
+    },
+    {
+      "name": "1440: example restarts on touch",
+      "passed": true
+    },
+    {
+      "name": "1440: example advances on touch",
+      "passed": true
+    },
+    {
+      "name": "1440: demo makes no request or navigation",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "1440: AI feature leads to existing service",
+      "passed": true
+    },
+    {
+      "name": "1440: project CTA reaches enabled privacy-safe form",
+      "passed": true
+    },
+    {
+      "name": "1920: ten ordered chapters",
+      "passed": true,
+      "details": [
+        "hero company-hero",
+        "section home-introduction",
+        "section services-editorial",
+        "section ai-feature",
+        "section work-section",
+        "section industries-editorial",
+        "section home-process",
+        "section product-editorial",
+        "section insights-editorial",
+        "contact-cta"
+      ]
+    },
+    {
+      "name": "1920: readable, bounded composition",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "1920: comfortable hero actions and preserved destinations",
+      "passed": true
+    },
+    {
+      "name": "1920: uncropped project illustrations",
+      "passed": true,
+      "details": [
+        {
+          "ratio": 1.6,
+          "fit": "contain"
+        },
+        {
+          "ratio": 1.6,
+          "fit": "contain"
+        },
+        {
+          "ratio": 1.6,
+          "fit": "contain"
+        }
+      ]
+    },
+    {
+      "name": "1920: workflow step 1 keyboard and state",
+      "passed": true,
+      "details": {
+        "width": 1920,
+        "step": 1,
+        "height": 676,
+        "selected": "true",
+        "heading": "A useful starting point."
+      }
+    },
+    {
+      "name": "1920: workflow step 2 keyboard and state",
+      "passed": true,
+      "details": {
+        "width": 1920,
+        "step": 2,
+        "height": 676,
+        "selected": "true",
+        "heading": "Make the next step clearer."
+      }
+    },
+    {
+      "name": "1920: workflow step 3 keyboard and state",
+      "passed": true,
+      "details": {
+        "width": 1920,
+        "step": 3,
+        "height": 676,
+        "selected": "true",
+        "heading": "Bring the context together."
+      }
+    },
+    {
+      "name": "1920: workflow step 4 keyboard and state",
+      "passed": true,
+      "details": {
+        "width": 1920,
+        "step": 4,
+        "height": 676,
+        "selected": "true",
+        "heading": "Keep people in control."
+      }
+    },
+    {
+      "name": "1920: workflow reserves height across all steps",
+      "passed": true,
+      "details": [
+        676,
+        676,
+        676,
+        676
+      ]
+    },
+    {
+      "name": "1920: example restarts on touch",
+      "passed": true
+    },
+    {
+      "name": "1920: example advances on touch",
+      "passed": true
+    },
+    {
+      "name": "1920: demo makes no request or navigation",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "1920: AI feature leads to existing service",
+      "passed": true
+    },
+    {
+      "name": "1920: project CTA reaches enabled privacy-safe form",
+      "passed": true
+    },
+    {
+      "name": "Service hover uses a small three-pixel lift",
+      "passed": true
+    },
+    {
+      "name": "Reduced motion removes service hover and active reveals",
+      "passed": true
+    },
+    {
+      "name": "No-JS hero and workflow explanation are present",
+      "passed": false
+    }
+  ],
+  "failures": [
+    {
+      "name": "768: AI feature leads to existing service",
+      "passed": false
+    },
+    {
+      "name": "No-JS hero and workflow explanation are present",
+      "passed": false
+    }
+  ],
+  "layouts": [
+    {
+      "width": 360,
+      "documentWidth": 360,
+      "height": 16186,
+      "chapters": [
+        "hero company-hero",
+        "section home-introduction",
+        "section services-editorial",
+        "section ai-feature",
+        "section work-section",
+        "section industries-editorial",
+        "section home-process",
+        "section product-editorial",
+        "section insights-editorial",
+        "contact-cta"
+      ],
+      "clipped": [],
+      "heroActions": [
+        {
+          "height": 50,
+          "href": "/contact"
+        },
+        {
+          "height": 50,
+          "href": "/services"
+        }
+      ],
+      "stage": [
+        {
+          "ratio": 1.6020942408376964,
+          "fit": "contain"
+        },
+        {
+          "ratio": 1.6020942408376964,
+          "fit": "contain"
+        },
+        {
+          "ratio": 1.6020942408376964,
+          "fit": "contain"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "documentWidth": 390,
+      "height": 15655,
+      "chapters": [
+        "hero company-hero",
+        "section home-introduction",
+        "section services-editorial",
+        "section ai-feature",
+        "section work-section",
+        "section industries-editorial",
+        "section home-process",
+        "section product-editorial",
+        "section insights-editorial",
+        "contact-cta"
+      ],
+      "clipped": [],
+      "heroActions": [
+        {
+          "height": 50,
+          "href": "/contact"
+        },
+        {
+          "height": 50,
+          "href": "/services"
+        }
+      ],
+      "stage": [
+        {
+          "ratio": 1.6,
+          "fit": "contain"
+        },
+        {
+          "ratio": 1.6,
+          "fit": "contain"
+        },
+        {
+          "ratio": 1.6,
+          "fit": "contain"
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "documentWidth": 768,
+      "height": 12137,
+      "chapters": [
+        "hero company-hero",
+        "section home-introduction",
+        "section services-editorial",
+        "section ai-feature",
+        "section work-section",
+        "section industries-editorial",
+        "section home-process",
+        "section product-editorial",
+        "section insights-editorial",
+        "contact-cta"
+      ],
+      "clipped": [],
+      "heroActions": [
+        {
+          "height": 51.6875,
+          "href": "/contact"
+        },
+        {
+          "height": 51.6875,
+          "href": "/services"
+        }
+      ],
+      "stage": [
+        {
+          "ratio": 1.5979899497487438,
+          "fit": "contain"
+        },
+        {
+          "ratio": 1.5979899497487438,
+          "fit": "contain"
+        },
+        {
+          "ratio": 1.5979899497487438,
+          "fit": "contain"
+        }
+      ]
+    },
+    {
+      "width": 1024,
+      "documentWidth": 1024,
+      "height": 9976,
+      "chapters": [
+        "hero company-hero",
+        "section home-introduction",
+        "section services-editorial",
+        "section ai-feature",
+        "section work-section",
+        "section industries-editorial",
+        "section home-process",
+        "section product-editorial",
+        "section insights-editorial",
+        "contact-cta"
+      ],
+      "clipped": [],
+      "heroActions": [
+        {
+          "height": 51.6875,
+          "href": "/contact"
+        },
+        {
+          "height": 51.6875,
+          "href": "/services"
+        }
+      ],
+      "stage": [
+        {
+          "ratio": 1.6013986013986015,
+          "fit": "contain"
+        },
+        {
+          "ratio": 1.6013986013986015,
+          "fit": "contain"
+        },
+        {
+          "ratio": 1.6013986013986015,
+          "fit": "contain"
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "documentWidth": 1440,
+      "height": 10012,
+      "chapters": [
+        "hero company-hero",
+        "section home-introduction",
+        "section services-editorial",
+        "section ai-feature",
+        "section work-section",
+        "section industries-editorial",
+        "section home-process",
+        "section product-editorial",
+        "section insights-editorial",
+        "contact-cta"
+      ],
+      "clipped": [],
+      "heroActions": [
+        {
+          "height": 51.6875,
+          "href": "/contact"
+        },
+        {
+          "height": 51.6875,
+          "href": "/services"
+        }
+      ],
+      "stage": [
+        {
+          "ratio": 1.6,
+          "fit": "contain"
+        },
+        {
+          "ratio": 1.6,
+          "fit": "contain"
+        },
+        {
+          "ratio": 1.6,
+          "fit": "contain"
+        }
+      ]
+    },
+    {
+      "width": 1920,
+      "documentWidth": 1920,
+      "height": 10012,
+      "chapters": [
+        "hero company-hero",
+        "section home-introduction",
+        "section services-editorial",
+        "section ai-feature",
+        "section work-section",
+        "section industries-editorial",
+        "section home-process",
+        "section product-editorial",
+        "section insights-editorial",
+        "contact-cta"
+      ],
+      "clipped": [],
+      "heroActions": [
+        {
+          "height": 51.6875,
+          "href": "/contact"
+        },
+        {
+          "height": 51.6875,
+          "href": "/services"
+        }
+      ],
+      "stage": [
+        {
+          "ratio": 1.6,
+          "fit": "contain"
+        },
+        {
+          "ratio": 1.6,
+          "fit": "contain"
+        },
+        {
+          "ratio": 1.6,
+          "fit": "contain"
+        }
+      ]
+    }
+  ],
+  "workflow": [
+    {
+      "width": 360,
+      "step": 1,
+      "height": 791,
+      "selected": "true",
+      "heading": "A useful starting point."
+    },
+    {
+      "width": 360,
+      "step": 2,
+      "height": 791,
+      "selected": "true",
+      "heading": "Make the next step clearer."
+    },
+    {
+      "width": 360,
+      "step": 3,
+      "height": 791,
+      "selected": "true",
+      "heading": "Bring the context together."
+    },
+    {
+      "width": 360,
+      "step": 4,
+      "height": 791,
+      "selected": "true",
+      "heading": "Keep people in control."
+    },
+    {
+      "width": 390,
+      "step": 1,
+      "height": 791,
+      "selected": "true",
+      "heading": "A useful starting point."
+    },
+    {
+      "width": 390,
+      "step": 2,
+      "height": 791,
+      "selected": "true",
+      "heading": "Make the next step clearer."
+    },
+    {
+      "width": 390,
+      "step": 3,
+      "height": 791,
+      "selected": "true",
+      "heading": "Bring the context together."
+    },
+    {
+      "width": 390,
+      "step": 4,
+      "height": 791,
+      "selected": "true",
+      "heading": "Keep people in control."
+    },
+    {
+      "width": 768,
+      "step": 1,
+      "height": 664,
+      "selected": "true",
+      "heading": "A useful starting point."
+    },
+    {
+      "width": 768,
+      "step": 2,
+      "height": 664,
+      "selected": "true",
+      "heading": "Make the next step clearer."
+    },
+    {
+      "width": 768,
+      "step": 3,
+      "height": 664,
+      "selected": "true",
+      "heading": "Bring the context together."
+    },
+    {
+      "width": 768,
+      "step": 4,
+      "height": 664,
+      "selected": "true",
+      "heading": "Keep people in control."
+    },
+    {
+      "width": 1024,
+      "step": 1,
+      "height": 780,
+      "selected": "true",
+      "heading": "A useful starting point."
+    },
+    {
+      "width": 1024,
+      "step": 2,
+      "height": 780,
+      "selected": "true",
+      "heading": "Make the next step clearer."
+    },
+    {
+      "width": 1024,
+      "step": 3,
+      "height": 780,
+      "selected": "true",
+      "heading": "Bring the context together."
+    },
+    {
+      "width": 1024,
+      "step": 4,
+      "height": 780,
+      "selected": "true",
+      "heading": "Keep people in control."
+    },
+    {
+      "width": 1440,
+      "step": 1,
+      "height": 676,
+      "selected": "true",
+      "heading": "A useful starting point."
+    },
+    {
+      "width": 1440,
+      "step": 2,
+      "height": 676,
+      "selected": "true",
+      "heading": "Make the next step clearer."
+    },
+    {
+      "width": 1440,
+      "step": 3,
+      "height": 676,
+      "selected": "true",
+      "heading": "Bring the context together."
+    },
+    {
+      "width": 1440,
+      "step": 4,
+      "height": 676,
+      "selected": "true",
+      "heading": "Keep people in control."
+    },
+    {
+      "width": 1920,
+      "step": 1,
+      "height": 676,
+      "selected": "true",
+      "heading": "A useful starting point."
+    },
+    {
+      "width": 1920,
+      "step": 2,
+      "height": 676,
+      "selected": "true",
+      "heading": "Make the next step clearer."
+    },
+    {
+      "width": 1920,
+      "step": 3,
+      "height": 676,
+      "selected": "true",
+      "heading": "Bring the context together."
+    },
+    {
+      "width": 1920,
+      "step": 4,
+      "height": 676,
+      "selected": "true",
+      "heading": "Keep people in control."
+    }
+  ],
+  "accessibility": [
+    {
+      "width": 360,
+      "step": 1,
+      "violations": []
+    },
+    {
+      "width": 360,
+      "step": 2,
+      "violations": []
+    },
+    {
+      "width": 360,
+      "step": 3,
+      "violations": []
+    },
+    {
+      "width": 360,
+      "step": 4,
+      "violations": []
+    },
+    {
+      "width": 390,
+      "step": 1,
+      "violations": []
+    },
+    {
+      "width": 390,
+      "step": 2,
+      "violations": []
+    },
+    {
+      "width": 390,
+      "step": 3,
+      "violations": []
+    },
+    {
+      "width": 390,
+      "step": 4,
+      "violations": []
+    },
+    {
+      "width": 768,
+      "step": 1,
+      "violations": []
+    },
+    {
+      "width": 768,
+      "step": 2,
+      "violations": []
+    },
+    {
+      "width": 768,
+      "step": 3,
+      "violations": []
+    },
+    {
+      "width": 768,
+      "step": 4,
+      "violations": []
+    },
+    {
+      "width": 1024,
+      "step": 1,
+      "violations": []
+    },
+    {
+      "width": 1024,
+      "step": 2,
+      "violations": []
+    },
+    {
+      "width": 1024,
+      "step": 3,
+      "violations": []
+    },
+    {
+      "width": 1024,
+      "step": 4,
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "step": 1,
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "step": 2,
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "step": 3,
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "step": 4,
+      "violations": []
+    },
+    {
+      "width": 1920,
+      "step": 1,
+      "violations": []
+    },
+    {
+      "width": 1920,
+      "step": 2,
+      "violations": []
+    },
+    {
+      "width": 1920,
+      "step": 3,
+      "violations": []
+    },
+    {
+      "width": 1920,
+      "step": 4,
+      "violations": []
+    }
+  ],
+  "requests": []
+}

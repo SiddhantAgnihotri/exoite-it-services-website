@@ -1,50 +1,61 @@
+﻿import { serviceContent } from "../data/visualContent";
+import ContentHighlights from "../components/ui/ContentHighlights";
 import ServiceVisual from "../components/ui/ServiceVisual";
 import { Link, useParams } from "react-router-dom";
-import { ArrowRight, Plus } from "lucide-react";
+import { ArrowRight, Plus, Inbox, FileText, MessageSquare, Mail, Database, BookOpen, ChartNoAxesCombined, Globe2 } from "lucide-react";
 import { serviceDetails } from "../data/serviceDetails";
 import PageHero from "../components/ui/PageHero";
 import SectionHeading from "../components/ui/SectionHeading";
 import Breadcrumbs from "../components/ui/Breadcrumbs";
 import NotFound from "./NotFound";
+import AIServiceVisual from "../components/ui/AIServiceVisual";
+import AIServiceConsiderations from "../components/sections/AIServiceConsiderations";
+import { aiDisclosure } from "../data/aiServices";
+
+const iconForUseCase = title => /lead|enquiry|enquiries/i.test(title) ? Inbox : /email/i.test(title) ? Mail : /document/i.test(title) ? FileText : /report|summar/i.test(title) ? ChartNoAxesCombined : /knowledge|learning|course/i.test(title) ? BookOpen : /CRM|record|inventory/i.test(title) ? Database : /customer|support/i.test(title) ? MessageSquare : Globe2;
 
 export default function ServiceDetail() {
   const { slug } = useParams();
   const service = serviceDetails.find((item) => item.slug === slug);
   if (!service) return <NotFound />;
+  const content = serviceContent[service.slug];
   const enquiry = `/contact?service=${encodeURIComponent(service.enquiry)}`;
-  const family = ["school-institute-solutions", "it-training"].includes(
+  const family = service.family || (["school-institute-solutions", "it-training"].includes(
     service.slug,
   )
     ? "education"
     : service.slug === "digital-marketing"
       ? "advisory"
-      : "engineering";
+      : "engineering");
   return (
     <main className={"service-detail-page service-family-" + family}>
       <Breadcrumbs />
       <PageHero
         variant={family}
         visual={
-          family !== "advisory" ? <ServiceVisual slug={service.slug} /> : null
+          family === "ai" ? <AIServiceVisual variant={service.visual} /> : <ServiceVisual slug={service.slug} />
         }
         label={service.name}
         title={service.title}
-        description={service.description}
+        description={content.intro}
       >
         <Link className="button button-primary" to={enquiry}>
-          Enquire Now <ArrowRight size={16} />
+          {service.cta || "Enquire Now"} <ArrowRight size={16} aria-hidden="true" />
         </Link>
+        {family === "ai" && <p className="ai-hero-disclosure">Potential solutions. No completed AI client projects are implied.</p>}
       </PageHero>
       <section className="section">
         <div className="container split-layout">
           <div>
-            <p className="eyebrow">Service overview</p>
-            <h2>A clear starting point for your project.</h2>
+            <p className="eyebrow">{family === "ai" ? "Business challenges" : "Service overview"}</p>
+            <h2>{service.overviewHeading || "A clear starting point for your project."}</h2>
+            <ContentHighlights items={service.challenges || content.points} />
           </div>
-          <div className="prose">
-            <p>{service.overview}</p>
+          <div className="service-scope-summary">
+            <p className="content-lead">{content.summary}</p>
             <h3 className="content-subheading">Who this is for</h3>
-            <p>{service.audience}</p>
+            <ul className="scope-chips">{content.audience.map(item => <li key={item}>{item}</li>)}</ul>
+            <details className="content-detail"><summary>Scope &amp; audience details</summary><p>{service.overview}</p><p>{service.audience}</p></details>
           </div>
         </div>
       </section>
@@ -54,16 +65,17 @@ export default function ServiceDetail() {
             eyebrow="Common use cases"
             title="Where this service can help."
           />
+          {family === "ai" && <p className="ai-disclosure">{aiDisclosure}</p>}
           <div className="use-case-grid">
-            {service.useCases.map(([title, description]) => (
+            {service.useCases.map(([title, description]) => { const Icon = iconForUseCase(title); return (
               <article key={title}>
-                <span className="use-case-number">
+                <Icon className="use-case-icon" size={27} aria-hidden="true" /><span className="use-case-number">
                   0{service.useCases.findIndex((item) => item[0] === title) + 1}
                 </span>
                 <h3>{title}</h3>
                 <p>{description}</p>
               </article>
-            ))}
+            ); })}
           </div>
         </div>
       </section>
@@ -71,14 +83,13 @@ export default function ServiceDetail() {
         <div className="container split-layout">
           <div>
             <p className="eyebrow">Features & deliverables</p>
-            <h2>
+            {service.deliverablesHeading ? <h2>{service.deliverablesHeading}</h2> : <h2>
               Define the work.
               <br />
               Agree the responsibilities.
-            </h2>
+            </h2>}
             <p className="section-description">
-              The final scope is set in your proposal. These are the areas we
-              can discuss, rather than a fixed package or price.
+              Scope is agreed in your proposal, not a fixed package.
             </p>
           </div>
           <ul className="deliverable-list">
@@ -92,7 +103,7 @@ export default function ServiceDetail() {
         <div className="container">
           <SectionHeading
             eyebrow="Our approach"
-            title="A plan suited to this work."
+            title={service.approachHeading || "A plan suited to this work."}
           />
           <ol className="service-process">
             {service.approach.map(([title, description], index) => (
@@ -105,6 +116,7 @@ export default function ServiceDetail() {
           </ol>
         </div>
       </section>
+      {family === "ai" && <AIServiceConsiderations slug={service.slug} />}
       <section className="section">
         <div className="container faq-layout">
           <div>
@@ -138,12 +150,11 @@ export default function ServiceDetail() {
             <p className="eyebrow">Discuss your requirements</p>
             <h2>Let's find a practical way forward.</h2>
             <p>
-              Share your goals, budget range and timing, if known. Your service
-              will be selected in the enquiry form.
+              Share your goal. Your service will be preselected.
             </p>
           </div>
           <Link className="button button-primary" to={enquiry}>
-            Enquire Now <ArrowRight size={16} />
+            {service.cta || "Enquire Now"} <ArrowRight size={16} aria-hidden="true" />
           </Link>
         </div>
       </section>

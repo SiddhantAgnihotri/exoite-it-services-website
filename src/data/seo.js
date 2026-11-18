@@ -9,9 +9,9 @@ export const pages = {
   "/": {
     label: "Home",
     title:
-      "Website & Software Development Company in Kanpur | Exoite IT Services",
+      "Web, Software & AI Automation Company in Kanpur | Exoite",
     description:
-      "Exoite IT Services builds websites, mobile apps and custom software in Kanpur for businesses across India and internationally. Discuss your project.",
+      "Exoite IT Services offers websites, apps, custom software, AI automation and chatbots from Kanpur for businesses across India and internationally.",
   },
   "/about": {
     label: "About",
@@ -21,9 +21,9 @@ export const pages = {
   },
   "/services": {
     label: "Services",
-    title: "Website, App & Custom Software Development Services | Exoite",
+    title: "Web, Software, AI & Automation Services | Exoite IT Services",
     description:
-      "Explore website development, mobile apps, custom software, school management systems, LMS development and digital marketing from Exoite IT Services.",
+      "Explore website and app development, custom software, AI automation, chatbots, business integrations, digital marketing and IT training with Exoite.",
   },
   "/products": {
     label: "Products",
@@ -61,7 +61,7 @@ export const pages = {
       {
         label: service.name,
         title: `${service.name} Services | Exoite IT Services`,
-        description: service.description,
+        description: service.seoDescription || service.description,
         parent: "/services",
       },
     ]),
@@ -101,14 +101,7 @@ export const pages = {
   ),
 };
 
-export const serviceNames = [
-  "Website Development",
-  "Mobile App Development",
-  "Custom Software Development",
-  "School and Institute Software",
-  "Digital Marketing",
-  "IT Training and Workshops",
-];
+export const serviceNames = serviceDetails.map(service => service.name);
 
 export function structuredData(path) {
   const business = {

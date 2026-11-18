@@ -1,0 +1,16 @@
+{
+  "modified": [
+    "src/components/sections/Hero.jsx",
+    "scripts/interaction-polish.browser.mjs",
+    "scripts/premium-visual-refinement.browser.mjs",
+    "scripts/site.test.mjs"
+  ],
+  "added": [
+    "src/components/ui/HeroMotionVisual.jsx",
+    "src/styles/hero-motion.css",
+    "scripts/hero-motion-refinement.browser.mjs"
+  ],
+  "unexpected": [],
+  "unchangedExistingFiles": 178,
+  "allExistingFiles": 182
+}

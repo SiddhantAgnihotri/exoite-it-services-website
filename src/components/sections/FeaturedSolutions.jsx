@@ -9,9 +9,9 @@ export default function FeaturedSolutions({ detailed = false }) {
       <div className="container">
         {!detailed && (
           <SectionHeading
-            eyebrow="02 / Solution studies"
-            title="Software, in context."
-            description="Explore the problem, the possible workflow and the interface. These are illustrative concepts, not completed client projects."
+            eyebrow="04 / Software concepts"
+            title="Explore a possible solution."
+            description="Software concepts for business and education. Not completed client projects."
           >
             <Link to="/portfolio" className="text-link">
               All solution studies <ArrowUpRight size={17} />

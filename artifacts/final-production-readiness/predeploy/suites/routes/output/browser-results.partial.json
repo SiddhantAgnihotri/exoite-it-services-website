@@ -1,0 +1,3691 @@
+{
+  "date": "2026-11-17",
+  "tool": "Playwright 1.65.1, axe-core Playwright 4.14.0",
+  "routes": [
+    {
+      "path": "/",
+      "width": 360,
+      "status": 200,
+      "title": "Web, Software & AI Automation Company in Kanpur | Exoite",
+      "viewport": 360,
+      "documentWidth": 360,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/",
+      "robots": "index,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Or talk to us on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Contact Exoite on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/home-360.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "count": 6
+          }
+        ]
+      }
+    },
+    {
+      "path": "/",
+      "width": 1440,
+      "status": 200,
+      "title": "Web, Software & AI Automation Company in Kanpur | Exoite",
+      "viewport": 1440,
+      "documentWidth": 1440,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/",
+      "robots": "index,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Or talk to us on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Contact Exoite on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/home-1440.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "count": 6
+          }
+        ]
+      }
+    },
+    {
+      "path": "/",
+      "width": 768,
+      "status": 200,
+      "title": "Web, Software & AI Automation Company in Kanpur | Exoite",
+      "viewport": 768,
+      "documentWidth": 768,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/",
+      "robots": "index,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Or talk to us on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Contact Exoite on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/home-768.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "count": 6
+          }
+        ]
+      }
+    },
+    {
+      "path": "/",
+      "width": 390,
+      "status": 200,
+      "title": "Web, Software & AI Automation Company in Kanpur | Exoite",
+      "viewport": 390,
+      "documentWidth": 390,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/",
+      "robots": "index,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Or talk to us on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Contact Exoite on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/home-390.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "count": 6
+          }
+        ]
+      }
+    },
+    {
+      "path": "/about",
+      "width": 390,
+      "status": 200,
+      "title": "About Exoite IT Services | IT Company in Kanpur",
+      "viewport": 390,
+      "documentWidth": 390,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/about",
+      "robots": "index,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Or talk to us on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Contact Exoite on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/about-390.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "path": "/about",
+      "width": 768,
+      "status": 200,
+      "title": "About Exoite IT Services | IT Company in Kanpur",
+      "viewport": 768,
+      "documentWidth": 768,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/about",
+      "robots": "index,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Or talk to us on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Contact Exoite on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/about-768.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "path": "/about",
+      "width": 1440,
+      "status": 200,
+      "title": "About Exoite IT Services | IT Company in Kanpur",
+      "viewport": 1440,
+      "documentWidth": 1440,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/about",
+      "robots": "index,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Or talk to us on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Contact Exoite on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/about-1440.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "path": "/about",
+      "width": 360,
+      "status": 200,
+      "title": "About Exoite IT Services | IT Company in Kanpur",
+      "viewport": 360,
+      "documentWidth": 360,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/about",
+      "robots": "index,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Or talk to us on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Contact Exoite on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/about-360.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "path": "/services",
+      "width": 360,
+      "status": 200,
+      "title": "Web, Software, AI & Automation Services | Exoite IT Services",
+      "viewport": 360,
+      "documentWidth": 360,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/services",
+      "robots": "index,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Or talk to us on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Contact Exoite on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/services-360.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "path": "/services",
+      "width": 390,
+      "status": 200,
+      "title": "Web, Software, AI & Automation Services | Exoite IT Services",
+      "viewport": 390,
+      "documentWidth": 390,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/services",
+      "robots": "index,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Or talk to us on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Contact Exoite on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/services-390.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "path": "/services",
+      "width": 1440,
+      "status": 200,
+      "title": "Web, Software, AI & Automation Services | Exoite IT Services",
+      "viewport": 1440,
+      "documentWidth": 1440,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/services",
+      "robots": "index,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Or talk to us on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Contact Exoite on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/services-1440.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "path": "/services",
+      "width": 768,
+      "status": 200,
+      "title": "Web, Software, AI & Automation Services | Exoite IT Services",
+      "viewport": 768,
+      "documentWidth": 768,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/services",
+      "robots": "index,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Or talk to us on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Contact Exoite on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/services-768.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "path": "/products",
+      "width": 390,
+      "status": 200,
+      "title": "Exoite Social Media Platform | In Development | Exoite IT Services",
+      "viewport": 390,
+      "documentWidth": 390,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/products",
+      "robots": "index,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Contact Exoite on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/products-390.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "path": "/products",
+      "width": 360,
+      "status": 200,
+      "title": "Exoite Social Media Platform | In Development | Exoite IT Services",
+      "viewport": 360,
+      "documentWidth": 360,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/products",
+      "robots": "index,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Contact Exoite on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/products-360.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "path": "/products",
+      "width": 768,
+      "status": 200,
+      "title": "Exoite Social Media Platform | In Development | Exoite IT Services",
+      "viewport": 768,
+      "documentWidth": 768,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/products",
+      "robots": "index,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Contact Exoite on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/products-768.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "path": "/products",
+      "width": 1440,
+      "status": 200,
+      "title": "Exoite Social Media Platform | In Development | Exoite IT Services",
+      "viewport": 1440,
+      "documentWidth": 1440,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/products",
+      "robots": "index,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Contact Exoite on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/products-1440.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "path": "/portfolio",
+      "width": 390,
+      "status": 200,
+      "title": "Software Demos & Solution Concepts | Exoite IT Services",
+      "viewport": 390,
+      "documentWidth": 390,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/portfolio",
+      "robots": "index,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Or talk to us on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Contact Exoite on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/portfolio-390.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "path": "/portfolio",
+      "width": 360,
+      "status": 200,
+      "title": "Software Demos & Solution Concepts | Exoite IT Services",
+      "viewport": 360,
+      "documentWidth": 360,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/portfolio",
+      "robots": "index,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Or talk to us on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Contact Exoite on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/portfolio-360.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "path": "/portfolio",
+      "width": 1440,
+      "status": 200,
+      "title": "Software Demos & Solution Concepts | Exoite IT Services",
+      "viewport": 1440,
+      "documentWidth": 1440,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/portfolio",
+      "robots": "index,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Or talk to us on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Contact Exoite on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/portfolio-1440.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "path": "/portfolio",
+      "width": 768,
+      "status": 200,
+      "title": "Software Demos & Solution Concepts | Exoite IT Services",
+      "viewport": 768,
+      "documentWidth": 768,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/portfolio",
+      "robots": "index,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Or talk to us on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Contact Exoite on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/portfolio-768.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "path": "/training",
+      "width": 768,
+      "status": 200,
+      "title": "IT Training & Coding Workshops in Kanpur | Exoite IT Services",
+      "viewport": 768,
+      "documentWidth": 768,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/training",
+      "robots": "index,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20would%20like%20to%20enquire%20about%20Web%20Development.",
+          "name": "Enquire about this program: Web Development"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20would%20like%20to%20enquire%20about%20MERN%20Stack%20Development.",
+          "name": "Enquire about this program: MERN Stack Development"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20would%20like%20to%20enquire%20about%20Python%20Programming.",
+          "name": "Enquire about this program: Python Programming"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20would%20like%20to%20enquire%20about%20Flutter%20App%20Development.",
+          "name": "Enquire about this program: Flutter App Development"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20would%20like%20to%20enquire%20about%20Robotics%20%26%20Coding.",
+          "name": "Enquire about this program: Robotics & Coding"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20would%20like%20to%20enquire%20about%20Corporate%20IT%20Training.",
+          "name": "Enquire about this program: Corporate IT Training"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20would%20like%20to%20enquire%20about%20a%20custom%20training%20program.",
+          "name": "Discuss a custom program"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Or talk to us on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Contact Exoite on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/training-768.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "path": "/training",
+      "width": 360,
+      "status": 200,
+      "title": "IT Training & Coding Workshops in Kanpur | Exoite IT Services",
+      "viewport": 360,
+      "documentWidth": 360,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/training",
+      "robots": "index,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20would%20like%20to%20enquire%20about%20Web%20Development.",
+          "name": "Enquire about this program: Web Development"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20would%20like%20to%20enquire%20about%20MERN%20Stack%20Development.",
+          "name": "Enquire about this program: MERN Stack Development"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20would%20like%20to%20enquire%20about%20Python%20Programming.",
+          "name": "Enquire about this program: Python Programming"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20would%20like%20to%20enquire%20about%20Flutter%20App%20Development.",
+          "name": "Enquire about this program: Flutter App Development"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20would%20like%20to%20enquire%20about%20Robotics%20%26%20Coding.",
+          "name": "Enquire about this program: Robotics & Coding"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20would%20like%20to%20enquire%20about%20Corporate%20IT%20Training.",
+          "name": "Enquire about this program: Corporate IT Training"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20would%20like%20to%20enquire%20about%20a%20custom%20training%20program.",
+          "name": "Discuss a custom program"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Or talk to us on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Contact Exoite on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/training-360.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "path": "/training",
+      "width": 1440,
+      "status": 200,
+      "title": "IT Training & Coding Workshops in Kanpur | Exoite IT Services",
+      "viewport": 1440,
+      "documentWidth": 1440,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/training",
+      "robots": "index,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20would%20like%20to%20enquire%20about%20Web%20Development.",
+          "name": "Enquire about this program: Web Development"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20would%20like%20to%20enquire%20about%20MERN%20Stack%20Development.",
+          "name": "Enquire about this program: MERN Stack Development"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20would%20like%20to%20enquire%20about%20Python%20Programming.",
+          "name": "Enquire about this program: Python Programming"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20would%20like%20to%20enquire%20about%20Flutter%20App%20Development.",
+          "name": "Enquire about this program: Flutter App Development"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20would%20like%20to%20enquire%20about%20Robotics%20%26%20Coding.",
+          "name": "Enquire about this program: Robotics & Coding"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20would%20like%20to%20enquire%20about%20Corporate%20IT%20Training.",
+          "name": "Enquire about this program: Corporate IT Training"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20would%20like%20to%20enquire%20about%20a%20custom%20training%20program.",
+          "name": "Discuss a custom program"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Or talk to us on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Contact Exoite on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/training-1440.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "path": "/training",
+      "width": 390,
+      "status": 200,
+      "title": "IT Training & Coding Workshops in Kanpur | Exoite IT Services",
+      "viewport": 390,
+      "documentWidth": 390,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/training",
+      "robots": "index,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20would%20like%20to%20enquire%20about%20Web%20Development.",
+          "name": "Enquire about this program: Web Development"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20would%20like%20to%20enquire%20about%20MERN%20Stack%20Development.",
+          "name": "Enquire about this program: MERN Stack Development"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20would%20like%20to%20enquire%20about%20Python%20Programming.",
+          "name": "Enquire about this program: Python Programming"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20would%20like%20to%20enquire%20about%20Flutter%20App%20Development.",
+          "name": "Enquire about this program: Flutter App Development"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20would%20like%20to%20enquire%20about%20Robotics%20%26%20Coding.",
+          "name": "Enquire about this program: Robotics & Coding"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20would%20like%20to%20enquire%20about%20Corporate%20IT%20Training.",
+          "name": "Enquire about this program: Corporate IT Training"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20would%20like%20to%20enquire%20about%20a%20custom%20training%20program.",
+          "name": "Discuss a custom program"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Or talk to us on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Contact Exoite on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/training-390.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "path": "/contact",
+      "width": 360,
+      "status": 200,
+      "title": "Contact Exoite IT Services | Discuss Your Project",
+      "viewport": 360,
+      "documentWidth": 360,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/contact",
+      "robots": "index,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%0A%0AI%20want%20to%20discuss%20a%20project.%0A%0AName%3A%20%0APhone%3A%20%0AEmail%3A%20%0AService%20Required%3A%20%0ABudget%3A%20Not%20mentioned%0ATimeline%3A%20Not%20mentioned%0A%0AMessage%3A%0A",
+          "name": "Send via WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/contact-360.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "path": "/contact",
+      "width": 768,
+      "status": 200,
+      "title": "Contact Exoite IT Services | Discuss Your Project",
+      "viewport": 768,
+      "documentWidth": 768,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/contact",
+      "robots": "index,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%0A%0AI%20want%20to%20discuss%20a%20project.%0A%0AName%3A%20%0APhone%3A%20%0AEmail%3A%20%0AService%20Required%3A%20%0ABudget%3A%20Not%20mentioned%0ATimeline%3A%20Not%20mentioned%0A%0AMessage%3A%0A",
+          "name": "Send via WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/contact-768.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "path": "/contact",
+      "width": 1440,
+      "status": 200,
+      "title": "Contact Exoite IT Services | Discuss Your Project",
+      "viewport": 1440,
+      "documentWidth": 1440,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/contact",
+      "robots": "index,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%0A%0AI%20want%20to%20discuss%20a%20project.%0A%0AName%3A%20%0APhone%3A%20%0AEmail%3A%20%0AService%20Required%3A%20%0ABudget%3A%20Not%20mentioned%0ATimeline%3A%20Not%20mentioned%0A%0AMessage%3A%0A",
+          "name": "Send via WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/contact-1440.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "path": "/contact",
+      "width": 390,
+      "status": 200,
+      "title": "Contact Exoite IT Services | Discuss Your Project",
+      "viewport": 390,
+      "documentWidth": 390,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/contact",
+      "robots": "index,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%0A%0AI%20want%20to%20discuss%20a%20project.%0A%0AName%3A%20%0APhone%3A%20%0AEmail%3A%20%0AService%20Required%3A%20%0ABudget%3A%20Not%20mentioned%0ATimeline%3A%20Not%20mentioned%0A%0AMessage%3A%0A",
+          "name": "Send via WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/contact-390.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "path": "/insights",
+      "width": 768,
+      "status": 200,
+      "title": "Website & Software Planning Guides | Exoite Insights",
+      "viewport": 768,
+      "documentWidth": 768,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/insights",
+      "robots": "index,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Contact Exoite on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/insights-768.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "count": 6
+          }
+        ]
+      }
+    },
+    {
+      "path": "/insights",
+      "width": 360,
+      "status": 200,
+      "title": "Website & Software Planning Guides | Exoite Insights",
+      "viewport": 360,
+      "documentWidth": 360,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/insights",
+      "robots": "index,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Contact Exoite on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/insights-360.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "count": 6
+          }
+        ]
+      }
+    },
+    {
+      "path": "/insights",
+      "width": 390,
+      "status": 200,
+      "title": "Website & Software Planning Guides | Exoite Insights",
+      "viewport": 390,
+      "documentWidth": 390,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/insights",
+      "robots": "index,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Contact Exoite on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/insights-390.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "count": 6
+          }
+        ]
+      }
+    },
+    {
+      "path": "/insights",
+      "width": 1440,
+      "status": 200,
+      "title": "Website & Software Planning Guides | Exoite Insights",
+      "viewport": 1440,
+      "documentWidth": 1440,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/insights",
+      "robots": "index,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Contact Exoite on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/insights-1440.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "count": 6
+          }
+        ]
+      }
+    },
+    {
+      "path": "/services/website-development",
+      "width": 390,
+      "status": 200,
+      "title": "Website Development Services | Exoite IT Services",
+      "viewport": 390,
+      "documentWidth": 390,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/services/website-development",
+      "robots": "index,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Contact Exoite on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/services--website-development-390.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "path": "/services/website-development",
+      "width": 360,
+      "status": 200,
+      "title": "Website Development Services | Exoite IT Services",
+      "viewport": 360,
+      "documentWidth": 360,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/services/website-development",
+      "robots": "index,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Contact Exoite on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/services--website-development-360.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "path": "/services/website-development",
+      "width": 768,
+      "status": 200,
+      "title": "Website Development Services | Exoite IT Services",
+      "viewport": 768,
+      "documentWidth": 768,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/services/website-development",
+      "robots": "index,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Contact Exoite on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/services--website-development-768.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "path": "/services/website-development",
+      "width": 1440,
+      "status": 200,
+      "title": "Website Development Services | Exoite IT Services",
+      "viewport": 1440,
+      "documentWidth": 1440,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/services/website-development",
+      "robots": "index,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Contact Exoite on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/services--website-development-1440.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "path": "/services/custom-software-development",
+      "width": 768,
+      "status": 200,
+      "title": "Custom Software Development Services | Exoite IT Services",
+      "viewport": 768,
+      "documentWidth": 768,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/services/custom-software-development",
+      "robots": "index,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Contact Exoite on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/services--custom-software-development-768.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "path": "/services/custom-software-development",
+      "width": 360,
+      "status": 200,
+      "title": "Custom Software Development Services | Exoite IT Services",
+      "viewport": 360,
+      "documentWidth": 360,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/services/custom-software-development",
+      "robots": "index,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Contact Exoite on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/services--custom-software-development-360.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "path": "/services/custom-software-development",
+      "width": 390,
+      "status": 200,
+      "title": "Custom Software Development Services | Exoite IT Services",
+      "viewport": 390,
+      "documentWidth": 390,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/services/custom-software-development",
+      "robots": "index,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Contact Exoite on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/services--custom-software-development-390.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "path": "/services/custom-software-development",
+      "width": 1440,
+      "status": 200,
+      "title": "Custom Software Development Services | Exoite IT Services",
+      "viewport": 1440,
+      "documentWidth": 1440,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/services/custom-software-development",
+      "robots": "index,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Contact Exoite on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/services--custom-software-development-1440.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "path": "/services/mobile-app-development",
+      "width": 360,
+      "status": 200,
+      "title": "Mobile App Development Services | Exoite IT Services",
+      "viewport": 360,
+      "documentWidth": 360,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/services/mobile-app-development",
+      "robots": "index,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Contact Exoite on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/services--mobile-app-development-360.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "path": "/services/mobile-app-development",
+      "width": 768,
+      "status": 200,
+      "title": "Mobile App Development Services | Exoite IT Services",
+      "viewport": 768,
+      "documentWidth": 768,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/services/mobile-app-development",
+      "robots": "index,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Contact Exoite on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/services--mobile-app-development-768.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "path": "/services/mobile-app-development",
+      "width": 390,
+      "status": 200,
+      "title": "Mobile App Development Services | Exoite IT Services",
+      "viewport": 390,
+      "documentWidth": 390,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/services/mobile-app-development",
+      "robots": "index,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Contact Exoite on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/services--mobile-app-development-390.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "path": "/services/mobile-app-development",
+      "width": 1440,
+      "status": 200,
+      "title": "Mobile App Development Services | Exoite IT Services",
+      "viewport": 1440,
+      "documentWidth": 1440,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/services/mobile-app-development",
+      "robots": "index,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Contact Exoite on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/services--mobile-app-development-1440.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "path": "/services/school-institute-solutions",
+      "width": 360,
+      "status": 200,
+      "title": "School and Institute Solutions Services | Exoite IT Services",
+      "viewport": 360,
+      "documentWidth": 360,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/services/school-institute-solutions",
+      "robots": "index,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Contact Exoite on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/services--school-institute-solutions-360.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "path": "/services/school-institute-solutions",
+      "width": 768,
+      "status": 200,
+      "title": "School and Institute Solutions Services | Exoite IT Services",
+      "viewport": 768,
+      "documentWidth": 768,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/services/school-institute-solutions",
+      "robots": "index,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Contact Exoite on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/services--school-institute-solutions-768.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "path": "/services/school-institute-solutions",
+      "width": 390,
+      "status": 200,
+      "title": "School and Institute Solutions Services | Exoite IT Services",
+      "viewport": 390,
+      "documentWidth": 390,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/services/school-institute-solutions",
+      "robots": "index,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Contact Exoite on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/services--school-institute-solutions-390.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "path": "/services/school-institute-solutions",
+      "width": 1440,
+      "status": 200,
+      "title": "School and Institute Solutions Services | Exoite IT Services",
+      "viewport": 1440,
+      "documentWidth": 1440,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/services/school-institute-solutions",
+      "robots": "index,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Contact Exoite on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/services--school-institute-solutions-1440.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "path": "/services/digital-marketing",
+      "width": 360,
+      "status": 200,
+      "title": "Digital Marketing Services | Exoite IT Services",
+      "viewport": 360,
+      "documentWidth": 360,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/services/digital-marketing",
+      "robots": "index,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Contact Exoite on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/services--digital-marketing-360.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "path": "/services/digital-marketing",
+      "width": 1440,
+      "status": 200,
+      "title": "Digital Marketing Services | Exoite IT Services",
+      "viewport": 1440,
+      "documentWidth": 1440,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/services/digital-marketing",
+      "robots": "index,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Contact Exoite on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/services--digital-marketing-1440.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "path": "/services/digital-marketing",
+      "width": 768,
+      "status": 200,
+      "title": "Digital Marketing Services | Exoite IT Services",
+      "viewport": 768,
+      "documentWidth": 768,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/services/digital-marketing",
+      "robots": "index,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Contact Exoite on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/services--digital-marketing-768.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "path": "/services/digital-marketing",
+      "width": 390,
+      "status": 200,
+      "title": "Digital Marketing Services | Exoite IT Services",
+      "viewport": 390,
+      "documentWidth": 390,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/services/digital-marketing",
+      "robots": "index,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Contact Exoite on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/services--digital-marketing-390.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "path": "/services/it-training",
+      "width": 360,
+      "status": 200,
+      "title": "IT Training Services | Exoite IT Services",
+      "viewport": 360,
+      "documentWidth": 360,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/services/it-training",
+      "robots": "index,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Contact Exoite on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/services--it-training-360.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "path": "/services/it-training",
+      "width": 390,
+      "status": 200,
+      "title": "IT Training Services | Exoite IT Services",
+      "viewport": 390,
+      "documentWidth": 390,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/services/it-training",
+      "robots": "index,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Contact Exoite on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/services--it-training-390.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "path": "/services/it-training",
+      "width": 768,
+      "status": 200,
+      "title": "IT Training Services | Exoite IT Services",
+      "viewport": 768,
+      "documentWidth": 768,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/services/it-training",
+      "robots": "index,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Contact Exoite on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/services--it-training-768.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "path": "/services/it-training",
+      "width": 1440,
+      "status": 200,
+      "title": "IT Training Services | Exoite IT Services",
+      "viewport": 1440,
+      "documentWidth": 1440,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/services/it-training",
+      "robots": "index,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Contact Exoite on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/services--it-training-1440.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "path": "/services/ai-automation",
+      "width": 360,
+      "status": 200,
+      "title": "AI Automation Systems Services | Exoite IT Services",
+      "viewport": 360,
+      "documentWidth": 360,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/services/ai-automation",
+      "robots": "index,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Contact Exoite on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/services--ai-automation-360.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "path": "/services/ai-automation",
+      "width": 390,
+      "status": 200,
+      "title": "AI Automation Systems Services | Exoite IT Services",
+      "viewport": 390,
+      "documentWidth": 390,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/services/ai-automation",
+      "robots": "index,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Contact Exoite on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/services--ai-automation-390.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "path": "/services/ai-automation",
+      "width": 1440,
+      "status": 200,
+      "title": "AI Automation Systems Services | Exoite IT Services",
+      "viewport": 1440,
+      "documentWidth": 1440,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/services/ai-automation",
+      "robots": "index,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Contact Exoite on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/services--ai-automation-1440.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "path": "/services/ai-automation",
+      "width": 768,
+      "status": 200,
+      "title": "AI Automation Systems Services | Exoite IT Services",
+      "viewport": 768,
+      "documentWidth": 768,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/services/ai-automation",
+      "robots": "index,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Contact Exoite on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/services--ai-automation-768.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "path": "/services/ai-chatbots",
+      "width": 360,
+      "status": 200,
+      "title": "AI Chatbots & Virtual Assistants Services | Exoite IT Services",
+      "viewport": 360,
+      "documentWidth": 360,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/services/ai-chatbots",
+      "robots": "index,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Contact Exoite on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/services--ai-chatbots-360.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "path": "/services/ai-chatbots",
+      "width": 390,
+      "status": 200,
+      "title": "AI Chatbots & Virtual Assistants Services | Exoite IT Services",
+      "viewport": 390,
+      "documentWidth": 390,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/services/ai-chatbots",
+      "robots": "index,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Contact Exoite on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/services--ai-chatbots-390.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "path": "/services/ai-chatbots",
+      "width": 1440,
+      "status": 200,
+      "title": "AI Chatbots & Virtual Assistants Services | Exoite IT Services",
+      "viewport": 1440,
+      "documentWidth": 1440,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/services/ai-chatbots",
+      "robots": "index,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Contact Exoite on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/services--ai-chatbots-1440.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "path": "/services/ai-chatbots",
+      "width": 768,
+      "status": 200,
+      "title": "AI Chatbots & Virtual Assistants Services | Exoite IT Services",
+      "viewport": 768,
+      "documentWidth": 768,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/services/ai-chatbots",
+      "robots": "index,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Contact Exoite on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/services--ai-chatbots-768.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "path": "/services/ai-workflow-integration",
+      "width": 360,
+      "status": 200,
+      "title": "AI Workflow Integration Services | Exoite IT Services",
+      "viewport": 360,
+      "documentWidth": 360,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/services/ai-workflow-integration",
+      "robots": "index,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Contact Exoite on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/services--ai-workflow-integration-360.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "path": "/services/ai-workflow-integration",
+      "width": 390,
+      "status": 200,
+      "title": "AI Workflow Integration Services | Exoite IT Services",
+      "viewport": 390,
+      "documentWidth": 390,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/services/ai-workflow-integration",
+      "robots": "index,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Contact Exoite on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/services--ai-workflow-integration-390.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "path": "/services/ai-workflow-integration",
+      "width": 1440,
+      "status": 200,
+      "title": "AI Workflow Integration Services | Exoite IT Services",
+      "viewport": 1440,
+      "documentWidth": 1440,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/services/ai-workflow-integration",
+      "robots": "index,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Contact Exoite on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/services--ai-workflow-integration-1440.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "path": "/services/ai-workflow-integration",
+      "width": 768,
+      "status": 200,
+      "title": "AI Workflow Integration Services | Exoite IT Services",
+      "viewport": 768,
+      "documentWidth": 768,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/services/ai-workflow-integration",
+      "robots": "index,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Contact Exoite on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/services--ai-workflow-integration-768.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "path": "/services/ai-business-software",
+      "width": 390,
+      "status": 200,
+      "title": "AI-Powered Business Software Services | Exoite IT Services",
+      "viewport": 390,
+      "documentWidth": 390,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/services/ai-business-software",
+      "robots": "index,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Contact Exoite on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/services--ai-business-software-390.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "path": "/services/ai-business-software",
+      "width": 1440,
+      "status": 200,
+      "title": "AI-Powered Business Software Services | Exoite IT Services",
+      "viewport": 1440,
+      "documentWidth": 1440,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/services/ai-business-software",
+      "robots": "index,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Contact Exoite on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/services--ai-business-software-1440.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "path": "/services/ai-business-software",
+      "width": 768,
+      "status": 200,
+      "title": "AI-Powered Business Software Services | Exoite IT Services",
+      "viewport": 768,
+      "documentWidth": 768,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/services/ai-business-software",
+      "robots": "index,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Contact Exoite on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/services--ai-business-software-768.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "path": "/services/ai-business-software",
+      "width": 360,
+      "status": 200,
+      "title": "AI-Powered Business Software Services | Exoite IT Services",
+      "viewport": 360,
+      "documentWidth": 360,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/services/ai-business-software",
+      "robots": "index,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Contact Exoite on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/services--ai-business-software-360.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "path": "/portfolio/examify",
+      "width": 390,
+      "status": 200,
+      "title": "Online Examination Portal / Examify | Illustrative Solution Study | Exoite",
+      "viewport": 390,
+      "documentWidth": 390,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/portfolio/examify",
+      "robots": "index,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Contact Exoite on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/portfolio--examify-390.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "path": "/portfolio/examify",
+      "width": 768,
+      "status": 200,
+      "title": "Online Examination Portal / Examify | Illustrative Solution Study | Exoite",
+      "viewport": 768,
+      "documentWidth": 768,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/portfolio/examify",
+      "robots": "index,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Contact Exoite on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/portfolio--examify-768.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "path": "/portfolio/examify",
+      "width": 1440,
+      "status": 200,
+      "title": "Online Examination Portal / Examify | Illustrative Solution Study | Exoite",
+      "viewport": 1440,
+      "documentWidth": 1440,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/portfolio/examify",
+      "robots": "index,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Contact Exoite on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/portfolio--examify-1440.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "path": "/portfolio/examify",
+      "width": 360,
+      "status": 200,
+      "title": "Online Examination Portal / Examify | Illustrative Solution Study | Exoite",
+      "viewport": 360,
+      "documentWidth": 360,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/portfolio/examify",
+      "robots": "index,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Contact Exoite on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/portfolio--examify-360.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "path": "/portfolio/inventory-management",
+      "width": 768,
+      "status": 200,
+      "title": "Inventory Management System | Illustrative Solution Study | Exoite",
+      "viewport": 768,
+      "documentWidth": 768,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/portfolio/inventory-management",
+      "robots": "index,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Contact Exoite on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/portfolio--inventory-management-768.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "path": "/portfolio/inventory-management",
+      "width": 1440,
+      "status": 200,
+      "title": "Inventory Management System | Illustrative Solution Study | Exoite",
+      "viewport": 1440,
+      "documentWidth": 1440,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/portfolio/inventory-management",
+      "robots": "index,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Contact Exoite on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/portfolio--inventory-management-1440.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "path": "/portfolio/inventory-management",
+      "width": 390,
+      "status": 200,
+      "title": "Inventory Management System | Illustrative Solution Study | Exoite",
+      "viewport": 390,
+      "documentWidth": 390,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/portfolio/inventory-management",
+      "robots": "index,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Contact Exoite on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/portfolio--inventory-management-390.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "path": "/portfolio/inventory-management",
+      "width": 360,
+      "status": 200,
+      "title": "Inventory Management System | Illustrative Solution Study | Exoite",
+      "viewport": 360,
+      "documentWidth": 360,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/portfolio/inventory-management",
+      "robots": "index,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Contact Exoite on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/portfolio--inventory-management-360.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "path": "/portfolio/learning-management-system",
+      "width": 390,
+      "status": 200,
+      "title": "Learning Management System | Illustrative Solution Study | Exoite",
+      "viewport": 390,
+      "documentWidth": 390,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/portfolio/learning-management-system",
+      "robots": "index,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Contact Exoite on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/portfolio--learning-management-system-390.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "path": "/portfolio/learning-management-system",
+      "width": 1440,
+      "status": 200,
+      "title": "Learning Management System | Illustrative Solution Study | Exoite",
+      "viewport": 1440,
+      "documentWidth": 1440,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/portfolio/learning-management-system",
+      "robots": "index,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Contact Exoite on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/portfolio--learning-management-system-1440.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "path": "/portfolio/learning-management-system",
+      "width": 768,
+      "status": 200,
+      "title": "Learning Management System | Illustrative Solution Study | Exoite",
+      "viewport": 768,
+      "documentWidth": 768,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/portfolio/learning-management-system",
+      "robots": "index,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Contact Exoite on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/portfolio--learning-management-system-768.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "path": "/portfolio/learning-management-system",
+      "width": 360,
+      "status": 200,
+      "title": "Learning Management System | Illustrative Solution Study | Exoite",
+      "viewport": 360,
+      "documentWidth": 360,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/portfolio/learning-management-system",
+      "robots": "index,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Contact Exoite on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/portfolio--learning-management-system-360.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "path": "/insights/choosing-a-business-website",
+      "width": 390,
+      "status": 200,
+      "title": "Choosing a business website: start with the job it needs to do | Exoite Insights",
+      "viewport": 390,
+      "documentWidth": 390,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/insights/choosing-a-business-website",
+      "robots": "index,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Contact Exoite on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/insights--choosing-a-business-website-390.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "path": "/insights/choosing-a-business-website",
+      "width": 768,
+      "status": 200,
+      "title": "Choosing a business website: start with the job it needs to do | Exoite Insights",
+      "viewport": 768,
+      "documentWidth": 768,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/insights/choosing-a-business-website",
+      "robots": "index,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Contact Exoite on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/insights--choosing-a-business-website-768.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "path": "/insights/choosing-a-business-website",
+      "width": 1440,
+      "status": 200,
+      "title": "Choosing a business website: start with the job it needs to do | Exoite Insights",
+      "viewport": 1440,
+      "documentWidth": 1440,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/insights/choosing-a-business-website",
+      "robots": "index,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Contact Exoite on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/insights--choosing-a-business-website-1440.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "path": "/insights/choosing-a-business-website",
+      "width": 360,
+      "status": 200,
+      "title": "Choosing a business website: start with the job it needs to do | Exoite Insights",
+      "viewport": 360,
+      "documentWidth": 360,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/insights/choosing-a-business-website",
+      "robots": "index,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Contact Exoite on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/insights--choosing-a-business-website-360.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "path": "/insights/school-website-development-considerations",
+      "width": 390,
+      "status": 200,
+      "title": "Planning a school website: information, access and responsibility | Exoite Insights",
+      "viewport": 390,
+      "documentWidth": 390,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/insights/school-website-development-considerations",
+      "robots": "index,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Contact Exoite on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/insights--school-website-development-considerations-390.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "path": "/insights/school-website-development-considerations",
+      "width": 768,
+      "status": 200,
+      "title": "Planning a school website: information, access and responsibility | Exoite Insights",
+      "viewport": 768,
+      "documentWidth": 768,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/insights/school-website-development-considerations",
+      "robots": "index,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Contact Exoite on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/insights--school-website-development-considerations-768.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "path": "/insights/school-website-development-considerations",
+      "width": 1440,
+      "status": 200,
+      "title": "Planning a school website: information, access and responsibility | Exoite Insights",
+      "viewport": 1440,
+      "documentWidth": 1440,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/insights/school-website-development-considerations",
+      "robots": "index,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Contact Exoite on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/insights--school-website-development-considerations-1440.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "path": "/insights/school-website-development-considerations",
+      "width": 360,
+      "status": 200,
+      "title": "Planning a school website: information, access and responsibility | Exoite Insights",
+      "viewport": 360,
+      "documentWidth": 360,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/insights/school-website-development-considerations",
+      "robots": "index,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Contact Exoite on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/insights--school-website-development-considerations-360.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "path": "/insights/when-a-business-needs-custom-software",
+      "width": 360,
+      "status": 200,
+      "title": "When does a business need custom software? | Exoite Insights",
+      "viewport": 360,
+      "documentWidth": 360,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/insights/when-a-business-needs-custom-software",
+      "robots": "index,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Contact Exoite on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/insights--when-a-business-needs-custom-software-360.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "path": "/insights/when-a-business-needs-custom-software",
+      "width": 1440,
+      "status": 200,
+      "title": "When does a business need custom software? | Exoite Insights",
+      "viewport": 1440,
+      "documentWidth": 1440,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/insights/when-a-business-needs-custom-software",
+      "robots": "index,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Contact Exoite on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/insights--when-a-business-needs-custom-software-1440.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "path": "/insights/when-a-business-needs-custom-software",
+      "width": 390,
+      "status": 200,
+      "title": "When does a business need custom software? | Exoite Insights",
+      "viewport": 390,
+      "documentWidth": 390,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/insights/when-a-business-needs-custom-software",
+      "robots": "index,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Contact Exoite on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/insights--when-a-business-needs-custom-software-390.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "path": "/insights/when-a-business-needs-custom-software",
+      "width": 768,
+      "status": 200,
+      "title": "When does a business need custom software? | Exoite Insights",
+      "viewport": 768,
+      "documentWidth": 768,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/insights/when-a-business-needs-custom-software",
+      "robots": "index,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Contact Exoite on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/insights--when-a-business-needs-custom-software-768.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "path": "/privacy-policy",
+      "width": 360,
+      "status": 200,
+      "title": "Privacy Policy | Review Draft | Exoite IT Services",
+      "viewport": 360,
+      "documentWidth": 360,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/privacy-policy",
+      "robots": "noindex,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Contact Exoite on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/privacy-policy-360.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "path": "/privacy-policy",
+      "width": 390,
+      "status": 200,
+      "title": "Privacy Policy | Review Draft | Exoite IT Services",
+      "viewport": 390,
+      "documentWidth": 390,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/privacy-policy",
+      "robots": "noindex,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Contact Exoite on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/privacy-policy-390.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "path": "/privacy-policy",
+      "width": 1440,
+      "status": 200,
+      "title": "Privacy Policy | Review Draft | Exoite IT Services",
+      "viewport": 1440,
+      "documentWidth": 1440,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/privacy-policy",
+      "robots": "noindex,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Contact Exoite on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/privacy-policy-1440.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "path": "/privacy-policy",
+      "width": 768,
+      "status": 200,
+      "title": "Privacy Policy | Review Draft | Exoite IT Services",
+      "viewport": 768,
+      "documentWidth": 768,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/privacy-policy",
+      "robots": "noindex,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Contact Exoite on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/privacy-policy-768.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "path": "/terms-of-service",
+      "width": 360,
+      "status": 200,
+      "title": "Terms of Service | Review Draft | Exoite IT Services",
+      "viewport": 360,
+      "documentWidth": 360,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/terms-of-service",
+      "robots": "noindex,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Contact Exoite on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/terms-of-service-360.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "path": "/terms-of-service",
+      "width": 1440,
+      "status": 200,
+      "title": "Terms of Service | Review Draft | Exoite IT Services",
+      "viewport": 1440,
+      "documentWidth": 1440,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/terms-of-service",
+      "robots": "noindex,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Contact Exoite on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/terms-of-service-1440.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "path": "/terms-of-service",
+      "width": 768,
+      "status": 200,
+      "title": "Terms of Service | Review Draft | Exoite IT Services",
+      "viewport": 768,
+      "documentWidth": 768,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/terms-of-service",
+      "robots": "noindex,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Contact Exoite on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/terms-of-service-768.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "path": "/terms-of-service",
+      "width": 390,
+      "status": 200,
+      "title": "Terms of Service | Review Draft | Exoite IT Services",
+      "viewport": 390,
+      "documentWidth": 390,
+      "overflowing": [],
+      "brokenImages": [],
+      "canonical": "https://exoiteitservices.com/terms-of-service",
+      "robots": "noindex,follow",
+      "h1Count": 1,
+      "fonts": {
+        "heading": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+        "ready": "loaded"
+      },
+      "whatsapp": [
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "url": "https://wa.me/916394732841?text=Hello%20Exoite%20IT%20Services%2C%20I%20want%20to%20discuss%20a%20project.",
+          "name": "Contact Exoite on WhatsApp"
+        }
+      ],
+      "screenshot": "artifacts/production-fixes/terms-of-service-390.png",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    }
+  ],
+  "interactions": [],
+  "failures": [],
+  "consoleErrors": [],
+  "networkFailures": [],
+  "browser": "157.0.8103.79"
+}

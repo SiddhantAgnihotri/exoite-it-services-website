@@ -1,12 +1,15 @@
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Link, NavLink, useLocation } from "react-router-dom";
 import { ArrowUpRight, ChevronDown, Menu, X } from "lucide-react";
 import { serviceDetails } from "../../data/serviceDetails";
-import logo from "../../assets/logo.png";
+import logo from "../../assets/images/optimized/brand-mark-84.webp";
+import logoLarge from "../../assets/images/optimized/brand-mark-168.webp";
+import { aiServices } from "../../data/aiServices";
 const mobileLinks = [
   ["Home", "/"],
   ["About", "/about"],
   ["Services", "/services"],
+  ["AI & Automation", "/services/ai-automation"],
   ["Products", "/products"],
   ["Portfolio", "/portfolio"],
   ["Training", "/training"],
@@ -23,7 +26,25 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
   const toggleRef = useRef(null);
   const servicesRef = useRef(null);
+  const headerRef = useRef(null);
   const { pathname } = useLocation();
+  useEffect(() => {
+    const header = headerRef.current;
+    const onScroll = () => { header.dataset.scrolled = String(window.scrollY > 8); };
+    const onOutsideClick = (event) => {
+      if (!header.contains(event.target)) {
+        setOpen(false);
+        if (servicesRef.current) servicesRef.current.open = false;
+      }
+    };
+    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
+    document.addEventListener("pointerdown", onOutsideClick);
+    return () => {
+      window.removeEventListener("scroll", onScroll);
+      document.removeEventListener("pointerdown", onOutsideClick);
+    };
+  }, []);
   const closeMenus = () => {
     setOpen(false);
     if (servicesRef.current) servicesRef.current.open = false;
@@ -40,11 +61,13 @@ export default function Navbar() {
     }
   };
   return (
-    <header className="site-header" onKeyDown={escape}>
+    <header className="site-header" onKeyDown={escape} ref={headerRef}>
       <nav className="container navbar" aria-label="Main navigation">
         <Link to="/" className="brand" onClick={closeMenus}>
           <img
             src={logo}
+            srcSet={`${logo} 84w, ${logoLarge} 168w`}
+            sizes="42px"
             width={42}
             height={42}
             alt="Exoite IT Services logo"
@@ -81,7 +104,7 @@ export default function Navbar() {
               </div>
               <div>
                 <p className="eyebrow">More ways to work with us</p>
-                {serviceDetails.slice(3).map((service) => (
+                {serviceDetails.slice(3).filter(service => service.family !== "ai").map((service) => (
                   <Link
                     key={service.slug}
                     to={"/services/" + service.slug}
@@ -94,6 +117,10 @@ export default function Navbar() {
                 <Link to="/services" onClick={closeMenus}>
                   Explore all services
                 </Link>
+              </div>
+              <div>
+                <Link className="ai-nav-category" to="/services#ai-automation-solutions" onClick={closeMenus}>AI & Automation Solutions</Link>
+                {aiServices.map(service => <Link key={service.slug} to={"/services/" + service.slug} onClick={closeMenus}>{service.name}<ArrowUpRight size={14} aria-hidden="true" /></Link>)}
               </div>
             </div>
           </details>

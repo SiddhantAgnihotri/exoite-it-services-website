@@ -1,0 +1,11 @@
+import {chromium} from './node_modules/playwright/index.mjs';
+const browser=await chromium.launch({headless:true,executablePath:'C:/Program Files/Google/Chrome/Application/chrome.exe'});
+try {for(const width of [360,390,768]){
+ const page=await browser.newPage({viewport:{width,height:900}});
+ await page.goto('http://127.0.0.1:4173/',{waitUntil:'domcontentloaded'});await page.evaluate(()=>document.fonts.ready);
+ const height=await page.locator('.ai-feature').evaluate(el=>Math.ceil(el.getBoundingClientRect().height+88));
+ await page.setViewportSize({width,height});
+ await page.evaluate(()=>{document.activeElement?.blur();window.scrollTo({top:document.querySelector('.ai-feature').offsetTop-76,behavior:'instant'});});
+ await page.screenshot({path:`artifacts/ai-services/home-ai-${width}.png`,animations:'disabled'});
+ await page.close();
+}}finally{await browser.close();}

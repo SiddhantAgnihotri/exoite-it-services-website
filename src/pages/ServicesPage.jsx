@@ -1,16 +1,19 @@
 import { Link } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
+import { serviceContent } from "../data/visualContent";
+import ServiceCapabilityVisual from "../components/ui/ServiceCapabilityVisual";
 import PageHero from "../components/ui/PageHero";
 import { services } from "../data/services";
 import Process from "../components/sections/Process";
 import CTA from "../components/sections/CTA";
+import AIServicesCategory from "../components/sections/AIServicesCategory";
 export default function ServicesPage() {
   return (
     <main className="services-index-page">
       <PageHero
         label="Our services"
         title="Practical technology. Purposeful outcomes."
-        description="Website, app and custom software development, digital marketing and IT training. Planned around your business, your audience and the way you work."
+        description="Websites, software, AI workflows and practical training."
       />
       <section className="section">
         <div className="container service-detail-grid">
@@ -24,13 +27,13 @@ export default function ServicesPage() {
                   aria-hidden="true"
                 />
                 <h2>{service.title}</h2>
-                <p>{service.description}</p>
+                <ServiceCapabilityVisual kind={serviceContent[service.slug].kind} /><p>{serviceContent[service.slug].summary}</p>
                 <div className="tag-list">
                   {service.topics.map((topic) => (
                     <span key={topic}>{topic}</span>
                   ))}
                 </div>
-                <p className="service-outcome">{service.outcome}</p>
+
                 <Link
                   className="text-link service-read-more"
                   to={"/services/" + service.slug}
@@ -48,6 +51,7 @@ export default function ServicesPage() {
           })}
         </div>
       </section>
+      <AIServicesCategory />
       <Process />
       <CTA />
     </main>

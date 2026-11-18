@@ -1,4 +1,4 @@
-import { useId, useState } from "react";
+﻿import { useId, useState } from "react";
 import {
   CalendarDays,
   Columns3,
@@ -142,6 +142,10 @@ export default function SoftwarePreview({ compact = false }) {
                 </div>
               </div>
             ))}
+          </div>
+          <div className="preview-schedule" role="group" aria-label="Illustrative content overview">
+            <p>{view === "Calendar" ? "UP NEXT" : "CONTENT OVERVIEW"}</p>
+            {items.slice(1).map(item => <div key={item.title}><span>{view === "Calendar" ? `${item.day} ${item.date}` : item.type}</span><strong>{item.title}</strong><span>{item.status}</span></div>)}
           </div>
           <div className="preview-bottom-note">
             <span className="status-dot" />A considered space for your content

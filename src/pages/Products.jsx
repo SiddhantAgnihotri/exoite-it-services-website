@@ -10,6 +10,7 @@ import {
   ArrowRight,
 } from "lucide-react";
 import { Link } from "react-router-dom";
+import ContentHighlights from "../components/ui/ContentHighlights";
 import PageHero from "../components/ui/PageHero";
 import SoftwarePreview from "../components/ui/SoftwarePreview";
 import SectionHeading from "../components/ui/SectionHeading";
@@ -18,42 +19,42 @@ const areas = [
   [
     Send,
     "Social publishing",
-    "A potential workflow for preparing and publishing social content.",
+    "Prepare social posts.",
   ],
   [
     CalendarDays,
     "Content scheduling",
-    "Explore planning posts ahead of time in a shared schedule.",
+    "Plan ahead, together.",
   ],
   [
     LayoutGrid,
     "Content calendar",
-    "A possible calendar view of upcoming content and campaigns.",
+    "See upcoming content.",
   ],
   [
     FolderOpen,
     "Media library",
-    "Explore keeping reusable creative assets in one place.",
+    "Organise creative assets.",
   ],
   [
     Sparkles,
     "AI-assisted content",
-    "Ideas for supporting content drafting and refinement.",
+    "Explore assisted drafting.",
   ],
   [
     ChartNoAxesCombined,
     "Analytics",
-    "Explore ways to understand content performance.",
+    "Review content performance.",
   ],
   [
     FileText,
     "Reports",
-    "Potential tools for organising and sharing performance summaries.",
+    "Share useful summaries.",
   ],
   [
     Inbox,
     "Unified inbox",
-    "Explore bringing social conversations into a shared workflow.",
+    "Organise team conversations.",
   ],
 ];
 
@@ -63,7 +64,7 @@ export default function Products() {
       <PageHero
         label="Our products"
         title="Exoite Social Media Platform"
-        description="A social media management SaaS in development at Exoite. A considered approach to organising content, teams and everyday social workflows."
+        description="A social content workspace, currently in development."
       >
         <span className="status-badge">
           <span className="status-dot" />
@@ -92,7 +93,7 @@ export default function Products() {
                 <Icon size={23} aria-hidden="true" />
                 <h3>{title}</h3>
                 <p>{description}</p>
-                <span className="small-note">Under consideration</span>
+
               </article>
             ))}
           </div>
@@ -109,17 +110,8 @@ export default function Products() {
             </h2>
           </div>
           <div className="prose">
-            <p>
-              Social media work often means moving between content ideas,
-              assets, schedules and conversations. Our aim is to explore how
-              these tasks could fit together in a more focused workspace.
-            </p>
-            <p>
-              We're still developing the platform. The preview above is an
-              illustration, not a screenshot of a released application. No
-              release date, pricing or integration availability is being
-              promised.
-            </p>
+            <p>One concept for ideas, assets, schedules and conversations.</p>
+            <ContentHighlights items={["Illustrative interface only", "Channels and integrations unconfirmed", "No release date or pricing promised"]} />
             <Link
               className="text-link"
               to="/contact?solution=Exoite%20Social%20Media%20Platform"

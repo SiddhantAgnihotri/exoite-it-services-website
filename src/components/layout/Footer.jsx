@@ -2,7 +2,8 @@ import { Link } from "react-router-dom";
 import { ArrowUpRight } from "lucide-react";
 import { siteConfig } from "../../data/siteConfig";
 import { serviceDetails } from "../../data/serviceDetails";
-import logo from "../../assets/logo.png";
+import logo from "../../assets/images/optimized/brand-mark-84.webp";
+import logoLarge from "../../assets/images/optimized/brand-mark-168.webp";
 export default function Footer() {
   return (
     <footer className="site-footer">
@@ -11,6 +12,8 @@ export default function Footer() {
           <Link className="brand" to="/">
             <img
               src={logo}
+              srcSet={`${logo} 84w, ${logoLarge} 168w`}
+              sizes="42px"
               width={40}
               height={40}
               alt="Exoite IT Services logo"
@@ -20,24 +23,23 @@ export default function Footer() {
               <span>IT Services</span>
             </span>
           </Link>
-          <p>Empowering Digital Future</p>
+          <p>Empowering your digital future</p>
           <p>
-            An MSME-registered business for websites, apps, software, education
-            technology and IT training. Based in Kanpur, working remotely across
-            India and internationally.
+            MSME-registered in Kanpur. Websites, software, AI workflows and training for India and beyond.
           </p>
         </div>
-        <div>
+        <div className="footer-services">
           <h2>Services</h2>
           <div className="footer-links">
-            {serviceDetails.map((service) => (
+            {serviceDetails.filter(service => service.family !== "ai").map((service) => (
               <Link to={"/services/" + service.slug} key={service.slug}>
-                {service.name}
+                {{ "website-development": "Websites", "custom-software-development": "Custom software", "mobile-app-development": "Mobile apps", "school-institute-solutions": "School & institute tools" }[service.slug] || service.name}
               </Link>
             ))}
+            <Link to="/services#ai-automation-solutions">AI & automation</Link>
           </div>
         </div>
-        <div>
+        <div className="footer-explore">
           <h2>Explore Exoite</h2>
           <div className="footer-links">
             <Link to="/about">About the company</Link>
@@ -45,7 +47,7 @@ export default function Footer() {
             <Link to="/insights">Insights</Link>
             <Link to="/training">Training programs</Link>
             <Link to="/products">
-              Our upcoming product <ArrowUpRight size={13} />
+              Upcoming product <ArrowUpRight size={13} />
             </Link>
             <span className="footer-product-status">
               Exoite Social Media Platform

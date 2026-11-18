@@ -10,20 +10,16 @@ export default function ProductShowcase() {
     >
       <div className="container product-showcase">
         <div className="product-showcase-copy">
-          <p className="eyebrow">05 / Building at Exoite</p>
+          <p className="eyebrow">07 / Upcoming products</p>
           <span className="status-badge">
             <span className="status-dot" />
             In Development
           </span>
           <h2 id="product-showcase-title">
-            A place for the work
-            <br />
-            behind your content.
+            Your social content,<br />in one workspace.
           </h2>
           <p>
-            Meet Exoite Social Media Platform, our upcoming social media
-            management SaaS. We're exploring a more organised way to plan,
-            manage and understand social content.
+            Plan, organise and review social content. A product concept in development.
           </p>
           <p className="small-note">
             Publishing, scheduling and reporting are potential product areas,

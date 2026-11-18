@@ -3,6 +3,7 @@ import AxeBuilder from '../.qa-tools/node_modules/@axe-core/playwright/dist/inde
 import { mkdir, writeFile } from 'node:fs/promises';
 import assert from 'node:assert/strict';
 import { pages, origin } from '../src/data/seo.js';
+import { validateImageCancellations } from './browser-network.mjs';
 
 
 const base = 'http://127.0.0.1:4173';
@@ -52,7 +53,7 @@ try {
       } catch (error) { report.failures.push({ path, width, type: 'exception', message: error.message }); }
       await writeFile(`${directory}/browser-results.partial.json`, JSON.stringify(report, null, 2));
     }
-    console.log(`Rendered ${width}px: ${report.routes.filter(item => item.width === width).length}/22 routes; screenshots and axe results saved.`);
+    console.log(`Rendered ${width}px: ${report.routes.filter(item => item.width === width).length}/${Object.keys(pages).length} routes; screenshots and axe results saved.`);
     await context.close();
   }));
 
@@ -63,5 +64,7 @@ try {
  console.log(JSON.stringify(report.summary));
 }
 
-assert.equal(report.failures.length + report.summary.accessibilityViolations + report.consoleErrors.length + report.networkFailures.length, 0);
+await validateImageCancellations(report);
+await writeFile(directory+'/browser-results.json', JSON.stringify(report,null,2));
+assert.equal(report.failures.length + report.summary.accessibilityViolations + report.consoleErrors.length + report.summary.unresolvedNetworkFailures, 0);
 

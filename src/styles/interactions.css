@@ -1,0 +1,73 @@
+/* Phase 3: transform-only motion, visible controls and content-first defaults. */
+:root { --interaction-time: 220ms; --interaction-ease: cubic-bezier(.2,.7,.2,1); }
+/* Standalone secondary links need the same comfortable tap area as primary CTAs.
+   Keep inline links inside prose unchanged. */
+.quiet-link, .work-enquiry, .solution-image-link, .industry-pullquote a,
+.contact-method a, .ai-services-grid .quiet-link {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+}
+.button, .btn-primary, .btn-secondary, .nav-cta, .text-link, .nav-link, .hero-service-rail a {
+  transition: transform var(--interaction-time) var(--interaction-ease), color 180ms, background-color 180ms, border-color 180ms, box-shadow var(--interaction-time);
+}
+:where(.button, .nav-cta, .text-link, .work-enquiry, .hero-service-rail a) > svg { transition: transform var(--interaction-time) var(--interaction-ease); }
+:where(.primary-service, .service-detail, .ai-services-grid article, .work-feature,
+  .software-preview, .ai-concept, .industry-rows details, .insight-item, .insight-lead,
+  .insight-secondary article, .course-card) {
+  transition: transform var(--interaction-time) var(--interaction-ease), box-shadow var(--interaction-time), border-color 180ms, background-color 180ms;
+}
+:where(.primary-service, .service-detail, .ai-services-grid article, .work-feature,
+  .industry-rows details, .insight-item, .insight-lead, .insight-secondary article, .course-card, .software-preview):focus-within {
+  outline: 2px solid var(--blue); outline-offset: 6px; border-radius: 8px;
+}
+:where(.button, .nav-cta, .text-link, .nav-link, .quiet-link, .work-enquiry, summary, .view-switch button):focus-visible {
+  outline: 3px solid var(--blue); outline-offset: 4px;
+}
+.primary-service-0 :focus-visible, .contact-cta :focus-visible, .site-footer :focus-visible { outline-color: var(--white); }
+.hero-interface-atlas { border: 1px solid var(--border); box-shadow: var(--shadow-soft); isolation: isolate; }
+.atlas-main { position: relative; z-index: 1; box-shadow: 0 12px 28px rgb(20 33 61 / 9%); }
+.atlas-pair { position: relative; z-index: 2; gap: 16px; }
+.atlas-pair > div { border: 1px solid var(--border); box-shadow: 0 6px 18px rgb(20 33 61 / 5%); }
+.hero-interface-atlas, .atlas-main, .atlas-pair > div { transition: transform 260ms var(--interaction-ease), box-shadow 260ms; }
+.hero-interface-atlas { animation: hero-settle 500ms var(--interaction-ease); }
+@keyframes hero-settle { from { transform: translateY(6px); } to { transform: none; } }
+.image-stage { --image-inset: 12px; position: relative; aspect-ratio: 16 / 10; padding: var(--image-inset); background: var(--surface); border-radius: 8px; overflow: hidden; }
+.solution-visual .image-stage img { position: absolute; inset: var(--image-inset); width: calc(100% - var(--image-inset) - var(--image-inset)); height: calc(100% - var(--image-inset) - var(--image-inset)); aspect-ratio: auto; object-fit: contain; transition: transform 280ms var(--interaction-ease); }
+.service-visual img { aspect-ratio: 4 / 3; object-fit: contain; background: var(--surface); }
+.editorial-visual { aspect-ratio: 16 / 9; border-radius: var(--radius); overflow: hidden; background: #eff6ff; }
+.editorial-visual svg { width: 100%; height: 100%; display: block; transition: transform 280ms var(--interaction-ease); }
+.insight-lead > .editorial-visual { margin-bottom: 28px; }
+.insight-list .insight-item { display: grid; grid-template-columns: minmax(0,1fr) 280px; gap: 40px; align-items: center; }
+.insight-item-copy { min-width: 0; }
+.insight-item-copy > p:not(.eyebrow) { font-size: 16px; margin-top: 18px; }
+.industry-rows details { border-radius: 8px; }
+@media (hover: hover) and (pointer: fine) {
+  :where(.button, .btn-primary, .btn-secondary, .nav-cta):not(:disabled):hover { transform: translateY(-3px); box-shadow: 0 7px 16px rgb(20 33 61 / 12%); }
+  :where(.button, .nav-cta, .text-link, .work-enquiry, .hero-service-rail a):hover > svg { transform: translateX(3px); }
+  :where(.primary-service, .ai-services-grid article, .course-card):hover { transform: translateY(-4px); box-shadow: var(--shadow-soft); }
+  :where(.service-detail, .work-feature, .insight-item, .insight-lead, .insight-secondary article):hover { transform: translateY(-3px); border-color: #94a3b8; }
+  .work-feature:hover .image-stage img, .insight-item:hover .editorial-visual svg { transform: scale(1.025); }
+  .software-preview:hover { transform: translateY(-4px); border-color: #94a3b8; box-shadow: 0 14px 32px rgb(20 33 61 / 10%); }
+  .industry-rows details:hover { background: var(--surface); border-color: #94a3b8; }
+  .hero-interface-atlas:hover .atlas-main { transform: translateY(-4px); }
+  .hero-interface-atlas:hover .atlas-pair > div:first-child { transform: translateY(-2px); }
+  .hero-interface-atlas:hover .atlas-pair > div:last-child { transform: translateY(-4px); }
+}
+/* Press feedback for every input type (touch has no hover). The approved hero keeps its own CTA states. */
+:where(.button, .btn-primary, .btn-secondary, .nav-cta):not(:disabled):not(.hero *):active { transform: translateY(0) scale(.98); box-shadow: none; }
+@media (max-width: 950px) { .insight-list .insight-item { grid-template-columns: minmax(0,1fr) 220px; gap: 28px; } }
+@media (max-width: 700px) {
+  .insight-list .insight-item { grid-template-columns: 1fr; gap: 24px; }
+  .insight-item .editorial-visual { grid-row: 1; }
+  .image-stage { --image-inset: 10px; }
+  .hero-interface-atlas { animation: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+  :where(.button, .btn-primary, .btn-secondary, .nav-cta, .primary-service, .service-detail,
+    .ai-services-grid article, .work-feature, .software-preview, .ai-concept, .insight-item,
+    .insight-lead, .insight-secondary article, .course-card, .atlas-main, .atlas-pair > div,
+    .image-stage img, .editorial-visual svg, .whatsapp-button) { transform: none !important; }
+  :where(.button, .nav-cta, .text-link, .work-enquiry, .hero-service-rail a) > svg { transform: none !important; }
+}

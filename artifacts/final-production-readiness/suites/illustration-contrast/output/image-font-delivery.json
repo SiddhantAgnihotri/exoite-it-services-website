@@ -1,0 +1,410 @@
+[
+  {
+    "width": 360,
+    "fonts": [
+      {
+        "family": "Inter",
+        "status": "loaded"
+      },
+      {
+        "family": "Plus Jakarta Sans",
+        "status": "loaded"
+      }
+    ],
+    "hero": [
+      {
+        "src": "portfolio-exam-portal-320-Dtu4PYyd.webp",
+        "naturalWidth": 272,
+        "renderedWidth": 282,
+        "priority": "high"
+      },
+      {
+        "src": "portfolio-inventory-320-B2tIf1Gb.webp",
+        "naturalWidth": 129,
+        "renderedWidth": 127,
+        "priority": "auto"
+      },
+      {
+        "src": "portfolio-lms-320-C7TEo4LG.webp",
+        "naturalWidth": 129,
+        "renderedWidth": 127,
+        "priority": "auto"
+      }
+    ],
+    "brand": "brand-mark-84-C9I_ZtyP.webp",
+    "resources": [
+      {
+        "name": "inter-latin-wght-normal-Dx4kXJAl.woff2",
+        "bytes": 48256,
+        "transfer": 48556
+      },
+      {
+        "name": "plus-jakarta-sans-latin-wght-normal-eXO_dkmS.woff2",
+        "bytes": 27348,
+        "transfer": 27648
+      },
+      {
+        "name": "brand-mark-84-C9I_ZtyP.webp",
+        "bytes": 7318,
+        "transfer": 7618
+      },
+      {
+        "name": "portfolio-exam-portal-320-Dtu4PYyd.webp",
+        "bytes": 8402,
+        "transfer": 8702
+      },
+      {
+        "name": "portfolio-inventory-320-B2tIf1Gb.webp",
+        "bytes": 12878,
+        "transfer": 13178
+      },
+      {
+        "name": "portfolio-lms-320-C7TEo4LG.webp",
+        "bytes": 13490,
+        "transfer": 13790
+      }
+    ],
+    "externalResources": [],
+    "networkFailures": []
+  },
+  {
+    "width": 390,
+    "fonts": [
+      {
+        "family": "Inter",
+        "status": "loaded"
+      },
+      {
+        "family": "Plus Jakarta Sans",
+        "status": "loaded"
+      }
+    ],
+    "hero": [
+      {
+        "src": "portfolio-exam-portal-320-Dtu4PYyd.webp",
+        "naturalWidth": 302,
+        "renderedWidth": 312,
+        "priority": "high"
+      },
+      {
+        "src": "portfolio-inventory-320-B2tIf1Gb.webp",
+        "naturalWidth": 145,
+        "renderedWidth": 142,
+        "priority": "auto"
+      },
+      {
+        "src": "portfolio-lms-320-C7TEo4LG.webp",
+        "naturalWidth": 145,
+        "renderedWidth": 142,
+        "priority": "auto"
+      }
+    ],
+    "brand": "brand-mark-84-C9I_ZtyP.webp",
+    "resources": [
+      {
+        "name": "inter-latin-wght-normal-Dx4kXJAl.woff2",
+        "bytes": 48256,
+        "transfer": 48556
+      },
+      {
+        "name": "plus-jakarta-sans-latin-wght-normal-eXO_dkmS.woff2",
+        "bytes": 27348,
+        "transfer": 27648
+      },
+      {
+        "name": "portfolio-exam-portal-320-Dtu4PYyd.webp",
+        "bytes": 8402,
+        "transfer": 8702
+      },
+      {
+        "name": "brand-mark-84-C9I_ZtyP.webp",
+        "bytes": 7318,
+        "transfer": 7618
+      },
+      {
+        "name": "portfolio-inventory-320-B2tIf1Gb.webp",
+        "bytes": 12878,
+        "transfer": 13178
+      },
+      {
+        "name": "portfolio-lms-320-C7TEo4LG.webp",
+        "bytes": 13490,
+        "transfer": 13790
+      }
+    ],
+    "externalResources": [],
+    "networkFailures": []
+  },
+  {
+    "width": 768,
+    "fonts": [
+      {
+        "family": "Inter",
+        "status": "loaded"
+      },
+      {
+        "family": "Plus Jakarta Sans",
+        "status": "loaded"
+      }
+    ],
+    "hero": [
+      {
+        "src": "portfolio-exam-portal-960-cu7rD3qe.webp",
+        "naturalWidth": 680,
+        "renderedWidth": 646,
+        "priority": "high"
+      },
+      {
+        "src": "portfolio-inventory-640-BM9X1nCJ.webp",
+        "naturalWidth": 334,
+        "renderedWidth": 309,
+        "priority": "auto"
+      },
+      {
+        "src": "portfolio-lms-640-PvmoXMQk.webp",
+        "naturalWidth": 334,
+        "renderedWidth": 309,
+        "priority": "auto"
+      }
+    ],
+    "brand": "brand-mark-84-C9I_ZtyP.webp",
+    "resources": [
+      {
+        "name": "inter-latin-wght-normal-Dx4kXJAl.woff2",
+        "bytes": 48256,
+        "transfer": 48556
+      },
+      {
+        "name": "plus-jakarta-sans-latin-wght-normal-eXO_dkmS.woff2",
+        "bytes": 27348,
+        "transfer": 27648
+      },
+      {
+        "name": "brand-mark-84-C9I_ZtyP.webp",
+        "bytes": 7318,
+        "transfer": 7618
+      },
+      {
+        "name": "portfolio-exam-portal-960-cu7rD3qe.webp",
+        "bytes": 42976,
+        "transfer": 43276
+      },
+      {
+        "name": "portfolio-inventory-640-BM9X1nCJ.webp",
+        "bytes": 37132,
+        "transfer": 37432
+      },
+      {
+        "name": "portfolio-lms-640-PvmoXMQk.webp",
+        "bytes": 38206,
+        "transfer": 38506
+      }
+    ],
+    "externalResources": [],
+    "networkFailures": []
+  },
+  {
+    "width": 1024,
+    "fonts": [
+      {
+        "family": "Inter",
+        "status": "loaded"
+      },
+      {
+        "family": "Plus Jakarta Sans",
+        "status": "loaded"
+      }
+    ],
+    "hero": [
+      {
+        "src": "portfolio-exam-portal-640-BhHox6vy.webp",
+        "naturalWidth": 394,
+        "renderedWidth": 390.765625,
+        "priority": "high"
+      },
+      {
+        "src": "portfolio-inventory-320-B2tIf1Gb.webp",
+        "naturalWidth": 204,
+        "renderedWidth": 181.375,
+        "priority": "auto"
+      },
+      {
+        "src": "portfolio-lms-320-C7TEo4LG.webp",
+        "naturalWidth": 204,
+        "renderedWidth": 181.390625,
+        "priority": "auto"
+      }
+    ],
+    "brand": "brand-mark-84-C9I_ZtyP.webp",
+    "resources": [
+      {
+        "name": "inter-latin-wght-normal-Dx4kXJAl.woff2",
+        "bytes": 48256,
+        "transfer": 48556
+      },
+      {
+        "name": "plus-jakarta-sans-latin-wght-normal-eXO_dkmS.woff2",
+        "bytes": 27348,
+        "transfer": 27648
+      },
+      {
+        "name": "brand-mark-84-C9I_ZtyP.webp",
+        "bytes": 7318,
+        "transfer": 7618
+      },
+      {
+        "name": "portfolio-exam-portal-640-BhHox6vy.webp",
+        "bytes": 23892,
+        "transfer": 24192
+      },
+      {
+        "name": "portfolio-inventory-320-B2tIf1Gb.webp",
+        "bytes": 12878,
+        "transfer": 13178
+      },
+      {
+        "name": "portfolio-lms-320-C7TEo4LG.webp",
+        "bytes": 13490,
+        "transfer": 13790
+      }
+    ],
+    "externalResources": [],
+    "networkFailures": []
+  },
+  {
+    "width": 1440,
+    "fonts": [
+      {
+        "family": "Inter",
+        "status": "loaded"
+      },
+      {
+        "family": "Plus Jakarta Sans",
+        "status": "loaded"
+      }
+    ],
+    "hero": [
+      {
+        "src": "portfolio-exam-portal-640-BhHox6vy.webp",
+        "naturalWidth": 559,
+        "renderedWidth": 535.15625,
+        "priority": "high"
+      },
+      {
+        "src": "portfolio-inventory-320-B2tIf1Gb.webp",
+        "naturalWidth": 259,
+        "renderedWidth": 253.578125,
+        "priority": "auto"
+      },
+      {
+        "src": "portfolio-lms-320-C7TEo4LG.webp",
+        "naturalWidth": 259,
+        "renderedWidth": 253.578125,
+        "priority": "auto"
+      }
+    ],
+    "brand": "brand-mark-84-C9I_ZtyP.webp",
+    "resources": [
+      {
+        "name": "inter-latin-wght-normal-Dx4kXJAl.woff2",
+        "bytes": 48256,
+        "transfer": 48556
+      },
+      {
+        "name": "plus-jakarta-sans-latin-wght-normal-eXO_dkmS.woff2",
+        "bytes": 27348,
+        "transfer": 27648
+      },
+      {
+        "name": "brand-mark-84-C9I_ZtyP.webp",
+        "bytes": 7318,
+        "transfer": 7618
+      },
+      {
+        "name": "portfolio-exam-portal-640-BhHox6vy.webp",
+        "bytes": 23892,
+        "transfer": 24192
+      },
+      {
+        "name": "portfolio-inventory-320-B2tIf1Gb.webp",
+        "bytes": 12878,
+        "transfer": 13178
+      },
+      {
+        "name": "portfolio-lms-320-C7TEo4LG.webp",
+        "bytes": 13490,
+        "transfer": 13790
+      }
+    ],
+    "externalResources": [],
+    "networkFailures": []
+  },
+  {
+    "width": 1920,
+    "fonts": [
+      {
+        "family": "Inter",
+        "status": "loaded"
+      },
+      {
+        "family": "Plus Jakarta Sans",
+        "status": "loaded"
+      }
+    ],
+    "hero": [
+      {
+        "src": "portfolio-exam-portal-640-BhHox6vy.webp",
+        "naturalWidth": 559,
+        "renderedWidth": 535.15625,
+        "priority": "high"
+      },
+      {
+        "src": "portfolio-inventory-320-B2tIf1Gb.webp",
+        "naturalWidth": 259,
+        "renderedWidth": 253.578125,
+        "priority": "auto"
+      },
+      {
+        "src": "portfolio-lms-320-C7TEo4LG.webp",
+        "naturalWidth": 259,
+        "renderedWidth": 253.578125,
+        "priority": "auto"
+      }
+    ],
+    "brand": "brand-mark-84-C9I_ZtyP.webp",
+    "resources": [
+      {
+        "name": "inter-latin-wght-normal-Dx4kXJAl.woff2",
+        "bytes": 48256,
+        "transfer": 48556
+      },
+      {
+        "name": "plus-jakarta-sans-latin-wght-normal-eXO_dkmS.woff2",
+        "bytes": 27348,
+        "transfer": 27648
+      },
+      {
+        "name": "portfolio-exam-portal-640-BhHox6vy.webp",
+        "bytes": 23892,
+        "transfer": 24192
+      },
+      {
+        "name": "brand-mark-84-C9I_ZtyP.webp",
+        "bytes": 7318,
+        "transfer": 7618
+      },
+      {
+        "name": "portfolio-inventory-320-B2tIf1Gb.webp",
+        "bytes": 12878,
+        "transfer": 13178
+      },
+      {
+        "name": "portfolio-lms-320-C7TEo4LG.webp",
+        "bytes": 13490,
+        "transfer": 13790
+      }
+    ],
+    "externalResources": [],
+    "networkFailures": []
+  }
+]

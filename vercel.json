@@ -30,7 +30,7 @@
       }
     },
     {
-      "src": "^/(about|services|products|portfolio|training|contact|insights|services/website-development|services/custom-software-development|services/mobile-app-development|services/school-institute-solutions|services/digital-marketing|services/it-training|portfolio/examify|portfolio/inventory-management|portfolio/learning-management-system|insights/choosing-a-business-website|insights/school-website-development-considerations|insights/when-a-business-needs-custom-software|privacy-policy|terms-of-service)\\.html$",
+      "src": "^/(about|services|products|portfolio|training|contact|insights|services/website-development|services/custom-software-development|services/mobile-app-development|services/school-institute-solutions|services/digital-marketing|services/it-training|services/ai-automation|services/ai-chatbots|services/ai-workflow-integration|services/ai-business-software|portfolio/examify|portfolio/inventory-management|portfolio/learning-management-system|insights/choosing-a-business-website|insights/school-website-development-considerations|insights/when-a-business-needs-custom-software|privacy-policy|terms-of-service)\\.html$",
       "status": 308,
       "headers": {
         "Location": "/$1"
@@ -58,7 +58,7 @@
       "dest": "/index.html"
     },
     {
-      "src": "^/(about|services|products|portfolio|training|contact|insights|services/website-development|services/custom-software-development|services/mobile-app-development|services/school-institute-solutions|services/digital-marketing|services/it-training|portfolio/examify|portfolio/inventory-management|portfolio/learning-management-system|insights/choosing-a-business-website|insights/school-website-development-considerations|insights/when-a-business-needs-custom-software|privacy-policy|terms-of-service)$",
+      "src": "^/(about|services|products|portfolio|training|contact|insights|services/website-development|services/custom-software-development|services/mobile-app-development|services/school-institute-solutions|services/digital-marketing|services/it-training|services/ai-automation|services/ai-chatbots|services/ai-workflow-integration|services/ai-business-software|portfolio/examify|portfolio/inventory-management|portfolio/learning-management-system|insights/choosing-a-business-website|insights/school-website-development-considerations|insights/when-a-business-needs-custom-software|privacy-policy|terms-of-service)$",
       "dest": "/$1.html"
     },
     {

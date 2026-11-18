@@ -1,0 +1,58 @@
+/* Homepage AI workflow polish (final sprint). Scoped to .ai-feature; reserved state heights
+   remain defined in homepage/premium-refinement/visual-content so every state keeps one height. */
+.homepage .ai-feature .workflow-demo { border: 1px solid rgb(255 255 255 / 10%); box-shadow: 0 1px 0 rgb(255 255 255 / 6%) inset, 0 24px 56px rgb(2 6 23 / 38%); }
+.homepage .ai-feature .workflow-instruction { margin-bottom: 12px; color: #526278; }
+
+/* Progress track replaces the "→" glyph connectors: one continuous line that fills as steps advance. */
+.homepage .ai-feature .workflow-progress { position: relative; height: 4px; margin-bottom: 14px; border-radius: 4px; background: #e2e8f0; overflow: hidden; }
+.homepage .ai-feature .workflow-progress > span { position: absolute; inset: 0; border-radius: inherit; background: linear-gradient(90deg, #2563eb, #60a5fa); transform: scaleX(var(--workflow-progress, .25)); transform-origin: left center; transition: transform 420ms var(--interaction-ease); }
+.homepage .ai-feature .workflow-steps li[data-state]::after { display: none; }
+
+/* Step cards: clearer labels, explicit done/current/upcoming states, tactile feedback. */
+.homepage .ai-feature .workflow-steps button { border-color: #d5dde9; color: #475569; transition: background-color 200ms, border-color 200ms, box-shadow var(--interaction-time), transform var(--interaction-time) var(--interaction-ease); }
+.homepage .ai-feature .workflow-steps button > span:nth-child(2) { font-size: 13px; line-height: 1.4; font-weight: 500; color: #334155; }
+.homepage .ai-feature .workflow-steps small { color: #64748b; font-variant-numeric: tabular-nums; }
+.homepage .ai-feature .workflow-step-icon { display: grid; place-items: center; width: 30px; height: 30px; border-radius: 8px; background: #eff4fd; color: #1d4ed8; transition: background-color 200ms, color 200ms; }
+.homepage .ai-feature .workflow-steps li[data-state="done"] .workflow-step-icon { background: #eaf5ee; color: #235740; }
+.homepage .ai-feature .workflow-steps li[data-state="current"] button { background: #eff6ff; border-color: #2563eb; box-shadow: 0 0 0 1px #2563eb inset, 0 8px 18px rgb(37 99 235 / 14%); }
+.homepage .ai-feature .workflow-steps li[data-state="current"] button > span:nth-child(2),
+.homepage .ai-feature .workflow-steps li[data-state="current"] small { color: #1d4ed8; }
+.homepage .ai-feature .workflow-steps li[data-state="current"] .workflow-step-icon { background: #2563eb; color: white; }
+.homepage .ai-feature .workflow-steps button:active { transform: scale(.98); }
+
+/* Detail panel: quiet depth and a short content entrance on each state change. */
+.homepage .ai-feature .workflow-detail { background: linear-gradient(180deg, #f8fafc, #f3f6fb); border-color: #dde4ef; }
+.homepage .ai-feature .workflow-detail > * { animation: wf-detail-in 260ms cubic-bezier(.2,.7,.2,1) both; }
+.homepage .ai-feature .workflow-detail > h3 { animation-delay: 30ms; }
+.homepage .ai-feature .workflow-detail > p, .homepage .ai-feature .workflow-detail > .workflow-sample { animation-delay: 60ms; }
+.homepage .ai-feature .workflow-sample { border-radius: 0 6px 6px 0; }
+
+/* Next / Restart: a real button shape with arrow movement and press feedback. */
+.homepage .ai-feature .workflow-demo-actions button { padding: 8px 14px; border: 1px solid #bfd3f6; border-radius: 8px; background: #f5f8fe; color: #1d4ed8; transition: background-color 200ms, border-color 200ms, transform var(--interaction-time) var(--interaction-ease); }
+.homepage .ai-feature .workflow-demo-actions button svg { transition: transform var(--interaction-time) var(--interaction-ease); }
+.homepage .ai-feature .workflow-demo-actions button:active { transform: scale(.97); }
+
+@keyframes wf-detail-in { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: none; } }
+
+@media (hover: hover) and (pointer: fine) {
+  .homepage .ai-feature .workflow-steps li:not([data-state="current"]) button:hover { border-color: #93b4f0; background: #f7faff; transform: translateY(-1px); box-shadow: 0 6px 14px rgb(20 33 61 / 8%); }
+  .homepage .ai-feature .workflow-demo-actions button:hover { background: #e8effd; border-color: #93b4f0; }
+  .homepage .ai-feature .workflow-demo-actions button:hover svg { transform: translateX(3px); }
+}
+@media (max-width: 700px) {
+  .homepage .ai-feature .workflow-progress { margin-bottom: 12px; }
+  /* Keeps "Restart example" on the same line as the review note down to 360px (stable state height). */
+  .homepage .ai-feature .workflow-demo-actions button { padding: 6px 8px; gap: 5px; }
+  .homepage .ai-feature .workflow-step-icon { width: 26px; height: 26px; border-radius: 7px; }
+  .homepage .ai-feature .workflow-steps button > span:nth-child(2) { font-size: 13px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .homepage .ai-feature .workflow-progress > span,
+  .homepage .ai-feature .workflow-steps button,
+  .homepage .ai-feature .workflow-step-icon,
+  .homepage .ai-feature .workflow-demo-actions button,
+  .homepage .ai-feature .workflow-demo-actions button svg { transition: none; }
+  .homepage .ai-feature .workflow-detail > * { animation: none; }
+  .homepage .ai-feature .workflow-steps button:active,
+  .homepage .ai-feature .workflow-demo-actions button:active { transform: none; }
+}

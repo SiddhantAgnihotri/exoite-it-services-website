@@ -1,0 +1,734 @@
+[
+  {
+    "path": "/",
+    "width": 360,
+    "sections": [
+      {
+        "class": "hero company-hero",
+        "heading": "Building Digital Solutions for Modern Businesses.",
+        "top": 77,
+        "height": 1065.015625,
+        "background": "rgb(243, 246, 252)",
+        "padding": "40px 0px"
+      },
+      {
+        "class": "section home-introduction",
+        "heading": "Technology with purpose.People at the centre.",
+        "top": 1142.015625,
+        "height": 829,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "56px"
+      },
+      {
+        "class": "section services-editorial",
+        "heading": "The right expertise.\nA better way forward.",
+        "top": 1971.015625,
+        "height": 2557.296875,
+        "background": "rgb(248, 250, 252)",
+        "padding": "56px"
+      },
+      {
+        "class": "section ai-feature",
+        "heading": "Automate Your Business with Intelligent AI.",
+        "top": 4528.3125,
+        "height": 1582.328125,
+        "background": "rgb(20, 33, 61)",
+        "padding": "56px"
+      },
+      {
+        "class": "section work-section",
+        "heading": "Ideas, brought into focus.",
+        "top": 6110.640625,
+        "height": 2832.09375,
+        "background": "rgb(255, 255, 255)",
+        "padding": "56px"
+      },
+      {
+        "class": "section industries-editorial",
+        "heading": "Different contexts. The same care for the details.",
+        "top": 8942.734375,
+        "height": 1343.875,
+        "background": "rgb(241, 245, 251)",
+        "padding": "56px"
+      },
+      {
+        "class": "section home-process",
+        "heading": "A clear process.A shared direction.",
+        "top": 10286.609375,
+        "height": 1623.53125,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "56px"
+      },
+      {
+        "class": "section product-editorial",
+        "heading": "A place for the workbehind your content.",
+        "top": 11910.140625,
+        "height": 1098.3125,
+        "background": "rgb(238, 244, 252)",
+        "padding": "56px"
+      },
+      {
+        "class": "section insights-editorial",
+        "heading": "Choosing a business website: start with the job it needs to do",
+        "top": 13008.453125,
+        "height": 1222.84375,
+        "background": "rgb(255, 255, 255)",
+        "padding": "56px"
+      },
+      {
+        "class": "contact-cta",
+        "heading": "Have a Project in Mind?",
+        "top": 14231.296875,
+        "height": 506.1875,
+        "background": "rgb(20, 33, 61)",
+        "padding": "56px"
+      },
+      {
+        "class": "site-footer",
+        "heading": "Services",
+        "top": 14737.484375,
+        "height": 1448.09375,
+        "background": "rgb(20, 33, 61)",
+        "padding": "56px 28px"
+      }
+    ],
+    "clippedText": [],
+    "smallTargets": [],
+    "images": [
+      {
+        "alt": "Online Examination Portal / Examify - illustrative demo concept",
+        "fit": "contain",
+        "width": 286,
+        "height": 171,
+        "naturalWidth": 296,
+        "naturalHeight": 197
+      },
+      {
+        "alt": "Inventory Management System - illustrative demo concept",
+        "fit": "contain",
+        "width": 286,
+        "height": 171,
+        "naturalWidth": 296,
+        "naturalHeight": 197
+      },
+      {
+        "alt": "Learning Management System - illustrative demo concept",
+        "fit": "contain",
+        "width": 286,
+        "height": 171,
+        "naturalWidth": 296,
+        "naturalHeight": 197
+      }
+    ]
+  },
+  {
+    "path": "/",
+    "width": 390,
+    "sections": [
+      {
+        "class": "hero company-hero",
+        "heading": "Building Digital Solutions for Modern Businesses.",
+        "top": 77,
+        "height": 1093.53125,
+        "background": "rgb(243, 246, 252)",
+        "padding": "40px 0px"
+      },
+      {
+        "class": "section home-introduction",
+        "heading": "Technology with purpose.People at the centre.",
+        "top": 1170.53125,
+        "height": 776.5,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "56px"
+      },
+      {
+        "class": "section services-editorial",
+        "heading": "The right expertise.\nA better way forward.",
+        "top": 1947.03125,
+        "height": 2452.296875,
+        "background": "rgb(248, 250, 252)",
+        "padding": "56px"
+      },
+      {
+        "class": "section ai-feature",
+        "heading": "Automate Your Business with Intelligent AI.",
+        "top": 4399.328125,
+        "height": 1563.078125,
+        "background": "rgb(20, 33, 61)",
+        "padding": "56px"
+      },
+      {
+        "class": "section work-section",
+        "heading": "Ideas, brought into focus.",
+        "top": 5962.40625,
+        "height": 2672.546875,
+        "background": "rgb(255, 255, 255)",
+        "padding": "56px"
+      },
+      {
+        "class": "section industries-editorial",
+        "heading": "Different contexts. The same care for the details.",
+        "top": 8634.953125,
+        "height": 1225.125,
+        "background": "rgb(241, 245, 251)",
+        "padding": "56px"
+      },
+      {
+        "class": "section home-process",
+        "heading": "A clear process.A shared direction.",
+        "top": 9860.078125,
+        "height": 1574.34375,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "56px"
+      },
+      {
+        "class": "section product-editorial",
+        "heading": "A place for the workbehind your content.",
+        "top": 11434.421875,
+        "height": 1056.71875,
+        "background": "rgb(238, 244, 252)",
+        "padding": "56px"
+      },
+      {
+        "class": "section insights-editorial",
+        "heading": "Choosing a business website: start with the job it needs to do",
+        "top": 12491.140625,
+        "height": 1239.71875,
+        "background": "rgb(255, 255, 255)",
+        "padding": "56px"
+      },
+      {
+        "class": "contact-cta",
+        "heading": "Have a Project in Mind?",
+        "top": 13730.859375,
+        "height": 476.4375,
+        "background": "rgb(20, 33, 61)",
+        "padding": "56px"
+      },
+      {
+        "class": "site-footer",
+        "heading": "Services",
+        "top": 14207.296875,
+        "height": 1448.09375,
+        "background": "rgb(20, 33, 61)",
+        "padding": "56px 28px"
+      }
+    ],
+    "clippedText": [],
+    "smallTargets": [],
+    "images": [
+      {
+        "alt": "Online Examination Portal / Examify - illustrative demo concept",
+        "fit": "contain",
+        "width": 316,
+        "height": 190,
+        "naturalWidth": 326,
+        "naturalHeight": 217
+      },
+      {
+        "alt": "Inventory Management System - illustrative demo concept",
+        "fit": "contain",
+        "width": 316,
+        "height": 190,
+        "naturalWidth": 326,
+        "naturalHeight": 217
+      },
+      {
+        "alt": "Learning Management System - illustrative demo concept",
+        "fit": "contain",
+        "width": 316,
+        "height": 190,
+        "naturalWidth": 326,
+        "naturalHeight": 217
+      }
+    ]
+  },
+  {
+    "path": "/",
+    "width": 768,
+    "sections": [
+      {
+        "class": "hero company-hero",
+        "heading": "Building Digital Solutions for Modern Businesses.",
+        "top": 77,
+        "height": 1238.296875,
+        "background": "rgb(243, 246, 252)",
+        "padding": "48px 0px"
+      },
+      {
+        "class": "section home-introduction",
+        "heading": "Technology with purpose.People at the centre.",
+        "top": 1315.296875,
+        "height": 672.78125,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "72px"
+      },
+      {
+        "class": "section services-editorial",
+        "heading": "The right expertise.\nA better way forward.",
+        "top": 1988.078125,
+        "height": 1869.890625,
+        "background": "rgb(248, 250, 252)",
+        "padding": "72px"
+      },
+      {
+        "class": "section ai-feature",
+        "heading": "Automate Your Business with Intelligent AI.",
+        "top": 3857.96875,
+        "height": 1283.1875,
+        "background": "rgb(20, 33, 61)",
+        "padding": "72px"
+      },
+      {
+        "class": "section work-section",
+        "heading": "Ideas, brought into focus.",
+        "top": 5141.15625,
+        "height": 1901.375,
+        "background": "rgb(255, 255, 255)",
+        "padding": "72px"
+      },
+      {
+        "class": "section industries-editorial",
+        "heading": "Different contexts. The same care for the details.",
+        "top": 7042.53125,
+        "height": 1077.625,
+        "background": "rgb(241, 245, 251)",
+        "padding": "72px"
+      },
+      {
+        "class": "section home-process",
+        "heading": "A clear process.A shared direction.",
+        "top": 8120.15625,
+        "height": 1083.34375,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "72px"
+      },
+      {
+        "class": "section product-editorial",
+        "heading": "A place for the workbehind your content.",
+        "top": 9203.5,
+        "height": 1096.71875,
+        "background": "rgb(238, 244, 252)",
+        "padding": "72px"
+      },
+      {
+        "class": "section insights-editorial",
+        "heading": "Choosing a business website: start with the job it needs to do",
+        "top": 10300.21875,
+        "height": 793,
+        "background": "rgb(255, 255, 255)",
+        "padding": "72px"
+      },
+      {
+        "class": "contact-cta",
+        "heading": "Have a Project in Mind?",
+        "top": 11093.21875,
+        "height": 326.1875,
+        "background": "rgb(20, 33, 61)",
+        "padding": "80px"
+      },
+      {
+        "class": "site-footer",
+        "heading": "Services",
+        "top": 11419.40625,
+        "height": 717.09375,
+        "background": "rgb(20, 33, 61)",
+        "padding": "72px 32px"
+      }
+    ],
+    "clippedText": [],
+    "smallTargets": [],
+    "images": [
+      {
+        "alt": "Online Examination Portal / Examify - illustrative demo concept",
+        "fit": "contain",
+        "width": 294,
+        "height": 175,
+        "naturalWidth": 704,
+        "naturalHeight": 469
+      },
+      {
+        "alt": "Inventory Management System - illustrative demo concept",
+        "fit": "contain",
+        "width": 294,
+        "height": 175,
+        "naturalWidth": 345,
+        "naturalHeight": 230
+      },
+      {
+        "alt": "Learning Management System - illustrative demo concept",
+        "fit": "contain",
+        "width": 294,
+        "height": 175,
+        "naturalWidth": 345,
+        "naturalHeight": 230
+      }
+    ]
+  },
+  {
+    "path": "/",
+    "width": 1024,
+    "sections": [
+      {
+        "class": "hero company-hero",
+        "heading": "Building Digital Solutions for Modern Businesses.",
+        "top": 89,
+        "height": 668.453125,
+        "background": "rgb(243, 246, 252)",
+        "padding": "64px 0px"
+      },
+      {
+        "class": "section home-introduction",
+        "heading": "Technology with purpose.People at the centre.",
+        "top": 757.453125,
+        "height": 606.53125,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "96px"
+      },
+      {
+        "class": "section services-editorial",
+        "heading": "The right expertise.\nA better way forward.",
+        "top": 1363.984375,
+        "height": 1566.34375,
+        "background": "rgb(248, 250, 252)",
+        "padding": "96px"
+      },
+      {
+        "class": "section ai-feature",
+        "heading": "Automate Your Business with Intelligent AI.",
+        "top": 2930.328125,
+        "height": 972,
+        "background": "rgb(20, 33, 61)",
+        "padding": "96px"
+      },
+      {
+        "class": "section work-section",
+        "heading": "Ideas, brought into focus.",
+        "top": 3902.328125,
+        "height": 1738.375,
+        "background": "rgb(255, 255, 255)",
+        "padding": "96px"
+      },
+      {
+        "class": "section industries-editorial",
+        "heading": "Different contexts. The same care for the details.",
+        "top": 5640.703125,
+        "height": 753.5,
+        "background": "rgb(241, 245, 251)",
+        "padding": "96px"
+      },
+      {
+        "class": "section home-process",
+        "heading": "A clear process.A shared direction.",
+        "top": 6394.203125,
+        "height": 1107.34375,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "96px"
+      },
+      {
+        "class": "section product-editorial",
+        "heading": "A place for the workbehind your content.",
+        "top": 7501.546875,
+        "height": 752.625,
+        "background": "rgb(238, 244, 252)",
+        "padding": "96px"
+      },
+      {
+        "class": "section insights-editorial",
+        "heading": "Choosing a business website: start with the job it needs to do",
+        "top": 8254.171875,
+        "height": 849.390625,
+        "background": "rgb(255, 255, 255)",
+        "padding": "96px"
+      },
+      {
+        "class": "contact-cta",
+        "heading": "Have a Project in Mind?",
+        "top": 9103.5625,
+        "height": 319.703125,
+        "background": "rgb(20, 33, 61)",
+        "padding": "80px"
+      },
+      {
+        "class": "site-footer",
+        "heading": "Services",
+        "top": 9423.265625,
+        "height": 552.25,
+        "background": "rgb(20, 33, 61)",
+        "padding": "72px 32px"
+      }
+    ],
+    "clippedText": [],
+    "smallTargets": [],
+    "images": [
+      {
+        "alt": "Online Examination Portal / Examify - illustrative demo concept",
+        "fit": "contain",
+        "width": 434,
+        "height": 262,
+        "naturalWidth": 593,
+        "naturalHeight": 396
+      },
+      {
+        "alt": "Inventory Management System - illustrative demo concept",
+        "fit": "contain",
+        "width": 434,
+        "height": 262,
+        "naturalWidth": 460,
+        "naturalHeight": 307
+      },
+      {
+        "alt": "Learning Management System - illustrative demo concept",
+        "fit": "contain",
+        "width": 434,
+        "height": 262,
+        "naturalWidth": 460,
+        "naturalHeight": 307
+      }
+    ]
+  },
+  {
+    "path": "/",
+    "width": 1440,
+    "sections": [
+      {
+        "class": "hero company-hero",
+        "heading": "Building Digital Solutions for Modern Businesses.",
+        "top": 89,
+        "height": 759.078125,
+        "background": "rgb(243, 246, 252)",
+        "padding": "64px 0px"
+      },
+      {
+        "class": "section home-introduction",
+        "heading": "Technology with purpose.People at the centre.",
+        "top": 848.078125,
+        "height": 558.140625,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "96px"
+      },
+      {
+        "class": "section services-editorial",
+        "heading": "The right expertise.\nA better way forward.",
+        "top": 1406.21875,
+        "height": 1513.78125,
+        "background": "rgb(248, 250, 252)",
+        "padding": "96px"
+      },
+      {
+        "class": "section ai-feature",
+        "heading": "Automate Your Business with Intelligent AI.",
+        "top": 2920,
+        "height": 868,
+        "background": "rgb(20, 33, 61)",
+        "padding": "96px"
+      },
+      {
+        "class": "section work-section",
+        "heading": "Ideas, brought into focus.",
+        "top": 3788,
+        "height": 1968.171875,
+        "background": "rgb(255, 255, 255)",
+        "padding": "96px"
+      },
+      {
+        "class": "section industries-editorial",
+        "heading": "Different contexts. The same care for the details.",
+        "top": 5756.171875,
+        "height": 753.5,
+        "background": "rgb(241, 245, 251)",
+        "padding": "96px"
+      },
+      {
+        "class": "section home-process",
+        "heading": "A clear process.A shared direction.",
+        "top": 6509.671875,
+        "height": 936.203125,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "96px"
+      },
+      {
+        "class": "section product-editorial",
+        "heading": "A place for the workbehind your content.",
+        "top": 7445.875,
+        "height": 752.625,
+        "background": "rgb(238, 244, 252)",
+        "padding": "96px"
+      },
+      {
+        "class": "section insights-editorial",
+        "heading": "Choosing a business website: start with the job it needs to do",
+        "top": 8198.5,
+        "height": 943.90625,
+        "background": "rgb(255, 255, 255)",
+        "padding": "96px"
+      },
+      {
+        "class": "contact-cta",
+        "heading": "Have a Project in Mind?",
+        "top": 9142.40625,
+        "height": 336.359375,
+        "background": "rgb(20, 33, 61)",
+        "padding": "80px"
+      },
+      {
+        "class": "site-footer",
+        "heading": "Services",
+        "top": 9478.765625,
+        "height": 533.25,
+        "background": "rgb(20, 33, 61)",
+        "padding": "72px 32px"
+      }
+    ],
+    "clippedText": [],
+    "smallTargets": [],
+    "images": [
+      {
+        "alt": "Online Examination Portal / Examify - illustrative demo concept",
+        "fit": "contain",
+        "width": 592,
+        "height": 361,
+        "naturalWidth": 960,
+        "naturalHeight": 640
+      },
+      {
+        "alt": "Inventory Management System - illustrative demo concept",
+        "fit": "contain",
+        "width": 592,
+        "height": 361,
+        "naturalWidth": 599,
+        "naturalHeight": 400
+      },
+      {
+        "alt": "Learning Management System - illustrative demo concept",
+        "fit": "contain",
+        "width": 592,
+        "height": 361,
+        "naturalWidth": 599,
+        "naturalHeight": 400
+      }
+    ]
+  },
+  {
+    "path": "/",
+    "width": 1920,
+    "sections": [
+      {
+        "class": "hero company-hero",
+        "heading": "Building Digital Solutions for Modern Businesses.",
+        "top": 89,
+        "height": 759.078125,
+        "background": "rgb(243, 246, 252)",
+        "padding": "64px 0px"
+      },
+      {
+        "class": "section home-introduction",
+        "heading": "Technology with purpose.People at the centre.",
+        "top": 848.078125,
+        "height": 558.140625,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "96px"
+      },
+      {
+        "class": "section services-editorial",
+        "heading": "The right expertise.\nA better way forward.",
+        "top": 1406.21875,
+        "height": 1513.78125,
+        "background": "rgb(248, 250, 252)",
+        "padding": "96px"
+      },
+      {
+        "class": "section ai-feature",
+        "heading": "Automate Your Business with Intelligent AI.",
+        "top": 2920,
+        "height": 868,
+        "background": "rgb(20, 33, 61)",
+        "padding": "96px"
+      },
+      {
+        "class": "section work-section",
+        "heading": "Ideas, brought into focus.",
+        "top": 3788,
+        "height": 1968.171875,
+        "background": "rgb(255, 255, 255)",
+        "padding": "96px"
+      },
+      {
+        "class": "section industries-editorial",
+        "heading": "Different contexts. The same care for the details.",
+        "top": 5756.171875,
+        "height": 753.5,
+        "background": "rgb(241, 245, 251)",
+        "padding": "96px"
+      },
+      {
+        "class": "section home-process",
+        "heading": "A clear process.A shared direction.",
+        "top": 6509.671875,
+        "height": 936.203125,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "96px"
+      },
+      {
+        "class": "section product-editorial",
+        "heading": "A place for the workbehind your content.",
+        "top": 7445.875,
+        "height": 752.625,
+        "background": "rgb(238, 244, 252)",
+        "padding": "96px"
+      },
+      {
+        "class": "section insights-editorial",
+        "heading": "Choosing a business website: start with the job it needs to do",
+        "top": 8198.5,
+        "height": 943.90625,
+        "background": "rgb(255, 255, 255)",
+        "padding": "96px"
+      },
+      {
+        "class": "contact-cta",
+        "heading": "Have a Project in Mind?",
+        "top": 9142.40625,
+        "height": 336.359375,
+        "background": "rgb(20, 33, 61)",
+        "padding": "80px"
+      },
+      {
+        "class": "site-footer",
+        "heading": "Services",
+        "top": 9478.765625,
+        "height": 533.25,
+        "background": "rgb(20, 33, 61)",
+        "padding": "72px 32px"
+      }
+    ],
+    "clippedText": [],
+    "smallTargets": [],
+    "images": [
+      {
+        "alt": "Online Examination Portal / Examify - illustrative demo concept",
+        "fit": "contain",
+        "width": 592,
+        "height": 361,
+        "naturalWidth": 960,
+        "naturalHeight": 640
+      },
+      {
+        "alt": "Inventory Management System - illustrative demo concept",
+        "fit": "contain",
+        "width": 592,
+        "height": 361,
+        "naturalWidth": 599,
+        "naturalHeight": 400
+      },
+      {
+        "alt": "Learning Management System - illustrative demo concept",
+        "fit": "contain",
+        "width": 592,
+        "height": 361,
+        "naturalWidth": 599,
+        "naturalHeight": 400
+      }
+    ]
+  }
+]

@@ -1,0 +1,6664 @@
+[
+  {
+    "width": 390,
+    "path": "/",
+    "samples": [
+      {
+        "text": "Enquiry workflow",
+        "foreground": [
+          24,
+          55,
+          111
+        ],
+        "background": [
+          237,
+          243,
+          255
+        ],
+        "ratio": 10.394860600171317
+      },
+      {
+        "text": "Capture context",
+        "foreground": [
+          24,
+          55,
+          111
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 11.571186413016466
+      },
+      {
+        "text": "Human review",
+        "foreground": [
+          24,
+          55,
+          111
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 11.571186413016466
+      },
+      {
+        "text": "Your business online",
+        "foreground": [
+          73,
+          52,
+          103
+        ],
+        "background": [
+          243,
+          237,
+          250
+        ],
+        "ratio": 9.29027205192931
+      },
+      {
+        "text": "A clear offer.\nAn easy next step.",
+        "foreground": [
+          73,
+          52,
+          103
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 10.658034047639646
+      },
+      {
+        "text": "Get in touch ↗",
+        "foreground": [
+          73,
+          52,
+          103
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 10.658034047639646
+      },
+      {
+        "text": "Approval workspace",
+        "foreground": [
+          35,
+          87,
+          64
+        ],
+        "background": [
+          233,
+          244,
+          238
+        ],
+        "ratio": 7.429762532382117
+      },
+      {
+        "text": "Stock update",
+        "foreground": [
+          35,
+          87,
+          64
+        ],
+        "background": [
+          233,
+          244,
+          238
+        ],
+        "ratio": 7.429762532382117
+      },
+      {
+        "text": "Review",
+        "foreground": [
+          35,
+          87,
+          64
+        ],
+        "background": [
+          233,
+          244,
+          238
+        ],
+        "ratio": 7.429762532382117
+      },
+      {
+        "text": "Item record",
+        "foreground": [
+          35,
+          87,
+          64
+        ],
+        "background": [
+          233,
+          244,
+          238
+        ],
+        "ratio": 7.429762532382117
+      },
+      {
+        "text": "Approved",
+        "foreground": [
+          35,
+          87,
+          64
+        ],
+        "background": [
+          233,
+          244,
+          238
+        ],
+        "ratio": 7.429762532382117
+      },
+      {
+        "text": "Access by role",
+        "foreground": [
+          35,
+          87,
+          64
+        ],
+        "background": [
+          233,
+          244,
+          238
+        ],
+        "ratio": 7.429762532382117
+      },
+      {
+        "text": "Work on the move",
+        "foreground": [
+          115,
+          68,
+          37
+        ],
+        "background": [
+          251,
+          239,
+          228
+        ],
+        "ratio": 7.190130835341956
+      },
+      {
+        "text": "Your daily tasks",
+        "foreground": [
+          115,
+          68,
+          37
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 8.131558544543969
+      },
+      {
+        "text": "Review a request",
+        "foreground": [
+          115,
+          68,
+          37
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 8.131558544543969
+      },
+      {
+        "text": "Add a field note",
+        "foreground": [
+          115,
+          68,
+          37
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 8.131558544543969
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "path": "/services",
+    "samples": [
+      {
+        "text": "Your business online",
+        "foreground": [
+          73,
+          52,
+          103
+        ],
+        "background": [
+          243,
+          237,
+          250
+        ],
+        "ratio": 9.29027205192931
+      },
+      {
+        "text": "A clear offer.\nAn easy next step.",
+        "foreground": [
+          73,
+          52,
+          103
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 10.658034047639646
+      },
+      {
+        "text": "Get in touch ↗",
+        "foreground": [
+          73,
+          52,
+          103
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 10.658034047639646
+      },
+      {
+        "text": "Approval workspace",
+        "foreground": [
+          35,
+          87,
+          64
+        ],
+        "background": [
+          233,
+          244,
+          238
+        ],
+        "ratio": 7.429762532382117
+      },
+      {
+        "text": "Request",
+        "foreground": [
+          35,
+          87,
+          64
+        ],
+        "background": [
+          233,
+          244,
+          238
+        ],
+        "ratio": 7.429762532382117
+      },
+      {
+        "text": "Status",
+        "foreground": [
+          35,
+          87,
+          64
+        ],
+        "background": [
+          233,
+          244,
+          238
+        ],
+        "ratio": 7.429762532382117
+      },
+      {
+        "text": "Stock update",
+        "foreground": [
+          35,
+          87,
+          64
+        ],
+        "background": [
+          233,
+          244,
+          238
+        ],
+        "ratio": 7.429762532382117
+      },
+      {
+        "text": "Review",
+        "foreground": [
+          35,
+          87,
+          64
+        ],
+        "background": [
+          233,
+          244,
+          238
+        ],
+        "ratio": 7.429762532382117
+      },
+      {
+        "text": "Item record",
+        "foreground": [
+          35,
+          87,
+          64
+        ],
+        "background": [
+          233,
+          244,
+          238
+        ],
+        "ratio": 7.429762532382117
+      },
+      {
+        "text": "Approved",
+        "foreground": [
+          35,
+          87,
+          64
+        ],
+        "background": [
+          233,
+          244,
+          238
+        ],
+        "ratio": 7.429762532382117
+      },
+      {
+        "text": "Access by role",
+        "foreground": [
+          35,
+          87,
+          64
+        ],
+        "background": [
+          233,
+          244,
+          238
+        ],
+        "ratio": 7.429762532382117
+      },
+      {
+        "text": "Work on the move",
+        "foreground": [
+          115,
+          68,
+          37
+        ],
+        "background": [
+          251,
+          239,
+          228
+        ],
+        "ratio": 7.190130835341956
+      },
+      {
+        "text": "Your daily tasks",
+        "foreground": [
+          115,
+          68,
+          37
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 8.131558544543969
+      },
+      {
+        "text": "Review a request",
+        "foreground": [
+          115,
+          68,
+          37
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 8.131558544543969
+      },
+      {
+        "text": "Add a field note",
+        "foreground": [
+          115,
+          68,
+          37
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 8.131558544543969
+      },
+      {
+        "text": "Learning workspace",
+        "foreground": [
+          34,
+          85,
+          76
+        ],
+        "background": [
+          233,
+          244,
+          238
+        ],
+        "ratio": 7.540976872442309
+      },
+      {
+        "text": "Course materials",
+        "foreground": [
+          34,
+          85,
+          76
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 8.495913327079071
+      },
+      {
+        "text": "Assignments",
+        "foreground": [
+          34,
+          85,
+          76
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 8.495913327079071
+      },
+      {
+        "text": "Teacher feedback",
+        "foreground": [
+          34,
+          85,
+          76
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 8.495913327079071
+      },
+      {
+        "text": "Learner · Teacher · Administration",
+        "foreground": [
+          34,
+          85,
+          76
+        ],
+        "background": [
+          233,
+          244,
+          238
+        ],
+        "ratio": 7.540976872442309
+      },
+      {
+        "text": "Make your offer discoverable",
+        "foreground": [
+          73,
+          52,
+          103
+        ],
+        "background": [
+          243,
+          237,
+          250
+        ],
+        "ratio": 9.29027205192931
+      },
+      {
+        "text": "Find the right service",
+        "foreground": [
+          73,
+          52,
+          103
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 10.658034047639646
+      },
+      {
+        "text": "Your business. A clear offer.",
+        "foreground": [
+          73,
+          52,
+          103
+        ],
+        "background": [
+          243,
+          237,
+          250
+        ],
+        "ratio": 9.29027205192931
+      },
+      {
+        "text": "Useful content → Website → Enquiry",
+        "foreground": [
+          73,
+          52,
+          103
+        ],
+        "background": [
+          243,
+          237,
+          250
+        ],
+        "ratio": 9.29027205192931
+      },
+      {
+        "text": "Search",
+        "foreground": [
+          73,
+          52,
+          103
+        ],
+        "background": [
+          243,
+          237,
+          250
+        ],
+        "ratio": 9.29027205192931
+      },
+      {
+        "text": "Content",
+        "foreground": [
+          73,
+          52,
+          103
+        ],
+        "background": [
+          243,
+          237,
+          250
+        ],
+        "ratio": 9.29027205192931
+      },
+      {
+        "text": "Brand",
+        "foreground": [
+          73,
+          52,
+          103
+        ],
+        "background": [
+          243,
+          237,
+          250
+        ],
+        "ratio": 9.29027205192931
+      },
+      {
+        "text": "Learn through practice",
+        "foreground": [
+          24,
+          55,
+          111
+        ],
+        "background": [
+          237,
+          243,
+          255
+        ],
+        "ratio": 10.394860600171317
+      },
+      {
+        "text": "WORKSHOP / EXAMPLE",
+        "foreground": [
+          191,
+          219,
+          254
+        ],
+        "background": [
+          20,
+          33,
+          61
+        ],
+        "ratio": 11.241616039398002
+      },
+      {
+        "text": "learn();\nbuild();\nreview();",
+        "foreground": [
+          226,
+          232,
+          240
+        ],
+        "background": [
+          20,
+          33,
+          61
+        ],
+        "ratio": 12.957343288997839
+      },
+      {
+        "text": "Guided tasks",
+        "foreground": [
+          24,
+          55,
+          111
+        ],
+        "background": [
+          237,
+          243,
+          255
+        ],
+        "ratio": 10.394860600171317
+      },
+      {
+        "text": "Project feedback",
+        "foreground": [
+          24,
+          55,
+          111
+        ],
+        "background": [
+          237,
+          243,
+          255
+        ],
+        "ratio": 10.394860600171317
+      },
+      {
+        "text": "Enquiry workflow",
+        "foreground": [
+          24,
+          55,
+          111
+        ],
+        "background": [
+          237,
+          243,
+          255
+        ],
+        "ratio": 10.394860600171317
+      },
+      {
+        "text": "Capture context",
+        "foreground": [
+          24,
+          55,
+          111
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 11.571186413016466
+      },
+      {
+        "text": "Human review",
+        "foreground": [
+          24,
+          55,
+          111
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 11.571186413016466
+      },
+      {
+        "text": "Business assistant",
+        "foreground": [
+          73,
+          52,
+          103
+        ],
+        "background": [
+          243,
+          237,
+          250
+        ],
+        "ratio": 9.29027205192931
+      },
+      {
+        "text": "Can you help me find a service?",
+        "foreground": [
+          73,
+          52,
+          103
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 10.658034047639646
+      },
+      {
+        "text": "Use approved information.\nOffer a human handoff.",
+        "foreground": [
+          73,
+          52,
+          103
+        ],
+        "background": [
+          238,
+          229,
+          248
+        ],
+        "ratio": 8.728734656035693
+      },
+      {
+        "text": "Your team stays in control",
+        "foreground": [
+          73,
+          52,
+          103
+        ],
+        "background": [
+          243,
+          237,
+          250
+        ],
+        "ratio": 9.29027205192931
+      },
+      {
+        "text": "Connected tools",
+        "foreground": [
+          34,
+          85,
+          76
+        ],
+        "background": [
+          233,
+          244,
+          238
+        ],
+        "ratio": 7.540976872442309
+      },
+      {
+        "text": "Email",
+        "foreground": [
+          34,
+          85,
+          76
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 8.495913327079071
+      },
+      {
+        "text": "API / review",
+        "foreground": [
+          34,
+          85,
+          76
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 8.495913327079071
+      },
+      {
+        "text": "CRM",
+        "foreground": [
+          34,
+          85,
+          76
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 8.495913327079071
+      },
+      {
+        "text": "Validate → Approve → Connect",
+        "foreground": [
+          34,
+          85,
+          76
+        ],
+        "background": [
+          233,
+          244,
+          238
+        ],
+        "ratio": 7.540976872442309
+      },
+      {
+        "text": "AI inside your workspace",
+        "foreground": [
+          24,
+          55,
+          111
+        ],
+        "background": [
+          237,
+          243,
+          255
+        ],
+        "ratio": 10.394860600171317
+      },
+      {
+        "text": "Draft a summary",
+        "foreground": [
+          24,
+          55,
+          111
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 11.571186413016466
+      },
+      {
+        "text": "Find approved knowledge",
+        "foreground": [
+          24,
+          55,
+          111
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 11.571186413016466
+      },
+      {
+        "text": "Review before action",
+        "foreground": [
+          24,
+          55,
+          111
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 11.571186413016466
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "path": "/about",
+    "samples": [
+      {
+        "text": "Clear scope and responsibilities",
+        "foreground": [
+          20,
+          33,
+          61
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 15.973572602316318
+      },
+      {
+        "text": "Reviewable development steps",
+        "foreground": [
+          20,
+          33,
+          61
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 15.973572602316318
+      },
+      {
+        "text": "Support agreed before commitment",
+        "foreground": [
+          20,
+          33,
+          61
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 15.973572602316318
+      },
+      {
+        "text": "A shared project workspace",
+        "foreground": [
+          24,
+          55,
+          111
+        ],
+        "background": [
+          237,
+          243,
+          255
+        ],
+        "ratio": 10.394860600171317
+      },
+      {
+        "text": "Your goals",
+        "foreground": [
+          24,
+          55,
+          111
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 11.571186413016466
+      },
+      {
+        "text": "A prototype",
+        "foreground": [
+          24,
+          55,
+          111
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 11.571186413016466
+      },
+      {
+        "text": "Team review",
+        "foreground": [
+          24,
+          55,
+          111
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 11.571186413016466
+      },
+      {
+        "text": "Clear scope · Visible progress · Handover",
+        "foreground": [
+          24,
+          55,
+          111
+        ],
+        "background": [
+          237,
+          243,
+          255
+        ],
+        "ratio": 10.394860600171317
+      },
+      {
+        "text": "Original project-workflow concept, not an office or team photograph.",
+        "foreground": [
+          95,
+          111,
+          133
+        ],
+        "background": [
+          248,
+          250,
+          252
+        ],
+        "ratio": 4.896551390470989
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "path": "/products",
+    "samples": [
+      {
+        "text": "Illustrative interface only",
+        "foreground": [
+          20,
+          33,
+          61
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 15.973572602316318
+      },
+      {
+        "text": "Channels and integrations unconfirmed",
+        "foreground": [
+          20,
+          33,
+          61
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 15.973572602316318
+      },
+      {
+        "text": "No release date or pricing promised",
+        "foreground": [
+          20,
+          33,
+          61
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 15.973572602316318
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "path": "/training",
+    "samples": [
+      {
+        "text": "Learn through practice",
+        "foreground": [
+          24,
+          55,
+          111
+        ],
+        "background": [
+          237,
+          243,
+          255
+        ],
+        "ratio": 10.394860600171317
+      },
+      {
+        "text": "WORKSHOP / EXAMPLE",
+        "foreground": [
+          191,
+          219,
+          254
+        ],
+        "background": [
+          20,
+          33,
+          61
+        ],
+        "ratio": 11.241616039398002
+      },
+      {
+        "text": "learn();\nbuild();\nreview();",
+        "foreground": [
+          226,
+          232,
+          240
+        ],
+        "background": [
+          20,
+          33,
+          61
+        ],
+        "ratio": 12.957343288997839
+      },
+      {
+        "text": "Guided tasks",
+        "foreground": [
+          24,
+          55,
+          111
+        ],
+        "background": [
+          237,
+          243,
+          255
+        ],
+        "ratio": 10.394860600171317
+      },
+      {
+        "text": "Project feedback",
+        "foreground": [
+          24,
+          55,
+          111
+        ],
+        "background": [
+          237,
+          243,
+          255
+        ],
+        "ratio": 10.394860600171317
+      },
+      {
+        "text": "Original service concept. No client implementation or results implied.",
+        "foreground": [
+          95,
+          111,
+          133
+        ],
+        "background": [
+          248,
+          250,
+          252
+        ],
+        "ratio": 4.896551390470989
+      },
+      {
+        "text": "Share your learners' starting level",
+        "foreground": [
+          20,
+          33,
+          61
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 15.973572602316318
+      },
+      {
+        "text": "Choose topics and delivery requirements",
+        "foreground": [
+          20,
+          33,
+          61
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 15.973572602316318
+      },
+      {
+        "text": "Agree the format, scope and schedule",
+        "foreground": [
+          20,
+          33,
+          61
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 15.973572602316318
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "path": "/services/website-development",
+    "samples": [
+      {
+        "text": "Your business online",
+        "foreground": [
+          73,
+          52,
+          103
+        ],
+        "background": [
+          243,
+          237,
+          250
+        ],
+        "ratio": 9.29027205192931
+      },
+      {
+        "text": "A clear offer.\nAn easy next step.",
+        "foreground": [
+          73,
+          52,
+          103
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 10.658034047639646
+      },
+      {
+        "text": "Get in touch ↗",
+        "foreground": [
+          73,
+          52,
+          103
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 10.658034047639646
+      },
+      {
+        "text": "Original service concept. No client implementation or results implied.",
+        "foreground": [
+          95,
+          111,
+          133
+        ],
+        "background": [
+          248,
+          250,
+          252
+        ],
+        "ratio": 4.896551390470989
+      },
+      {
+        "text": "Plan the visitor journey",
+        "foreground": [
+          20,
+          33,
+          61
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 15.973572602316318
+      },
+      {
+        "text": "Design responsive pages",
+        "foreground": [
+          20,
+          33,
+          61
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 15.973572602316318
+      },
+      {
+        "text": "Connect the enquiry path",
+        "foreground": [
+          20,
+          33,
+          61
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 15.973572602316318
+      },
+      {
+        "text": "Businesses",
+        "foreground": [
+          51,
+          65,
+          85
+        ],
+        "background": [
+          248,
+          250,
+          252
+        ],
+        "ratio": 9.896764973632585
+      },
+      {
+        "text": "Startups",
+        "foreground": [
+          51,
+          65,
+          85
+        ],
+        "background": [
+          248,
+          250,
+          252
+        ],
+        "ratio": 9.896764973632585
+      },
+      {
+        "text": "Institutions",
+        "foreground": [
+          51,
+          65,
+          85
+        ],
+        "background": [
+          248,
+          250,
+          252
+        ],
+        "ratio": 9.896764973632585
+      },
+      {
+        "text": "Scope & audience details",
+        "foreground": [
+          37,
+          99,
+          235
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.168555560022562
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "path": "/services/custom-software-development",
+    "samples": [
+      {
+        "text": "Approval workspace",
+        "foreground": [
+          35,
+          87,
+          64
+        ],
+        "background": [
+          233,
+          244,
+          238
+        ],
+        "ratio": 7.429762532382117
+      },
+      {
+        "text": "Stock update",
+        "foreground": [
+          35,
+          87,
+          64
+        ],
+        "background": [
+          233,
+          244,
+          238
+        ],
+        "ratio": 7.429762532382117
+      },
+      {
+        "text": "Review",
+        "foreground": [
+          35,
+          87,
+          64
+        ],
+        "background": [
+          233,
+          244,
+          238
+        ],
+        "ratio": 7.429762532382117
+      },
+      {
+        "text": "Item record",
+        "foreground": [
+          35,
+          87,
+          64
+        ],
+        "background": [
+          233,
+          244,
+          238
+        ],
+        "ratio": 7.429762532382117
+      },
+      {
+        "text": "Approved",
+        "foreground": [
+          35,
+          87,
+          64
+        ],
+        "background": [
+          233,
+          244,
+          238
+        ],
+        "ratio": 7.429762532382117
+      },
+      {
+        "text": "Access by role",
+        "foreground": [
+          35,
+          87,
+          64
+        ],
+        "background": [
+          233,
+          244,
+          238
+        ],
+        "ratio": 7.429762532382117
+      },
+      {
+        "text": "Original service concept. No client implementation or results implied.",
+        "foreground": [
+          95,
+          111,
+          133
+        ],
+        "background": [
+          248,
+          250,
+          252
+        ],
+        "ratio": 4.896551390470989
+      },
+      {
+        "text": "Map the workflow",
+        "foreground": [
+          20,
+          33,
+          61
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 15.973572602316318
+      },
+      {
+        "text": "Define access by role",
+        "foreground": [
+          20,
+          33,
+          61
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 15.973572602316318
+      },
+      {
+        "text": "Build around real tasks",
+        "foreground": [
+          20,
+          33,
+          61
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 15.973572602316318
+      },
+      {
+        "text": "Operations teams",
+        "foreground": [
+          51,
+          65,
+          85
+        ],
+        "background": [
+          248,
+          250,
+          252
+        ],
+        "ratio": 9.896764973632585
+      },
+      {
+        "text": "Growing businesses",
+        "foreground": [
+          51,
+          65,
+          85
+        ],
+        "background": [
+          248,
+          250,
+          252
+        ],
+        "ratio": 9.896764973632585
+      },
+      {
+        "text": "Scope & audience details",
+        "foreground": [
+          37,
+          99,
+          235
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.168555560022562
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "path": "/services/mobile-app-development",
+    "samples": [
+      {
+        "text": "Work on the move",
+        "foreground": [
+          115,
+          68,
+          37
+        ],
+        "background": [
+          251,
+          239,
+          228
+        ],
+        "ratio": 7.190130835341956
+      },
+      {
+        "text": "Your daily tasks",
+        "foreground": [
+          115,
+          68,
+          37
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 8.131558544543969
+      },
+      {
+        "text": "Review a request",
+        "foreground": [
+          115,
+          68,
+          37
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 8.131558544543969
+      },
+      {
+        "text": "Add a field note",
+        "foreground": [
+          115,
+          68,
+          37
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 8.131558544543969
+      },
+      {
+        "text": "Open workspace ↗",
+        "foreground": [
+          115,
+          68,
+          37
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 8.131558544543969
+      },
+      {
+        "text": "Original service concept. No client implementation or results implied.",
+        "foreground": [
+          95,
+          111,
+          133
+        ],
+        "background": [
+          248,
+          250,
+          252
+        ],
+        "ratio": 4.896551390470989
+      },
+      {
+        "text": "Focus on core tasks",
+        "foreground": [
+          20,
+          33,
+          61
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 15.973572602316318
+      },
+      {
+        "text": "Plan device support",
+        "foreground": [
+          20,
+          33,
+          61
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 15.973572602316318
+      },
+      {
+        "text": "Connect agreed services",
+        "foreground": [
+          20,
+          33,
+          61
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 15.973572602316318
+      },
+      {
+        "text": "Customer services",
+        "foreground": [
+          51,
+          65,
+          85
+        ],
+        "background": [
+          248,
+          250,
+          252
+        ],
+        "ratio": 9.896764973632585
+      },
+      {
+        "text": "Field teams",
+        "foreground": [
+          51,
+          65,
+          85
+        ],
+        "background": [
+          248,
+          250,
+          252
+        ],
+        "ratio": 9.896764973632585
+      },
+      {
+        "text": "Institutions",
+        "foreground": [
+          51,
+          65,
+          85
+        ],
+        "background": [
+          248,
+          250,
+          252
+        ],
+        "ratio": 9.896764973632585
+      },
+      {
+        "text": "Scope & audience details",
+        "foreground": [
+          37,
+          99,
+          235
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.168555560022562
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "path": "/services/school-institute-solutions",
+    "samples": [
+      {
+        "text": "Learning workspace",
+        "foreground": [
+          34,
+          85,
+          76
+        ],
+        "background": [
+          233,
+          244,
+          238
+        ],
+        "ratio": 7.540976872442309
+      },
+      {
+        "text": "Course materials",
+        "foreground": [
+          34,
+          85,
+          76
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 8.495913327079071
+      },
+      {
+        "text": "Assignments",
+        "foreground": [
+          34,
+          85,
+          76
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 8.495913327079071
+      },
+      {
+        "text": "Teacher feedback",
+        "foreground": [
+          34,
+          85,
+          76
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 8.495913327079071
+      },
+      {
+        "text": "Learner · Teacher · Administration",
+        "foreground": [
+          34,
+          85,
+          76
+        ],
+        "background": [
+          233,
+          244,
+          238
+        ],
+        "ratio": 7.540976872442309
+      },
+      {
+        "text": "Original service concept. No client implementation or results implied.",
+        "foreground": [
+          95,
+          111,
+          133
+        ],
+        "background": [
+          248,
+          250,
+          252
+        ],
+        "ratio": 4.896551390470989
+      },
+      {
+        "text": "Organise learner access",
+        "foreground": [
+          20,
+          33,
+          61
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 15.973572602316318
+      },
+      {
+        "text": "Simplify administration",
+        "foreground": [
+          20,
+          33,
+          61
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 15.973572602316318
+      },
+      {
+        "text": "Connect learning resources",
+        "foreground": [
+          20,
+          33,
+          61
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 15.973572602316318
+      },
+      {
+        "text": "Schools",
+        "foreground": [
+          51,
+          65,
+          85
+        ],
+        "background": [
+          248,
+          250,
+          252
+        ],
+        "ratio": 9.896764973632585
+      },
+      {
+        "text": "Coaching institutes",
+        "foreground": [
+          51,
+          65,
+          85
+        ],
+        "background": [
+          248,
+          250,
+          252
+        ],
+        "ratio": 9.896764973632585
+      },
+      {
+        "text": "Learning teams",
+        "foreground": [
+          51,
+          65,
+          85
+        ],
+        "background": [
+          248,
+          250,
+          252
+        ],
+        "ratio": 9.896764973632585
+      },
+      {
+        "text": "Scope & audience details",
+        "foreground": [
+          37,
+          99,
+          235
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.168555560022562
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "path": "/services/digital-marketing",
+    "samples": [
+      {
+        "text": "Make your offer discoverable",
+        "foreground": [
+          73,
+          52,
+          103
+        ],
+        "background": [
+          243,
+          237,
+          250
+        ],
+        "ratio": 9.29027205192931
+      },
+      {
+        "text": "Find the right service",
+        "foreground": [
+          73,
+          52,
+          103
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 10.658034047639646
+      },
+      {
+        "text": "Your business. A clear offer.",
+        "foreground": [
+          73,
+          52,
+          103
+        ],
+        "background": [
+          243,
+          237,
+          250
+        ],
+        "ratio": 9.29027205192931
+      },
+      {
+        "text": "Useful content → Website → Enquiry",
+        "foreground": [
+          73,
+          52,
+          103
+        ],
+        "background": [
+          243,
+          237,
+          250
+        ],
+        "ratio": 9.29027205192931
+      },
+      {
+        "text": "Search",
+        "foreground": [
+          73,
+          52,
+          103
+        ],
+        "background": [
+          243,
+          237,
+          250
+        ],
+        "ratio": 9.29027205192931
+      },
+      {
+        "text": "Content",
+        "foreground": [
+          73,
+          52,
+          103
+        ],
+        "background": [
+          243,
+          237,
+          250
+        ],
+        "ratio": 9.29027205192931
+      },
+      {
+        "text": "Brand",
+        "foreground": [
+          73,
+          52,
+          103
+        ],
+        "background": [
+          243,
+          237,
+          250
+        ],
+        "ratio": 9.29027205192931
+      },
+      {
+        "text": "Original service concept. No client implementation or results implied.",
+        "foreground": [
+          95,
+          111,
+          133
+        ],
+        "background": [
+          248,
+          250,
+          252
+        ],
+        "ratio": 4.896551390470989
+      },
+      {
+        "text": "Review search visibility",
+        "foreground": [
+          20,
+          33,
+          61
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 15.973572602316318
+      },
+      {
+        "text": "Plan useful content",
+        "foreground": [
+          20,
+          33,
+          61
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 15.973572602316318
+      },
+      {
+        "text": "Keep brand messaging consistent",
+        "foreground": [
+          20,
+          33,
+          61
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 15.973572602316318
+      },
+      {
+        "text": "Business owners",
+        "foreground": [
+          51,
+          65,
+          85
+        ],
+        "background": [
+          248,
+          250,
+          252
+        ],
+        "ratio": 9.896764973632585
+      },
+      {
+        "text": "Service brands",
+        "foreground": [
+          51,
+          65,
+          85
+        ],
+        "background": [
+          248,
+          250,
+          252
+        ],
+        "ratio": 9.896764973632585
+      },
+      {
+        "text": "Scope & audience details",
+        "foreground": [
+          37,
+          99,
+          235
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.168555560022562
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "path": "/services/it-training",
+    "samples": [
+      {
+        "text": "Learn through practice",
+        "foreground": [
+          24,
+          55,
+          111
+        ],
+        "background": [
+          237,
+          243,
+          255
+        ],
+        "ratio": 10.394860600171317
+      },
+      {
+        "text": "WORKSHOP / EXAMPLE",
+        "foreground": [
+          191,
+          219,
+          254
+        ],
+        "background": [
+          20,
+          33,
+          61
+        ],
+        "ratio": 11.241616039398002
+      },
+      {
+        "text": "learn();\nbuild();\nreview();",
+        "foreground": [
+          226,
+          232,
+          240
+        ],
+        "background": [
+          20,
+          33,
+          61
+        ],
+        "ratio": 12.957343288997839
+      },
+      {
+        "text": "Guided tasks",
+        "foreground": [
+          24,
+          55,
+          111
+        ],
+        "background": [
+          237,
+          243,
+          255
+        ],
+        "ratio": 10.394860600171317
+      },
+      {
+        "text": "Project feedback",
+        "foreground": [
+          24,
+          55,
+          111
+        ],
+        "background": [
+          237,
+          243,
+          255
+        ],
+        "ratio": 10.394860600171317
+      },
+      {
+        "text": "Original service concept. No client implementation or results implied.",
+        "foreground": [
+          95,
+          111,
+          133
+        ],
+        "background": [
+          248,
+          250,
+          252
+        ],
+        "ratio": 4.896551390470989
+      },
+      {
+        "text": "Agree a starting level",
+        "foreground": [
+          20,
+          33,
+          61
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 15.973572602316318
+      },
+      {
+        "text": "Practise with projects",
+        "foreground": [
+          20,
+          33,
+          61
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 15.973572602316318
+      },
+      {
+        "text": "Review the work together",
+        "foreground": [
+          20,
+          33,
+          61
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 15.973572602316318
+      },
+      {
+        "text": "Students",
+        "foreground": [
+          51,
+          65,
+          85
+        ],
+        "background": [
+          248,
+          250,
+          252
+        ],
+        "ratio": 9.896764973632585
+      },
+      {
+        "text": "Schools",
+        "foreground": [
+          51,
+          65,
+          85
+        ],
+        "background": [
+          248,
+          250,
+          252
+        ],
+        "ratio": 9.896764973632585
+      },
+      {
+        "text": "Professional teams",
+        "foreground": [
+          51,
+          65,
+          85
+        ],
+        "background": [
+          248,
+          250,
+          252
+        ],
+        "ratio": 9.896764973632585
+      },
+      {
+        "text": "Scope & audience details",
+        "foreground": [
+          37,
+          99,
+          235
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.168555560022562
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "path": "/services/ai-automation",
+    "samples": [
+      {
+        "text": "Disconnected tools and repeated data entry",
+        "foreground": [
+          20,
+          33,
+          61
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 15.973572602316318
+      },
+      {
+        "text": "Enquiries waiting for the right person",
+        "foreground": [
+          20,
+          33,
+          61
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 15.973572602316318
+      },
+      {
+        "text": "Unstructured documents and time-consuming reporting",
+        "foreground": [
+          20,
+          33,
+          61
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 15.973572602316318
+      },
+      {
+        "text": "Process owners",
+        "foreground": [
+          51,
+          65,
+          85
+        ],
+        "background": [
+          248,
+          250,
+          252
+        ],
+        "ratio": 9.896764973632585
+      },
+      {
+        "text": "Business teams",
+        "foreground": [
+          51,
+          65,
+          85
+        ],
+        "background": [
+          248,
+          250,
+          252
+        ],
+        "ratio": 9.896764973632585
+      },
+      {
+        "text": "Scope & audience details",
+        "foreground": [
+          37,
+          99,
+          235
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.168555560022562
+      },
+      {
+        "text": "Technical scope",
+        "foreground": [
+          37,
+          99,
+          235
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.168555560022562
+      },
+      {
+        "text": "Technical scope",
+        "foreground": [
+          37,
+          99,
+          235
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.168555560022562
+      },
+      {
+        "text": "Technical scope",
+        "foreground": [
+          37,
+          99,
+          235
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.168555560022562
+      },
+      {
+        "text": "Technical scope",
+        "foreground": [
+          37,
+          99,
+          235
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.168555560022562
+      },
+      {
+        "text": "Technical scope",
+        "foreground": [
+          37,
+          99,
+          235
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.168555560022562
+      },
+      {
+        "text": "Technical scope",
+        "foreground": [
+          37,
+          99,
+          235
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.168555560022562
+      },
+      {
+        "text": "Technical scope",
+        "foreground": [
+          37,
+          99,
+          235
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.168555560022562
+      },
+      {
+        "text": "Technical scope",
+        "foreground": [
+          37,
+          99,
+          235
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.168555560022562
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "path": "/services/ai-chatbots",
+    "samples": [
+      {
+        "text": "Repeated questions across customer channels",
+        "foreground": [
+          20,
+          33,
+          61
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 15.973572602316318
+      },
+      {
+        "text": "Staff searching scattered internal guidance",
+        "foreground": [
+          20,
+          33,
+          61
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 15.973572602316318
+      },
+      {
+        "text": "Incomplete enquiries that need a human follow-up",
+        "foreground": [
+          20,
+          33,
+          61
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 15.973572602316318
+      },
+      {
+        "text": "Support teams",
+        "foreground": [
+          51,
+          65,
+          85
+        ],
+        "background": [
+          248,
+          250,
+          252
+        ],
+        "ratio": 9.896764973632585
+      },
+      {
+        "text": "Website visitors",
+        "foreground": [
+          51,
+          65,
+          85
+        ],
+        "background": [
+          248,
+          250,
+          252
+        ],
+        "ratio": 9.896764973632585
+      },
+      {
+        "text": "Internal teams",
+        "foreground": [
+          51,
+          65,
+          85
+        ],
+        "background": [
+          248,
+          250,
+          252
+        ],
+        "ratio": 9.896764973632585
+      },
+      {
+        "text": "Scope & audience details",
+        "foreground": [
+          37,
+          99,
+          235
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.168555560022562
+      },
+      {
+        "text": "Technical scope",
+        "foreground": [
+          37,
+          99,
+          235
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.168555560022562
+      },
+      {
+        "text": "Technical scope",
+        "foreground": [
+          37,
+          99,
+          235
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.168555560022562
+      },
+      {
+        "text": "Technical scope",
+        "foreground": [
+          37,
+          99,
+          235
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.168555560022562
+      },
+      {
+        "text": "Technical scope",
+        "foreground": [
+          37,
+          99,
+          235
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.168555560022562
+      },
+      {
+        "text": "Technical scope",
+        "foreground": [
+          37,
+          99,
+          235
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.168555560022562
+      },
+      {
+        "text": "Technical scope",
+        "foreground": [
+          37,
+          99,
+          235
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.168555560022562
+      },
+      {
+        "text": "Technical scope",
+        "foreground": [
+          37,
+          99,
+          235
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.168555560022562
+      },
+      {
+        "text": "Technical scope",
+        "foreground": [
+          37,
+          99,
+          235
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.168555560022562
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "path": "/services/ai-workflow-integration",
+    "samples": [
+      {
+        "text": "Supported APIs · scoped permissions",
+        "foreground": [
+          95,
+          111,
+          133
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.123143243913022
+      },
+      {
+        "text": "Email or web form",
+        "foreground": [
+          20,
+          33,
+          61
+        ],
+        "background": [
+          239,
+          246,
+          255
+        ],
+        "ratio": 14.677774595581425
+      },
+      {
+        "text": "Agreed input",
+        "foreground": [
+          82,
+          98,
+          120
+        ],
+        "background": [
+          239,
+          246,
+          255
+        ],
+        "ratio": 5.713989835936214
+      },
+      {
+        "text": "Validate + AI assist",
+        "foreground": [
+          20,
+          33,
+          61
+        ],
+        "background": [
+          243,
+          237,
+          250
+        ],
+        "ratio": 13.92365932154512
+      },
+      {
+        "text": "Review exceptions",
+        "foreground": [
+          82,
+          98,
+          120
+        ],
+        "background": [
+          243,
+          237,
+          250
+        ],
+        "ratio": 5.420416243910563
+      },
+      {
+        "text": "CRM or business tool",
+        "foreground": [
+          20,
+          33,
+          61
+        ],
+        "background": [
+          233,
+          244,
+          238
+        ],
+        "ratio": 14.178150944691764
+      },
+      {
+        "text": "Approved action",
+        "foreground": [
+          82,
+          98,
+          120
+        ],
+        "background": [
+          233,
+          244,
+          238
+        ],
+        "ratio": 5.5194886570016175
+      },
+      {
+        "text": "Permissions checked at each handoff",
+        "foreground": [
+          22,
+          101,
+          52
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 7.130310076434003
+      },
+      {
+        "text": "Information copied across separate systems",
+        "foreground": [
+          20,
+          33,
+          61
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 15.973572602316318
+      },
+      {
+        "text": "Missing context between incoming requests and follow-up",
+        "foreground": [
+          20,
+          33,
+          61
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 15.973572602316318
+      },
+      {
+        "text": "Silent failures or unclear ownership in existing automations",
+        "foreground": [
+          20,
+          33,
+          61
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 15.973572602316318
+      },
+      {
+        "text": "Operations teams",
+        "foreground": [
+          51,
+          65,
+          85
+        ],
+        "background": [
+          248,
+          250,
+          252
+        ],
+        "ratio": 9.896764973632585
+      },
+      {
+        "text": "Established systems",
+        "foreground": [
+          51,
+          65,
+          85
+        ],
+        "background": [
+          248,
+          250,
+          252
+        ],
+        "ratio": 9.896764973632585
+      },
+      {
+        "text": "Scope & audience details",
+        "foreground": [
+          37,
+          99,
+          235
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.168555560022562
+      },
+      {
+        "text": "Technical scope",
+        "foreground": [
+          37,
+          99,
+          235
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.168555560022562
+      },
+      {
+        "text": "Technical scope",
+        "foreground": [
+          37,
+          99,
+          235
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.168555560022562
+      },
+      {
+        "text": "Technical scope",
+        "foreground": [
+          37,
+          99,
+          235
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.168555560022562
+      },
+      {
+        "text": "Technical scope",
+        "foreground": [
+          37,
+          99,
+          235
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.168555560022562
+      },
+      {
+        "text": "Technical scope",
+        "foreground": [
+          37,
+          99,
+          235
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.168555560022562
+      },
+      {
+        "text": "Technical scope",
+        "foreground": [
+          37,
+          99,
+          235
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.168555560022562
+      },
+      {
+        "text": "Technical scope",
+        "foreground": [
+          37,
+          99,
+          235
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.168555560022562
+      },
+      {
+        "text": "Technical scope",
+        "foreground": [
+          37,
+          99,
+          235
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.168555560022562
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "path": "/services/ai-business-software",
+    "samples": [
+      {
+        "text": "Teams switching between tools to complete one task",
+        "foreground": [
+          20,
+          33,
+          61
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 15.973572602316318
+      },
+      {
+        "text": "Time spent finding and interpreting business information",
+        "foreground": [
+          20,
+          33,
+          61
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 15.973572602316318
+      },
+      {
+        "text": "AI outputs disconnected from approvals and operational records",
+        "foreground": [
+          20,
+          33,
+          61
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 15.973572602316318
+      },
+      {
+        "text": "Business teams",
+        "foreground": [
+          51,
+          65,
+          85
+        ],
+        "background": [
+          248,
+          250,
+          252
+        ],
+        "ratio": 9.896764973632585
+      },
+      {
+        "text": "Internal tool owners",
+        "foreground": [
+          51,
+          65,
+          85
+        ],
+        "background": [
+          248,
+          250,
+          252
+        ],
+        "ratio": 9.896764973632585
+      },
+      {
+        "text": "Scope & audience details",
+        "foreground": [
+          37,
+          99,
+          235
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.168555560022562
+      },
+      {
+        "text": "Technical scope",
+        "foreground": [
+          37,
+          99,
+          235
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.168555560022562
+      },
+      {
+        "text": "Technical scope",
+        "foreground": [
+          37,
+          99,
+          235
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.168555560022562
+      },
+      {
+        "text": "Technical scope",
+        "foreground": [
+          37,
+          99,
+          235
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.168555560022562
+      },
+      {
+        "text": "Technical scope",
+        "foreground": [
+          37,
+          99,
+          235
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.168555560022562
+      },
+      {
+        "text": "Technical scope",
+        "foreground": [
+          37,
+          99,
+          235
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.168555560022562
+      },
+      {
+        "text": "Technical scope",
+        "foreground": [
+          37,
+          99,
+          235
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.168555560022562
+      },
+      {
+        "text": "Technical scope",
+        "foreground": [
+          37,
+          99,
+          235
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.168555560022562
+      },
+      {
+        "text": "Technical scope",
+        "foreground": [
+          37,
+          99,
+          235
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.168555560022562
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "path": "/",
+    "samples": [
+      {
+        "text": "Enquiry workflow",
+        "foreground": [
+          24,
+          55,
+          111
+        ],
+        "background": [
+          237,
+          243,
+          255
+        ],
+        "ratio": 10.394860600171317
+      },
+      {
+        "text": "Capture context",
+        "foreground": [
+          24,
+          55,
+          111
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 11.571186413016466
+      },
+      {
+        "text": "Human review",
+        "foreground": [
+          24,
+          55,
+          111
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 11.571186413016466
+      },
+      {
+        "text": "Your business online",
+        "foreground": [
+          73,
+          52,
+          103
+        ],
+        "background": [
+          243,
+          237,
+          250
+        ],
+        "ratio": 9.29027205192931
+      },
+      {
+        "text": "YOUR BUSINESS",
+        "foreground": [
+          73,
+          52,
+          103
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 10.658034047639646
+      },
+      {
+        "text": "A clear offer.\nAn easy next step.",
+        "foreground": [
+          73,
+          52,
+          103
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 10.658034047639646
+      },
+      {
+        "text": "Get in touch ↗",
+        "foreground": [
+          73,
+          52,
+          103
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 10.658034047639646
+      },
+      {
+        "text": "Approval workspace",
+        "foreground": [
+          35,
+          87,
+          64
+        ],
+        "background": [
+          233,
+          244,
+          238
+        ],
+        "ratio": 7.429762532382117
+      },
+      {
+        "text": "Request",
+        "foreground": [
+          35,
+          87,
+          64
+        ],
+        "background": [
+          233,
+          244,
+          238
+        ],
+        "ratio": 7.429762532382117
+      },
+      {
+        "text": "Status",
+        "foreground": [
+          35,
+          87,
+          64
+        ],
+        "background": [
+          233,
+          244,
+          238
+        ],
+        "ratio": 7.429762532382117
+      },
+      {
+        "text": "Stock update",
+        "foreground": [
+          35,
+          87,
+          64
+        ],
+        "background": [
+          233,
+          244,
+          238
+        ],
+        "ratio": 7.429762532382117
+      },
+      {
+        "text": "Review",
+        "foreground": [
+          35,
+          87,
+          64
+        ],
+        "background": [
+          233,
+          244,
+          238
+        ],
+        "ratio": 7.429762532382117
+      },
+      {
+        "text": "Item record",
+        "foreground": [
+          35,
+          87,
+          64
+        ],
+        "background": [
+          233,
+          244,
+          238
+        ],
+        "ratio": 7.429762532382117
+      },
+      {
+        "text": "Approved",
+        "foreground": [
+          35,
+          87,
+          64
+        ],
+        "background": [
+          233,
+          244,
+          238
+        ],
+        "ratio": 7.429762532382117
+      },
+      {
+        "text": "Access by role",
+        "foreground": [
+          35,
+          87,
+          64
+        ],
+        "background": [
+          233,
+          244,
+          238
+        ],
+        "ratio": 7.429762532382117
+      },
+      {
+        "text": "Work on the move",
+        "foreground": [
+          115,
+          68,
+          37
+        ],
+        "background": [
+          251,
+          239,
+          228
+        ],
+        "ratio": 7.190130835341956
+      },
+      {
+        "text": "Your daily tasks",
+        "foreground": [
+          115,
+          68,
+          37
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 8.131558544543969
+      },
+      {
+        "text": "Review a request",
+        "foreground": [
+          115,
+          68,
+          37
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 8.131558544543969
+      },
+      {
+        "text": "Add a field note",
+        "foreground": [
+          115,
+          68,
+          37
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 8.131558544543969
+      },
+      {
+        "text": "Open workspace ↗",
+        "foreground": [
+          115,
+          68,
+          37
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 8.131558544543969
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "path": "/services",
+    "samples": [
+      {
+        "text": "Your business online",
+        "foreground": [
+          73,
+          52,
+          103
+        ],
+        "background": [
+          243,
+          237,
+          250
+        ],
+        "ratio": 9.29027205192931
+      },
+      {
+        "text": "YOUR BUSINESS",
+        "foreground": [
+          73,
+          52,
+          103
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 10.658034047639646
+      },
+      {
+        "text": "A clear offer.\nAn easy next step.",
+        "foreground": [
+          73,
+          52,
+          103
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 10.658034047639646
+      },
+      {
+        "text": "Get in touch ↗",
+        "foreground": [
+          73,
+          52,
+          103
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 10.658034047639646
+      },
+      {
+        "text": "Approval workspace",
+        "foreground": [
+          35,
+          87,
+          64
+        ],
+        "background": [
+          233,
+          244,
+          238
+        ],
+        "ratio": 7.429762532382117
+      },
+      {
+        "text": "Request",
+        "foreground": [
+          35,
+          87,
+          64
+        ],
+        "background": [
+          233,
+          244,
+          238
+        ],
+        "ratio": 7.429762532382117
+      },
+      {
+        "text": "Status",
+        "foreground": [
+          35,
+          87,
+          64
+        ],
+        "background": [
+          233,
+          244,
+          238
+        ],
+        "ratio": 7.429762532382117
+      },
+      {
+        "text": "Stock update",
+        "foreground": [
+          35,
+          87,
+          64
+        ],
+        "background": [
+          233,
+          244,
+          238
+        ],
+        "ratio": 7.429762532382117
+      },
+      {
+        "text": "Review",
+        "foreground": [
+          35,
+          87,
+          64
+        ],
+        "background": [
+          233,
+          244,
+          238
+        ],
+        "ratio": 7.429762532382117
+      },
+      {
+        "text": "Item record",
+        "foreground": [
+          35,
+          87,
+          64
+        ],
+        "background": [
+          233,
+          244,
+          238
+        ],
+        "ratio": 7.429762532382117
+      },
+      {
+        "text": "Approved",
+        "foreground": [
+          35,
+          87,
+          64
+        ],
+        "background": [
+          233,
+          244,
+          238
+        ],
+        "ratio": 7.429762532382117
+      },
+      {
+        "text": "Access by role",
+        "foreground": [
+          35,
+          87,
+          64
+        ],
+        "background": [
+          233,
+          244,
+          238
+        ],
+        "ratio": 7.429762532382117
+      },
+      {
+        "text": "Work on the move",
+        "foreground": [
+          115,
+          68,
+          37
+        ],
+        "background": [
+          251,
+          239,
+          228
+        ],
+        "ratio": 7.190130835341956
+      },
+      {
+        "text": "Your daily tasks",
+        "foreground": [
+          115,
+          68,
+          37
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 8.131558544543969
+      },
+      {
+        "text": "Review a request",
+        "foreground": [
+          115,
+          68,
+          37
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 8.131558544543969
+      },
+      {
+        "text": "Add a field note",
+        "foreground": [
+          115,
+          68,
+          37
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 8.131558544543969
+      },
+      {
+        "text": "Open workspace ↗",
+        "foreground": [
+          115,
+          68,
+          37
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 8.131558544543969
+      },
+      {
+        "text": "Learning workspace",
+        "foreground": [
+          34,
+          85,
+          76
+        ],
+        "background": [
+          233,
+          244,
+          238
+        ],
+        "ratio": 7.540976872442309
+      },
+      {
+        "text": "Course materials",
+        "foreground": [
+          34,
+          85,
+          76
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 8.495913327079071
+      },
+      {
+        "text": "Assignments",
+        "foreground": [
+          34,
+          85,
+          76
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 8.495913327079071
+      },
+      {
+        "text": "Teacher feedback",
+        "foreground": [
+          34,
+          85,
+          76
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 8.495913327079071
+      },
+      {
+        "text": "Learner · Teacher · Administration",
+        "foreground": [
+          34,
+          85,
+          76
+        ],
+        "background": [
+          233,
+          244,
+          238
+        ],
+        "ratio": 7.540976872442309
+      },
+      {
+        "text": "Make your offer discoverable",
+        "foreground": [
+          73,
+          52,
+          103
+        ],
+        "background": [
+          243,
+          237,
+          250
+        ],
+        "ratio": 9.29027205192931
+      },
+      {
+        "text": "Find the right service",
+        "foreground": [
+          73,
+          52,
+          103
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 10.658034047639646
+      },
+      {
+        "text": "Your business. A clear offer.",
+        "foreground": [
+          73,
+          52,
+          103
+        ],
+        "background": [
+          243,
+          237,
+          250
+        ],
+        "ratio": 9.29027205192931
+      },
+      {
+        "text": "Useful content → Website → Enquiry",
+        "foreground": [
+          73,
+          52,
+          103
+        ],
+        "background": [
+          243,
+          237,
+          250
+        ],
+        "ratio": 9.29027205192931
+      },
+      {
+        "text": "Search",
+        "foreground": [
+          73,
+          52,
+          103
+        ],
+        "background": [
+          243,
+          237,
+          250
+        ],
+        "ratio": 9.29027205192931
+      },
+      {
+        "text": "Content",
+        "foreground": [
+          73,
+          52,
+          103
+        ],
+        "background": [
+          243,
+          237,
+          250
+        ],
+        "ratio": 9.29027205192931
+      },
+      {
+        "text": "Brand",
+        "foreground": [
+          73,
+          52,
+          103
+        ],
+        "background": [
+          243,
+          237,
+          250
+        ],
+        "ratio": 9.29027205192931
+      },
+      {
+        "text": "Learn through practice",
+        "foreground": [
+          24,
+          55,
+          111
+        ],
+        "background": [
+          237,
+          243,
+          255
+        ],
+        "ratio": 10.394860600171317
+      },
+      {
+        "text": "WORKSHOP / EXAMPLE",
+        "foreground": [
+          191,
+          219,
+          254
+        ],
+        "background": [
+          20,
+          33,
+          61
+        ],
+        "ratio": 11.241616039398002
+      },
+      {
+        "text": "learn();\nbuild();\nreview();",
+        "foreground": [
+          226,
+          232,
+          240
+        ],
+        "background": [
+          20,
+          33,
+          61
+        ],
+        "ratio": 12.957343288997839
+      },
+      {
+        "text": "Guided tasks",
+        "foreground": [
+          24,
+          55,
+          111
+        ],
+        "background": [
+          237,
+          243,
+          255
+        ],
+        "ratio": 10.394860600171317
+      },
+      {
+        "text": "Project feedback",
+        "foreground": [
+          24,
+          55,
+          111
+        ],
+        "background": [
+          237,
+          243,
+          255
+        ],
+        "ratio": 10.394860600171317
+      },
+      {
+        "text": "Enquiry workflow",
+        "foreground": [
+          24,
+          55,
+          111
+        ],
+        "background": [
+          237,
+          243,
+          255
+        ],
+        "ratio": 10.394860600171317
+      },
+      {
+        "text": "Capture context",
+        "foreground": [
+          24,
+          55,
+          111
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 11.571186413016466
+      },
+      {
+        "text": "Human review",
+        "foreground": [
+          24,
+          55,
+          111
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 11.571186413016466
+      },
+      {
+        "text": "Business assistant",
+        "foreground": [
+          73,
+          52,
+          103
+        ],
+        "background": [
+          243,
+          237,
+          250
+        ],
+        "ratio": 9.29027205192931
+      },
+      {
+        "text": "Can you help me find a service?",
+        "foreground": [
+          73,
+          52,
+          103
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 10.658034047639646
+      },
+      {
+        "text": "Use approved information.\nOffer a human handoff.",
+        "foreground": [
+          73,
+          52,
+          103
+        ],
+        "background": [
+          238,
+          229,
+          248
+        ],
+        "ratio": 8.728734656035693
+      },
+      {
+        "text": "Your team stays in control",
+        "foreground": [
+          73,
+          52,
+          103
+        ],
+        "background": [
+          243,
+          237,
+          250
+        ],
+        "ratio": 9.29027205192931
+      },
+      {
+        "text": "Connected tools",
+        "foreground": [
+          34,
+          85,
+          76
+        ],
+        "background": [
+          233,
+          244,
+          238
+        ],
+        "ratio": 7.540976872442309
+      },
+      {
+        "text": "Email",
+        "foreground": [
+          34,
+          85,
+          76
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 8.495913327079071
+      },
+      {
+        "text": "API / review",
+        "foreground": [
+          34,
+          85,
+          76
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 8.495913327079071
+      },
+      {
+        "text": "CRM",
+        "foreground": [
+          34,
+          85,
+          76
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 8.495913327079071
+      },
+      {
+        "text": "Validate → Approve → Connect",
+        "foreground": [
+          34,
+          85,
+          76
+        ],
+        "background": [
+          233,
+          244,
+          238
+        ],
+        "ratio": 7.540976872442309
+      },
+      {
+        "text": "AI inside your workspace",
+        "foreground": [
+          24,
+          55,
+          111
+        ],
+        "background": [
+          237,
+          243,
+          255
+        ],
+        "ratio": 10.394860600171317
+      },
+      {
+        "text": "Draft a summary",
+        "foreground": [
+          24,
+          55,
+          111
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 11.571186413016466
+      },
+      {
+        "text": "Find approved knowledge",
+        "foreground": [
+          24,
+          55,
+          111
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 11.571186413016466
+      },
+      {
+        "text": "Review before action",
+        "foreground": [
+          24,
+          55,
+          111
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 11.571186413016466
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "path": "/about",
+    "samples": [
+      {
+        "text": "Clear scope and responsibilities",
+        "foreground": [
+          20,
+          33,
+          61
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 15.973572602316318
+      },
+      {
+        "text": "Reviewable development steps",
+        "foreground": [
+          20,
+          33,
+          61
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 15.973572602316318
+      },
+      {
+        "text": "Support agreed before commitment",
+        "foreground": [
+          20,
+          33,
+          61
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 15.973572602316318
+      },
+      {
+        "text": "A shared project workspace",
+        "foreground": [
+          24,
+          55,
+          111
+        ],
+        "background": [
+          237,
+          243,
+          255
+        ],
+        "ratio": 10.394860600171317
+      },
+      {
+        "text": "Your goals",
+        "foreground": [
+          24,
+          55,
+          111
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 11.571186413016466
+      },
+      {
+        "text": "A prototype",
+        "foreground": [
+          24,
+          55,
+          111
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 11.571186413016466
+      },
+      {
+        "text": "Team review",
+        "foreground": [
+          24,
+          55,
+          111
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 11.571186413016466
+      },
+      {
+        "text": "Clear scope · Visible progress · Handover",
+        "foreground": [
+          24,
+          55,
+          111
+        ],
+        "background": [
+          237,
+          243,
+          255
+        ],
+        "ratio": 10.394860600171317
+      },
+      {
+        "text": "Original project-workflow concept, not an office or team photograph.",
+        "foreground": [
+          95,
+          111,
+          133
+        ],
+        "background": [
+          248,
+          250,
+          252
+        ],
+        "ratio": 4.896551390470989
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "path": "/products",
+    "samples": [
+      {
+        "text": "Illustrative interface only",
+        "foreground": [
+          20,
+          33,
+          61
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 15.973572602316318
+      },
+      {
+        "text": "Channels and integrations unconfirmed",
+        "foreground": [
+          20,
+          33,
+          61
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 15.973572602316318
+      },
+      {
+        "text": "No release date or pricing promised",
+        "foreground": [
+          20,
+          33,
+          61
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 15.973572602316318
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "path": "/training",
+    "samples": [
+      {
+        "text": "Learn through practice",
+        "foreground": [
+          24,
+          55,
+          111
+        ],
+        "background": [
+          237,
+          243,
+          255
+        ],
+        "ratio": 10.394860600171317
+      },
+      {
+        "text": "WORKSHOP / EXAMPLE",
+        "foreground": [
+          191,
+          219,
+          254
+        ],
+        "background": [
+          20,
+          33,
+          61
+        ],
+        "ratio": 11.241616039398002
+      },
+      {
+        "text": "learn();\nbuild();\nreview();",
+        "foreground": [
+          226,
+          232,
+          240
+        ],
+        "background": [
+          20,
+          33,
+          61
+        ],
+        "ratio": 12.957343288997839
+      },
+      {
+        "text": "Guided tasks",
+        "foreground": [
+          24,
+          55,
+          111
+        ],
+        "background": [
+          237,
+          243,
+          255
+        ],
+        "ratio": 10.394860600171317
+      },
+      {
+        "text": "Project feedback",
+        "foreground": [
+          24,
+          55,
+          111
+        ],
+        "background": [
+          237,
+          243,
+          255
+        ],
+        "ratio": 10.394860600171317
+      },
+      {
+        "text": "Original service concept. No client implementation or results implied.",
+        "foreground": [
+          95,
+          111,
+          133
+        ],
+        "background": [
+          248,
+          250,
+          252
+        ],
+        "ratio": 4.896551390470989
+      },
+      {
+        "text": "Share your learners' starting level",
+        "foreground": [
+          20,
+          33,
+          61
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 15.973572602316318
+      },
+      {
+        "text": "Choose topics and delivery requirements",
+        "foreground": [
+          20,
+          33,
+          61
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 15.973572602316318
+      },
+      {
+        "text": "Agree the format, scope and schedule",
+        "foreground": [
+          20,
+          33,
+          61
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 15.973572602316318
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "path": "/services/website-development",
+    "samples": [
+      {
+        "text": "Your business online",
+        "foreground": [
+          73,
+          52,
+          103
+        ],
+        "background": [
+          243,
+          237,
+          250
+        ],
+        "ratio": 9.29027205192931
+      },
+      {
+        "text": "YOUR BUSINESS",
+        "foreground": [
+          73,
+          52,
+          103
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 10.658034047639646
+      },
+      {
+        "text": "A clear offer.\nAn easy next step.",
+        "foreground": [
+          73,
+          52,
+          103
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 10.658034047639646
+      },
+      {
+        "text": "Get in touch ↗",
+        "foreground": [
+          73,
+          52,
+          103
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 10.658034047639646
+      },
+      {
+        "text": "Original service concept. No client implementation or results implied.",
+        "foreground": [
+          95,
+          111,
+          133
+        ],
+        "background": [
+          248,
+          250,
+          252
+        ],
+        "ratio": 4.896551390470989
+      },
+      {
+        "text": "Plan the visitor journey",
+        "foreground": [
+          20,
+          33,
+          61
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 15.973572602316318
+      },
+      {
+        "text": "Design responsive pages",
+        "foreground": [
+          20,
+          33,
+          61
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 15.973572602316318
+      },
+      {
+        "text": "Connect the enquiry path",
+        "foreground": [
+          20,
+          33,
+          61
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 15.973572602316318
+      },
+      {
+        "text": "Businesses",
+        "foreground": [
+          51,
+          65,
+          85
+        ],
+        "background": [
+          248,
+          250,
+          252
+        ],
+        "ratio": 9.896764973632585
+      },
+      {
+        "text": "Startups",
+        "foreground": [
+          51,
+          65,
+          85
+        ],
+        "background": [
+          248,
+          250,
+          252
+        ],
+        "ratio": 9.896764973632585
+      },
+      {
+        "text": "Institutions",
+        "foreground": [
+          51,
+          65,
+          85
+        ],
+        "background": [
+          248,
+          250,
+          252
+        ],
+        "ratio": 9.896764973632585
+      },
+      {
+        "text": "Scope & audience details",
+        "foreground": [
+          37,
+          99,
+          235
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.168555560022562
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "path": "/services/custom-software-development",
+    "samples": [
+      {
+        "text": "Approval workspace",
+        "foreground": [
+          35,
+          87,
+          64
+        ],
+        "background": [
+          233,
+          244,
+          238
+        ],
+        "ratio": 7.429762532382117
+      },
+      {
+        "text": "Request",
+        "foreground": [
+          35,
+          87,
+          64
+        ],
+        "background": [
+          233,
+          244,
+          238
+        ],
+        "ratio": 7.429762532382117
+      },
+      {
+        "text": "Status",
+        "foreground": [
+          35,
+          87,
+          64
+        ],
+        "background": [
+          233,
+          244,
+          238
+        ],
+        "ratio": 7.429762532382117
+      },
+      {
+        "text": "Stock update",
+        "foreground": [
+          35,
+          87,
+          64
+        ],
+        "background": [
+          233,
+          244,
+          238
+        ],
+        "ratio": 7.429762532382117
+      },
+      {
+        "text": "Review",
+        "foreground": [
+          35,
+          87,
+          64
+        ],
+        "background": [
+          233,
+          244,
+          238
+        ],
+        "ratio": 7.429762532382117
+      },
+      {
+        "text": "Item record",
+        "foreground": [
+          35,
+          87,
+          64
+        ],
+        "background": [
+          233,
+          244,
+          238
+        ],
+        "ratio": 7.429762532382117
+      },
+      {
+        "text": "Approved",
+        "foreground": [
+          35,
+          87,
+          64
+        ],
+        "background": [
+          233,
+          244,
+          238
+        ],
+        "ratio": 7.429762532382117
+      },
+      {
+        "text": "Access by role",
+        "foreground": [
+          35,
+          87,
+          64
+        ],
+        "background": [
+          233,
+          244,
+          238
+        ],
+        "ratio": 7.429762532382117
+      },
+      {
+        "text": "Original service concept. No client implementation or results implied.",
+        "foreground": [
+          95,
+          111,
+          133
+        ],
+        "background": [
+          248,
+          250,
+          252
+        ],
+        "ratio": 4.896551390470989
+      },
+      {
+        "text": "Map the workflow",
+        "foreground": [
+          20,
+          33,
+          61
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 15.973572602316318
+      },
+      {
+        "text": "Define access by role",
+        "foreground": [
+          20,
+          33,
+          61
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 15.973572602316318
+      },
+      {
+        "text": "Build around real tasks",
+        "foreground": [
+          20,
+          33,
+          61
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 15.973572602316318
+      },
+      {
+        "text": "Operations teams",
+        "foreground": [
+          51,
+          65,
+          85
+        ],
+        "background": [
+          248,
+          250,
+          252
+        ],
+        "ratio": 9.896764973632585
+      },
+      {
+        "text": "Growing businesses",
+        "foreground": [
+          51,
+          65,
+          85
+        ],
+        "background": [
+          248,
+          250,
+          252
+        ],
+        "ratio": 9.896764973632585
+      },
+      {
+        "text": "Scope & audience details",
+        "foreground": [
+          37,
+          99,
+          235
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.168555560022562
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "path": "/services/mobile-app-development",
+    "samples": [
+      {
+        "text": "Work on the move",
+        "foreground": [
+          115,
+          68,
+          37
+        ],
+        "background": [
+          251,
+          239,
+          228
+        ],
+        "ratio": 7.190130835341956
+      },
+      {
+        "text": "Your daily tasks",
+        "foreground": [
+          115,
+          68,
+          37
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 8.131558544543969
+      },
+      {
+        "text": "Review a request",
+        "foreground": [
+          115,
+          68,
+          37
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 8.131558544543969
+      },
+      {
+        "text": "Add a field note",
+        "foreground": [
+          115,
+          68,
+          37
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 8.131558544543969
+      },
+      {
+        "text": "Open workspace ↗",
+        "foreground": [
+          115,
+          68,
+          37
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 8.131558544543969
+      },
+      {
+        "text": "Original service concept. No client implementation or results implied.",
+        "foreground": [
+          95,
+          111,
+          133
+        ],
+        "background": [
+          248,
+          250,
+          252
+        ],
+        "ratio": 4.896551390470989
+      },
+      {
+        "text": "Focus on core tasks",
+        "foreground": [
+          20,
+          33,
+          61
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 15.973572602316318
+      },
+      {
+        "text": "Plan device support",
+        "foreground": [
+          20,
+          33,
+          61
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 15.973572602316318
+      },
+      {
+        "text": "Connect agreed services",
+        "foreground": [
+          20,
+          33,
+          61
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 15.973572602316318
+      },
+      {
+        "text": "Customer services",
+        "foreground": [
+          51,
+          65,
+          85
+        ],
+        "background": [
+          248,
+          250,
+          252
+        ],
+        "ratio": 9.896764973632585
+      },
+      {
+        "text": "Field teams",
+        "foreground": [
+          51,
+          65,
+          85
+        ],
+        "background": [
+          248,
+          250,
+          252
+        ],
+        "ratio": 9.896764973632585
+      },
+      {
+        "text": "Institutions",
+        "foreground": [
+          51,
+          65,
+          85
+        ],
+        "background": [
+          248,
+          250,
+          252
+        ],
+        "ratio": 9.896764973632585
+      },
+      {
+        "text": "Scope & audience details",
+        "foreground": [
+          37,
+          99,
+          235
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.168555560022562
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "path": "/services/school-institute-solutions",
+    "samples": [
+      {
+        "text": "Learning workspace",
+        "foreground": [
+          34,
+          85,
+          76
+        ],
+        "background": [
+          233,
+          244,
+          238
+        ],
+        "ratio": 7.540976872442309
+      },
+      {
+        "text": "Course materials",
+        "foreground": [
+          34,
+          85,
+          76
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 8.495913327079071
+      },
+      {
+        "text": "Assignments",
+        "foreground": [
+          34,
+          85,
+          76
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 8.495913327079071
+      },
+      {
+        "text": "Teacher feedback",
+        "foreground": [
+          34,
+          85,
+          76
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 8.495913327079071
+      },
+      {
+        "text": "Learner · Teacher · Administration",
+        "foreground": [
+          34,
+          85,
+          76
+        ],
+        "background": [
+          233,
+          244,
+          238
+        ],
+        "ratio": 7.540976872442309
+      },
+      {
+        "text": "Original service concept. No client implementation or results implied.",
+        "foreground": [
+          95,
+          111,
+          133
+        ],
+        "background": [
+          248,
+          250,
+          252
+        ],
+        "ratio": 4.896551390470989
+      },
+      {
+        "text": "Organise learner access",
+        "foreground": [
+          20,
+          33,
+          61
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 15.973572602316318
+      },
+      {
+        "text": "Simplify administration",
+        "foreground": [
+          20,
+          33,
+          61
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 15.973572602316318
+      },
+      {
+        "text": "Connect learning resources",
+        "foreground": [
+          20,
+          33,
+          61
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 15.973572602316318
+      },
+      {
+        "text": "Schools",
+        "foreground": [
+          51,
+          65,
+          85
+        ],
+        "background": [
+          248,
+          250,
+          252
+        ],
+        "ratio": 9.896764973632585
+      },
+      {
+        "text": "Coaching institutes",
+        "foreground": [
+          51,
+          65,
+          85
+        ],
+        "background": [
+          248,
+          250,
+          252
+        ],
+        "ratio": 9.896764973632585
+      },
+      {
+        "text": "Learning teams",
+        "foreground": [
+          51,
+          65,
+          85
+        ],
+        "background": [
+          248,
+          250,
+          252
+        ],
+        "ratio": 9.896764973632585
+      },
+      {
+        "text": "Scope & audience details",
+        "foreground": [
+          37,
+          99,
+          235
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.168555560022562
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "path": "/services/digital-marketing",
+    "samples": [
+      {
+        "text": "Make your offer discoverable",
+        "foreground": [
+          73,
+          52,
+          103
+        ],
+        "background": [
+          243,
+          237,
+          250
+        ],
+        "ratio": 9.29027205192931
+      },
+      {
+        "text": "Find the right service",
+        "foreground": [
+          73,
+          52,
+          103
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 10.658034047639646
+      },
+      {
+        "text": "Your business. A clear offer.",
+        "foreground": [
+          73,
+          52,
+          103
+        ],
+        "background": [
+          243,
+          237,
+          250
+        ],
+        "ratio": 9.29027205192931
+      },
+      {
+        "text": "Useful content → Website → Enquiry",
+        "foreground": [
+          73,
+          52,
+          103
+        ],
+        "background": [
+          243,
+          237,
+          250
+        ],
+        "ratio": 9.29027205192931
+      },
+      {
+        "text": "Search",
+        "foreground": [
+          73,
+          52,
+          103
+        ],
+        "background": [
+          243,
+          237,
+          250
+        ],
+        "ratio": 9.29027205192931
+      },
+      {
+        "text": "Content",
+        "foreground": [
+          73,
+          52,
+          103
+        ],
+        "background": [
+          243,
+          237,
+          250
+        ],
+        "ratio": 9.29027205192931
+      },
+      {
+        "text": "Brand",
+        "foreground": [
+          73,
+          52,
+          103
+        ],
+        "background": [
+          243,
+          237,
+          250
+        ],
+        "ratio": 9.29027205192931
+      },
+      {
+        "text": "Original service concept. No client implementation or results implied.",
+        "foreground": [
+          95,
+          111,
+          133
+        ],
+        "background": [
+          248,
+          250,
+          252
+        ],
+        "ratio": 4.896551390470989
+      },
+      {
+        "text": "Review search visibility",
+        "foreground": [
+          20,
+          33,
+          61
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 15.973572602316318
+      },
+      {
+        "text": "Plan useful content",
+        "foreground": [
+          20,
+          33,
+          61
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 15.973572602316318
+      },
+      {
+        "text": "Keep brand messaging consistent",
+        "foreground": [
+          20,
+          33,
+          61
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 15.973572602316318
+      },
+      {
+        "text": "Business owners",
+        "foreground": [
+          51,
+          65,
+          85
+        ],
+        "background": [
+          248,
+          250,
+          252
+        ],
+        "ratio": 9.896764973632585
+      },
+      {
+        "text": "Service brands",
+        "foreground": [
+          51,
+          65,
+          85
+        ],
+        "background": [
+          248,
+          250,
+          252
+        ],
+        "ratio": 9.896764973632585
+      },
+      {
+        "text": "Scope & audience details",
+        "foreground": [
+          37,
+          99,
+          235
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.168555560022562
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "path": "/services/it-training",
+    "samples": [
+      {
+        "text": "Learn through practice",
+        "foreground": [
+          24,
+          55,
+          111
+        ],
+        "background": [
+          237,
+          243,
+          255
+        ],
+        "ratio": 10.394860600171317
+      },
+      {
+        "text": "WORKSHOP / EXAMPLE",
+        "foreground": [
+          191,
+          219,
+          254
+        ],
+        "background": [
+          20,
+          33,
+          61
+        ],
+        "ratio": 11.241616039398002
+      },
+      {
+        "text": "learn();\nbuild();\nreview();",
+        "foreground": [
+          226,
+          232,
+          240
+        ],
+        "background": [
+          20,
+          33,
+          61
+        ],
+        "ratio": 12.957343288997839
+      },
+      {
+        "text": "Guided tasks",
+        "foreground": [
+          24,
+          55,
+          111
+        ],
+        "background": [
+          237,
+          243,
+          255
+        ],
+        "ratio": 10.394860600171317
+      },
+      {
+        "text": "Project feedback",
+        "foreground": [
+          24,
+          55,
+          111
+        ],
+        "background": [
+          237,
+          243,
+          255
+        ],
+        "ratio": 10.394860600171317
+      },
+      {
+        "text": "Original service concept. No client implementation or results implied.",
+        "foreground": [
+          95,
+          111,
+          133
+        ],
+        "background": [
+          248,
+          250,
+          252
+        ],
+        "ratio": 4.896551390470989
+      },
+      {
+        "text": "Agree a starting level",
+        "foreground": [
+          20,
+          33,
+          61
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 15.973572602316318
+      },
+      {
+        "text": "Practise with projects",
+        "foreground": [
+          20,
+          33,
+          61
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 15.973572602316318
+      },
+      {
+        "text": "Review the work together",
+        "foreground": [
+          20,
+          33,
+          61
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 15.973572602316318
+      },
+      {
+        "text": "Students",
+        "foreground": [
+          51,
+          65,
+          85
+        ],
+        "background": [
+          248,
+          250,
+          252
+        ],
+        "ratio": 9.896764973632585
+      },
+      {
+        "text": "Schools",
+        "foreground": [
+          51,
+          65,
+          85
+        ],
+        "background": [
+          248,
+          250,
+          252
+        ],
+        "ratio": 9.896764973632585
+      },
+      {
+        "text": "Professional teams",
+        "foreground": [
+          51,
+          65,
+          85
+        ],
+        "background": [
+          248,
+          250,
+          252
+        ],
+        "ratio": 9.896764973632585
+      },
+      {
+        "text": "Scope & audience details",
+        "foreground": [
+          37,
+          99,
+          235
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.168555560022562
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "path": "/services/ai-automation",
+    "samples": [
+      {
+        "text": "Disconnected tools and repeated data entry",
+        "foreground": [
+          20,
+          33,
+          61
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 15.973572602316318
+      },
+      {
+        "text": "Enquiries waiting for the right person",
+        "foreground": [
+          20,
+          33,
+          61
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 15.973572602316318
+      },
+      {
+        "text": "Unstructured documents and time-consuming reporting",
+        "foreground": [
+          20,
+          33,
+          61
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 15.973572602316318
+      },
+      {
+        "text": "Process owners",
+        "foreground": [
+          51,
+          65,
+          85
+        ],
+        "background": [
+          248,
+          250,
+          252
+        ],
+        "ratio": 9.896764973632585
+      },
+      {
+        "text": "Business teams",
+        "foreground": [
+          51,
+          65,
+          85
+        ],
+        "background": [
+          248,
+          250,
+          252
+        ],
+        "ratio": 9.896764973632585
+      },
+      {
+        "text": "Scope & audience details",
+        "foreground": [
+          37,
+          99,
+          235
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.168555560022562
+      },
+      {
+        "text": "Technical scope",
+        "foreground": [
+          37,
+          99,
+          235
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.168555560022562
+      },
+      {
+        "text": "Technical scope",
+        "foreground": [
+          37,
+          99,
+          235
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.168555560022562
+      },
+      {
+        "text": "Technical scope",
+        "foreground": [
+          37,
+          99,
+          235
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.168555560022562
+      },
+      {
+        "text": "Technical scope",
+        "foreground": [
+          37,
+          99,
+          235
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.168555560022562
+      },
+      {
+        "text": "Technical scope",
+        "foreground": [
+          37,
+          99,
+          235
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.168555560022562
+      },
+      {
+        "text": "Technical scope",
+        "foreground": [
+          37,
+          99,
+          235
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.168555560022562
+      },
+      {
+        "text": "Technical scope",
+        "foreground": [
+          37,
+          99,
+          235
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.168555560022562
+      },
+      {
+        "text": "Technical scope",
+        "foreground": [
+          37,
+          99,
+          235
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.168555560022562
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "path": "/services/ai-chatbots",
+    "samples": [
+      {
+        "text": "Repeated questions across customer channels",
+        "foreground": [
+          20,
+          33,
+          61
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 15.973572602316318
+      },
+      {
+        "text": "Staff searching scattered internal guidance",
+        "foreground": [
+          20,
+          33,
+          61
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 15.973572602316318
+      },
+      {
+        "text": "Incomplete enquiries that need a human follow-up",
+        "foreground": [
+          20,
+          33,
+          61
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 15.973572602316318
+      },
+      {
+        "text": "Support teams",
+        "foreground": [
+          51,
+          65,
+          85
+        ],
+        "background": [
+          248,
+          250,
+          252
+        ],
+        "ratio": 9.896764973632585
+      },
+      {
+        "text": "Website visitors",
+        "foreground": [
+          51,
+          65,
+          85
+        ],
+        "background": [
+          248,
+          250,
+          252
+        ],
+        "ratio": 9.896764973632585
+      },
+      {
+        "text": "Internal teams",
+        "foreground": [
+          51,
+          65,
+          85
+        ],
+        "background": [
+          248,
+          250,
+          252
+        ],
+        "ratio": 9.896764973632585
+      },
+      {
+        "text": "Scope & audience details",
+        "foreground": [
+          37,
+          99,
+          235
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.168555560022562
+      },
+      {
+        "text": "Technical scope",
+        "foreground": [
+          37,
+          99,
+          235
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.168555560022562
+      },
+      {
+        "text": "Technical scope",
+        "foreground": [
+          37,
+          99,
+          235
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.168555560022562
+      },
+      {
+        "text": "Technical scope",
+        "foreground": [
+          37,
+          99,
+          235
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.168555560022562
+      },
+      {
+        "text": "Technical scope",
+        "foreground": [
+          37,
+          99,
+          235
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.168555560022562
+      },
+      {
+        "text": "Technical scope",
+        "foreground": [
+          37,
+          99,
+          235
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.168555560022562
+      },
+      {
+        "text": "Technical scope",
+        "foreground": [
+          37,
+          99,
+          235
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.168555560022562
+      },
+      {
+        "text": "Technical scope",
+        "foreground": [
+          37,
+          99,
+          235
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.168555560022562
+      },
+      {
+        "text": "Technical scope",
+        "foreground": [
+          37,
+          99,
+          235
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.168555560022562
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "path": "/services/ai-workflow-integration",
+    "samples": [
+      {
+        "text": "Supported APIs · scoped permissions",
+        "foreground": [
+          95,
+          111,
+          133
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.123143243913022
+      },
+      {
+        "text": "Email or web form",
+        "foreground": [
+          20,
+          33,
+          61
+        ],
+        "background": [
+          239,
+          246,
+          255
+        ],
+        "ratio": 14.677774595581425
+      },
+      {
+        "text": "Agreed input",
+        "foreground": [
+          82,
+          98,
+          120
+        ],
+        "background": [
+          239,
+          246,
+          255
+        ],
+        "ratio": 5.713989835936214
+      },
+      {
+        "text": "Validate + AI assist",
+        "foreground": [
+          20,
+          33,
+          61
+        ],
+        "background": [
+          243,
+          237,
+          250
+        ],
+        "ratio": 13.92365932154512
+      },
+      {
+        "text": "Review exceptions",
+        "foreground": [
+          82,
+          98,
+          120
+        ],
+        "background": [
+          243,
+          237,
+          250
+        ],
+        "ratio": 5.420416243910563
+      },
+      {
+        "text": "CRM or business tool",
+        "foreground": [
+          20,
+          33,
+          61
+        ],
+        "background": [
+          233,
+          244,
+          238
+        ],
+        "ratio": 14.178150944691764
+      },
+      {
+        "text": "Approved action",
+        "foreground": [
+          82,
+          98,
+          120
+        ],
+        "background": [
+          233,
+          244,
+          238
+        ],
+        "ratio": 5.5194886570016175
+      },
+      {
+        "text": "Permissions checked at each handoff",
+        "foreground": [
+          22,
+          101,
+          52
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 7.130310076434003
+      },
+      {
+        "text": "Information copied across separate systems",
+        "foreground": [
+          20,
+          33,
+          61
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 15.973572602316318
+      },
+      {
+        "text": "Missing context between incoming requests and follow-up",
+        "foreground": [
+          20,
+          33,
+          61
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 15.973572602316318
+      },
+      {
+        "text": "Silent failures or unclear ownership in existing automations",
+        "foreground": [
+          20,
+          33,
+          61
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 15.973572602316318
+      },
+      {
+        "text": "Operations teams",
+        "foreground": [
+          51,
+          65,
+          85
+        ],
+        "background": [
+          248,
+          250,
+          252
+        ],
+        "ratio": 9.896764973632585
+      },
+      {
+        "text": "Established systems",
+        "foreground": [
+          51,
+          65,
+          85
+        ],
+        "background": [
+          248,
+          250,
+          252
+        ],
+        "ratio": 9.896764973632585
+      },
+      {
+        "text": "Scope & audience details",
+        "foreground": [
+          37,
+          99,
+          235
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.168555560022562
+      },
+      {
+        "text": "Technical scope",
+        "foreground": [
+          37,
+          99,
+          235
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.168555560022562
+      },
+      {
+        "text": "Technical scope",
+        "foreground": [
+          37,
+          99,
+          235
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.168555560022562
+      },
+      {
+        "text": "Technical scope",
+        "foreground": [
+          37,
+          99,
+          235
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.168555560022562
+      },
+      {
+        "text": "Technical scope",
+        "foreground": [
+          37,
+          99,
+          235
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.168555560022562
+      },
+      {
+        "text": "Technical scope",
+        "foreground": [
+          37,
+          99,
+          235
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.168555560022562
+      },
+      {
+        "text": "Technical scope",
+        "foreground": [
+          37,
+          99,
+          235
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.168555560022562
+      },
+      {
+        "text": "Technical scope",
+        "foreground": [
+          37,
+          99,
+          235
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.168555560022562
+      },
+      {
+        "text": "Technical scope",
+        "foreground": [
+          37,
+          99,
+          235
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.168555560022562
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "path": "/services/ai-business-software",
+    "samples": [
+      {
+        "text": "Teams switching between tools to complete one task",
+        "foreground": [
+          20,
+          33,
+          61
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 15.973572602316318
+      },
+      {
+        "text": "Time spent finding and interpreting business information",
+        "foreground": [
+          20,
+          33,
+          61
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 15.973572602316318
+      },
+      {
+        "text": "AI outputs disconnected from approvals and operational records",
+        "foreground": [
+          20,
+          33,
+          61
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 15.973572602316318
+      },
+      {
+        "text": "Business teams",
+        "foreground": [
+          51,
+          65,
+          85
+        ],
+        "background": [
+          248,
+          250,
+          252
+        ],
+        "ratio": 9.896764973632585
+      },
+      {
+        "text": "Internal tool owners",
+        "foreground": [
+          51,
+          65,
+          85
+        ],
+        "background": [
+          248,
+          250,
+          252
+        ],
+        "ratio": 9.896764973632585
+      },
+      {
+        "text": "Scope & audience details",
+        "foreground": [
+          37,
+          99,
+          235
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.168555560022562
+      },
+      {
+        "text": "Technical scope",
+        "foreground": [
+          37,
+          99,
+          235
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.168555560022562
+      },
+      {
+        "text": "Technical scope",
+        "foreground": [
+          37,
+          99,
+          235
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.168555560022562
+      },
+      {
+        "text": "Technical scope",
+        "foreground": [
+          37,
+          99,
+          235
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.168555560022562
+      },
+      {
+        "text": "Technical scope",
+        "foreground": [
+          37,
+          99,
+          235
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.168555560022562
+      },
+      {
+        "text": "Technical scope",
+        "foreground": [
+          37,
+          99,
+          235
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.168555560022562
+      },
+      {
+        "text": "Technical scope",
+        "foreground": [
+          37,
+          99,
+          235
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.168555560022562
+      },
+      {
+        "text": "Technical scope",
+        "foreground": [
+          37,
+          99,
+          235
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.168555560022562
+      },
+      {
+        "text": "Technical scope",
+        "foreground": [
+          37,
+          99,
+          235
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.168555560022562
+      }
+    ]
+  }
+]

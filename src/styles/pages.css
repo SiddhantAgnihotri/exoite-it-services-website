@@ -602,8 +602,13 @@
   margin-top: 13px;
 }
 .contact-next li span {
+  flex-shrink: 0;
+  min-width: 2ch;
+  padding-top: 3px;
   color: var(--blue);
-  font-size: 9px;
+  font-size: 12px;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
 }
 .case-layout {
   max-width: 1000px;

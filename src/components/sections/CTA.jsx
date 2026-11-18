@@ -9,8 +9,7 @@ export default function CTA() {
           <p className="eyebrow">Let's talk about it</p>
           <h2>Have a Project in Mind?</h2>
           <p>
-            A website, an app or a system that makes work simpler. Tell us where
-            you want to go.
+            Tell us what you need to build or improve.
           </p>
         </div>
         <div className="cta-actions">

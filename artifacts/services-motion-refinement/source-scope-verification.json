@@ -1,0 +1,33 @@
+{
+  "modified": [
+    "src/components/sections/Services.jsx"
+  ],
+  "added": [
+    "src/components/ui/HomepageServiceArt.jsx",
+    "src/styles/services-motion.css",
+    "scripts/services-motion-refinement.browser.mjs"
+  ],
+  "unexpected": [],
+  "unchangedExistingFiles": 184,
+  "allExistingFiles": 185,
+  "hero": [
+    {
+      "path": "src/components/sections/Hero.jsx",
+      "before": "1a91fabc10a2efc741489f6748dfbaf1c355bfffaabe900129350d23ec50dedf",
+      "after": "1a91fabc10a2efc741489f6748dfbaf1c355bfffaabe900129350d23ec50dedf",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/ui/HeroMotionVisual.jsx",
+      "before": "f6c95524f19a3c07b98a4ed7e528c769285b3e20a184f323f847dcda61b0239f",
+      "after": "f6c95524f19a3c07b98a4ed7e528c769285b3e20a184f323f847dcda61b0239f",
+      "unchanged": true
+    },
+    {
+      "path": "src/styles/hero-motion.css",
+      "before": "a2d51fed505ec9e81e4adcfd829a7c8fae4b2f67bf6c690f972d47c267cdea33",
+      "after": "a2d51fed505ec9e81e4adcfd829a7c8fae4b2f67bf6c690f972d47c267cdea33",
+      "unchanged": true
+    }
+  ]
+}

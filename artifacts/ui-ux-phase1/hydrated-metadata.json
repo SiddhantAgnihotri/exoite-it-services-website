@@ -1,0 +1,1770 @@
+[
+  {
+    "path": "/",
+    "passed": true,
+    "head": {
+      "titles": [
+        "Website & Software Development Company in Kanpur | Exoite IT Services"
+      ],
+      "description": [
+        "Exoite IT Services builds websites, mobile apps and custom software in Kanpur for businesses across India and internationally. Discuss your project."
+      ],
+      "robots": [
+        "index,follow"
+      ],
+      "canonical": [
+        "https://exoiteitservices.com/"
+      ],
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "Organization",
+              "@id": "https://exoiteitservices.com/#organization",
+              "name": "Exoite IT Services",
+              "url": "https://exoiteitservices.com",
+              "slogan": "Empowering Digital Future",
+              "email": "contact@exoiteitservices.com",
+              "telephone": "+916394732841",
+              "areaServed": [
+                "India",
+                "Worldwide"
+              ],
+              "location": {
+                "@type": "Place",
+                "name": "Kanpur, Uttar Pradesh, India"
+              },
+              "logo": "https://exoiteitservices.com/favicon.png"
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://exoiteitservices.com/#website",
+              "url": "https://exoiteitservices.com",
+              "name": "Exoite IT Services",
+              "publisher": {
+                "@id": "https://exoiteitservices.com/#organization"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "path": "/about",
+    "passed": true,
+    "head": {
+      "titles": [
+        "About Exoite IT Services | IT Company in Kanpur"
+      ],
+      "description": [
+        "Meet Exoite IT Services, an MSME-registered company in Kanpur focused on practical web, app, software and training solutions for India and international clients."
+      ],
+      "robots": [
+        "index,follow"
+      ],
+      "canonical": [
+        "https://exoiteitservices.com/about"
+      ],
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "Organization",
+              "@id": "https://exoiteitservices.com/#organization",
+              "name": "Exoite IT Services",
+              "url": "https://exoiteitservices.com",
+              "slogan": "Empowering Digital Future",
+              "email": "contact@exoiteitservices.com",
+              "telephone": "+916394732841",
+              "areaServed": [
+                "India",
+                "Worldwide"
+              ],
+              "location": {
+                "@type": "Place",
+                "name": "Kanpur, Uttar Pradesh, India"
+              },
+              "logo": "https://exoiteitservices.com/favicon.png"
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://exoiteitservices.com/#website",
+              "url": "https://exoiteitservices.com",
+              "name": "Exoite IT Services",
+              "publisher": {
+                "@id": "https://exoiteitservices.com/#organization"
+              }
+            },
+            {
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://exoiteitservices.com/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "About",
+                  "item": "https://exoiteitservices.com/about"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "path": "/services",
+    "passed": true,
+    "head": {
+      "titles": [
+        "Website, App & Custom Software Development Services | Exoite"
+      ],
+      "description": [
+        "Explore website development, mobile apps, custom software, school management systems, LMS development and digital marketing from Exoite IT Services."
+      ],
+      "robots": [
+        "index,follow"
+      ],
+      "canonical": [
+        "https://exoiteitservices.com/services"
+      ],
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "Organization",
+              "@id": "https://exoiteitservices.com/#organization",
+              "name": "Exoite IT Services",
+              "url": "https://exoiteitservices.com",
+              "slogan": "Empowering Digital Future",
+              "email": "contact@exoiteitservices.com",
+              "telephone": "+916394732841",
+              "areaServed": [
+                "India",
+                "Worldwide"
+              ],
+              "location": {
+                "@type": "Place",
+                "name": "Kanpur, Uttar Pradesh, India"
+              },
+              "logo": "https://exoiteitservices.com/favicon.png"
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://exoiteitservices.com/#website",
+              "url": "https://exoiteitservices.com",
+              "name": "Exoite IT Services",
+              "publisher": {
+                "@id": "https://exoiteitservices.com/#organization"
+              }
+            },
+            {
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://exoiteitservices.com/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Services",
+                  "item": "https://exoiteitservices.com/services"
+                }
+              ]
+            },
+            {
+              "@type": "Service",
+              "@id": "https://exoiteitservices.com/services#service-1",
+              "name": "Website Development",
+              "provider": {
+                "@id": "https://exoiteitservices.com/#organization"
+              },
+              "areaServed": [
+                "India",
+                "Worldwide"
+              ]
+            },
+            {
+              "@type": "Service",
+              "@id": "https://exoiteitservices.com/services#service-2",
+              "name": "Mobile App Development",
+              "provider": {
+                "@id": "https://exoiteitservices.com/#organization"
+              },
+              "areaServed": [
+                "India",
+                "Worldwide"
+              ]
+            },
+            {
+              "@type": "Service",
+              "@id": "https://exoiteitservices.com/services#service-3",
+              "name": "Custom Software Development",
+              "provider": {
+                "@id": "https://exoiteitservices.com/#organization"
+              },
+              "areaServed": [
+                "India",
+                "Worldwide"
+              ]
+            },
+            {
+              "@type": "Service",
+              "@id": "https://exoiteitservices.com/services#service-4",
+              "name": "School and Institute Software",
+              "provider": {
+                "@id": "https://exoiteitservices.com/#organization"
+              },
+              "areaServed": [
+                "India",
+                "Worldwide"
+              ]
+            },
+            {
+              "@type": "Service",
+              "@id": "https://exoiteitservices.com/services#service-5",
+              "name": "Digital Marketing",
+              "provider": {
+                "@id": "https://exoiteitservices.com/#organization"
+              },
+              "areaServed": [
+                "India",
+                "Worldwide"
+              ]
+            },
+            {
+              "@type": "Service",
+              "@id": "https://exoiteitservices.com/services#service-6",
+              "name": "IT Training and Workshops",
+              "provider": {
+                "@id": "https://exoiteitservices.com/#organization"
+              },
+              "areaServed": [
+                "India",
+                "Worldwide"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "path": "/products",
+    "passed": true,
+    "head": {
+      "titles": [
+        "Exoite Social Media Platform | In Development | Exoite IT Services"
+      ],
+      "description": [
+        "Explore the direction of Exoite Social Media Platform, a social media management SaaS in development. View an illustrative concept and potential product areas."
+      ],
+      "robots": [
+        "index,follow"
+      ],
+      "canonical": [
+        "https://exoiteitservices.com/products"
+      ],
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "Organization",
+              "@id": "https://exoiteitservices.com/#organization",
+              "name": "Exoite IT Services",
+              "url": "https://exoiteitservices.com",
+              "slogan": "Empowering Digital Future",
+              "email": "contact@exoiteitservices.com",
+              "telephone": "+916394732841",
+              "areaServed": [
+                "India",
+                "Worldwide"
+              ],
+              "location": {
+                "@type": "Place",
+                "name": "Kanpur, Uttar Pradesh, India"
+              },
+              "logo": "https://exoiteitservices.com/favicon.png"
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://exoiteitservices.com/#website",
+              "url": "https://exoiteitservices.com",
+              "name": "Exoite IT Services",
+              "publisher": {
+                "@id": "https://exoiteitservices.com/#organization"
+              }
+            },
+            {
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://exoiteitservices.com/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Products",
+                  "item": "https://exoiteitservices.com/products"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "path": "/portfolio",
+    "passed": true,
+    "head": {
+      "titles": [
+        "Software Demos & Solution Concepts | Exoite IT Services"
+      ],
+      "description": [
+        "Explore Exoite solution concepts for examination portals, inventory management and learning platforms. Discuss a system tailored to your business."
+      ],
+      "robots": [
+        "index,follow"
+      ],
+      "canonical": [
+        "https://exoiteitservices.com/portfolio"
+      ],
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "Organization",
+              "@id": "https://exoiteitservices.com/#organization",
+              "name": "Exoite IT Services",
+              "url": "https://exoiteitservices.com",
+              "slogan": "Empowering Digital Future",
+              "email": "contact@exoiteitservices.com",
+              "telephone": "+916394732841",
+              "areaServed": [
+                "India",
+                "Worldwide"
+              ],
+              "location": {
+                "@type": "Place",
+                "name": "Kanpur, Uttar Pradesh, India"
+              },
+              "logo": "https://exoiteitservices.com/favicon.png"
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://exoiteitservices.com/#website",
+              "url": "https://exoiteitservices.com",
+              "name": "Exoite IT Services",
+              "publisher": {
+                "@id": "https://exoiteitservices.com/#organization"
+              }
+            },
+            {
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://exoiteitservices.com/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Portfolio",
+                  "item": "https://exoiteitservices.com/portfolio"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "path": "/training",
+    "passed": true,
+    "head": {
+      "titles": [
+        "IT Training & Coding Workshops in Kanpur | Exoite IT Services"
+      ],
+      "description": [
+        "Explore practical web development, Python, mobile app and robotics training. Enquire about coding workshops for students, schools, institutes and teams."
+      ],
+      "robots": [
+        "index,follow"
+      ],
+      "canonical": [
+        "https://exoiteitservices.com/training"
+      ],
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "Organization",
+              "@id": "https://exoiteitservices.com/#organization",
+              "name": "Exoite IT Services",
+              "url": "https://exoiteitservices.com",
+              "slogan": "Empowering Digital Future",
+              "email": "contact@exoiteitservices.com",
+              "telephone": "+916394732841",
+              "areaServed": [
+                "India",
+                "Worldwide"
+              ],
+              "location": {
+                "@type": "Place",
+                "name": "Kanpur, Uttar Pradesh, India"
+              },
+              "logo": "https://exoiteitservices.com/favicon.png"
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://exoiteitservices.com/#website",
+              "url": "https://exoiteitservices.com",
+              "name": "Exoite IT Services",
+              "publisher": {
+                "@id": "https://exoiteitservices.com/#organization"
+              }
+            },
+            {
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://exoiteitservices.com/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Training",
+                  "item": "https://exoiteitservices.com/training"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "path": "/contact",
+    "passed": true,
+    "head": {
+      "titles": [
+        "Contact Exoite IT Services | Discuss Your Project"
+      ],
+      "description": [
+        "Contact Exoite IT Services in Kanpur for websites, mobile apps, custom software or IT training. Send an enquiry or discuss your requirements on WhatsApp."
+      ],
+      "robots": [
+        "index,follow"
+      ],
+      "canonical": [
+        "https://exoiteitservices.com/contact"
+      ],
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "Organization",
+              "@id": "https://exoiteitservices.com/#organization",
+              "name": "Exoite IT Services",
+              "url": "https://exoiteitservices.com",
+              "slogan": "Empowering Digital Future",
+              "email": "contact@exoiteitservices.com",
+              "telephone": "+916394732841",
+              "areaServed": [
+                "India",
+                "Worldwide"
+              ],
+              "location": {
+                "@type": "Place",
+                "name": "Kanpur, Uttar Pradesh, India"
+              },
+              "logo": "https://exoiteitservices.com/favicon.png"
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://exoiteitservices.com/#website",
+              "url": "https://exoiteitservices.com",
+              "name": "Exoite IT Services",
+              "publisher": {
+                "@id": "https://exoiteitservices.com/#organization"
+              }
+            },
+            {
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://exoiteitservices.com/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Contact",
+                  "item": "https://exoiteitservices.com/contact"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "path": "/insights",
+    "passed": true,
+    "head": {
+      "titles": [
+        "Website & Software Planning Guides | Exoite Insights"
+      ],
+      "description": [
+        "Practical guides to choosing a business website, planning a school website and deciding when custom software is appropriate."
+      ],
+      "robots": [
+        "index,follow"
+      ],
+      "canonical": [
+        "https://exoiteitservices.com/insights"
+      ],
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "Organization",
+              "@id": "https://exoiteitservices.com/#organization",
+              "name": "Exoite IT Services",
+              "url": "https://exoiteitservices.com",
+              "slogan": "Empowering Digital Future",
+              "email": "contact@exoiteitservices.com",
+              "telephone": "+916394732841",
+              "areaServed": [
+                "India",
+                "Worldwide"
+              ],
+              "location": {
+                "@type": "Place",
+                "name": "Kanpur, Uttar Pradesh, India"
+              },
+              "logo": "https://exoiteitservices.com/favicon.png"
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://exoiteitservices.com/#website",
+              "url": "https://exoiteitservices.com",
+              "name": "Exoite IT Services",
+              "publisher": {
+                "@id": "https://exoiteitservices.com/#organization"
+              }
+            },
+            {
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://exoiteitservices.com/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Insights",
+                  "item": "https://exoiteitservices.com/insights"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "path": "/services/website-development",
+    "passed": true,
+    "head": {
+      "titles": [
+        "Website Development Services | Exoite IT Services"
+      ],
+      "description": [
+        "Website development for businesses, startups and institutions in Kanpur, across India and remotely worldwide. Plan a clear, responsive site around real enquiries."
+      ],
+      "robots": [
+        "index,follow"
+      ],
+      "canonical": [
+        "https://exoiteitservices.com/services/website-development"
+      ],
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "Organization",
+              "@id": "https://exoiteitservices.com/#organization",
+              "name": "Exoite IT Services",
+              "url": "https://exoiteitservices.com",
+              "slogan": "Empowering Digital Future",
+              "email": "contact@exoiteitservices.com",
+              "telephone": "+916394732841",
+              "areaServed": [
+                "India",
+                "Worldwide"
+              ],
+              "location": {
+                "@type": "Place",
+                "name": "Kanpur, Uttar Pradesh, India"
+              },
+              "logo": "https://exoiteitservices.com/favicon.png"
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://exoiteitservices.com/#website",
+              "url": "https://exoiteitservices.com",
+              "name": "Exoite IT Services",
+              "publisher": {
+                "@id": "https://exoiteitservices.com/#organization"
+              }
+            },
+            {
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://exoiteitservices.com/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Services",
+                  "item": "https://exoiteitservices.com/services"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "Website Development",
+                  "item": "https://exoiteitservices.com/services/website-development"
+                }
+              ]
+            },
+            {
+              "@type": "Service",
+              "@id": "https://exoiteitservices.com/services/website-development#service",
+              "name": "Website Development",
+              "description": "Your website should explain what you do, answer the questions that matter and give visitors a clear next step. We start with your audience and content, then plan the structure, design and functionality together.",
+              "url": "https://exoiteitservices.com/services/website-development",
+              "provider": {
+                "@id": "https://exoiteitservices.com/#organization"
+              },
+              "areaServed": [
+                "India",
+                "Worldwide"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "path": "/services/custom-software-development",
+    "passed": true,
+    "head": {
+      "titles": [
+        "Custom Software Development Services | Exoite IT Services"
+      ],
+      "description": [
+        "Discuss custom dashboards, portals and workflow software with Exoite IT Services. Turn business requirements into a practical development scope."
+      ],
+      "robots": [
+        "index,follow"
+      ],
+      "canonical": [
+        "https://exoiteitservices.com/services/custom-software-development"
+      ],
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "Organization",
+              "@id": "https://exoiteitservices.com/#organization",
+              "name": "Exoite IT Services",
+              "url": "https://exoiteitservices.com",
+              "slogan": "Empowering Digital Future",
+              "email": "contact@exoiteitservices.com",
+              "telephone": "+916394732841",
+              "areaServed": [
+                "India",
+                "Worldwide"
+              ],
+              "location": {
+                "@type": "Place",
+                "name": "Kanpur, Uttar Pradesh, India"
+              },
+              "logo": "https://exoiteitservices.com/favicon.png"
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://exoiteitservices.com/#website",
+              "url": "https://exoiteitservices.com",
+              "name": "Exoite IT Services",
+              "publisher": {
+                "@id": "https://exoiteitservices.com/#organization"
+              }
+            },
+            {
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://exoiteitservices.com/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Services",
+                  "item": "https://exoiteitservices.com/services"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "Custom Software Development",
+                  "item": "https://exoiteitservices.com/services/custom-software-development"
+                }
+              ]
+            },
+            {
+              "@type": "Service",
+              "@id": "https://exoiteitservices.com/services/custom-software-development#service",
+              "name": "Custom Software Development",
+              "description": "When spreadsheets and disconnected tools make work difficult, a tailored system may help. We map the current process, identify what needs to change and separate essential workflows from later ideas before proposing a solution.",
+              "url": "https://exoiteitservices.com/services/custom-software-development",
+              "provider": {
+                "@id": "https://exoiteitservices.com/#organization"
+              },
+              "areaServed": [
+                "India",
+                "Worldwide"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "path": "/services/mobile-app-development",
+    "passed": true,
+    "head": {
+      "titles": [
+        "Mobile App Development Services | Exoite IT Services"
+      ],
+      "description": [
+        "Plan Android or cross-platform app development for customers, students or internal teams with Exoite IT Services in Kanpur."
+      ],
+      "robots": [
+        "index,follow"
+      ],
+      "canonical": [
+        "https://exoiteitservices.com/services/mobile-app-development"
+      ],
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "Organization",
+              "@id": "https://exoiteitservices.com/#organization",
+              "name": "Exoite IT Services",
+              "url": "https://exoiteitservices.com",
+              "slogan": "Empowering Digital Future",
+              "email": "contact@exoiteitservices.com",
+              "telephone": "+916394732841",
+              "areaServed": [
+                "India",
+                "Worldwide"
+              ],
+              "location": {
+                "@type": "Place",
+                "name": "Kanpur, Uttar Pradesh, India"
+              },
+              "logo": "https://exoiteitservices.com/favicon.png"
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://exoiteitservices.com/#website",
+              "url": "https://exoiteitservices.com",
+              "name": "Exoite IT Services",
+              "publisher": {
+                "@id": "https://exoiteitservices.com/#organization"
+              }
+            },
+            {
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://exoiteitservices.com/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Services",
+                  "item": "https://exoiteitservices.com/services"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "Mobile App Development",
+                  "item": "https://exoiteitservices.com/services/mobile-app-development"
+                }
+              ]
+            },
+            {
+              "@type": "Service",
+              "@id": "https://exoiteitservices.com/services/mobile-app-development#service",
+              "name": "Mobile App Development",
+              "description": "An app needs a clear reason to be on someone's phone. We discuss who will use it, the core tasks and device requirements, then shape a manageable first version rather than adding features without a user need.",
+              "url": "https://exoiteitservices.com/services/mobile-app-development",
+              "provider": {
+                "@id": "https://exoiteitservices.com/#organization"
+              },
+              "areaServed": [
+                "India",
+                "Worldwide"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "path": "/services/school-institute-solutions",
+    "passed": true,
+    "head": {
+      "titles": [
+        "School and Institute Solutions Services | Exoite IT Services"
+      ],
+      "description": [
+        "Explore school and institute software, LMS development and examination portal planning with Exoite IT Services. Discuss your education workflows."
+      ],
+      "robots": [
+        "index,follow"
+      ],
+      "canonical": [
+        "https://exoiteitservices.com/services/school-institute-solutions"
+      ],
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "Organization",
+              "@id": "https://exoiteitservices.com/#organization",
+              "name": "Exoite IT Services",
+              "url": "https://exoiteitservices.com",
+              "slogan": "Empowering Digital Future",
+              "email": "contact@exoiteitservices.com",
+              "telephone": "+916394732841",
+              "areaServed": [
+                "India",
+                "Worldwide"
+              ],
+              "location": {
+                "@type": "Place",
+                "name": "Kanpur, Uttar Pradesh, India"
+              },
+              "logo": "https://exoiteitservices.com/favicon.png"
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://exoiteitservices.com/#website",
+              "url": "https://exoiteitservices.com",
+              "name": "Exoite IT Services",
+              "publisher": {
+                "@id": "https://exoiteitservices.com/#organization"
+              }
+            },
+            {
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://exoiteitservices.com/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Services",
+                  "item": "https://exoiteitservices.com/services"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "School and Institute Solutions",
+                  "item": "https://exoiteitservices.com/services/school-institute-solutions"
+                }
+              ]
+            },
+            {
+              "@type": "Service",
+              "@id": "https://exoiteitservices.com/services/school-institute-solutions#service",
+              "name": "School and Institute Solutions",
+              "description": "School and institute software must work for administrators, teachers, learners and families. Our education technology and IT training experience informs a practical discussion of roles, everyday processes and the information each group actually needs.",
+              "url": "https://exoiteitservices.com/services/school-institute-solutions",
+              "provider": {
+                "@id": "https://exoiteitservices.com/#organization"
+              },
+              "areaServed": [
+                "India",
+                "Worldwide"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "path": "/services/digital-marketing",
+    "passed": true,
+    "head": {
+      "titles": [
+        "Digital Marketing Services | Exoite IT Services"
+      ],
+      "description": [
+        "Discuss search visibility, website content and social media support with Exoite IT Services. Plan practical digital marketing around your business goals."
+      ],
+      "robots": [
+        "index,follow"
+      ],
+      "canonical": [
+        "https://exoiteitservices.com/services/digital-marketing"
+      ],
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "Organization",
+              "@id": "https://exoiteitservices.com/#organization",
+              "name": "Exoite IT Services",
+              "url": "https://exoiteitservices.com",
+              "slogan": "Empowering Digital Future",
+              "email": "contact@exoiteitservices.com",
+              "telephone": "+916394732841",
+              "areaServed": [
+                "India",
+                "Worldwide"
+              ],
+              "location": {
+                "@type": "Place",
+                "name": "Kanpur, Uttar Pradesh, India"
+              },
+              "logo": "https://exoiteitservices.com/favicon.png"
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://exoiteitservices.com/#website",
+              "url": "https://exoiteitservices.com",
+              "name": "Exoite IT Services",
+              "publisher": {
+                "@id": "https://exoiteitservices.com/#organization"
+              }
+            },
+            {
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://exoiteitservices.com/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Services",
+                  "item": "https://exoiteitservices.com/services"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "Digital Marketing",
+                  "item": "https://exoiteitservices.com/services/digital-marketing"
+                }
+              ]
+            },
+            {
+              "@type": "Service",
+              "@id": "https://exoiteitservices.com/services/digital-marketing#service",
+              "name": "Digital Marketing",
+              "description": "A useful marketing plan starts with the audience, the offer and how an enquiry is handled. We discuss your current website, content and channels before agreeing what to improve and how progress should be reviewed.",
+              "url": "https://exoiteitservices.com/services/digital-marketing",
+              "provider": {
+                "@id": "https://exoiteitservices.com/#organization"
+              },
+              "areaServed": [
+                "India",
+                "Worldwide"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "path": "/services/it-training",
+    "passed": true,
+    "head": {
+      "titles": [
+        "IT Training Services | Exoite IT Services"
+      ],
+      "description": [
+        "Explore IT training and coding workshops for students, schools, institutes and teams. Discuss topics, prerequisites and learning goals with Exoite."
+      ],
+      "robots": [
+        "index,follow"
+      ],
+      "canonical": [
+        "https://exoiteitservices.com/services/it-training"
+      ],
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "Organization",
+              "@id": "https://exoiteitservices.com/#organization",
+              "name": "Exoite IT Services",
+              "url": "https://exoiteitservices.com",
+              "slogan": "Empowering Digital Future",
+              "email": "contact@exoiteitservices.com",
+              "telephone": "+916394732841",
+              "areaServed": [
+                "India",
+                "Worldwide"
+              ],
+              "location": {
+                "@type": "Place",
+                "name": "Kanpur, Uttar Pradesh, India"
+              },
+              "logo": "https://exoiteitservices.com/favicon.png"
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://exoiteitservices.com/#website",
+              "url": "https://exoiteitservices.com",
+              "name": "Exoite IT Services",
+              "publisher": {
+                "@id": "https://exoiteitservices.com/#organization"
+              }
+            },
+            {
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://exoiteitservices.com/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Services",
+                  "item": "https://exoiteitservices.com/services"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "IT Training",
+                  "item": "https://exoiteitservices.com/services/it-training"
+                }
+              ]
+            },
+            {
+              "@type": "Service",
+              "@id": "https://exoiteitservices.com/services/it-training#service",
+              "name": "IT Training",
+              "description": "Training is more useful when content matches the learners. We discuss their starting knowledge, available time and goals, then plan guided exercises and projects around a realistic learning scope.",
+              "url": "https://exoiteitservices.com/services/it-training",
+              "provider": {
+                "@id": "https://exoiteitservices.com/#organization"
+              },
+              "areaServed": [
+                "India",
+                "Worldwide"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "path": "/portfolio/examify",
+    "passed": true,
+    "head": {
+      "titles": [
+        "Online Examination Portal / Examify | Illustrative Solution Study | Exoite"
+      ],
+      "description": [
+        "An illustrative examination portal concept for schools and institutes, centred on preparing assessments, learner access and reviewing results."
+      ],
+      "robots": [
+        "index,follow"
+      ],
+      "canonical": [
+        "https://exoiteitservices.com/portfolio/examify"
+      ],
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "Organization",
+              "@id": "https://exoiteitservices.com/#organization",
+              "name": "Exoite IT Services",
+              "url": "https://exoiteitservices.com",
+              "slogan": "Empowering Digital Future",
+              "email": "contact@exoiteitservices.com",
+              "telephone": "+916394732841",
+              "areaServed": [
+                "India",
+                "Worldwide"
+              ],
+              "location": {
+                "@type": "Place",
+                "name": "Kanpur, Uttar Pradesh, India"
+              },
+              "logo": "https://exoiteitservices.com/favicon.png"
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://exoiteitservices.com/#website",
+              "url": "https://exoiteitservices.com",
+              "name": "Exoite IT Services",
+              "publisher": {
+                "@id": "https://exoiteitservices.com/#organization"
+              }
+            },
+            {
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://exoiteitservices.com/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Portfolio",
+                  "item": "https://exoiteitservices.com/portfolio"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "Online Examination Portal / Examify",
+                  "item": "https://exoiteitservices.com/portfolio/examify"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "path": "/portfolio/inventory-management",
+    "passed": true,
+    "head": {
+      "titles": [
+        "Inventory Management System | Illustrative Solution Study | Exoite"
+      ],
+      "description": [
+        "An illustrative inventory system concept for organising items, recording stock changes and reviewing information relevant to day-to-day operations."
+      ],
+      "robots": [
+        "index,follow"
+      ],
+      "canonical": [
+        "https://exoiteitservices.com/portfolio/inventory-management"
+      ],
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "Organization",
+              "@id": "https://exoiteitservices.com/#organization",
+              "name": "Exoite IT Services",
+              "url": "https://exoiteitservices.com",
+              "slogan": "Empowering Digital Future",
+              "email": "contact@exoiteitservices.com",
+              "telephone": "+916394732841",
+              "areaServed": [
+                "India",
+                "Worldwide"
+              ],
+              "location": {
+                "@type": "Place",
+                "name": "Kanpur, Uttar Pradesh, India"
+              },
+              "logo": "https://exoiteitservices.com/favicon.png"
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://exoiteitservices.com/#website",
+              "url": "https://exoiteitservices.com",
+              "name": "Exoite IT Services",
+              "publisher": {
+                "@id": "https://exoiteitservices.com/#organization"
+              }
+            },
+            {
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://exoiteitservices.com/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Portfolio",
+                  "item": "https://exoiteitservices.com/portfolio"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "Inventory Management System",
+                  "item": "https://exoiteitservices.com/portfolio/inventory-management"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "path": "/portfolio/learning-management-system",
+    "passed": true,
+    "head": {
+      "titles": [
+        "Learning Management System | Illustrative Solution Study | Exoite"
+      ],
+      "description": [
+        "An illustrative learning platform concept for organising courses, learner access, assignments and progress-related information."
+      ],
+      "robots": [
+        "index,follow"
+      ],
+      "canonical": [
+        "https://exoiteitservices.com/portfolio/learning-management-system"
+      ],
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "Organization",
+              "@id": "https://exoiteitservices.com/#organization",
+              "name": "Exoite IT Services",
+              "url": "https://exoiteitservices.com",
+              "slogan": "Empowering Digital Future",
+              "email": "contact@exoiteitservices.com",
+              "telephone": "+916394732841",
+              "areaServed": [
+                "India",
+                "Worldwide"
+              ],
+              "location": {
+                "@type": "Place",
+                "name": "Kanpur, Uttar Pradesh, India"
+              },
+              "logo": "https://exoiteitservices.com/favicon.png"
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://exoiteitservices.com/#website",
+              "url": "https://exoiteitservices.com",
+              "name": "Exoite IT Services",
+              "publisher": {
+                "@id": "https://exoiteitservices.com/#organization"
+              }
+            },
+            {
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://exoiteitservices.com/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Portfolio",
+                  "item": "https://exoiteitservices.com/portfolio"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "Learning Management System",
+                  "item": "https://exoiteitservices.com/portfolio/learning-management-system"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "path": "/insights/choosing-a-business-website",
+    "passed": true,
+    "head": {
+      "titles": [
+        "Choosing a business website: start with the job it needs to do | Exoite Insights"
+      ],
+      "description": [
+        "A practical guide to planning a business website around visitors, content, ownership and ongoing costs before choosing features or technology."
+      ],
+      "robots": [
+        "index,follow"
+      ],
+      "canonical": [
+        "https://exoiteitservices.com/insights/choosing-a-business-website"
+      ],
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "Organization",
+              "@id": "https://exoiteitservices.com/#organization",
+              "name": "Exoite IT Services",
+              "url": "https://exoiteitservices.com",
+              "slogan": "Empowering Digital Future",
+              "email": "contact@exoiteitservices.com",
+              "telephone": "+916394732841",
+              "areaServed": [
+                "India",
+                "Worldwide"
+              ],
+              "location": {
+                "@type": "Place",
+                "name": "Kanpur, Uttar Pradesh, India"
+              },
+              "logo": "https://exoiteitservices.com/favicon.png"
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://exoiteitservices.com/#website",
+              "url": "https://exoiteitservices.com",
+              "name": "Exoite IT Services",
+              "publisher": {
+                "@id": "https://exoiteitservices.com/#organization"
+              }
+            },
+            {
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://exoiteitservices.com/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Insights",
+                  "item": "https://exoiteitservices.com/insights"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "Choosing a business website: start with the job it needs to do",
+                  "item": "https://exoiteitservices.com/insights/choosing-a-business-website"
+                }
+              ]
+            },
+            {
+              "@type": "Article",
+              "@id": "https://exoiteitservices.com/insights/choosing-a-business-website#article",
+              "headline": "Choosing a business website: start with the job it needs to do",
+              "description": "A practical guide to planning a business website around visitors, content, ownership and ongoing costs before choosing features or technology.",
+              "mainEntityOfPage": "https://exoiteitservices.com/insights/choosing-a-business-website",
+              "author": {
+                "@id": "https://exoiteitservices.com/#organization"
+              },
+              "publisher": {
+                "@id": "https://exoiteitservices.com/#organization"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "path": "/insights/school-website-development-considerations",
+    "passed": true,
+    "head": {
+      "titles": [
+        "Planning a school website: information, access and responsibility | Exoite Insights"
+      ],
+      "description": [
+        "Plan a school website around parent questions, staff publishing, mobile access and responsible handling of enquiries and student information."
+      ],
+      "robots": [
+        "index,follow"
+      ],
+      "canonical": [
+        "https://exoiteitservices.com/insights/school-website-development-considerations"
+      ],
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "Organization",
+              "@id": "https://exoiteitservices.com/#organization",
+              "name": "Exoite IT Services",
+              "url": "https://exoiteitservices.com",
+              "slogan": "Empowering Digital Future",
+              "email": "contact@exoiteitservices.com",
+              "telephone": "+916394732841",
+              "areaServed": [
+                "India",
+                "Worldwide"
+              ],
+              "location": {
+                "@type": "Place",
+                "name": "Kanpur, Uttar Pradesh, India"
+              },
+              "logo": "https://exoiteitservices.com/favicon.png"
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://exoiteitservices.com/#website",
+              "url": "https://exoiteitservices.com",
+              "name": "Exoite IT Services",
+              "publisher": {
+                "@id": "https://exoiteitservices.com/#organization"
+              }
+            },
+            {
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://exoiteitservices.com/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Insights",
+                  "item": "https://exoiteitservices.com/insights"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "Planning a school website: information, access and responsibility",
+                  "item": "https://exoiteitservices.com/insights/school-website-development-considerations"
+                }
+              ]
+            },
+            {
+              "@type": "Article",
+              "@id": "https://exoiteitservices.com/insights/school-website-development-considerations#article",
+              "headline": "Planning a school website: information, access and responsibility",
+              "description": "Plan a school website around parent questions, staff publishing, mobile access and responsible handling of enquiries and student information.",
+              "mainEntityOfPage": "https://exoiteitservices.com/insights/school-website-development-considerations",
+              "author": {
+                "@id": "https://exoiteitservices.com/#organization"
+              },
+              "publisher": {
+                "@id": "https://exoiteitservices.com/#organization"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "path": "/insights/when-a-business-needs-custom-software",
+    "passed": true,
+    "head": {
+      "titles": [
+        "When does a business need custom software? | Exoite Insights"
+      ],
+      "description": [
+        "Compare existing tools, process improvements and custom development before investing in a new business system. Start with a small, evidence-based scope."
+      ],
+      "robots": [
+        "index,follow"
+      ],
+      "canonical": [
+        "https://exoiteitservices.com/insights/when-a-business-needs-custom-software"
+      ],
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "Organization",
+              "@id": "https://exoiteitservices.com/#organization",
+              "name": "Exoite IT Services",
+              "url": "https://exoiteitservices.com",
+              "slogan": "Empowering Digital Future",
+              "email": "contact@exoiteitservices.com",
+              "telephone": "+916394732841",
+              "areaServed": [
+                "India",
+                "Worldwide"
+              ],
+              "location": {
+                "@type": "Place",
+                "name": "Kanpur, Uttar Pradesh, India"
+              },
+              "logo": "https://exoiteitservices.com/favicon.png"
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://exoiteitservices.com/#website",
+              "url": "https://exoiteitservices.com",
+              "name": "Exoite IT Services",
+              "publisher": {
+                "@id": "https://exoiteitservices.com/#organization"
+              }
+            },
+            {
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://exoiteitservices.com/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Insights",
+                  "item": "https://exoiteitservices.com/insights"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "When does a business need custom software?",
+                  "item": "https://exoiteitservices.com/insights/when-a-business-needs-custom-software"
+                }
+              ]
+            },
+            {
+              "@type": "Article",
+              "@id": "https://exoiteitservices.com/insights/when-a-business-needs-custom-software#article",
+              "headline": "When does a business need custom software?",
+              "description": "Compare existing tools, process improvements and custom development before investing in a new business system. Start with a small, evidence-based scope.",
+              "mainEntityOfPage": "https://exoiteitservices.com/insights/when-a-business-needs-custom-software",
+              "author": {
+                "@id": "https://exoiteitservices.com/#organization"
+              },
+              "publisher": {
+                "@id": "https://exoiteitservices.com/#organization"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "path": "/privacy-policy",
+    "passed": true,
+    "head": {
+      "titles": [
+        "Privacy Policy | Review Draft | Exoite IT Services"
+      ],
+      "description": [
+        "Draft privacy information for enquiries to Exoite IT Services. Business-specific processing and retention details require approval before adoption."
+      ],
+      "robots": [
+        "noindex,follow"
+      ],
+      "canonical": [
+        "https://exoiteitservices.com/privacy-policy"
+      ],
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "Organization",
+              "@id": "https://exoiteitservices.com/#organization",
+              "name": "Exoite IT Services",
+              "url": "https://exoiteitservices.com",
+              "slogan": "Empowering Digital Future",
+              "email": "contact@exoiteitservices.com",
+              "telephone": "+916394732841",
+              "areaServed": [
+                "India",
+                "Worldwide"
+              ],
+              "location": {
+                "@type": "Place",
+                "name": "Kanpur, Uttar Pradesh, India"
+              },
+              "logo": "https://exoiteitservices.com/favicon.png"
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://exoiteitservices.com/#website",
+              "url": "https://exoiteitservices.com",
+              "name": "Exoite IT Services",
+              "publisher": {
+                "@id": "https://exoiteitservices.com/#organization"
+              }
+            },
+            {
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://exoiteitservices.com/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Privacy Policy",
+                  "item": "https://exoiteitservices.com/privacy-policy"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "path": "/terms-of-service",
+    "passed": true,
+    "head": {
+      "titles": [
+        "Terms of Service | Review Draft | Exoite IT Services"
+      ],
+      "description": [
+        "Draft website and service terms for Exoite IT Services, with business-specific commercial and legal provisions marked for approval."
+      ],
+      "robots": [
+        "noindex,follow"
+      ],
+      "canonical": [
+        "https://exoiteitservices.com/terms-of-service"
+      ],
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "Organization",
+              "@id": "https://exoiteitservices.com/#organization",
+              "name": "Exoite IT Services",
+              "url": "https://exoiteitservices.com",
+              "slogan": "Empowering Digital Future",
+              "email": "contact@exoiteitservices.com",
+              "telephone": "+916394732841",
+              "areaServed": [
+                "India",
+                "Worldwide"
+              ],
+              "location": {
+                "@type": "Place",
+                "name": "Kanpur, Uttar Pradesh, India"
+              },
+              "logo": "https://exoiteitservices.com/favicon.png"
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://exoiteitservices.com/#website",
+              "url": "https://exoiteitservices.com",
+              "name": "Exoite IT Services",
+              "publisher": {
+                "@id": "https://exoiteitservices.com/#organization"
+              }
+            },
+            {
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://exoiteitservices.com/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Terms of Service",
+                  "item": "https://exoiteitservices.com/terms-of-service"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

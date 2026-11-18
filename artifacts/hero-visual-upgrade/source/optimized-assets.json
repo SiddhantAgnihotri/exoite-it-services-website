@@ -1,0 +1,32 @@
+[
+  {
+    "path": "src/assets/images/optimized/hero-workspace-480.webp",
+    "format": "webp",
+    "width": 480,
+    "height": 360,
+    "channels": 3,
+    "premultiplied": false,
+    "hasAlpha": false,
+    "size": 18334
+  },
+  {
+    "path": "src/assets/images/optimized/hero-workspace-960.webp",
+    "format": "webp",
+    "width": 960,
+    "height": 720,
+    "channels": 3,
+    "premultiplied": false,
+    "hasAlpha": false,
+    "size": 45782
+  },
+  {
+    "path": "src/assets/images/optimized/hero-workspace-1440.webp",
+    "format": "webp",
+    "width": 1440,
+    "height": 1080,
+    "channels": 3,
+    "premultiplied": false,
+    "hasAlpha": false,
+    "size": 76448
+  }
+]

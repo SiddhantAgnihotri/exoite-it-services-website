@@ -1,3 +1,5 @@
+import { aiServices } from "./aiServices.js";
+
 export const serviceDetails = [
   {
     slug: "website-development",
@@ -377,6 +379,7 @@ export const serviceDetails = [
       ],
     ],
   },
+  ...aiServices,
 ];
 
 export const servicePath = (service) => `/services/${service.slug}`;

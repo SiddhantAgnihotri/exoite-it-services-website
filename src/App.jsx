@@ -1,5 +1,6 @@
 import { Routes, Route, useLocation } from "react-router-dom";
 import { useEffect } from "react";
+import useSectionReveals from "./hooks/useSectionReveals";
 import SEO from "./components/SEO";
 import NotFound from "./pages/NotFound";
 
@@ -26,6 +27,7 @@ function App() {
     if (hash) document.getElementById(hash.slice(1))?.scrollIntoView();
     else window.scrollTo(0, 0);
   }, [pathname, hash]);
+  useSectionReveals(pathname);
   return (
     <>
       <SEO />

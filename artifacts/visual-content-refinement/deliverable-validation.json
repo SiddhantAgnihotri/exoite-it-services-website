@@ -1,0 +1,7 @@
+{
+  "report": "docs/visual-content-refinement-report.md",
+  "gallery": "artifacts/visual-content-refinement/index.html",
+  "brokenLinks": [],
+  "baselineScreenshots": 18,
+  "finalPageScreenshots": 48
+}

@@ -9,6 +9,7 @@ import {
   ArrowUpRight,
   Check,
 } from "lucide-react";
+import ContentHighlights from "../components/ui/ContentHighlights";
 import PageHero from "../components/ui/PageHero";
 import SectionHeading from "../components/ui/SectionHeading";
 import CTA from "../components/sections/CTA";
@@ -77,7 +78,7 @@ export default function Training() {
         visual={<ServiceVisual slug="it-training" />}
         label="IT training & workshops"
         title="Learn by doing. Build with understanding."
-        description="Practical coding and technology programs for students, schools, institutes and professional teams. Start with your goals; we'll discuss a suitable learning plan."
+        description="Hands-on coding for learners, schools and teams."
       >
         <div className="training-intro">
           {[
@@ -97,7 +98,7 @@ export default function Training() {
           <SectionHeading
             eyebrow="Find your direction"
             title="Programs for the next step."
-            description="Topics and learning focus are outlined below. Contact us to confirm prerequisites, format, duration and availability."
+            description="Confirm prerequisites, format and availability before enrolling."
           />
           <div className="course-grid">
             {courses.map((course) => {
@@ -106,7 +107,7 @@ export default function Training() {
                 <article className="course-card" key={course.title}>
                   <Icon size={25} aria-hidden="true" />
                   <h3>{course.title}</h3>
-                  <p>{course.description}</p>
+
                   <div className="tag-list">
                     {course.topics.map((topic) => (
                       <span key={topic}>{topic}</span>
@@ -143,16 +144,8 @@ export default function Training() {
             </h2>
           </div>
           <div className="prose">
-            <p>
-              From introductory coding workshops to a structured development
-              program, we can discuss content based on the starting point,
-              interests and goals of your learners.
-            </p>
-            <p>
-              Share your group size, preferred topics and delivery requirements.
-              We will discuss a practical scope and schedule without promising
-              placements or certification outcomes.
-            </p>
+            <ContentHighlights items={["Share your learners' starting level", "Choose topics and delivery requirements", "Agree the format, scope and schedule"]} />
+            <p>No placements or certification outcomes are promised.</p>
             <a
               className="text-link"
               href={whatsappLinkFor("a custom training program")}

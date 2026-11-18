@@ -1,0 +1,535 @@
+{
+  "checks": [
+    {
+      "name": "360: homepage AI feature opens automation service",
+      "passed": true
+    },
+    {
+      "name": "360: mobile AI navigation works and closes",
+      "passed": true
+    },
+    {
+      "name": "360: category is crawlable and has four services",
+      "passed": true
+    },
+    {
+      "name": "360: ai-automation FAQ keyboard disclosure",
+      "passed": true
+    },
+    {
+      "name": "360: ai-automation enquiry selects correct service",
+      "passed": true
+    },
+    {
+      "name": "360: ai-automation mocked POST and success feedback",
+      "passed": true
+    },
+    {
+      "name": "360: ai-chatbots FAQ keyboard disclosure",
+      "passed": true
+    },
+    {
+      "name": "360: ai-chatbots enquiry selects correct service",
+      "passed": true
+    },
+    {
+      "name": "360: ai-chatbots mocked POST and success feedback",
+      "passed": true
+    },
+    {
+      "name": "360: ai-workflow-integration FAQ keyboard disclosure",
+      "passed": true
+    },
+    {
+      "name": "360: ai-workflow-integration enquiry selects correct service",
+      "passed": true
+    },
+    {
+      "name": "360: ai-workflow-integration mocked POST and success feedback",
+      "passed": true
+    },
+    {
+      "name": "360: ai-business-software FAQ keyboard disclosure",
+      "passed": true
+    },
+    {
+      "name": "360: ai-business-software enquiry selects correct service",
+      "passed": true
+    },
+    {
+      "name": "360: ai-business-software mocked POST and success feedback",
+      "passed": true
+    },
+    {
+      "name": "360: reduced motion keeps concept static",
+      "passed": true
+    },
+    {
+      "name": "360: concept fits its container",
+      "passed": true
+    },
+    {
+      "name": "390: homepage AI feature opens automation service",
+      "passed": true
+    },
+    {
+      "name": "390: mobile AI navigation works and closes",
+      "passed": true
+    },
+    {
+      "name": "390: category is crawlable and has four services",
+      "passed": true
+    },
+    {
+      "name": "390: ai-automation FAQ keyboard disclosure",
+      "passed": true
+    },
+    {
+      "name": "390: ai-automation enquiry selects correct service",
+      "passed": true
+    },
+    {
+      "name": "390: ai-automation mocked POST and success feedback",
+      "passed": true
+    },
+    {
+      "name": "390: ai-chatbots FAQ keyboard disclosure",
+      "passed": true
+    },
+    {
+      "name": "390: ai-chatbots enquiry selects correct service",
+      "passed": true
+    },
+    {
+      "name": "390: ai-chatbots mocked POST and success feedback",
+      "passed": true
+    },
+    {
+      "name": "390: ai-workflow-integration FAQ keyboard disclosure",
+      "passed": true
+    },
+    {
+      "name": "390: ai-workflow-integration enquiry selects correct service",
+      "passed": true
+    },
+    {
+      "name": "390: ai-workflow-integration mocked POST and success feedback",
+      "passed": true
+    },
+    {
+      "name": "390: ai-business-software FAQ keyboard disclosure",
+      "passed": true
+    },
+    {
+      "name": "390: ai-business-software enquiry selects correct service",
+      "passed": true
+    },
+    {
+      "name": "390: ai-business-software mocked POST and success feedback",
+      "passed": true
+    },
+    {
+      "name": "390: reduced motion keeps concept static",
+      "passed": true
+    },
+    {
+      "name": "390: concept fits its container",
+      "passed": true
+    },
+    {
+      "name": "768: homepage AI feature opens automation service",
+      "passed": true
+    },
+    {
+      "name": "768: mobile AI navigation works and closes",
+      "passed": true
+    },
+    {
+      "name": "768: category is crawlable and has four services",
+      "passed": true
+    },
+    {
+      "name": "768: ai-automation FAQ keyboard disclosure",
+      "passed": true
+    },
+    {
+      "name": "768: ai-automation enquiry selects correct service",
+      "passed": true
+    },
+    {
+      "name": "768: ai-automation mocked POST and success feedback",
+      "passed": true
+    },
+    {
+      "name": "768: ai-chatbots FAQ keyboard disclosure",
+      "passed": true
+    },
+    {
+      "name": "768: ai-chatbots enquiry selects correct service",
+      "passed": true
+    },
+    {
+      "name": "768: ai-chatbots mocked POST and success feedback",
+      "passed": true
+    },
+    {
+      "name": "768: ai-workflow-integration FAQ keyboard disclosure",
+      "passed": true
+    },
+    {
+      "name": "768: ai-workflow-integration enquiry selects correct service",
+      "passed": true
+    },
+    {
+      "name": "768: ai-workflow-integration mocked POST and success feedback",
+      "passed": true
+    },
+    {
+      "name": "768: ai-business-software FAQ keyboard disclosure",
+      "passed": true
+    },
+    {
+      "name": "768: ai-business-software enquiry selects correct service",
+      "passed": true
+    },
+    {
+      "name": "768: ai-business-software mocked POST and success feedback",
+      "passed": true
+    },
+    {
+      "name": "768: reduced motion keeps concept static",
+      "passed": true
+    },
+    {
+      "name": "768: concept fits its container",
+      "passed": true
+    },
+    {
+      "name": "1024: homepage AI feature opens automation service",
+      "passed": true
+    },
+    {
+      "name": "1024: grouped AI navigation opens chatbot page",
+      "passed": true
+    },
+    {
+      "name": "1024: category is crawlable and has four services",
+      "passed": true
+    },
+    {
+      "name": "1024: ai-automation FAQ keyboard disclosure",
+      "passed": true
+    },
+    {
+      "name": "1024: ai-automation enquiry selects correct service",
+      "passed": true
+    },
+    {
+      "name": "1024: ai-automation mocked POST and success feedback",
+      "passed": true
+    },
+    {
+      "name": "1024: ai-chatbots FAQ keyboard disclosure",
+      "passed": true
+    },
+    {
+      "name": "1024: ai-chatbots enquiry selects correct service",
+      "passed": true
+    },
+    {
+      "name": "1024: ai-chatbots mocked POST and success feedback",
+      "passed": true
+    },
+    {
+      "name": "1024: ai-workflow-integration FAQ keyboard disclosure",
+      "passed": true
+    },
+    {
+      "name": "1024: ai-workflow-integration enquiry selects correct service",
+      "passed": true
+    },
+    {
+      "name": "1024: ai-workflow-integration mocked POST and success feedback",
+      "passed": true
+    },
+    {
+      "name": "1024: ai-business-software FAQ keyboard disclosure",
+      "passed": true
+    },
+    {
+      "name": "1024: ai-business-software enquiry selects correct service",
+      "passed": true
+    },
+    {
+      "name": "1024: ai-business-software mocked POST and success feedback",
+      "passed": true
+    },
+    {
+      "name": "1024: reduced motion keeps concept static",
+      "passed": true
+    },
+    {
+      "name": "1024: concept fits its container",
+      "passed": true
+    },
+    {
+      "name": "1440: homepage AI feature opens automation service",
+      "passed": true
+    },
+    {
+      "name": "1440: grouped AI navigation opens chatbot page",
+      "passed": true
+    },
+    {
+      "name": "1440: category is crawlable and has four services",
+      "passed": true
+    },
+    {
+      "name": "1440: ai-automation FAQ keyboard disclosure",
+      "passed": true
+    },
+    {
+      "name": "1440: ai-automation enquiry selects correct service",
+      "passed": true
+    },
+    {
+      "name": "1440: ai-automation mocked POST and success feedback",
+      "passed": true
+    },
+    {
+      "name": "1440: ai-chatbots FAQ keyboard disclosure",
+      "passed": true
+    },
+    {
+      "name": "1440: ai-chatbots enquiry selects correct service",
+      "passed": true
+    },
+    {
+      "name": "1440: ai-chatbots mocked POST and success feedback",
+      "passed": true
+    },
+    {
+      "name": "1440: ai-workflow-integration FAQ keyboard disclosure",
+      "passed": true
+    },
+    {
+      "name": "1440: ai-workflow-integration enquiry selects correct service",
+      "passed": true
+    },
+    {
+      "name": "1440: ai-workflow-integration mocked POST and success feedback",
+      "passed": true
+    },
+    {
+      "name": "1440: ai-business-software FAQ keyboard disclosure",
+      "passed": true
+    },
+    {
+      "name": "1440: ai-business-software enquiry selects correct service",
+      "passed": true
+    },
+    {
+      "name": "1440: ai-business-software mocked POST and success feedback",
+      "passed": true
+    },
+    {
+      "name": "1440: reduced motion keeps concept static",
+      "passed": true
+    },
+    {
+      "name": "1440: concept fits its container",
+      "passed": true
+    },
+    {
+      "name": "1920: homepage AI feature opens automation service",
+      "passed": true
+    },
+    {
+      "name": "1920: grouped AI navigation opens chatbot page",
+      "passed": true
+    },
+    {
+      "name": "1920: category is crawlable and has four services",
+      "passed": true
+    },
+    {
+      "name": "1920: ai-automation FAQ keyboard disclosure",
+      "passed": true
+    },
+    {
+      "name": "1920: ai-automation enquiry selects correct service",
+      "passed": true
+    },
+    {
+      "name": "1920: ai-automation mocked POST and success feedback",
+      "passed": true
+    },
+    {
+      "name": "1920: ai-chatbots FAQ keyboard disclosure",
+      "passed": true
+    },
+    {
+      "name": "1920: ai-chatbots enquiry selects correct service",
+      "passed": true
+    },
+    {
+      "name": "1920: ai-chatbots mocked POST and success feedback",
+      "passed": true
+    },
+    {
+      "name": "1920: ai-workflow-integration FAQ keyboard disclosure",
+      "passed": true
+    },
+    {
+      "name": "1920: ai-workflow-integration enquiry selects correct service",
+      "passed": true
+    },
+    {
+      "name": "1920: ai-workflow-integration mocked POST and success feedback",
+      "passed": true
+    },
+    {
+      "name": "1920: ai-business-software FAQ keyboard disclosure",
+      "passed": true
+    },
+    {
+      "name": "1920: ai-business-software enquiry selects correct service",
+      "passed": true
+    },
+    {
+      "name": "1920: ai-business-software mocked POST and success feedback",
+      "passed": true
+    },
+    {
+      "name": "1920: reduced motion keeps concept static",
+      "passed": true
+    },
+    {
+      "name": "1920: concept fits its container",
+      "passed": true
+    }
+  ],
+  "failures": [],
+  "mockedSubmissions": [
+    {
+      "width": 360,
+      "service": "AI Automation Systems",
+      "method": "POST"
+    },
+    {
+      "width": 360,
+      "service": "AI Chatbots & Virtual Assistants",
+      "method": "POST"
+    },
+    {
+      "width": 360,
+      "service": "AI Workflow Integration",
+      "method": "POST"
+    },
+    {
+      "width": 360,
+      "service": "AI-Powered Business Software",
+      "method": "POST"
+    },
+    {
+      "width": 390,
+      "service": "AI Automation Systems",
+      "method": "POST"
+    },
+    {
+      "width": 390,
+      "service": "AI Chatbots & Virtual Assistants",
+      "method": "POST"
+    },
+    {
+      "width": 390,
+      "service": "AI Workflow Integration",
+      "method": "POST"
+    },
+    {
+      "width": 390,
+      "service": "AI-Powered Business Software",
+      "method": "POST"
+    },
+    {
+      "width": 768,
+      "service": "AI Automation Systems",
+      "method": "POST"
+    },
+    {
+      "width": 768,
+      "service": "AI Chatbots & Virtual Assistants",
+      "method": "POST"
+    },
+    {
+      "width": 768,
+      "service": "AI Workflow Integration",
+      "method": "POST"
+    },
+    {
+      "width": 768,
+      "service": "AI-Powered Business Software",
+      "method": "POST"
+    },
+    {
+      "width": 1024,
+      "service": "AI Automation Systems",
+      "method": "POST"
+    },
+    {
+      "width": 1024,
+      "service": "AI Chatbots & Virtual Assistants",
+      "method": "POST"
+    },
+    {
+      "width": 1024,
+      "service": "AI Workflow Integration",
+      "method": "POST"
+    },
+    {
+      "width": 1024,
+      "service": "AI-Powered Business Software",
+      "method": "POST"
+    },
+    {
+      "width": 1440,
+      "service": "AI Automation Systems",
+      "method": "POST"
+    },
+    {
+      "width": 1440,
+      "service": "AI Chatbots & Virtual Assistants",
+      "method": "POST"
+    },
+    {
+      "width": 1440,
+      "service": "AI Workflow Integration",
+      "method": "POST"
+    },
+    {
+      "width": 1440,
+      "service": "AI-Powered Business Software",
+      "method": "POST"
+    },
+    {
+      "width": 1920,
+      "service": "AI Automation Systems",
+      "method": "POST"
+    },
+    {
+      "width": 1920,
+      "service": "AI Chatbots & Virtual Assistants",
+      "method": "POST"
+    },
+    {
+      "width": 1920,
+      "service": "AI Workflow Integration",
+      "method": "POST"
+    },
+    {
+      "width": 1920,
+      "service": "AI-Powered Business Software",
+      "method": "POST"
+    }
+  ]
+}

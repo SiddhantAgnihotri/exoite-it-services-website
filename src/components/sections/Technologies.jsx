@@ -25,8 +25,7 @@ export default function Technologies() {
             Solid foundations.
           </h2>
           <p className="section-description">
-            We choose technologies around the requirements, the people using
-            your product and how it needs to grow.
+            Tools chosen for your scope, users and maintenance needs.
           </p>
           <Link to="/services" className="text-link">
             Explore our expertise <ArrowRight size={16} />

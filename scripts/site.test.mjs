@@ -31,7 +31,7 @@ for (const [path, page] of Object.entries(pages)) {
     assert.equal(schema['@context'], 'https://schema.org');
     assert.ok(!/aggregateRating|reviewCount|openingHours|foundingDate|streetAddress/.test(JSON.stringify(schema)));
     assert.ok(schema['@graph'].some(node => node['@type'] === 'Organization'));
-    if (path === '/services') assert.equal(schema['@graph'].filter(node => node['@type'] === 'Service').length, 6);
+    if (path === '/services') assert.equal(schema['@graph'].filter(node => node['@type'] === 'Service').length, serviceDetails.length);
   });
   test(`${path}: internal links, fragments and assets resolve in build output`, () => {
     const html = read(output(path));
@@ -73,9 +73,10 @@ test('product previews state development status and do not advertise a released 
   assert.ok(!schema['@graph'].some(node => ['Product', 'Offer'].includes(node['@type'])));
 });
 
-test('homepage prioritises three services and keeps keyboard-operable FAQ/industry disclosures', () => {
+test('homepage prioritises four services and keeps keyboard-operable FAQ/industry disclosures', () => {
   const html = read('dist/index.html');
-  assert.equal((html.match(/class="primary-service primary-service-/g) || []).length, 3);
+  assert.equal((html.match(/class="home-service home-service-/g) || []).length, 4);
+  for (const slug of ['ai-automation', 'website-development', 'custom-software-development', 'mobile-app-development']) assert.ok(html.includes(`href="/services/${slug}"`));
   assert.match(html, /class="supporting-services"/);
   assert.ok((html.match(/<details\b/g) || []).length >= 11);
   assert.equal((html.match(/<details\b/g) || []).length, (html.match(/<summary\b/g) || []).length);
@@ -84,10 +85,10 @@ test('homepage prioritises three services and keeps keyboard-operable FAQ/indust
 });
 
 test('shared UI tokens keep the approved palette without restricting visual colours', () => {
-  const css = ['design', 'sections', 'pages', 'responsive'].map(name => read(`src/styles/${name}.css`)).join('\n');
+  const css = ['design', 'sections', 'pages', 'responsive', 'refinements'].map(name => read(`src/styles/${name}.css`)).join('\n');
   const tokens = css.match(/:root\s*\{([\s\S]*?)\}/)[1];
   const colors = [...tokens.matchAll(/#[0-9a-f]{3,8}\b/gi)].map(match => match[0].toUpperCase());
-  const allowed = new Set(['#FFFFFF', '#14213D', '#2563EB', '#F5F7FA', '#5F6F85', '#E2E8F0', '#15803D']);
+  const allowed = new Set(['#FFFFFF', '#14213D', '#2563EB', '#F8FAFC', '#0F172A', '#5F6F85', '#CBD5E1', '#E2E8F0', '#15803D']);
   for (const color of colors) assert.ok(allowed.has(color), `Unapproved UI color: ${color}`);
   assert.ok(!/linear-gradient|radial-gradient|backdrop-filter/.test(css));
   assert.ok(!/grayscale\s*\(|saturate\s*\(\s*0\s*\)|mix-blend-mode/.test(css));
@@ -101,7 +102,7 @@ test('shared text pairings meet normal-text AA contrast on light, navy and blue 
       .map(value => value <= 0.04045 ? value / 12.92 : ((value + 0.055) / 1.055) ** 2.4);
     return channels[0] * 0.2126 + channels[1] * 0.7152 + channels[2] * 0.0722;
   };
-  for (const [text, background] of [['muted', 'white'], ['muted', 'surface'], ['navy', 'white'], ['navy', 'surface'], ['blue', 'white'], ['blue', 'surface'], ['white', 'navy'], ['white', 'blue']]) {
+  for (const [text, background] of [['muted', 'white'], ['muted', 'surface'], ['navy', 'white'], ['navy', 'surface'], ['text', 'white'], ['text', 'surface'], ['on-dark-muted', 'navy'], ['blue', 'white'], ['blue', 'surface'], ['white', 'navy'], ['white', 'blue']]) {
     const values = [luminance(token(text)), luminance(token(background))].sort((a,b) => a-b);
     assert.ok((values[1] + 0.05) / (values[0] + 0.05) >= 4.5, `${text} on ${background}`);
   }
@@ -114,7 +115,7 @@ test('editorial layout preserves service families, six process stages and contex
   assert.equal((home.match(/class="contact-cta"/g) || []).length, 1);
   for (const service of serviceDetails) {
     const html = read(output(`/services/${service.slug}`));
-    const family = ['school-institute-solutions', 'it-training'].includes(service.slug) ? 'education' : service.slug === 'digital-marketing' ? 'advisory' : 'engineering';
+    const family = service.family || (['school-institute-solutions', 'it-training'].includes(service.slug) ? 'education' : service.slug === 'digital-marketing' ? 'advisory' : 'engineering');
     assert.ok(html.includes(`service-family-${family}`));
     assert.ok(html.includes(`page-hero-${family}`));
   }
@@ -128,12 +129,18 @@ test('company hero is service-led and original portfolio visuals remain clearly 
   assert.match(hero, /Building Digital Solutions for/);
   assert.match(hero, /Start Your Project/);
   assert.ok(!hero.includes('Exoite Social'));
-  for (const service of ['Website Development', 'Mobile App Development', 'Custom Software', 'Digital Solutions']) assert.ok(hero.includes(service));
-  assert.match(hero, /fetchPriority="high"/);
+  for (const service of ['AI Automation', 'Website Development', 'Mobile Applications', 'Custom Software']) assert.ok(hero.includes(service));
+  assert.match(hero, /class="hero-motion-visual"/);
+  assert.match(hero, /Original workflow concept\. Not client software\./);
+  assert.match(hero, /role="img" aria-label="Illustrative workflow connecting websites and apps to AI-assisted organisation and a human review step\."/);
+  assert.match(hero, /class="hero-motion-toggle" type="button" disabled=""/);
+  assert.match(hero, /Pause motion/);
+  assert.ok(!hero.includes('<img'), 'The vector hero needs no photographic image request');
   const portfolio = read('dist/portfolio.html');
   assert.equal((portfolio.match(/View full-size illustration/g) || []).length, 3);
   assert.equal((portfolio.match(/not a verified application screenshot/g) || []).length, 3);
-  assert.ok(portfolio.includes('Figures and interface details'));
+  assert.ok(portfolio.includes('Interface details are illustrative'));
+  assert.ok(!/portfolio-(exam-portal|inventory|lms)-\d+/.test(portfolio), 'Old promotional posters must not return');
 });
 test('404 output is noindex and Vercel uses explicit routes with real 404 fallback', () => {
   assert.match(read('dist/404.html'), /content="noindex,follow"/);
@@ -202,8 +209,8 @@ test('Contact keeps inline WhatsApp access without a floating form obstruction',
   assert.ok(read('dist/index.html').includes('class="whatsapp-button"'));
 });
 
-test('all six service pages carry correct enquiry preselection and specific content', () => {
-  assert.equal(serviceDetails.length, 6);
+test('all service pages carry correct enquiry preselection and specific content', () => {
+  assert.equal(serviceDetails.length, 10);
   const overviews = new Set();
   for (const service of serviceDetails) {
     const html = read(output(`/services/${service.slug}`));
@@ -211,7 +218,7 @@ test('all six service pages carry correct enquiry preselection and specific cont
     assert.ok(html.includes('Common use cases'));
     assert.ok(html.includes('Features &amp; deliverables'));
     assert.ok(html.includes('Who this is for'));
-    assert.ok(html.includes('Enquire Now'));
+    assert.ok(html.includes(service.cta || 'Enquire Now'));
     for (const [,href] of html.matchAll(/href="(\/contact\?service=[^"]+)"/g)) {
       const url = new URL(decode(href), origin);
       assert.equal(enquiryContext(url.search).service, service.enquiry);

@@ -1,0 +1,31 @@
+/* Solution-study visuals (homepage, Portfolio, case studies). The concept SVGs already draw their own
+   tinted card and window, so the outer tinted panel and white inset stage are removed: one frame, larger art.
+   #main-content scoping outranks the earlier page-level overrides without !important. */
+#main-content .solution-visual { padding: 0; background: none; border: 0; border-radius: 0; }
+/* A transparent 10px inset gives the existing 1.025 hover zoom room to stay inside the stage;
+   the image itself carries the frame (radius + shadow), so it still reads as a single card. */
+#main-content .solution-visual .image-stage { --image-inset: 10px; padding: var(--image-inset); aspect-ratio: auto; border-radius: 0; background: transparent; overflow: visible; }
+#main-content .solution-visual .image-stage img { position: relative; inset: auto; display: block; width: 100%; height: auto; aspect-ratio: 8 / 5; border-radius: 14px; box-shadow: 0 1px 2px rgb(20 33 61 / 6%), 0 18px 36px -24px rgb(20 33 61 / 30%); transition: transform var(--interaction-time) var(--interaction-ease), box-shadow var(--interaction-time); }
+#main-content .solution-visual .image-stage picture { display: block; }
+#main-content .solution-visual figcaption { padding: 2px 10px 0; font-size: 13px; line-height: 1.55; color: #526278; }
+#main-content .work-meta { justify-content: flex-start; }
+@media (hover: hover) and (pointer: fine) {
+  #main-content .work-feature:hover .solution-visual .image-stage img { box-shadow: 0 1px 2px rgb(20 33 61 / 6%), 0 24px 44px -24px rgb(20 33 61 / 38%); }
+}
+/* Portfolio page: even rows place the art second, so mirror the column proportions to keep every
+   artwork the same size (previously the second study's art fell into the narrow column). */
+@media (min-width: 951px) {
+  #main-content .work-editorial-full .work-feature:nth-child(even) { grid-template-columns: 1fr 1.45fr; }
+}
+@media (min-width: 701px) and (max-width: 950px) {
+  #main-content .work-editorial-full .work-feature:nth-child(even) { grid-template-columns: 1fr 1.2fr; }
+}
+@media (max-width: 700px) {
+  /* No hover zoom on phones, so no zoom inset: the art uses the full width (labels ≥12px at 360px). */
+  #main-content .solution-visual .image-stage { --image-inset: 0px; padding: 0; }
+  #main-content .solution-visual .image-stage img { border-radius: 10px; }
+  #main-content .solution-visual figcaption { padding: 10px 0 0; }
+}
+@media (prefers-reduced-motion: reduce) {
+  #main-content .solution-visual .image-stage img { transition: none; }
+}

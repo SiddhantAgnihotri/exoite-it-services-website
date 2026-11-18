@@ -1,0 +1,1904 @@
+[
+  {
+    "width": 360,
+    "metrics": {
+      "width": 360,
+      "documentWidth": 360,
+      "container": {
+        "x": 16,
+        "y": 125,
+        "width": 328,
+        "height": 973.359375,
+        "right": 344,
+        "bottom": 1098.359375
+      },
+      "heroHeading": {
+        "rect": {
+          "x": 16,
+          "y": 163,
+          "width": 328,
+          "height": 124.171875,
+          "right": 344,
+          "bottom": 287.171875
+        },
+        "size": "36px"
+      },
+      "bodySize": "16px",
+      "sections": [
+        {
+          "class": "hero company-hero",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "48px",
+          "rect": {
+            "x": 0,
+            "y": 77,
+            "width": 360,
+            "height": 1237.359375,
+            "right": 360,
+            "bottom": 1314.359375
+          }
+        },
+        {
+          "class": "trust-strip",
+          "background": "rgb(248, 250, 252)",
+          "padding": "32px",
+          "rect": {
+            "x": 0,
+            "y": 1314.359375,
+            "width": 360,
+            "height": 235.25,
+            "right": 360,
+            "bottom": 1549.609375
+          }
+        },
+        {
+          "class": "section services-editorial",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "64px",
+          "rect": {
+            "x": 0,
+            "y": 1549.609375,
+            "width": 360,
+            "height": 2233.296875,
+            "right": 360,
+            "bottom": 3782.90625
+          }
+        },
+        {
+          "class": "section work-section",
+          "background": "rgb(248, 250, 252)",
+          "padding": "64px",
+          "rect": {
+            "x": 0,
+            "y": 3782.90625,
+            "width": 360,
+            "height": 2775.625,
+            "right": 360,
+            "bottom": 6558.53125
+          }
+        },
+        {
+          "class": "section industries-editorial",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "64px",
+          "rect": {
+            "x": 0,
+            "y": 6558.53125,
+            "width": 360,
+            "height": 1358.0625,
+            "right": 360,
+            "bottom": 7916.59375
+          }
+        },
+        {
+          "class": "section company-editorial",
+          "background": "rgb(20, 33, 61)",
+          "padding": "64px",
+          "rect": {
+            "x": 0,
+            "y": 7916.59375,
+            "width": 360,
+            "height": 980.625,
+            "right": 360,
+            "bottom": 8897.21875
+          }
+        },
+        {
+          "class": "section product-editorial",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "64px",
+          "rect": {
+            "x": 0,
+            "y": 8897.21875,
+            "width": 360,
+            "height": 1127.5,
+            "right": 360,
+            "bottom": 10024.71875
+          }
+        },
+        {
+          "class": "section process-editorial",
+          "background": "rgb(248, 250, 252)",
+          "padding": "64px",
+          "rect": {
+            "x": 0,
+            "y": 10024.71875,
+            "width": 360,
+            "height": 1067.34375,
+            "right": 360,
+            "bottom": 11092.0625
+          }
+        },
+        {
+          "class": "section",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "64px",
+          "rect": {
+            "x": 0,
+            "y": 11092.0625,
+            "width": 360,
+            "height": 881.0625,
+            "right": 360,
+            "bottom": 11973.125
+          }
+        },
+        {
+          "class": "section insights-editorial",
+          "background": "rgb(248, 250, 252)",
+          "padding": "64px",
+          "rect": {
+            "x": 0,
+            "y": 11973.125,
+            "width": 360,
+            "height": 1035.8125,
+            "right": 360,
+            "bottom": 13008.9375
+          }
+        },
+        {
+          "class": "contact-cta",
+          "background": "rgb(20, 33, 61)",
+          "padding": "64px",
+          "rect": {
+            "x": 0,
+            "y": 13008.9375,
+            "width": 360,
+            "height": 517.53125,
+            "right": 360,
+            "bottom": 13526.46875
+          }
+        }
+      ],
+      "cards": [
+        {
+          "rect": {
+            "x": 16,
+            "y": 1947.796875,
+            "width": 328,
+            "height": 426.109375,
+            "right": 344,
+            "bottom": 2373.90625
+          },
+          "actions": {
+            "x": 40,
+            "y": 2247.15625,
+            "width": 167,
+            "height": 102.75,
+            "right": 207,
+            "bottom": 2349.90625
+          }
+        },
+        {
+          "rect": {
+            "x": 16,
+            "y": 2397.90625,
+            "width": 328,
+            "height": 433.71875,
+            "right": 344,
+            "bottom": 2831.625
+          },
+          "actions": {
+            "x": 40,
+            "y": 2706.875,
+            "width": 280,
+            "height": 100.75,
+            "right": 320,
+            "bottom": 2807.625
+          }
+        },
+        {
+          "rect": {
+            "x": 16,
+            "y": 2855.625,
+            "width": 328,
+            "height": 461.71875,
+            "right": 344,
+            "bottom": 3317.34375
+          },
+          "actions": {
+            "x": 40,
+            "y": 3192.59375,
+            "width": 280,
+            "height": 100.75,
+            "right": 320,
+            "bottom": 3293.34375
+          }
+        }
+      ],
+      "buttons": [
+        {
+          "label": "Start Your Project ",
+          "x": 16,
+          "y": 459.171875,
+          "width": 328,
+          "height": 50,
+          "right": 344,
+          "bottom": 509.171875
+        },
+        {
+          "label": "Explore Our Services ",
+          "x": 16,
+          "y": 525.171875,
+          "width": 328,
+          "height": 50,
+          "right": 344,
+          "bottom": 575.171875
+        }
+      ],
+      "navItems": [
+        {
+          "x": 16,
+          "y": 15.328125,
+          "width": 121.859375,
+          "height": 45.34375,
+          "right": 137.859375,
+          "bottom": 60.671875
+        },
+        {
+          "x": 300,
+          "y": 16,
+          "width": 44,
+          "height": 44,
+          "right": 344,
+          "bottom": 60
+        }
+      ],
+      "clippedText": [],
+      "fonts": {
+        "inter": true,
+        "jakarta": true
+      }
+    },
+    "checks": [
+      {
+        "name": "No horizontal document or reading-text overflow",
+        "passed": true
+      },
+      {
+        "name": "Readable hero text and comfortable actions",
+        "passed": true
+      },
+      {
+        "name": "Bounded container and loaded existing fonts",
+        "passed": true
+      },
+      {
+        "name": "Navbar items do not collide",
+        "passed": true
+      },
+      {
+        "name": "Navy company feature is distinct",
+        "passed": true
+      },
+      {
+        "name": "FAQ and Insights have distinct surfaces",
+        "passed": true
+      },
+      {
+        "name": "Mobile menu opens with expanded semantics",
+        "passed": true
+      },
+      {
+        "name": "Escape restores mobile toggle focus",
+        "passed": true
+      },
+      {
+        "name": "Outside pointer closes menu",
+        "passed": true
+      },
+      {
+        "name": "Sticky navigation gains scroll separation",
+        "passed": true
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "metrics": {
+      "width": 390,
+      "documentWidth": 390,
+      "container": {
+        "x": 16,
+        "y": 125,
+        "width": 358,
+        "height": 999.609375,
+        "right": 374,
+        "bottom": 1124.609375
+      },
+      "heroHeading": {
+        "rect": {
+          "x": 16,
+          "y": 163,
+          "width": 358,
+          "height": 124.171875,
+          "right": 374,
+          "bottom": 287.171875
+        },
+        "size": "36px"
+      },
+      "bodySize": "16px",
+      "sections": [
+        {
+          "class": "hero company-hero",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "48px",
+          "rect": {
+            "x": 0,
+            "y": 77,
+            "width": 390,
+            "height": 1257.609375,
+            "right": 390,
+            "bottom": 1334.609375
+          }
+        },
+        {
+          "class": "trust-strip",
+          "background": "rgb(248, 250, 252)",
+          "padding": "32px",
+          "rect": {
+            "x": 0,
+            "y": 1334.609375,
+            "width": 390,
+            "height": 235.25,
+            "right": 390,
+            "bottom": 1569.859375
+          }
+        },
+        {
+          "class": "section services-editorial",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "64px",
+          "rect": {
+            "x": 0,
+            "y": 1569.859375,
+            "width": 390,
+            "height": 2151.5,
+            "right": 390,
+            "bottom": 3721.359375
+          }
+        },
+        {
+          "class": "section work-section",
+          "background": "rgb(248, 250, 252)",
+          "padding": "64px",
+          "rect": {
+            "x": 0,
+            "y": 3721.359375,
+            "width": 390,
+            "height": 2721.734375,
+            "right": 390,
+            "bottom": 6443.09375
+          }
+        },
+        {
+          "class": "section industries-editorial",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "64px",
+          "rect": {
+            "x": 0,
+            "y": 6443.09375,
+            "width": 390,
+            "height": 1275.5625,
+            "right": 390,
+            "bottom": 7718.65625
+          }
+        },
+        {
+          "class": "section company-editorial",
+          "background": "rgb(20, 33, 61)",
+          "padding": "64px",
+          "rect": {
+            "x": 0,
+            "y": 7718.65625,
+            "width": 390,
+            "height": 920.4375,
+            "right": 390,
+            "bottom": 8639.09375
+          }
+        },
+        {
+          "class": "section product-editorial",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "64px",
+          "rect": {
+            "x": 0,
+            "y": 8639.09375,
+            "width": 390,
+            "height": 1088.90625,
+            "right": 390,
+            "bottom": 9728
+          }
+        },
+        {
+          "class": "section process-editorial",
+          "background": "rgb(248, 250, 252)",
+          "padding": "64px",
+          "rect": {
+            "x": 0,
+            "y": 9728,
+            "width": 390,
+            "height": 987.84375,
+            "right": 390,
+            "bottom": 10715.84375
+          }
+        },
+        {
+          "class": "section",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "64px",
+          "rect": {
+            "x": 0,
+            "y": 10715.84375,
+            "width": 390,
+            "height": 856.875,
+            "right": 390,
+            "bottom": 11572.71875
+          }
+        },
+        {
+          "class": "section insights-editorial",
+          "background": "rgb(248, 250, 252)",
+          "padding": "64px",
+          "rect": {
+            "x": 0,
+            "y": 11572.71875,
+            "width": 390,
+            "height": 1035.8125,
+            "right": 390,
+            "bottom": 12608.53125
+          }
+        },
+        {
+          "class": "contact-cta",
+          "background": "rgb(20, 33, 61)",
+          "padding": "64px",
+          "rect": {
+            "x": 0,
+            "y": 12608.53125,
+            "width": 390,
+            "height": 449.390625,
+            "right": 390,
+            "bottom": 13057.921875
+          }
+        }
+      ],
+      "cards": [
+        {
+          "rect": {
+            "x": 16,
+            "y": 1943.046875,
+            "width": 358,
+            "height": 426.109375,
+            "right": 374,
+            "bottom": 2369.15625
+          },
+          "actions": {
+            "x": 40,
+            "y": 2242.40625,
+            "width": 167,
+            "height": 102.75,
+            "right": 207,
+            "bottom": 2345.15625
+          }
+        },
+        {
+          "rect": {
+            "x": 16,
+            "y": 2393.15625,
+            "width": 358,
+            "height": 433.71875,
+            "right": 374,
+            "bottom": 2826.875
+          },
+          "actions": {
+            "x": 40,
+            "y": 2702.125,
+            "width": 310,
+            "height": 100.75,
+            "right": 350,
+            "bottom": 2802.875
+          }
+        },
+        {
+          "rect": {
+            "x": 16,
+            "y": 2850.875,
+            "width": 358,
+            "height": 404.921875,
+            "right": 374,
+            "bottom": 3255.796875
+          },
+          "actions": {
+            "x": 40,
+            "y": 3131.046875,
+            "width": 310,
+            "height": 100.75,
+            "right": 350,
+            "bottom": 3231.796875
+          }
+        }
+      ],
+      "buttons": [
+        {
+          "label": "Start Your Project ",
+          "x": 16,
+          "y": 459.171875,
+          "width": 358,
+          "height": 50,
+          "right": 374,
+          "bottom": 509.171875
+        },
+        {
+          "label": "Explore Our Services ",
+          "x": 16,
+          "y": 525.171875,
+          "width": 358,
+          "height": 50,
+          "right": 374,
+          "bottom": 575.171875
+        }
+      ],
+      "navItems": [
+        {
+          "x": 16,
+          "y": 15.328125,
+          "width": 121.859375,
+          "height": 45.34375,
+          "right": 137.859375,
+          "bottom": 60.671875
+        },
+        {
+          "x": 330,
+          "y": 16,
+          "width": 44,
+          "height": 44,
+          "right": 374,
+          "bottom": 60
+        }
+      ],
+      "clippedText": [],
+      "fonts": {
+        "inter": true,
+        "jakarta": true
+      }
+    },
+    "checks": [
+      {
+        "name": "No horizontal document or reading-text overflow",
+        "passed": true
+      },
+      {
+        "name": "Readable hero text and comfortable actions",
+        "passed": true
+      },
+      {
+        "name": "Bounded container and loaded existing fonts",
+        "passed": true
+      },
+      {
+        "name": "Navbar items do not collide",
+        "passed": true
+      },
+      {
+        "name": "Navy company feature is distinct",
+        "passed": true
+      },
+      {
+        "name": "FAQ and Insights have distinct surfaces",
+        "passed": true
+      },
+      {
+        "name": "Mobile menu opens with expanded semantics",
+        "passed": true
+      },
+      {
+        "name": "Escape restores mobile toggle focus",
+        "passed": true
+      },
+      {
+        "name": "Outside pointer closes menu",
+        "passed": true
+      },
+      {
+        "name": "Sticky navigation gains scroll separation",
+        "passed": true
+      }
+    ]
+  },
+  {
+    "width": 768,
+    "metrics": {
+      "width": 768,
+      "documentWidth": 768,
+      "container": {
+        "x": 32,
+        "y": 141,
+        "width": 704,
+        "height": 1222.640625,
+        "right": 736,
+        "bottom": 1363.640625
+      },
+      "heroHeading": {
+        "rect": {
+          "x": 32,
+          "y": 179,
+          "width": 644,
+          "height": 125.4375,
+          "right": 676,
+          "bottom": 304.4375
+        },
+        "size": "56px"
+      },
+      "bodySize": "18px",
+      "sections": [
+        {
+          "class": "hero company-hero",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "64px",
+          "rect": {
+            "x": 0,
+            "y": 77,
+            "width": 768,
+            "height": 1474.390625,
+            "right": 768,
+            "bottom": 1551.390625
+          }
+        },
+        {
+          "class": "trust-strip",
+          "background": "rgb(248, 250, 252)",
+          "padding": "32px",
+          "rect": {
+            "x": 0,
+            "y": 1551.390625,
+            "width": 768,
+            "height": 150.375,
+            "right": 768,
+            "bottom": 1701.765625
+          }
+        },
+        {
+          "class": "section services-editorial",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "80px",
+          "rect": {
+            "x": 0,
+            "y": 1701.765625,
+            "width": 768,
+            "height": 1509.890625,
+            "right": 768,
+            "bottom": 3211.65625
+          }
+        },
+        {
+          "class": "section work-section",
+          "background": "rgb(248, 250, 252)",
+          "padding": "80px",
+          "rect": {
+            "x": 0,
+            "y": 3211.65625,
+            "width": 768,
+            "height": 1671.46875,
+            "right": 768,
+            "bottom": 4883.125
+          }
+        },
+        {
+          "class": "section industries-editorial",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "80px",
+          "rect": {
+            "x": 0,
+            "y": 4883.125,
+            "width": 768,
+            "height": 858,
+            "right": 768,
+            "bottom": 5741.125
+          }
+        },
+        {
+          "class": "section company-editorial",
+          "background": "rgb(20, 33, 61)",
+          "padding": "80px",
+          "rect": {
+            "x": 0,
+            "y": 5741.125,
+            "width": 768,
+            "height": 803.4375,
+            "right": 768,
+            "bottom": 6544.5625
+          }
+        },
+        {
+          "class": "section product-editorial",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "80px",
+          "rect": {
+            "x": 0,
+            "y": 6544.5625,
+            "width": 768,
+            "height": 1150.71875,
+            "right": 768,
+            "bottom": 7695.28125
+          }
+        },
+        {
+          "class": "section process-editorial",
+          "background": "rgb(248, 250, 252)",
+          "padding": "80px",
+          "rect": {
+            "x": 0,
+            "y": 7695.28125,
+            "width": 768,
+            "height": 674.375,
+            "right": 768,
+            "bottom": 8369.65625
+          }
+        },
+        {
+          "class": "section",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "80px",
+          "rect": {
+            "x": 0,
+            "y": 8369.65625,
+            "width": 768,
+            "height": 677.875,
+            "right": 768,
+            "bottom": 9047.53125
+          }
+        },
+        {
+          "class": "section insights-editorial",
+          "background": "rgb(248, 250, 252)",
+          "padding": "80px",
+          "rect": {
+            "x": 0,
+            "y": 9047.53125,
+            "width": 768,
+            "height": 687.5,
+            "right": 768,
+            "bottom": 9735.03125
+          }
+        },
+        {
+          "class": "contact-cta",
+          "background": "rgb(20, 33, 61)",
+          "padding": "88px",
+          "rect": {
+            "x": 0,
+            "y": 9735.03125,
+            "width": 768,
+            "height": 363.875,
+            "right": 768,
+            "bottom": 10098.90625
+          }
+        }
+      ],
+      "cards": [
+        {
+          "rect": {
+            "x": 32,
+            "y": 1994.765625,
+            "width": 704,
+            "height": 406.90625,
+            "right": 736,
+            "bottom": 2401.671875
+          },
+          "actions": {
+            "x": 60,
+            "y": 2270.921875,
+            "width": 167,
+            "height": 102.75,
+            "right": 227,
+            "bottom": 2373.671875
+          }
+        },
+        {
+          "rect": {
+            "x": 32,
+            "y": 2425.671875,
+            "width": 340,
+            "height": 462.90625,
+            "right": 372,
+            "bottom": 2888.578125
+          },
+          "actions": {
+            "x": 60,
+            "y": 2757.828125,
+            "width": 167,
+            "height": 102.75,
+            "right": 227,
+            "bottom": 2860.578125
+          }
+        },
+        {
+          "rect": {
+            "x": 396,
+            "y": 2425.671875,
+            "width": 340,
+            "height": 462.90625,
+            "right": 736,
+            "bottom": 2888.578125
+          },
+          "actions": {
+            "x": 424,
+            "y": 2757.828125,
+            "width": 167,
+            "height": 102.75,
+            "right": 591,
+            "bottom": 2860.578125
+          }
+        }
+      ],
+      "buttons": [
+        {
+          "label": "Start Your Project ",
+          "x": 32,
+          "y": 461.609375,
+          "width": 204,
+          "height": 51.6875,
+          "right": 236,
+          "bottom": 513.296875
+        },
+        {
+          "label": "Explore Our Services ",
+          "x": 252,
+          "y": 461.609375,
+          "width": 226,
+          "height": 51.6875,
+          "right": 478,
+          "bottom": 513.296875
+        }
+      ],
+      "navItems": [
+        {
+          "x": 32,
+          "y": 15.328125,
+          "width": 121.859375,
+          "height": 45.34375,
+          "right": 153.859375,
+          "bottom": 60.671875
+        },
+        {
+          "x": 692,
+          "y": 16,
+          "width": 44,
+          "height": 44,
+          "right": 736,
+          "bottom": 60
+        }
+      ],
+      "clippedText": [],
+      "fonts": {
+        "inter": true,
+        "jakarta": true
+      }
+    },
+    "checks": [
+      {
+        "name": "No horizontal document or reading-text overflow",
+        "passed": true
+      },
+      {
+        "name": "Readable hero text and comfortable actions",
+        "passed": true
+      },
+      {
+        "name": "Bounded container and loaded existing fonts",
+        "passed": true
+      },
+      {
+        "name": "Navbar items do not collide",
+        "passed": true
+      },
+      {
+        "name": "Navy company feature is distinct",
+        "passed": true
+      },
+      {
+        "name": "FAQ and Insights have distinct surfaces",
+        "passed": true
+      },
+      {
+        "name": "Mobile menu opens with expanded semantics",
+        "passed": true
+      },
+      {
+        "name": "Escape restores mobile toggle focus",
+        "passed": true
+      },
+      {
+        "name": "Outside pointer closes menu",
+        "passed": true
+      },
+      {
+        "name": "Sticky navigation gains scroll separation",
+        "passed": true
+      }
+    ]
+  },
+  {
+    "width": 1024,
+    "metrics": {
+      "width": 1024,
+      "documentWidth": 1024,
+      "container": {
+        "x": 32,
+        "y": 177,
+        "width": 960,
+        "height": 532.25,
+        "right": 992,
+        "bottom": 709.25
+      },
+      "heroHeading": {
+        "rect": {
+          "x": 32,
+          "y": 230.765625,
+          "width": 471.21875,
+          "height": 174.703125,
+          "right": 503.21875,
+          "bottom": 405.46875
+        },
+        "size": "52px"
+      },
+      "bodySize": "18px",
+      "sections": [
+        {
+          "class": "hero company-hero",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "88px",
+          "rect": {
+            "x": 0,
+            "y": 89,
+            "width": 1024,
+            "height": 769.25,
+            "right": 1024,
+            "bottom": 858.25
+          }
+        },
+        {
+          "class": "trust-strip",
+          "background": "rgb(248, 250, 252)",
+          "padding": "32px",
+          "rect": {
+            "x": 0,
+            "y": 858.25,
+            "width": 1024,
+            "height": 110.1875,
+            "right": 1024,
+            "bottom": 968.4375
+          }
+        },
+        {
+          "class": "section services-editorial",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "104px",
+          "rect": {
+            "x": 0,
+            "y": 968.4375,
+            "width": 1024,
+            "height": 1080.1875,
+            "right": 1024,
+            "bottom": 2048.625
+          }
+        },
+        {
+          "class": "section work-section",
+          "background": "rgb(248, 250, 252)",
+          "padding": "104px",
+          "rect": {
+            "x": 0,
+            "y": 2048.625,
+            "width": 1024,
+            "height": 1606.359375,
+            "right": 1024,
+            "bottom": 3654.984375
+          }
+        },
+        {
+          "class": "section industries-editorial",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "104px",
+          "rect": {
+            "x": 0,
+            "y": 3654.984375,
+            "width": 1024,
+            "height": 797,
+            "right": 1024,
+            "bottom": 4451.984375
+          }
+        },
+        {
+          "class": "section company-editorial",
+          "background": "rgb(20, 33, 61)",
+          "padding": "104px",
+          "rect": {
+            "x": 0,
+            "y": 4451.984375,
+            "width": 1024,
+            "height": 725.5,
+            "right": 1024,
+            "bottom": 5177.484375
+          }
+        },
+        {
+          "class": "section product-editorial",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "104px",
+          "rect": {
+            "x": 0,
+            "y": 5177.484375,
+            "width": 1024,
+            "height": 768.625,
+            "right": 1024,
+            "bottom": 5946.109375
+          }
+        },
+        {
+          "class": "section process-editorial",
+          "background": "rgb(248, 250, 252)",
+          "padding": "104px",
+          "rect": {
+            "x": 0,
+            "y": 5946.109375,
+            "width": 1024,
+            "height": 732.09375,
+            "right": 1024,
+            "bottom": 6678.203125
+          }
+        },
+        {
+          "class": "section",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "104px",
+          "rect": {
+            "x": 0,
+            "y": 6678.203125,
+            "width": 1024,
+            "height": 617.125,
+            "right": 1024,
+            "bottom": 7295.328125
+          }
+        },
+        {
+          "class": "section insights-editorial",
+          "background": "rgb(248, 250, 252)",
+          "padding": "104px",
+          "rect": {
+            "x": 0,
+            "y": 7295.328125,
+            "width": 1024,
+            "height": 743.5,
+            "right": 1024,
+            "bottom": 8038.828125
+          }
+        },
+        {
+          "class": "contact-cta",
+          "background": "rgb(20, 33, 61)",
+          "padding": "88px",
+          "rect": {
+            "x": 0,
+            "y": 8038.828125,
+            "width": 1024,
+            "height": 331.8125,
+            "right": 1024,
+            "bottom": 8370.640625
+          }
+        }
+      ],
+      "cards": [
+        {
+          "rect": {
+            "x": 32,
+            "y": 1265.4375,
+            "width": 304,
+            "height": 490.5,
+            "right": 336,
+            "bottom": 1755.9375
+          },
+          "actions": {
+            "x": 60,
+            "y": 1625.1875,
+            "width": 167,
+            "height": 102.75,
+            "right": 227,
+            "bottom": 1727.9375
+          }
+        },
+        {
+          "rect": {
+            "x": 360,
+            "y": 1265.4375,
+            "width": 304,
+            "height": 490.5,
+            "right": 664,
+            "bottom": 1755.9375
+          },
+          "actions": {
+            "x": 388,
+            "y": 1625.1875,
+            "width": 167,
+            "height": 102.75,
+            "right": 555,
+            "bottom": 1727.9375
+          }
+        },
+        {
+          "rect": {
+            "x": 688,
+            "y": 1265.4375,
+            "width": 304,
+            "height": 490.5,
+            "right": 992,
+            "bottom": 1755.9375
+          },
+          "actions": {
+            "x": 716,
+            "y": 1625.1875,
+            "width": 167,
+            "height": 102.75,
+            "right": 883,
+            "bottom": 1727.9375
+          }
+        }
+      ],
+      "buttons": [
+        {
+          "label": "Start Your Project ",
+          "x": 32,
+          "y": 595.03125,
+          "width": 204,
+          "height": 51.6875,
+          "right": 236,
+          "bottom": 646.71875
+        },
+        {
+          "label": "Explore Our Services ",
+          "x": 252,
+          "y": 595.03125,
+          "width": 226,
+          "height": 51.6875,
+          "right": 478,
+          "bottom": 646.71875
+        }
+      ],
+      "navItems": [
+        {
+          "x": 32,
+          "y": 21.328125,
+          "width": 121.859375,
+          "height": 45.34375,
+          "right": 153.859375,
+          "bottom": 66.671875
+        },
+        {
+          "x": 423,
+          "y": 19.5,
+          "width": 377,
+          "height": 49,
+          "right": 800,
+          "bottom": 68.5
+        },
+        {
+          "x": 822,
+          "y": 19.75,
+          "width": 170,
+          "height": 48.5,
+          "right": 992,
+          "bottom": 68.25
+        }
+      ],
+      "clippedText": [],
+      "fonts": {
+        "inter": true,
+        "jakarta": true
+      }
+    },
+    "checks": [
+      {
+        "name": "No horizontal document or reading-text overflow",
+        "passed": true
+      },
+      {
+        "name": "Readable hero text and comfortable actions",
+        "passed": true
+      },
+      {
+        "name": "Bounded container and loaded existing fonts",
+        "passed": true
+      },
+      {
+        "name": "Navbar items do not collide",
+        "passed": true
+      },
+      {
+        "name": "Desktop primary service cards align",
+        "passed": true
+      },
+      {
+        "name": "Navy company feature is distinct",
+        "passed": true
+      },
+      {
+        "name": "FAQ and Insights have distinct surfaces",
+        "passed": true
+      },
+      {
+        "name": "Services disclosure opens by keyboard",
+        "passed": true
+      },
+      {
+        "name": "Escape closes Services and restores focus",
+        "passed": true
+      },
+      {
+        "name": "Sticky navigation gains scroll separation",
+        "passed": true
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "metrics": {
+      "width": 1440,
+      "documentWidth": 1440,
+      "container": {
+        "x": 80,
+        "y": 177,
+        "width": 1280,
+        "height": 658.59375,
+        "right": 1360,
+        "bottom": 835.59375
+      },
+      "heroHeading": {
+        "rect": {
+          "x": 80,
+          "y": 295.890625,
+          "width": 622.828125,
+          "height": 203.203125,
+          "right": 702.828125,
+          "bottom": 499.09375
+        },
+        "size": "60.48px"
+      },
+      "bodySize": "18px",
+      "sections": [
+        {
+          "class": "hero company-hero",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "88px",
+          "rect": {
+            "x": 0,
+            "y": 89,
+            "width": 1440,
+            "height": 895.59375,
+            "right": 1440,
+            "bottom": 984.59375
+          }
+        },
+        {
+          "class": "trust-strip",
+          "background": "rgb(248, 250, 252)",
+          "padding": "32px",
+          "rect": {
+            "x": 0,
+            "y": 984.59375,
+            "width": 1440,
+            "height": 110.1875,
+            "right": 1440,
+            "bottom": 1094.78125
+          }
+        },
+        {
+          "class": "section services-editorial",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "104px",
+          "rect": {
+            "x": 0,
+            "y": 1094.78125,
+            "width": 1440,
+            "height": 1038.40625,
+            "right": 1440,
+            "bottom": 2133.1875
+          }
+        },
+        {
+          "class": "section work-section",
+          "background": "rgb(248, 250, 252)",
+          "padding": "104px",
+          "rect": {
+            "x": 0,
+            "y": 2133.1875,
+            "width": 1440,
+            "height": 1810.4375,
+            "right": 1440,
+            "bottom": 3943.625
+          }
+        },
+        {
+          "class": "section industries-editorial",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "104px",
+          "rect": {
+            "x": 0,
+            "y": 3943.625,
+            "width": 1440,
+            "height": 797,
+            "right": 1440,
+            "bottom": 4740.625
+          }
+        },
+        {
+          "class": "section company-editorial",
+          "background": "rgb(20, 33, 61)",
+          "padding": "104px",
+          "rect": {
+            "x": 0,
+            "y": 4740.625,
+            "width": 1440,
+            "height": 653.53125,
+            "right": 1440,
+            "bottom": 5394.15625
+          }
+        },
+        {
+          "class": "section product-editorial",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "104px",
+          "rect": {
+            "x": 0,
+            "y": 5394.15625,
+            "width": 1440,
+            "height": 768.625,
+            "right": 1440,
+            "bottom": 6162.78125
+          }
+        },
+        {
+          "class": "section process-editorial",
+          "background": "rgb(248, 250, 252)",
+          "padding": "104px",
+          "rect": {
+            "x": 0,
+            "y": 6162.78125,
+            "width": 1440,
+            "height": 589.875,
+            "right": 1440,
+            "bottom": 6752.65625
+          }
+        },
+        {
+          "class": "section",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "104px",
+          "rect": {
+            "x": 0,
+            "y": 6752.65625,
+            "width": 1440,
+            "height": 589.9375,
+            "right": 1440,
+            "bottom": 7342.59375
+          }
+        },
+        {
+          "class": "section insights-editorial",
+          "background": "rgb(248, 250, 252)",
+          "padding": "104px",
+          "rect": {
+            "x": 0,
+            "y": 7342.59375,
+            "width": 1440,
+            "height": 671.5,
+            "right": 1440,
+            "bottom": 8014.09375
+          }
+        },
+        {
+          "class": "contact-cta",
+          "background": "rgb(20, 33, 61)",
+          "padding": "88px",
+          "rect": {
+            "x": 0,
+            "y": 8014.09375,
+            "width": 1440,
+            "height": 347.6875,
+            "right": 1440,
+            "bottom": 8361.78125
+          }
+        }
+      ],
+      "cards": [
+        {
+          "rect": {
+            "x": 80,
+            "y": 1391.78125,
+            "width": 410.65625,
+            "height": 475.3125,
+            "right": 490.65625,
+            "bottom": 1867.09375
+          },
+          "actions": {
+            "x": 112,
+            "y": 1732.34375,
+            "width": 167,
+            "height": 102.75,
+            "right": 279,
+            "bottom": 1835.09375
+          }
+        },
+        {
+          "rect": {
+            "x": 514.65625,
+            "y": 1391.78125,
+            "width": 410.671875,
+            "height": 475.3125,
+            "right": 925.328125,
+            "bottom": 1867.09375
+          },
+          "actions": {
+            "x": 546.65625,
+            "y": 1732.34375,
+            "width": 167,
+            "height": 102.75,
+            "right": 713.65625,
+            "bottom": 1835.09375
+          }
+        },
+        {
+          "rect": {
+            "x": 949.328125,
+            "y": 1391.78125,
+            "width": 410.65625,
+            "height": 475.3125,
+            "right": 1359.984375,
+            "bottom": 1867.09375
+          },
+          "actions": {
+            "x": 981.328125,
+            "y": 1732.34375,
+            "width": 167,
+            "height": 102.75,
+            "right": 1148.328125,
+            "bottom": 1835.09375
+          }
+        }
+      ],
+      "buttons": [
+        {
+          "label": "Start Your Project ",
+          "x": 80,
+          "y": 656.265625,
+          "width": 204,
+          "height": 51.6875,
+          "right": 284,
+          "bottom": 707.953125
+        },
+        {
+          "label": "Explore Our Services ",
+          "x": 300,
+          "y": 656.265625,
+          "width": 226,
+          "height": 51.6875,
+          "right": 526,
+          "bottom": 707.953125
+        }
+      ],
+      "navItems": [
+        {
+          "x": 80,
+          "y": 21.328125,
+          "width": 121.859375,
+          "height": 45.34375,
+          "right": 201.859375,
+          "bottom": 66.671875
+        },
+        {
+          "x": 761,
+          "y": 19.5,
+          "width": 401,
+          "height": 49,
+          "right": 1162,
+          "bottom": 68.5
+        },
+        {
+          "x": 1190,
+          "y": 19.75,
+          "width": 170,
+          "height": 48.5,
+          "right": 1360,
+          "bottom": 68.25
+        }
+      ],
+      "clippedText": [],
+      "fonts": {
+        "inter": true,
+        "jakarta": true
+      }
+    },
+    "checks": [
+      {
+        "name": "No horizontal document or reading-text overflow",
+        "passed": true
+      },
+      {
+        "name": "Readable hero text and comfortable actions",
+        "passed": true
+      },
+      {
+        "name": "Bounded container and loaded existing fonts",
+        "passed": true
+      },
+      {
+        "name": "Navbar items do not collide",
+        "passed": true
+      },
+      {
+        "name": "Desktop primary service cards align",
+        "passed": true
+      },
+      {
+        "name": "Navy company feature is distinct",
+        "passed": true
+      },
+      {
+        "name": "FAQ and Insights have distinct surfaces",
+        "passed": true
+      },
+      {
+        "name": "Services disclosure opens by keyboard",
+        "passed": true
+      },
+      {
+        "name": "Escape closes Services and restores focus",
+        "passed": true
+      },
+      {
+        "name": "Sticky navigation gains scroll separation",
+        "passed": true
+      }
+    ]
+  },
+  {
+    "width": 1920,
+    "metrics": {
+      "width": 1920,
+      "documentWidth": 1920,
+      "container": {
+        "x": 320,
+        "y": 177,
+        "width": 1280,
+        "height": 658.59375,
+        "right": 1600,
+        "bottom": 835.59375
+      },
+      "heroHeading": {
+        "rect": {
+          "x": 320,
+          "y": 289.984375,
+          "width": 622.828125,
+          "height": 215.015625,
+          "right": 942.828125,
+          "bottom": 505
+        },
+        "size": "64px"
+      },
+      "bodySize": "18px",
+      "sections": [
+        {
+          "class": "hero company-hero",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "88px",
+          "rect": {
+            "x": 0,
+            "y": 89,
+            "width": 1920,
+            "height": 895.59375,
+            "right": 1920,
+            "bottom": 984.59375
+          }
+        },
+        {
+          "class": "trust-strip",
+          "background": "rgb(248, 250, 252)",
+          "padding": "32px",
+          "rect": {
+            "x": 0,
+            "y": 984.59375,
+            "width": 1920,
+            "height": 110.1875,
+            "right": 1920,
+            "bottom": 1094.78125
+          }
+        },
+        {
+          "class": "section services-editorial",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "104px",
+          "rect": {
+            "x": 0,
+            "y": 1094.78125,
+            "width": 1920,
+            "height": 1038.40625,
+            "right": 1920,
+            "bottom": 2133.1875
+          }
+        },
+        {
+          "class": "section work-section",
+          "background": "rgb(248, 250, 252)",
+          "padding": "104px",
+          "rect": {
+            "x": 0,
+            "y": 2133.1875,
+            "width": 1920,
+            "height": 1810.4375,
+            "right": 1920,
+            "bottom": 3943.625
+          }
+        },
+        {
+          "class": "section industries-editorial",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "104px",
+          "rect": {
+            "x": 0,
+            "y": 3943.625,
+            "width": 1920,
+            "height": 797,
+            "right": 1920,
+            "bottom": 4740.625
+          }
+        },
+        {
+          "class": "section company-editorial",
+          "background": "rgb(20, 33, 61)",
+          "padding": "104px",
+          "rect": {
+            "x": 0,
+            "y": 4740.625,
+            "width": 1920,
+            "height": 653.53125,
+            "right": 1920,
+            "bottom": 5394.15625
+          }
+        },
+        {
+          "class": "section product-editorial",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "104px",
+          "rect": {
+            "x": 0,
+            "y": 5394.15625,
+            "width": 1920,
+            "height": 768.625,
+            "right": 1920,
+            "bottom": 6162.78125
+          }
+        },
+        {
+          "class": "section process-editorial",
+          "background": "rgb(248, 250, 252)",
+          "padding": "104px",
+          "rect": {
+            "x": 0,
+            "y": 6162.78125,
+            "width": 1920,
+            "height": 591.78125,
+            "right": 1920,
+            "bottom": 6754.5625
+          }
+        },
+        {
+          "class": "section",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "104px",
+          "rect": {
+            "x": 0,
+            "y": 6754.5625,
+            "width": 1920,
+            "height": 589.9375,
+            "right": 1920,
+            "bottom": 7344.5
+          }
+        },
+        {
+          "class": "section insights-editorial",
+          "background": "rgb(248, 250, 252)",
+          "padding": "104px",
+          "rect": {
+            "x": 0,
+            "y": 7344.5,
+            "width": 1920,
+            "height": 671.5,
+            "right": 1920,
+            "bottom": 8016
+          }
+        },
+        {
+          "class": "contact-cta",
+          "background": "rgb(20, 33, 61)",
+          "padding": "88px",
+          "rect": {
+            "x": 0,
+            "y": 8016,
+            "width": 1920,
+            "height": 347.6875,
+            "right": 1920,
+            "bottom": 8363.6875
+          }
+        }
+      ],
+      "cards": [
+        {
+          "rect": {
+            "x": 320,
+            "y": 1391.78125,
+            "width": 410.65625,
+            "height": 475.3125,
+            "right": 730.65625,
+            "bottom": 1867.09375
+          },
+          "actions": {
+            "x": 352,
+            "y": 1732.34375,
+            "width": 167,
+            "height": 102.75,
+            "right": 519,
+            "bottom": 1835.09375
+          }
+        },
+        {
+          "rect": {
+            "x": 754.65625,
+            "y": 1391.78125,
+            "width": 410.671875,
+            "height": 475.3125,
+            "right": 1165.328125,
+            "bottom": 1867.09375
+          },
+          "actions": {
+            "x": 786.65625,
+            "y": 1732.34375,
+            "width": 167,
+            "height": 102.75,
+            "right": 953.65625,
+            "bottom": 1835.09375
+          }
+        },
+        {
+          "rect": {
+            "x": 1189.328125,
+            "y": 1391.78125,
+            "width": 410.65625,
+            "height": 475.3125,
+            "right": 1599.984375,
+            "bottom": 1867.09375
+          },
+          "actions": {
+            "x": 1221.328125,
+            "y": 1732.34375,
+            "width": 167,
+            "height": 102.75,
+            "right": 1388.328125,
+            "bottom": 1835.09375
+          }
+        }
+      ],
+      "buttons": [
+        {
+          "label": "Start Your Project ",
+          "x": 320,
+          "y": 662.171875,
+          "width": 204,
+          "height": 51.6875,
+          "right": 524,
+          "bottom": 713.859375
+        },
+        {
+          "label": "Explore Our Services ",
+          "x": 540,
+          "y": 662.171875,
+          "width": 226,
+          "height": 51.6875,
+          "right": 766,
+          "bottom": 713.859375
+        }
+      ],
+      "navItems": [
+        {
+          "x": 320,
+          "y": 21.328125,
+          "width": 121.859375,
+          "height": 45.34375,
+          "right": 441.859375,
+          "bottom": 66.671875
+        },
+        {
+          "x": 1001,
+          "y": 19.5,
+          "width": 401,
+          "height": 49,
+          "right": 1402,
+          "bottom": 68.5
+        },
+        {
+          "x": 1430,
+          "y": 19.75,
+          "width": 170,
+          "height": 48.5,
+          "right": 1600,
+          "bottom": 68.25
+        }
+      ],
+      "clippedText": [],
+      "fonts": {
+        "inter": true,
+        "jakarta": true
+      }
+    },
+    "checks": [
+      {
+        "name": "No horizontal document or reading-text overflow",
+        "passed": true
+      },
+      {
+        "name": "Readable hero text and comfortable actions",
+        "passed": true
+      },
+      {
+        "name": "Bounded container and loaded existing fonts",
+        "passed": true
+      },
+      {
+        "name": "Navbar items do not collide",
+        "passed": true
+      },
+      {
+        "name": "Desktop primary service cards align",
+        "passed": true
+      },
+      {
+        "name": "Navy company feature is distinct",
+        "passed": true
+      },
+      {
+        "name": "FAQ and Insights have distinct surfaces",
+        "passed": true
+      },
+      {
+        "name": "Services disclosure opens by keyboard",
+        "passed": true
+      },
+      {
+        "name": "Escape closes Services and restores focus",
+        "passed": true
+      },
+      {
+        "name": "Sticky navigation gains scroll separation",
+        "passed": true
+      }
+    ]
+  }
+]

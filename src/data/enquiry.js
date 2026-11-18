@@ -7,6 +7,8 @@ export const enquiryServices = [
   "School / Institute Software",
   "Digital Marketing",
   "IT Training",
+  "AI & Automation Solutions",
+  ...serviceDetails.filter(service => service.family === "ai").map(service => service.enquiry),
   "Other",
 ];
 

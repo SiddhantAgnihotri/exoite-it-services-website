@@ -1,40 +1,21 @@
-import { Link } from "react-router-dom";
-import { ArrowUpRight } from "lucide-react";
-const toolkit = ["React", "Node.js", "Flutter", "Python", "MongoDB", "MySQL"];
+﻿import { Link } from "react-router-dom";
+import { ArrowUpRight, Code2, MapPin, MessagesSquare, ShieldCheck } from "lucide-react";
+const facts = [
+  [ShieldCheck, "MSME registered", "An independent IT services company"],
+  [MapPin, "Kanpur, India", "Working remotely, across borders"],
+  [Code2, "Built around your needs", "The right tools for the task"],
+  [MessagesSquare, "Direct collaboration", "Clear scope. Shared decisions."],
+];
 export default function CompanyIntro() {
   return (
-    <section className="section company-editorial">
-      <div className="container company-editorial-layout">
-        <div>
-          <p className="eyebrow">04 / The company behind the work</p>
-          <h2>Small enough to listen. Focused on what matters.</h2>
-          <Link className="text-link" to="/about">
-            Meet Exoite <ArrowUpRight size={17} />
-          </Link>
+    <section className="section home-introduction" id="company">
+      <div className="container">
+        <div className="home-intro-layout">
+          <div><p className="eyebrow">01 / Meet Exoite</p><h2>Built around your work.<br /><span>Planned with your team.</span></h2></div>
+          <div className="home-intro-copy"><p>Your business goals. A clear project scope.</p><p>Websites, business tools and automation, planned with your team.</p><Link className="text-link" to="/about">Get to know Exoite <ArrowUpRight size={17} aria-hidden="true" /></Link></div>
         </div>
-        <div className="company-story">
-          <p className="company-lead">
-            Exoite IT Services brings software engineering and education
-            technology experience to practical business challenges.
-          </p>
-          <p>
-            We are an MSME-registered business based in Kanpur, working remotely
-            with clients across India and internationally. We start with the
-            requirements, agree the scope and keep the work connected to the
-            people who will use it.
-          </p>
-          <div className="company-facts">
-            <span>MSME registered</span>
-            <span>Kanpur, India</span>
-            <span>Remote collaboration</span>
-          </div>
-          <div className="company-toolkit">
-            <span>Tools, chosen for the task</span>
-            <p>{toolkit.join(" / ")}</p>
-            <Link to="/services" className="quiet-link">
-              Explore our approach to development
-            </Link>
-          </div>
+        <div className="home-company-facts">
+          {facts.map(([Icon, title, text]) => <div key={title}><Icon size={21} aria-hidden="true" /><div><strong>{title}</strong><span>{text}</span></div></div>)}
         </div>
       </div>
     </section>

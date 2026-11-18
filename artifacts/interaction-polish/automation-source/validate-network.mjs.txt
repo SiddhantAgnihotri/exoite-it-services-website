@@ -1,0 +1,9 @@
+import {readFile,writeFile} from 'node:fs/promises';
+import {validateImageCancellations} from '../scripts/browser-network.mjs';
+import assert from 'node:assert/strict';
+const path='artifacts/interaction-polish/browser-results.json';
+const report=JSON.parse(await readFile(path,'utf8'));
+await validateImageCancellations(report);
+await writeFile(path,JSON.stringify(report,null,2));
+console.log(JSON.stringify({summary:report.summary,validation:report.imageCancellationValidation},null,2));
+assert.equal(report.summary.unresolvedNetworkFailures,0);

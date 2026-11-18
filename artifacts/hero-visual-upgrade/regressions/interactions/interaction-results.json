@@ -1,0 +1,221 @@
+{
+  "checks": [
+    {
+      "name": "Button lift uses a 180–300ms transform transition",
+      "passed": true,
+      "details": {
+        "transform": "matrix(1, 0, 0, 1, 0, -3)",
+        "duration": "0.22s, 0.18s, 0.18s, 0.18s, 0.22s",
+        "properties": "transform, color, background-color, border-color, box-shadow"
+      }
+    },
+    {
+      "name": "Keyboard focus has a clear three-pixel outline",
+      "passed": true
+    },
+    {
+      "name": "Hero photograph stays stable on hover",
+      "passed": true
+    },
+    {
+      "name": "Service row has restrained hover lift",
+      "passed": true,
+      "details": "none"
+    },
+    {
+      "name": "Portfolio card has restrained hover lift",
+      "passed": true,
+      "details": "matrix(1, 0, 0, 1, 0, -3)"
+    },
+    {
+      "name": "Portfolio zoom remains within 1.02–1.04",
+      "passed": true,
+      "details": 1.025
+    },
+    {
+      "name": "Zoomed image remains inside the padded stage",
+      "passed": true
+    },
+    {
+      "name": "Product preview has restrained hover lift",
+      "passed": true,
+      "details": "matrix(1, 0, 0, 1, 0, -4)"
+    },
+    {
+      "name": "Article card has restrained hover lift",
+      "passed": true,
+      "details": "matrix(1, 0, 0, 1, 0, -3)"
+    },
+    {
+      "name": "Service link has keyboard focus on the actual target",
+      "passed": true
+    },
+    {
+      "name": "Industry item has gentle background feedback",
+      "passed": true
+    },
+    {
+      "name": "Industry accordion opens with Enter",
+      "passed": true
+    },
+    {
+      "name": "Product controls stay visible and functional",
+      "passed": true
+    },
+    {
+      "name": "Section reveal is bounded and never fades readable text",
+      "passed": true,
+      "details": {
+        "frames": [
+          {
+            "offset": null,
+            "easing": "linear",
+            "composite": "auto",
+            "transform": "translateY(12px)",
+            "computedOffset": 0
+          },
+          {
+            "offset": null,
+            "easing": "linear",
+            "composite": "auto",
+            "transform": "none",
+            "computedOffset": 1
+          }
+        ],
+        "duration": 420,
+        "opacity": "1"
+      }
+    },
+    {
+      "name": "Focus cancels moving section immediately",
+      "passed": true
+    },
+    {
+      "name": "A revealed section does not repeat on return",
+      "passed": true
+    },
+    {
+      "name": "Route navigation removes old reveal animations",
+      "passed": true
+    },
+    {
+      "name": "Reduced motion removes hover transforms and transitions",
+      "passed": true
+    },
+    {
+      "name": "Reduced motion has no running CSS or section animation",
+      "passed": true
+    },
+    {
+      "name": "Changing motion preference cancels active reveals",
+      "passed": true
+    },
+    {
+      "name": "Local non-input layout-shift sum is within 0.1",
+      "passed": true,
+      "details": 0
+    },
+    {
+      "name": "360: touch device does not depend on hover",
+      "passed": true
+    },
+    {
+      "name": "360: mobile menu opens on tap",
+      "passed": true
+    },
+    {
+      "name": "360: mobile navigation closes after tapping a route",
+      "passed": true
+    },
+    {
+      "name": "360: FAQ works by touch",
+      "passed": true
+    },
+    {
+      "name": "360: visible card/CTA path works without hover",
+      "passed": true
+    },
+    {
+      "name": "360: no float obscures Contact controls",
+      "passed": true
+    },
+    {
+      "name": "390: touch device does not depend on hover",
+      "passed": true
+    },
+    {
+      "name": "390: mobile menu opens on tap",
+      "passed": true
+    },
+    {
+      "name": "390: mobile navigation closes after tapping a route",
+      "passed": true
+    },
+    {
+      "name": "390: FAQ works by touch",
+      "passed": true
+    },
+    {
+      "name": "390: visible card/CTA path works without hover",
+      "passed": true
+    },
+    {
+      "name": "390: no float obscures Contact controls",
+      "passed": true
+    },
+    {
+      "name": "768: touch device does not depend on hover",
+      "passed": true
+    },
+    {
+      "name": "768: mobile menu opens on tap",
+      "passed": true
+    },
+    {
+      "name": "768: mobile navigation closes after tapping a route",
+      "passed": true
+    },
+    {
+      "name": "768: FAQ works by touch",
+      "passed": true
+    },
+    {
+      "name": "768: visible card/CTA path works without hover",
+      "passed": true
+    },
+    {
+      "name": "768: no float obscures Contact controls",
+      "passed": true
+    },
+    {
+      "name": "No-JavaScript homepage content and CTAs remain visible",
+      "passed": true
+    },
+    {
+      "name": "Missing IntersectionObserver leaves content functional",
+      "passed": true,
+      "details": []
+    }
+  ],
+  "failures": [],
+  "touch": [
+    {
+      "width": 360,
+      "deviceScaleFactor": 2,
+      "hasTouch": true
+    },
+    {
+      "width": 390,
+      "deviceScaleFactor": 2,
+      "hasTouch": true
+    },
+    {
+      "width": 768,
+      "deviceScaleFactor": 2,
+      "hasTouch": true
+    }
+  ],
+  "performance": {
+    "localLayoutShiftSum": 0
+  }
+}

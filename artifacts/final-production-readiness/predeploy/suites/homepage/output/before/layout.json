@@ -1,0 +1,132 @@
+[
+  {
+    "width": 390,
+    "height": 16307,
+    "sections": [
+      {
+        "class": "hero company-hero",
+        "heading": "Building Digital Solutions for Modern Businesses.",
+        "height": 1257
+      },
+      {
+        "class": "trust-strip",
+        "height": 235
+      },
+      {
+        "class": "section services-editorial",
+        "heading": "Built around the work\nyou need to do.",
+        "height": 2215
+      },
+      {
+        "class": "section ai-feature",
+        "heading": "Less busywork.\nMore room for what matters.",
+        "height": 1383
+      },
+      {
+        "class": "section work-section",
+        "heading": "Software, in context.",
+        "height": 2808
+      },
+      {
+        "class": "section industries-editorial",
+        "heading": "Different contexts. The same care for the details.",
+        "height": 1296
+      },
+      {
+        "class": "section company-editorial",
+        "heading": "Small enough to listen. Focused on what matters.",
+        "height": 940
+      },
+      {
+        "class": "section product-editorial",
+        "heading": "A place for the work\nbehind your content.",
+        "height": 1089
+      },
+      {
+        "class": "section process-editorial",
+        "heading": "A clear path from\nfirst conversation to launch.",
+        "height": 988
+      },
+      {
+        "class": "section",
+        "heading": "Before we\nget started.",
+        "height": 857
+      },
+      {
+        "class": "section insights-editorial",
+        "heading": "Choosing a business website: start with the job it needs to do",
+        "height": 1265
+      },
+      {
+        "class": "contact-cta",
+        "heading": "Have a Project in Mind?",
+        "height": 449
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "height": 10086,
+    "sections": [
+      {
+        "class": "hero company-hero",
+        "heading": "Building Digital Solutions for Modern Businesses.",
+        "height": 896
+      },
+      {
+        "class": "trust-strip",
+        "height": 110
+      },
+      {
+        "class": "section services-editorial",
+        "heading": "Built around the work\nyou need to do.",
+        "height": 1060
+      },
+      {
+        "class": "section ai-feature",
+        "heading": "Less busywork.\nMore room for what matters.",
+        "height": 836
+      },
+      {
+        "class": "section work-section",
+        "heading": "Software, in context.",
+        "height": 1777
+      },
+      {
+        "class": "section industries-editorial",
+        "heading": "Different contexts. The same care for the details.",
+        "height": 797
+      },
+      {
+        "class": "section company-editorial",
+        "heading": "Small enough to listen. Focused on what matters.",
+        "height": 674
+      },
+      {
+        "class": "section product-editorial",
+        "heading": "A place for the work\nbehind your content.",
+        "height": 769
+      },
+      {
+        "class": "section process-editorial",
+        "heading": "A clear path from\nfirst conversation to launch.",
+        "height": 590
+      },
+      {
+        "class": "section",
+        "heading": "Before we\nget started.",
+        "height": 590
+      },
+      {
+        "class": "section insights-editorial",
+        "heading": "Choosing a business website: start with the job it needs to do",
+        "height": 1018
+      },
+      {
+        "class": "contact-cta",
+        "heading": "Have a Project in Mind?",
+        "height": 348
+      }
+    ]
+  }
+]

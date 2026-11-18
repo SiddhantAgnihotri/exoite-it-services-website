@@ -1,0 +1,5 @@
+critical exit=0
+interactions exit=1
+routes exit=0
+homepage exit=0
+done

@@ -8,6 +8,7 @@ export default function WhatsAppButton() {
   return (
     <a
       className="whatsapp-button"
+      data-home={pathname === "/" || undefined}
       href={siteConfig.whatsappLink}
       target="_blank"
       rel="noreferrer"

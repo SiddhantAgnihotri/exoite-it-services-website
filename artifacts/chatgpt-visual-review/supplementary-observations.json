@@ -1,0 +1,70 @@
+{
+  "keyboard": [
+    {
+      "width": 390,
+      "focused": {
+        "text": "Start Your Project",
+        "focusVisible": true,
+        "outline": "rgb(37, 99, 235) solid 3px"
+      }
+    },
+    {
+      "width": 1440,
+      "focused": {
+        "text": "Start Your Project",
+        "focusVisible": true,
+        "outline": "rgb(37, 99, 235) solid 3px"
+      }
+    }
+  ],
+  "assets": [
+    {
+      "file": "portfolio-exam-portal-1280.webp",
+      "bytes": 65282
+    },
+    {
+      "file": "portfolio-exam-portal-320.webp",
+      "bytes": 8402
+    },
+    {
+      "file": "portfolio-exam-portal-640.webp",
+      "bytes": 23892
+    },
+    {
+      "file": "portfolio-exam-portal-960.webp",
+      "bytes": 42976
+    },
+    {
+      "file": "portfolio-inventory-1280.webp",
+      "bytes": 102206
+    },
+    {
+      "file": "portfolio-inventory-320.webp",
+      "bytes": 12878
+    },
+    {
+      "file": "portfolio-inventory-640.webp",
+      "bytes": 37132
+    },
+    {
+      "file": "portfolio-inventory-960.webp",
+      "bytes": 67242
+    },
+    {
+      "file": "portfolio-lms-1280.webp",
+      "bytes": 105856
+    },
+    {
+      "file": "portfolio-lms-320.webp",
+      "bytes": 13490
+    },
+    {
+      "file": "portfolio-lms-640.webp",
+      "bytes": 38206
+    },
+    {
+      "file": "portfolio-lms-960.webp",
+      "bytes": 70822
+    }
+  ]
+}

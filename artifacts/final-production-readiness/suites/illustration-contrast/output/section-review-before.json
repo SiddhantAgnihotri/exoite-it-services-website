@@ -1,0 +1,4293 @@
+[
+  {
+    "path": "/",
+    "width": 360,
+    "sections": [
+      {
+        "class": "hero company-hero",
+        "heading": "Building Digital Solutions for Modern Businesses.",
+        "top": 77,
+        "height": 1254.359375,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "48px 0px"
+      },
+      {
+        "class": "trust-strip",
+        "top": 1331.359375,
+        "height": 235.25,
+        "background": "rgb(248, 250, 252)",
+        "padding": "32px"
+      },
+      {
+        "class": "section services-editorial",
+        "heading": "Built around the work\nyou need to do.",
+        "top": 1566.609375,
+        "height": 2233.296875,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "64px"
+      },
+      {
+        "class": "section ai-feature",
+        "heading": "Less busywork.More room for what matters.",
+        "top": 3799.90625,
+        "height": 1405.5,
+        "background": "rgb(239, 246, 255)",
+        "padding": "64px"
+      },
+      {
+        "class": "section work-section",
+        "heading": "Software, in context.",
+        "top": 5205.40625,
+        "height": 2737.65625,
+        "background": "rgb(248, 250, 252)",
+        "padding": "64px"
+      },
+      {
+        "class": "section industries-editorial",
+        "heading": "Different contexts. The same care for the details.",
+        "top": 7943.0625,
+        "height": 1358.0625,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "64px"
+      },
+      {
+        "class": "section company-editorial",
+        "heading": "Small enough to listen. Focused on what matters.",
+        "top": 9301.125,
+        "height": 980.625,
+        "background": "rgb(20, 33, 61)",
+        "padding": "64px"
+      },
+      {
+        "class": "section product-editorial",
+        "heading": "A place for the workbehind your content.",
+        "top": 10281.75,
+        "height": 1127.5,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "64px"
+      },
+      {
+        "class": "section process-editorial",
+        "heading": "A clear path from\nfirst conversation to launch.",
+        "top": 11409.25,
+        "height": 1067.34375,
+        "background": "rgb(248, 250, 252)",
+        "padding": "64px"
+      },
+      {
+        "class": "section",
+        "heading": "Before weget started.",
+        "top": 12476.59375,
+        "height": 881.0625,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "64px"
+      },
+      {
+        "class": "section insights-editorial",
+        "heading": "Choosing a business website: start with the job it needs to do",
+        "top": 13357.65625,
+        "height": 1248.3125,
+        "background": "rgb(248, 250, 252)",
+        "padding": "64px"
+      },
+      {
+        "class": "contact-cta",
+        "heading": "Have a Project in Mind?",
+        "top": 14605.96875,
+        "height": 517.53125,
+        "background": "rgb(20, 33, 61)",
+        "padding": "64px"
+      },
+      {
+        "class": "site-footer",
+        "heading": "Services",
+        "top": 15123.5,
+        "height": 1448.09375,
+        "background": "rgb(20, 33, 61)",
+        "padding": "56px 28px"
+      }
+    ],
+    "clippedText": [],
+    "smallTargets": [
+      {
+        "text": "Discuss your requirements",
+        "width": 167,
+        "height": 22.75
+      },
+      {
+        "text": "Discuss your requirements",
+        "width": 167,
+        "height": 22.75
+      },
+      {
+        "text": "Discuss your requirements",
+        "width": 167,
+        "height": 22.75
+      },
+      {
+        "text": "Discuss this solution",
+        "width": 150,
+        "height": 22.75
+      },
+      {
+        "text": "View full-size illustration",
+        "width": 328,
+        "height": 22.75
+      },
+      {
+        "text": "Discuss this solution",
+        "width": 150,
+        "height": 22.75
+      },
+      {
+        "text": "View full-size illustration",
+        "width": 328,
+        "height": 22.75
+      },
+      {
+        "text": "Discuss this solution",
+        "width": 150,
+        "height": 22.75
+      },
+      {
+        "text": "View full-size illustration",
+        "width": 328,
+        "height": 22.75
+      },
+      {
+        "text": "Explore education solutions",
+        "width": 198,
+        "height": 22.75
+      },
+      {
+        "text": "Explore our approach to development",
+        "width": 235,
+        "height": 22.75
+      }
+    ],
+    "images": [
+      {
+        "alt": "Illustrative Examify examination portal concept",
+        "fit": "contain",
+        "width": 282,
+        "height": 176,
+        "naturalWidth": 272,
+        "naturalHeight": 181
+      },
+      {
+        "alt": "Business systems illustrative interface concept",
+        "fit": "contain",
+        "width": 127,
+        "height": 64,
+        "naturalWidth": 129,
+        "naturalHeight": 86
+      },
+      {
+        "alt": "Cross-device experiences illustrative interface concept",
+        "fit": "contain",
+        "width": 127,
+        "height": 64,
+        "naturalWidth": 129,
+        "naturalHeight": 86
+      },
+      {
+        "alt": "Online Examination Portal / Examify - illustrative demo concept",
+        "fit": "contain",
+        "width": 284,
+        "height": 170,
+        "naturalWidth": 296,
+        "naturalHeight": 197
+      },
+      {
+        "alt": "Inventory Management System - illustrative demo concept",
+        "fit": "contain",
+        "width": 284,
+        "height": 170,
+        "naturalWidth": 296,
+        "naturalHeight": 197
+      },
+      {
+        "alt": "Learning Management System - illustrative demo concept",
+        "fit": "contain",
+        "width": 284,
+        "height": 170,
+        "naturalWidth": 296,
+        "naturalHeight": 197
+      }
+    ]
+  },
+  {
+    "path": "/",
+    "width": 390,
+    "sections": [
+      {
+        "class": "hero company-hero",
+        "heading": "Building Digital Solutions for Modern Businesses.",
+        "top": 77,
+        "height": 1257.109375,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "48px 0px"
+      },
+      {
+        "class": "trust-strip",
+        "top": 1334.109375,
+        "height": 235.25,
+        "background": "rgb(248, 250, 252)",
+        "padding": "32px"
+      },
+      {
+        "class": "section services-editorial",
+        "heading": "Built around the work\nyou need to do.",
+        "top": 1569.359375,
+        "height": 2151.5,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "64px"
+      },
+      {
+        "class": "section ai-feature",
+        "heading": "Less busywork.More room for what matters.",
+        "top": 3720.859375,
+        "height": 1382.8125,
+        "background": "rgb(239, 246, 255)",
+        "padding": "64px"
+      },
+      {
+        "class": "section work-section",
+        "heading": "Software, in context.",
+        "top": 5103.671875,
+        "height": 2680.015625,
+        "background": "rgb(248, 250, 252)",
+        "padding": "64px"
+      },
+      {
+        "class": "section industries-editorial",
+        "heading": "Different contexts. The same care for the details.",
+        "top": 7783.6875,
+        "height": 1275.5625,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "64px"
+      },
+      {
+        "class": "section company-editorial",
+        "heading": "Small enough to listen. Focused on what matters.",
+        "top": 9059.25,
+        "height": 920.4375,
+        "background": "rgb(20, 33, 61)",
+        "padding": "64px"
+      },
+      {
+        "class": "section product-editorial",
+        "heading": "A place for the workbehind your content.",
+        "top": 9979.6875,
+        "height": 1088.90625,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "64px"
+      },
+      {
+        "class": "section process-editorial",
+        "heading": "A clear path from\nfirst conversation to launch.",
+        "top": 11068.59375,
+        "height": 987.84375,
+        "background": "rgb(248, 250, 252)",
+        "padding": "64px"
+      },
+      {
+        "class": "section",
+        "heading": "Before weget started.",
+        "top": 12056.4375,
+        "height": 856.875,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "64px"
+      },
+      {
+        "class": "section insights-editorial",
+        "heading": "Choosing a business website: start with the job it needs to do",
+        "top": 12913.3125,
+        "height": 1265.1875,
+        "background": "rgb(248, 250, 252)",
+        "padding": "64px"
+      },
+      {
+        "class": "contact-cta",
+        "heading": "Have a Project in Mind?",
+        "top": 14178.5,
+        "height": 449.390625,
+        "background": "rgb(20, 33, 61)",
+        "padding": "64px"
+      },
+      {
+        "class": "site-footer",
+        "heading": "Services",
+        "top": 14627.890625,
+        "height": 1448.09375,
+        "background": "rgb(20, 33, 61)",
+        "padding": "56px 28px"
+      }
+    ],
+    "clippedText": [],
+    "smallTargets": [
+      {
+        "text": "Discuss your requirements",
+        "width": 167,
+        "height": 22.75
+      },
+      {
+        "text": "Discuss your requirements",
+        "width": 167,
+        "height": 22.75
+      },
+      {
+        "text": "Discuss your requirements",
+        "width": 167,
+        "height": 22.75
+      },
+      {
+        "text": "Discuss this solution",
+        "width": 150,
+        "height": 22.75
+      },
+      {
+        "text": "View full-size illustration",
+        "width": 358,
+        "height": 22.75
+      },
+      {
+        "text": "Discuss this solution",
+        "width": 150,
+        "height": 22.75
+      },
+      {
+        "text": "View full-size illustration",
+        "width": 358,
+        "height": 22.75
+      },
+      {
+        "text": "Discuss this solution",
+        "width": 150,
+        "height": 22.75
+      },
+      {
+        "text": "View full-size illustration",
+        "width": 358,
+        "height": 22.75
+      },
+      {
+        "text": "Explore education solutions",
+        "width": 198,
+        "height": 22.75
+      },
+      {
+        "text": "Explore our approach to development",
+        "width": 235,
+        "height": 22.75
+      }
+    ],
+    "images": [
+      {
+        "alt": "Illustrative Examify examination portal concept",
+        "fit": "contain",
+        "width": 312,
+        "height": 195,
+        "naturalWidth": 302,
+        "naturalHeight": 201
+      },
+      {
+        "alt": "Business systems illustrative interface concept",
+        "fit": "contain",
+        "width": 142,
+        "height": 71,
+        "naturalWidth": 145,
+        "naturalHeight": 96
+      },
+      {
+        "alt": "Cross-device experiences illustrative interface concept",
+        "fit": "contain",
+        "width": 142,
+        "height": 71,
+        "naturalWidth": 145,
+        "naturalHeight": 96
+      },
+      {
+        "alt": "Online Examination Portal / Examify - illustrative demo concept",
+        "fit": "contain",
+        "width": 314,
+        "height": 189,
+        "naturalWidth": 326,
+        "naturalHeight": 217
+      },
+      {
+        "alt": "Inventory Management System - illustrative demo concept",
+        "fit": "contain",
+        "width": 314,
+        "height": 189,
+        "naturalWidth": 326,
+        "naturalHeight": 217
+      },
+      {
+        "alt": "Learning Management System - illustrative demo concept",
+        "fit": "contain",
+        "width": 314,
+        "height": 189,
+        "naturalWidth": 326,
+        "naturalHeight": 217
+      }
+    ]
+  },
+  {
+    "path": "/",
+    "width": 768,
+    "sections": [
+      {
+        "class": "hero company-hero",
+        "heading": "Building Digital Solutions for Modern Businesses.",
+        "top": 77,
+        "height": 1474.640625,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "64px 0px"
+      },
+      {
+        "class": "trust-strip",
+        "top": 1551.640625,
+        "height": 150.375,
+        "background": "rgb(248, 250, 252)",
+        "padding": "32px"
+      },
+      {
+        "class": "section services-editorial",
+        "heading": "Built around the work\nyou need to do.",
+        "top": 1702.015625,
+        "height": 1509.890625,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "80px"
+      },
+      {
+        "class": "section ai-feature",
+        "heading": "Less busywork.More room for what matters.",
+        "top": 3211.90625,
+        "height": 1323.828125,
+        "background": "rgb(239, 246, 255)",
+        "padding": "80px"
+      },
+      {
+        "class": "section work-section",
+        "heading": "Software, in context.",
+        "top": 4535.734375,
+        "height": 1658.46875,
+        "background": "rgb(248, 250, 252)",
+        "padding": "80px"
+      },
+      {
+        "class": "section industries-editorial",
+        "heading": "Different contexts. The same care for the details.",
+        "top": 6194.203125,
+        "height": 858,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "80px"
+      },
+      {
+        "class": "section company-editorial",
+        "heading": "Small enough to listen. Focused on what matters.",
+        "top": 7052.203125,
+        "height": 803.4375,
+        "background": "rgb(20, 33, 61)",
+        "padding": "80px"
+      },
+      {
+        "class": "section product-editorial",
+        "heading": "A place for the workbehind your content.",
+        "top": 7855.640625,
+        "height": 1150.71875,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "80px"
+      },
+      {
+        "class": "section process-editorial",
+        "heading": "A clear path from\nfirst conversation to launch.",
+        "top": 9006.359375,
+        "height": 674.375,
+        "background": "rgb(248, 250, 252)",
+        "padding": "80px"
+      },
+      {
+        "class": "section",
+        "heading": "Before weget started.",
+        "top": 9680.734375,
+        "height": 677.875,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "80px"
+      },
+      {
+        "class": "section insights-editorial",
+        "heading": "Choosing a business website: start with the job it needs to do",
+        "top": 10358.609375,
+        "height": 807.40625,
+        "background": "rgb(248, 250, 252)",
+        "padding": "80px"
+      },
+      {
+        "class": "contact-cta",
+        "heading": "Have a Project in Mind?",
+        "top": 11166.015625,
+        "height": 363.875,
+        "background": "rgb(20, 33, 61)",
+        "padding": "88px"
+      },
+      {
+        "class": "site-footer",
+        "heading": "Services",
+        "top": 11529.890625,
+        "height": 717.09375,
+        "background": "rgb(20, 33, 61)",
+        "padding": "72px 32px"
+      }
+    ],
+    "clippedText": [],
+    "smallTargets": [
+      {
+        "text": "Discuss your requirements",
+        "width": 167,
+        "height": 22.75
+      },
+      {
+        "text": "Discuss your requirements",
+        "width": 167,
+        "height": 22.75
+      },
+      {
+        "text": "Discuss your requirements",
+        "width": 167,
+        "height": 22.75
+      },
+      {
+        "text": "Discuss this solution",
+        "width": 150,
+        "height": 22.75
+      },
+      {
+        "text": "View full-size illustration",
+        "width": 298.1875,
+        "height": 22.75
+      },
+      {
+        "text": "Discuss this solution",
+        "width": 150,
+        "height": 22.75
+      },
+      {
+        "text": "View full-size illustration",
+        "width": 336,
+        "height": 22.75
+      },
+      {
+        "text": "Discuss this solution",
+        "width": 150,
+        "height": 22.75
+      },
+      {
+        "text": "View full-size illustration",
+        "width": 336,
+        "height": 22.75
+      },
+      {
+        "text": "Explore education solutions",
+        "width": 198,
+        "height": 22.75
+      },
+      {
+        "text": "Explore our approach to development",
+        "width": 235,
+        "height": 22.75
+      }
+    ],
+    "images": [
+      {
+        "alt": "Illustrative Examify examination portal concept",
+        "fit": "contain",
+        "width": 646,
+        "height": 404,
+        "naturalWidth": 680,
+        "naturalHeight": 453
+      },
+      {
+        "alt": "Business systems illustrative interface concept",
+        "fit": "contain",
+        "width": 309,
+        "height": 155,
+        "naturalWidth": 334,
+        "naturalHeight": 222
+      },
+      {
+        "alt": "Cross-device experiences illustrative interface concept",
+        "fit": "contain",
+        "width": 309,
+        "height": 155,
+        "naturalWidth": 334,
+        "naturalHeight": 222
+      },
+      {
+        "alt": "Online Examination Portal / Examify - illustrative demo concept",
+        "fit": "contain",
+        "width": 310,
+        "height": 185,
+        "naturalWidth": 704,
+        "naturalHeight": 469
+      },
+      {
+        "alt": "Inventory Management System - illustrative demo concept",
+        "fit": "contain",
+        "width": 288,
+        "height": 171,
+        "naturalWidth": 345,
+        "naturalHeight": 230
+      },
+      {
+        "alt": "Learning Management System - illustrative demo concept",
+        "fit": "contain",
+        "width": 288,
+        "height": 171,
+        "naturalWidth": 345,
+        "naturalHeight": 230
+      }
+    ]
+  },
+  {
+    "path": "/",
+    "width": 1024,
+    "sections": [
+      {
+        "class": "hero company-hero",
+        "heading": "Building Digital Solutions for Modern Businesses.",
+        "top": 89,
+        "height": 769.5,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "88px 0px"
+      },
+      {
+        "class": "trust-strip",
+        "top": 858.5,
+        "height": 110.1875,
+        "background": "rgb(248, 250, 252)",
+        "padding": "32px"
+      },
+      {
+        "class": "section services-editorial",
+        "heading": "Built around the work\nyou need to do.",
+        "top": 968.6875,
+        "height": 1080.1875,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "104px"
+      },
+      {
+        "class": "section ai-feature",
+        "heading": "Less busywork.More room for what matters.",
+        "top": 2048.875,
+        "height": 835.546875,
+        "background": "rgb(239, 246, 255)",
+        "padding": "104px"
+      },
+      {
+        "class": "section work-section",
+        "heading": "Software, in context.",
+        "top": 2884.421875,
+        "height": 1588.03125,
+        "background": "rgb(248, 250, 252)",
+        "padding": "104px"
+      },
+      {
+        "class": "section industries-editorial",
+        "heading": "Different contexts. The same care for the details.",
+        "top": 4472.453125,
+        "height": 797,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "104px"
+      },
+      {
+        "class": "section company-editorial",
+        "heading": "Small enough to listen. Focused on what matters.",
+        "top": 5269.453125,
+        "height": 725.5,
+        "background": "rgb(20, 33, 61)",
+        "padding": "104px"
+      },
+      {
+        "class": "section product-editorial",
+        "heading": "A place for the workbehind your content.",
+        "top": 5994.953125,
+        "height": 768.625,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "104px"
+      },
+      {
+        "class": "section process-editorial",
+        "heading": "A clear path from\nfirst conversation to launch.",
+        "top": 6763.578125,
+        "height": 732.09375,
+        "background": "rgb(248, 250, 252)",
+        "padding": "104px"
+      },
+      {
+        "class": "section",
+        "heading": "Before weget started.",
+        "top": 7495.671875,
+        "height": 617.125,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "104px"
+      },
+      {
+        "class": "section insights-editorial",
+        "heading": "Choosing a business website: start with the job it needs to do",
+        "top": 8112.796875,
+        "height": 897.984375,
+        "background": "rgb(248, 250, 252)",
+        "padding": "104px"
+      },
+      {
+        "class": "contact-cta",
+        "heading": "Have a Project in Mind?",
+        "top": 9010.78125,
+        "height": 331.8125,
+        "background": "rgb(20, 33, 61)",
+        "padding": "88px"
+      },
+      {
+        "class": "site-footer",
+        "heading": "Services",
+        "top": 9342.59375,
+        "height": 552.25,
+        "background": "rgb(20, 33, 61)",
+        "padding": "72px 32px"
+      }
+    ],
+    "clippedText": [],
+    "smallTargets": [
+      {
+        "text": "Discuss your requirements",
+        "width": 167,
+        "height": 22.75
+      },
+      {
+        "text": "Discuss your requirements",
+        "width": 167,
+        "height": 22.75
+      },
+      {
+        "text": "Discuss your requirements",
+        "width": 167,
+        "height": 22.75
+      },
+      {
+        "text": "Discuss this solution",
+        "width": 150,
+        "height": 22.75
+      },
+      {
+        "text": "View full-size illustration",
+        "width": 372.25,
+        "height": 22.75
+      },
+      {
+        "text": "Discuss this solution",
+        "width": 150,
+        "height": 22.75
+      },
+      {
+        "text": "View full-size illustration",
+        "width": 464,
+        "height": 22.75
+      },
+      {
+        "text": "Discuss this solution",
+        "width": 150,
+        "height": 22.75
+      },
+      {
+        "text": "View full-size illustration",
+        "width": 464,
+        "height": 22.75
+      },
+      {
+        "text": "Explore education solutions",
+        "width": 198,
+        "height": 22.75
+      },
+      {
+        "text": "Explore our approach to development",
+        "width": 235,
+        "height": 22.75
+      }
+    ],
+    "images": [
+      {
+        "alt": "Illustrative Examify examination portal concept",
+        "fit": "contain",
+        "width": 391,
+        "height": 244,
+        "naturalWidth": 394,
+        "naturalHeight": 262
+      },
+      {
+        "alt": "Business systems illustrative interface concept",
+        "fit": "contain",
+        "width": 181,
+        "height": 91,
+        "naturalWidth": 204,
+        "naturalHeight": 136
+      },
+      {
+        "alt": "Cross-device experiences illustrative interface concept",
+        "fit": "contain",
+        "width": 181,
+        "height": 91,
+        "naturalWidth": 204,
+        "naturalHeight": 136
+      },
+      {
+        "alt": "Online Examination Portal / Examify - illustrative demo concept",
+        "fit": "contain",
+        "width": 492,
+        "height": 298,
+        "naturalWidth": 593,
+        "naturalHeight": 396
+      },
+      {
+        "alt": "Inventory Management System - illustrative demo concept",
+        "fit": "contain",
+        "width": 416,
+        "height": 251,
+        "naturalWidth": 460,
+        "naturalHeight": 307
+      },
+      {
+        "alt": "Learning Management System - illustrative demo concept",
+        "fit": "contain",
+        "width": 416,
+        "height": 251,
+        "naturalWidth": 460,
+        "naturalHeight": 307
+      }
+    ]
+  },
+  {
+    "path": "/",
+    "width": 1440,
+    "sections": [
+      {
+        "class": "hero company-hero",
+        "heading": "Building Digital Solutions for Modern Businesses.",
+        "top": 89,
+        "height": 895.84375,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "88px 0px"
+      },
+      {
+        "class": "trust-strip",
+        "top": 984.84375,
+        "height": 110.1875,
+        "background": "rgb(248, 250, 252)",
+        "padding": "32px"
+      },
+      {
+        "class": "section services-editorial",
+        "heading": "Built around the work\nyou need to do.",
+        "top": 1095.03125,
+        "height": 1038.40625,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "104px"
+      },
+      {
+        "class": "section ai-feature",
+        "heading": "Less busywork.More room for what matters.",
+        "top": 2133.4375,
+        "height": 835.546875,
+        "background": "rgb(239, 246, 255)",
+        "padding": "104px"
+      },
+      {
+        "class": "section work-section",
+        "heading": "Software, in context.",
+        "top": 2968.984375,
+        "height": 1756.046875,
+        "background": "rgb(248, 250, 252)",
+        "padding": "104px"
+      },
+      {
+        "class": "section industries-editorial",
+        "heading": "Different contexts. The same care for the details.",
+        "top": 4725.03125,
+        "height": 797,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "104px"
+      },
+      {
+        "class": "section company-editorial",
+        "heading": "Small enough to listen. Focused on what matters.",
+        "top": 5522.03125,
+        "height": 653.53125,
+        "background": "rgb(20, 33, 61)",
+        "padding": "104px"
+      },
+      {
+        "class": "section product-editorial",
+        "heading": "A place for the workbehind your content.",
+        "top": 6175.5625,
+        "height": 768.625,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "104px"
+      },
+      {
+        "class": "section process-editorial",
+        "heading": "A clear path from\nfirst conversation to launch.",
+        "top": 6944.1875,
+        "height": 589.875,
+        "background": "rgb(248, 250, 252)",
+        "padding": "104px"
+      },
+      {
+        "class": "section",
+        "heading": "Before weget started.",
+        "top": 7534.0625,
+        "height": 589.9375,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "104px"
+      },
+      {
+        "class": "section insights-editorial",
+        "heading": "Choosing a business website: start with the job it needs to do",
+        "top": 8124,
+        "height": 1018.09375,
+        "background": "rgb(248, 250, 252)",
+        "padding": "104px"
+      },
+      {
+        "class": "contact-cta",
+        "heading": "Have a Project in Mind?",
+        "top": 9142.09375,
+        "height": 347.6875,
+        "background": "rgb(20, 33, 61)",
+        "padding": "88px"
+      },
+      {
+        "class": "site-footer",
+        "heading": "Services",
+        "top": 9489.78125,
+        "height": 533.25,
+        "background": "rgb(20, 33, 61)",
+        "padding": "72px 32px"
+      }
+    ],
+    "clippedText": [],
+    "smallTargets": [
+      {
+        "text": "Discuss your requirements",
+        "width": 167,
+        "height": 22.75
+      },
+      {
+        "text": "Discuss your requirements",
+        "width": 167,
+        "height": 22.75
+      },
+      {
+        "text": "Discuss your requirements",
+        "width": 167,
+        "height": 22.75
+      },
+      {
+        "text": "Discuss this solution",
+        "width": 150,
+        "height": 22.75
+      },
+      {
+        "text": "View full-size illustration",
+        "width": 502.859375,
+        "height": 22.75
+      },
+      {
+        "text": "Discuss this solution",
+        "width": 150,
+        "height": 22.75
+      },
+      {
+        "text": "View full-size illustration",
+        "width": 624,
+        "height": 22.75
+      },
+      {
+        "text": "Discuss this solution",
+        "width": 150,
+        "height": 22.75
+      },
+      {
+        "text": "View full-size illustration",
+        "width": 624,
+        "height": 22.75
+      },
+      {
+        "text": "Explore education solutions",
+        "width": 198,
+        "height": 22.75
+      },
+      {
+        "text": "Explore our approach to development",
+        "width": 235,
+        "height": 22.75
+      }
+    ],
+    "images": [
+      {
+        "alt": "Illustrative Examify examination portal concept",
+        "fit": "contain",
+        "width": 535,
+        "height": 334,
+        "naturalWidth": 559,
+        "naturalHeight": 373
+      },
+      {
+        "alt": "Business systems illustrative interface concept",
+        "fit": "contain",
+        "width": 254,
+        "height": 127,
+        "naturalWidth": 259,
+        "naturalHeight": 173
+      },
+      {
+        "alt": "Cross-device experiences illustrative interface concept",
+        "fit": "contain",
+        "width": 254,
+        "height": 127,
+        "naturalWidth": 259,
+        "naturalHeight": 173
+      },
+      {
+        "alt": "Online Examination Portal / Examify - illustrative demo concept",
+        "fit": "contain",
+        "width": 681,
+        "height": 417,
+        "naturalWidth": 960,
+        "naturalHeight": 640
+      },
+      {
+        "alt": "Inventory Management System - illustrative demo concept",
+        "fit": "contain",
+        "width": 576,
+        "height": 351,
+        "naturalWidth": 599,
+        "naturalHeight": 400
+      },
+      {
+        "alt": "Learning Management System - illustrative demo concept",
+        "fit": "contain",
+        "width": 576,
+        "height": 351,
+        "naturalWidth": 599,
+        "naturalHeight": 400
+      }
+    ]
+  },
+  {
+    "path": "/",
+    "width": 1920,
+    "sections": [
+      {
+        "class": "hero company-hero",
+        "heading": "Building Digital Solutions for Modern Businesses.",
+        "top": 89,
+        "height": 895.84375,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "88px 0px"
+      },
+      {
+        "class": "trust-strip",
+        "top": 984.84375,
+        "height": 110.1875,
+        "background": "rgb(248, 250, 252)",
+        "padding": "32px"
+      },
+      {
+        "class": "section services-editorial",
+        "heading": "Built around the work\nyou need to do.",
+        "top": 1095.03125,
+        "height": 1038.40625,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "104px"
+      },
+      {
+        "class": "section ai-feature",
+        "heading": "Less busywork.More room for what matters.",
+        "top": 2133.4375,
+        "height": 835.546875,
+        "background": "rgb(239, 246, 255)",
+        "padding": "104px"
+      },
+      {
+        "class": "section work-section",
+        "heading": "Software, in context.",
+        "top": 2968.984375,
+        "height": 1756.046875,
+        "background": "rgb(248, 250, 252)",
+        "padding": "104px"
+      },
+      {
+        "class": "section industries-editorial",
+        "heading": "Different contexts. The same care for the details.",
+        "top": 4725.03125,
+        "height": 797,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "104px"
+      },
+      {
+        "class": "section company-editorial",
+        "heading": "Small enough to listen. Focused on what matters.",
+        "top": 5522.03125,
+        "height": 653.53125,
+        "background": "rgb(20, 33, 61)",
+        "padding": "104px"
+      },
+      {
+        "class": "section product-editorial",
+        "heading": "A place for the workbehind your content.",
+        "top": 6175.5625,
+        "height": 768.625,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "104px"
+      },
+      {
+        "class": "section process-editorial",
+        "heading": "A clear path from\nfirst conversation to launch.",
+        "top": 6944.1875,
+        "height": 591.78125,
+        "background": "rgb(248, 250, 252)",
+        "padding": "104px"
+      },
+      {
+        "class": "section",
+        "heading": "Before weget started.",
+        "top": 7535.96875,
+        "height": 589.9375,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "104px"
+      },
+      {
+        "class": "section insights-editorial",
+        "heading": "Choosing a business website: start with the job it needs to do",
+        "top": 8125.90625,
+        "height": 1022.125,
+        "background": "rgb(248, 250, 252)",
+        "padding": "104px"
+      },
+      {
+        "class": "contact-cta",
+        "heading": "Have a Project in Mind?",
+        "top": 9148.03125,
+        "height": 347.6875,
+        "background": "rgb(20, 33, 61)",
+        "padding": "88px"
+      },
+      {
+        "class": "site-footer",
+        "heading": "Services",
+        "top": 9495.71875,
+        "height": 533.25,
+        "background": "rgb(20, 33, 61)",
+        "padding": "72px 32px"
+      }
+    ],
+    "clippedText": [],
+    "smallTargets": [
+      {
+        "text": "Discuss your requirements",
+        "width": 167,
+        "height": 22.75
+      },
+      {
+        "text": "Discuss your requirements",
+        "width": 167,
+        "height": 22.75
+      },
+      {
+        "text": "Discuss your requirements",
+        "width": 167,
+        "height": 22.75
+      },
+      {
+        "text": "Discuss this solution",
+        "width": 150,
+        "height": 22.75
+      },
+      {
+        "text": "View full-size illustration",
+        "width": 502.859375,
+        "height": 22.75
+      },
+      {
+        "text": "Discuss this solution",
+        "width": 150,
+        "height": 22.75
+      },
+      {
+        "text": "View full-size illustration",
+        "width": 624,
+        "height": 22.75
+      },
+      {
+        "text": "Discuss this solution",
+        "width": 150,
+        "height": 22.75
+      },
+      {
+        "text": "View full-size illustration",
+        "width": 624,
+        "height": 22.75
+      },
+      {
+        "text": "Explore education solutions",
+        "width": 198,
+        "height": 22.75
+      },
+      {
+        "text": "Explore our approach to development",
+        "width": 235,
+        "height": 22.75
+      }
+    ],
+    "images": [
+      {
+        "alt": "Illustrative Examify examination portal concept",
+        "fit": "contain",
+        "width": 535,
+        "height": 334,
+        "naturalWidth": 559,
+        "naturalHeight": 373
+      },
+      {
+        "alt": "Business systems illustrative interface concept",
+        "fit": "contain",
+        "width": 254,
+        "height": 127,
+        "naturalWidth": 259,
+        "naturalHeight": 173
+      },
+      {
+        "alt": "Cross-device experiences illustrative interface concept",
+        "fit": "contain",
+        "width": 254,
+        "height": 127,
+        "naturalWidth": 259,
+        "naturalHeight": 173
+      },
+      {
+        "alt": "Online Examination Portal / Examify - illustrative demo concept",
+        "fit": "contain",
+        "width": 681,
+        "height": 417,
+        "naturalWidth": 960,
+        "naturalHeight": 640
+      },
+      {
+        "alt": "Inventory Management System - illustrative demo concept",
+        "fit": "contain",
+        "width": 576,
+        "height": 351,
+        "naturalWidth": 599,
+        "naturalHeight": 400
+      },
+      {
+        "alt": "Learning Management System - illustrative demo concept",
+        "fit": "contain",
+        "width": 576,
+        "height": 351,
+        "naturalWidth": 599,
+        "naturalHeight": 400
+      }
+    ]
+  },
+  {
+    "path": "/services",
+    "width": 360,
+    "sections": [
+      {
+        "class": "page-hero page-hero-default",
+        "heading": "Practical technology. Purposeful outcomes.",
+        "top": 77,
+        "height": 438.328125,
+        "background": "rgb(248, 250, 252)",
+        "padding": "56px"
+      },
+      {
+        "class": "section",
+        "heading": "Website Development",
+        "top": 515.328125,
+        "height": 3393.78125,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "64px"
+      },
+      {
+        "class": "section section-neutral ai-services-category",
+        "heading": "AI & Automation Solutions",
+        "top": 3909.109375,
+        "height": 2078.25,
+        "background": "rgb(248, 250, 252)",
+        "padding": "64px"
+      },
+      {
+        "class": "section process-editorial",
+        "heading": "A clear path from\nfirst conversation to launch.",
+        "top": 5987.359375,
+        "height": 1067.34375,
+        "background": "rgb(248, 250, 252)",
+        "padding": "64px"
+      },
+      {
+        "class": "contact-cta",
+        "heading": "Have a Project in Mind?",
+        "top": 7054.703125,
+        "height": 517.53125,
+        "background": "rgb(20, 33, 61)",
+        "padding": "64px"
+      },
+      {
+        "class": "site-footer",
+        "heading": "Services",
+        "top": 7572.234375,
+        "height": 1448.09375,
+        "background": "rgb(20, 33, 61)",
+        "padding": "56px 28px"
+      }
+    ],
+    "clippedText": [],
+    "smallTargets": [],
+    "images": []
+  },
+  {
+    "path": "/services",
+    "width": 390,
+    "sections": [
+      {
+        "class": "page-hero page-hero-default",
+        "heading": "Practical technology. Purposeful outcomes.",
+        "top": 77,
+        "height": 398.21875,
+        "background": "rgb(248, 250, 252)",
+        "padding": "56px"
+      },
+      {
+        "class": "section",
+        "heading": "Website Development",
+        "top": 475.21875,
+        "height": 3365.78125,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "64px"
+      },
+      {
+        "class": "section section-neutral ai-services-category",
+        "heading": "AI & Automation Solutions",
+        "top": 3841,
+        "height": 2022.1875,
+        "background": "rgb(248, 250, 252)",
+        "padding": "64px"
+      },
+      {
+        "class": "section process-editorial",
+        "heading": "A clear path from\nfirst conversation to launch.",
+        "top": 5863.1875,
+        "height": 987.84375,
+        "background": "rgb(248, 250, 252)",
+        "padding": "64px"
+      },
+      {
+        "class": "contact-cta",
+        "heading": "Have a Project in Mind?",
+        "top": 6851.03125,
+        "height": 449.390625,
+        "background": "rgb(20, 33, 61)",
+        "padding": "64px"
+      },
+      {
+        "class": "site-footer",
+        "heading": "Services",
+        "top": 7300.421875,
+        "height": 1448.09375,
+        "background": "rgb(20, 33, 61)",
+        "padding": "56px 28px"
+      }
+    ],
+    "clippedText": [],
+    "smallTargets": [],
+    "images": []
+  },
+  {
+    "path": "/services",
+    "width": 768,
+    "sections": [
+      {
+        "class": "page-hero page-hero-default",
+        "heading": "Practical technology. Purposeful outcomes.",
+        "top": 77,
+        "height": 376.109375,
+        "background": "rgb(248, 250, 252)",
+        "padding": "64px"
+      },
+      {
+        "class": "section",
+        "heading": "Website Development",
+        "top": 453.109375,
+        "height": 1853.703125,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "80px"
+      },
+      {
+        "class": "section section-neutral ai-services-category",
+        "heading": "AI & Automation Solutions",
+        "top": 2306.8125,
+        "height": 1274.5,
+        "background": "rgb(248, 250, 252)",
+        "padding": "80px"
+      },
+      {
+        "class": "section process-editorial",
+        "heading": "A clear path from\nfirst conversation to launch.",
+        "top": 3581.3125,
+        "height": 674.375,
+        "background": "rgb(248, 250, 252)",
+        "padding": "80px"
+      },
+      {
+        "class": "contact-cta",
+        "heading": "Have a Project in Mind?",
+        "top": 4255.6875,
+        "height": 363.875,
+        "background": "rgb(20, 33, 61)",
+        "padding": "88px"
+      },
+      {
+        "class": "site-footer",
+        "heading": "Services",
+        "top": 4619.5625,
+        "height": 717.09375,
+        "background": "rgb(20, 33, 61)",
+        "padding": "72px 32px"
+      }
+    ],
+    "clippedText": [],
+    "smallTargets": [],
+    "images": []
+  },
+  {
+    "path": "/services",
+    "width": 1024,
+    "sections": [
+      {
+        "class": "page-hero page-hero-default",
+        "heading": "Practical technology. Purposeful outcomes.",
+        "top": 89,
+        "height": 369.078125,
+        "background": "rgb(248, 250, 252)",
+        "padding": "80px"
+      },
+      {
+        "class": "section",
+        "heading": "Website Development",
+        "top": 458.078125,
+        "height": 1576.234375,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "104px"
+      },
+      {
+        "class": "section section-neutral ai-services-category",
+        "heading": "AI & Automation Solutions",
+        "top": 2034.3125,
+        "height": 1136.15625,
+        "background": "rgb(248, 250, 252)",
+        "padding": "104px"
+      },
+      {
+        "class": "section process-editorial",
+        "heading": "A clear path from\nfirst conversation to launch.",
+        "top": 3170.46875,
+        "height": 732.09375,
+        "background": "rgb(248, 250, 252)",
+        "padding": "104px"
+      },
+      {
+        "class": "contact-cta",
+        "heading": "Have a Project in Mind?",
+        "top": 3902.5625,
+        "height": 331.8125,
+        "background": "rgb(20, 33, 61)",
+        "padding": "88px"
+      },
+      {
+        "class": "site-footer",
+        "heading": "Services",
+        "top": 4234.375,
+        "height": 552.25,
+        "background": "rgb(20, 33, 61)",
+        "padding": "72px 32px"
+      }
+    ],
+    "clippedText": [],
+    "smallTargets": [],
+    "images": []
+  },
+  {
+    "path": "/services",
+    "width": 1440,
+    "sections": [
+      {
+        "class": "page-hero page-hero-default",
+        "heading": "Practical technology. Purposeful outcomes.",
+        "top": 89,
+        "height": 450.609375,
+        "background": "rgb(248, 250, 252)",
+        "padding": "80px"
+      },
+      {
+        "class": "section",
+        "heading": "Website Development",
+        "top": 539.609375,
+        "height": 1576.234375,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "104px"
+      },
+      {
+        "class": "section section-neutral ai-services-category",
+        "heading": "AI & Automation Solutions",
+        "top": 2115.84375,
+        "height": 1123.40625,
+        "background": "rgb(248, 250, 252)",
+        "padding": "104px"
+      },
+      {
+        "class": "section process-editorial",
+        "heading": "A clear path from\nfirst conversation to launch.",
+        "top": 3239.25,
+        "height": 589.875,
+        "background": "rgb(248, 250, 252)",
+        "padding": "104px"
+      },
+      {
+        "class": "contact-cta",
+        "heading": "Have a Project in Mind?",
+        "top": 3829.125,
+        "height": 347.6875,
+        "background": "rgb(20, 33, 61)",
+        "padding": "88px"
+      },
+      {
+        "class": "site-footer",
+        "heading": "Services",
+        "top": 4176.8125,
+        "height": 533.25,
+        "background": "rgb(20, 33, 61)",
+        "padding": "72px 32px"
+      }
+    ],
+    "clippedText": [],
+    "smallTargets": [],
+    "images": []
+  },
+  {
+    "path": "/services",
+    "width": 1920,
+    "sections": [
+      {
+        "class": "page-hero page-hero-default",
+        "heading": "Practical technology. Purposeful outcomes.",
+        "top": 89,
+        "height": 450.609375,
+        "background": "rgb(248, 250, 252)",
+        "padding": "80px"
+      },
+      {
+        "class": "section",
+        "heading": "Website Development",
+        "top": 539.609375,
+        "height": 1576.234375,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "104px"
+      },
+      {
+        "class": "section section-neutral ai-services-category",
+        "heading": "AI & Automation Solutions",
+        "top": 2115.84375,
+        "height": 1124.546875,
+        "background": "rgb(248, 250, 252)",
+        "padding": "104px"
+      },
+      {
+        "class": "section process-editorial",
+        "heading": "A clear path from\nfirst conversation to launch.",
+        "top": 3240.390625,
+        "height": 591.78125,
+        "background": "rgb(248, 250, 252)",
+        "padding": "104px"
+      },
+      {
+        "class": "contact-cta",
+        "heading": "Have a Project in Mind?",
+        "top": 3832.171875,
+        "height": 347.6875,
+        "background": "rgb(20, 33, 61)",
+        "padding": "88px"
+      },
+      {
+        "class": "site-footer",
+        "heading": "Services",
+        "top": 4179.859375,
+        "height": 533.25,
+        "background": "rgb(20, 33, 61)",
+        "padding": "72px 32px"
+      }
+    ],
+    "clippedText": [],
+    "smallTargets": [],
+    "images": []
+  },
+  {
+    "path": "/services/ai-automation",
+    "width": 360,
+    "sections": [
+      {
+        "class": "page-hero page-hero-ai page-hero-with-visual",
+        "heading": "Automate Your Business with Intelligent AI Solutions.",
+        "top": 143.75,
+        "height": 1241.46875,
+        "background": "rgb(248, 250, 252)",
+        "padding": "56px"
+      },
+      {
+        "class": "section",
+        "heading": "Less repetitive work. Clearer decisions.",
+        "top": 1385.21875,
+        "height": 839.78125,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "64px"
+      },
+      {
+        "class": "section section-neutral",
+        "heading": "Where this service can help.",
+        "top": 2225,
+        "height": 1956.8125,
+        "background": "rgb(248, 250, 252)",
+        "padding": "64px"
+      },
+      {
+        "class": "section",
+        "heading": "What AI automation can do.",
+        "top": 4181.8125,
+        "height": 800.1875,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "64px"
+      },
+      {
+        "class": "section section-neutral",
+        "heading": "How we design custom workflows.",
+        "top": 4982,
+        "height": 1133.375,
+        "background": "rgb(248, 250, 252)",
+        "padding": "64px"
+      },
+      {
+        "class": "section ai-integration-section",
+        "heading": "The right connection for the job.",
+        "top": 6115.375,
+        "height": 1294.75,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "64px"
+      },
+      {
+        "class": "section section-neutral",
+        "heading": "Control is part of the design.",
+        "top": 7410.125,
+        "height": 1238.75,
+        "background": "rgb(248, 250, 252)",
+        "padding": "64px"
+      },
+      {
+        "class": "section ai-related-services",
+        "heading": "A focused service for your next step.",
+        "top": 8648.875,
+        "height": 349.1875,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "64px 0px"
+      },
+      {
+        "class": "section",
+        "heading": "Questions aboutai automation systems.",
+        "top": 8998.0625,
+        "height": 629.3125,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "64px"
+      },
+      {
+        "class": "section service-final-cta",
+        "heading": "Let's find a practical way forward.",
+        "top": 9627.375,
+        "height": 400.4375,
+        "background": "rgb(248, 250, 252)",
+        "padding": "64px"
+      },
+      {
+        "class": "site-footer",
+        "heading": "Services",
+        "top": 10027.8125,
+        "height": 1448.09375,
+        "background": "rgb(20, 33, 61)",
+        "padding": "56px 28px"
+      }
+    ],
+    "clippedText": [],
+    "smallTargets": [
+      {
+        "text": "Home",
+        "width": 37,
+        "height": 22.75
+      },
+      {
+        "text": "Services",
+        "width": 53,
+        "height": 22.75
+      }
+    ],
+    "images": []
+  },
+  {
+    "path": "/services/ai-automation",
+    "width": 390,
+    "sections": [
+      {
+        "class": "page-hero page-hero-ai page-hero-with-visual",
+        "heading": "Automate Your Business with Intelligent AI Solutions.",
+        "top": 143.75,
+        "height": 1174.171875,
+        "background": "rgb(248, 250, 252)",
+        "padding": "56px"
+      },
+      {
+        "class": "section",
+        "heading": "Less repetitive work. Clearer decisions.",
+        "top": 1317.921875,
+        "height": 786.78125,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "64px"
+      },
+      {
+        "class": "section section-neutral",
+        "heading": "Where this service can help.",
+        "top": 2104.703125,
+        "height": 1903.015625,
+        "background": "rgb(248, 250, 252)",
+        "padding": "64px"
+      },
+      {
+        "class": "section",
+        "heading": "What AI automation can do.",
+        "top": 4007.71875,
+        "height": 803.1875,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "64px"
+      },
+      {
+        "class": "section section-neutral",
+        "heading": "How we design custom workflows.",
+        "top": 4810.90625,
+        "height": 1108.375,
+        "background": "rgb(248, 250, 252)",
+        "padding": "64px"
+      },
+      {
+        "class": "section ai-integration-section",
+        "heading": "The right connection for the job.",
+        "top": 5919.28125,
+        "height": 1269.75,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "64px"
+      },
+      {
+        "class": "section section-neutral",
+        "heading": "Control is part of the design.",
+        "top": 7189.03125,
+        "height": 1213.75,
+        "background": "rgb(248, 250, 252)",
+        "padding": "64px"
+      },
+      {
+        "class": "section ai-related-services",
+        "heading": "A focused service for your next step.",
+        "top": 8402.78125,
+        "height": 352.1875,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "64px 0px"
+      },
+      {
+        "class": "section",
+        "heading": "Questions aboutai automation systems.",
+        "top": 8754.96875,
+        "height": 632.3125,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "64px"
+      },
+      {
+        "class": "section service-final-cta",
+        "heading": "Let's find a practical way forward.",
+        "top": 9387.28125,
+        "height": 380.6875,
+        "background": "rgb(248, 250, 252)",
+        "padding": "64px"
+      },
+      {
+        "class": "site-footer",
+        "heading": "Services",
+        "top": 9767.96875,
+        "height": 1448.09375,
+        "background": "rgb(20, 33, 61)",
+        "padding": "56px 28px"
+      }
+    ],
+    "clippedText": [],
+    "smallTargets": [
+      {
+        "text": "Home",
+        "width": 37,
+        "height": 22.75
+      },
+      {
+        "text": "Services",
+        "width": 53,
+        "height": 22.75
+      }
+    ],
+    "images": []
+  },
+  {
+    "path": "/services/ai-automation",
+    "width": 768,
+    "sections": [
+      {
+        "class": "page-hero page-hero-ai page-hero-with-visual",
+        "heading": "Automate Your Business with Intelligent AI Solutions.",
+        "top": 143.75,
+        "height": 1130.703125,
+        "background": "rgb(248, 250, 252)",
+        "padding": "64px"
+      },
+      {
+        "class": "section",
+        "heading": "Less repetitive work. Clearer decisions.",
+        "top": 1274.453125,
+        "height": 530.59375,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "80px"
+      },
+      {
+        "class": "section section-neutral",
+        "heading": "Where this service can help.",
+        "top": 1805.046875,
+        "height": 1189.1875,
+        "background": "rgb(248, 250, 252)",
+        "padding": "80px"
+      },
+      {
+        "class": "section",
+        "heading": "What AI automation can do.",
+        "top": 2994.234375,
+        "height": 585,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "80px"
+      },
+      {
+        "class": "section section-neutral",
+        "heading": "How we design custom workflows.",
+        "top": 3579.234375,
+        "height": 721.59375,
+        "background": "rgb(248, 250, 252)",
+        "padding": "80px"
+      },
+      {
+        "class": "section ai-integration-section",
+        "heading": "The right connection for the job.",
+        "top": 4300.828125,
+        "height": 790.78125,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "80px"
+      },
+      {
+        "class": "section section-neutral",
+        "heading": "Control is part of the design.",
+        "top": 5091.609375,
+        "height": 734.78125,
+        "background": "rgb(248, 250, 252)",
+        "padding": "80px"
+      },
+      {
+        "class": "section ai-related-services",
+        "heading": "A focused service for your next step.",
+        "top": 5826.390625,
+        "height": 278,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "80px 0px"
+      },
+      {
+        "class": "section",
+        "heading": "Questions aboutai automation systems.",
+        "top": 6104.390625,
+        "height": 547.3125,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "80px"
+      },
+      {
+        "class": "section service-final-cta",
+        "heading": "Let's find a practical way forward.",
+        "top": 6651.703125,
+        "height": 334.5,
+        "background": "rgb(248, 250, 252)",
+        "padding": "80px"
+      },
+      {
+        "class": "site-footer",
+        "heading": "Services",
+        "top": 6986.203125,
+        "height": 717.09375,
+        "background": "rgb(20, 33, 61)",
+        "padding": "72px 32px"
+      }
+    ],
+    "clippedText": [],
+    "smallTargets": [
+      {
+        "text": "Home",
+        "width": 37,
+        "height": 22.75
+      },
+      {
+        "text": "Services",
+        "width": 53,
+        "height": 22.75
+      }
+    ],
+    "images": []
+  },
+  {
+    "path": "/services/ai-automation",
+    "width": 1024,
+    "sections": [
+      {
+        "class": "page-hero page-hero-ai page-hero-with-visual",
+        "heading": "Automate Your Business with Intelligent AI Solutions.",
+        "top": 155.75,
+        "height": 787.546875,
+        "background": "rgb(248, 250, 252)",
+        "padding": "80px"
+      },
+      {
+        "class": "section",
+        "heading": "Less repetitive work. Clearer decisions.",
+        "top": 943.296875,
+        "height": 494.59375,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "104px"
+      },
+      {
+        "class": "section section-neutral",
+        "heading": "Where this service can help.",
+        "top": 1437.890625,
+        "height": 1134.046875,
+        "background": "rgb(248, 250, 252)",
+        "padding": "104px"
+      },
+      {
+        "class": "section",
+        "heading": "What AI automation can do.",
+        "top": 2571.9375,
+        "height": 549,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "104px"
+      },
+      {
+        "class": "section section-neutral",
+        "heading": "How we design custom workflows.",
+        "top": 3120.9375,
+        "height": 643.3125,
+        "background": "rgb(248, 250, 252)",
+        "padding": "104px"
+      },
+      {
+        "class": "section ai-integration-section",
+        "heading": "The right connection for the job.",
+        "top": 3764.25,
+        "height": 734.78125,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "104px"
+      },
+      {
+        "class": "section section-neutral",
+        "heading": "Control is part of the design.",
+        "top": 4499.03125,
+        "height": 706.78125,
+        "background": "rgb(248, 250, 252)",
+        "padding": "104px"
+      },
+      {
+        "class": "section ai-related-services",
+        "heading": "A focused service for your next step.",
+        "top": 5205.8125,
+        "height": 246.859375,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "104px 0px"
+      },
+      {
+        "class": "section",
+        "heading": "Questions aboutai automation systems.",
+        "top": 5452.671875,
+        "height": 540.9375,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "104px"
+      },
+      {
+        "class": "section service-final-cta",
+        "heading": "Let's find a practical way forward.",
+        "top": 5993.609375,
+        "height": 347.359375,
+        "background": "rgb(248, 250, 252)",
+        "padding": "104px"
+      },
+      {
+        "class": "site-footer",
+        "heading": "Services",
+        "top": 6340.96875,
+        "height": 552.25,
+        "background": "rgb(20, 33, 61)",
+        "padding": "72px 32px"
+      }
+    ],
+    "clippedText": [],
+    "smallTargets": [
+      {
+        "text": "Home",
+        "width": 37,
+        "height": 22.75
+      },
+      {
+        "text": "Services",
+        "width": 53,
+        "height": 22.75
+      }
+    ],
+    "images": []
+  },
+  {
+    "path": "/services/ai-automation",
+    "width": 1440,
+    "sections": [
+      {
+        "class": "page-hero page-hero-ai page-hero-with-visual",
+        "heading": "Automate Your Business with Intelligent AI Solutions.",
+        "top": 155.75,
+        "height": 787.546875,
+        "background": "rgb(248, 250, 252)",
+        "padding": "80px"
+      },
+      {
+        "class": "section",
+        "heading": "Less repetitive work. Clearer decisions.",
+        "top": 943.296875,
+        "height": 493.6875,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "104px"
+      },
+      {
+        "class": "section section-neutral",
+        "heading": "Where this service can help.",
+        "top": 1436.984375,
+        "height": 1149.03125,
+        "background": "rgb(248, 250, 252)",
+        "padding": "104px"
+      },
+      {
+        "class": "section",
+        "heading": "What AI automation can do.",
+        "top": 2586.015625,
+        "height": 493,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "104px"
+      },
+      {
+        "class": "section section-neutral",
+        "heading": "How we design custom workflows.",
+        "top": 3079.015625,
+        "height": 588.484375,
+        "background": "rgb(248, 250, 252)",
+        "padding": "104px"
+      },
+      {
+        "class": "section ai-integration-section",
+        "heading": "The right connection for the job.",
+        "top": 3667.5,
+        "height": 745.875,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "104px"
+      },
+      {
+        "class": "section section-neutral",
+        "heading": "Control is part of the design.",
+        "top": 4413.375,
+        "height": 666.03125,
+        "background": "rgb(248, 250, 252)",
+        "padding": "104px"
+      },
+      {
+        "class": "section ai-related-services",
+        "heading": "A focused service for your next step.",
+        "top": 5079.40625,
+        "height": 261.84375,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "104px 0px"
+      },
+      {
+        "class": "section",
+        "heading": "Questions aboutai automation systems.",
+        "top": 5341.25,
+        "height": 513.75,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "104px"
+      },
+      {
+        "class": "section service-final-cta",
+        "heading": "Let's find a practical way forward.",
+        "top": 5855,
+        "height": 362.34375,
+        "background": "rgb(248, 250, 252)",
+        "padding": "104px"
+      },
+      {
+        "class": "site-footer",
+        "heading": "Services",
+        "top": 6217.34375,
+        "height": 533.25,
+        "background": "rgb(20, 33, 61)",
+        "padding": "72px 32px"
+      }
+    ],
+    "clippedText": [],
+    "smallTargets": [
+      {
+        "text": "Home",
+        "width": 37,
+        "height": 22.75
+      },
+      {
+        "text": "Services",
+        "width": 53,
+        "height": 22.75
+      }
+    ],
+    "images": []
+  },
+  {
+    "path": "/services/ai-automation",
+    "width": 1920,
+    "sections": [
+      {
+        "class": "page-hero page-hero-ai page-hero-with-visual",
+        "heading": "Automate Your Business with Intelligent AI Solutions.",
+        "top": 155.75,
+        "height": 787.546875,
+        "background": "rgb(248, 250, 252)",
+        "padding": "80px"
+      },
+      {
+        "class": "section",
+        "heading": "Less repetitive work. Clearer decisions.",
+        "top": 943.296875,
+        "height": 495.59375,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "104px"
+      },
+      {
+        "class": "section section-neutral",
+        "heading": "Where this service can help.",
+        "top": 1438.890625,
+        "height": 1149.984375,
+        "background": "rgb(248, 250, 252)",
+        "padding": "104px"
+      },
+      {
+        "class": "section",
+        "heading": "What AI automation can do.",
+        "top": 2588.875,
+        "height": 493,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "104px"
+      },
+      {
+        "class": "section section-neutral",
+        "heading": "How we design custom workflows.",
+        "top": 3081.875,
+        "height": 590.390625,
+        "background": "rgb(248, 250, 252)",
+        "padding": "104px"
+      },
+      {
+        "class": "section ai-integration-section",
+        "heading": "The right connection for the job.",
+        "top": 3672.265625,
+        "height": 747.96875,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "104px"
+      },
+      {
+        "class": "section section-neutral",
+        "heading": "Control is part of the design.",
+        "top": 4420.234375,
+        "height": 667.171875,
+        "background": "rgb(248, 250, 252)",
+        "padding": "104px"
+      },
+      {
+        "class": "section ai-related-services",
+        "heading": "A focused service for your next step.",
+        "top": 5087.40625,
+        "height": 262.796875,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "104px 0px"
+      },
+      {
+        "class": "section",
+        "heading": "Questions aboutai automation systems.",
+        "top": 5350.203125,
+        "height": 513.75,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "104px"
+      },
+      {
+        "class": "section service-final-cta",
+        "heading": "Let's find a practical way forward.",
+        "top": 5863.953125,
+        "height": 416.09375,
+        "background": "rgb(248, 250, 252)",
+        "padding": "104px"
+      },
+      {
+        "class": "site-footer",
+        "heading": "Services",
+        "top": 6280.046875,
+        "height": 533.25,
+        "background": "rgb(20, 33, 61)",
+        "padding": "72px 32px"
+      }
+    ],
+    "clippedText": [],
+    "smallTargets": [
+      {
+        "text": "Home",
+        "width": 37,
+        "height": 22.75
+      },
+      {
+        "text": "Services",
+        "width": 53,
+        "height": 22.75
+      }
+    ],
+    "images": []
+  },
+  {
+    "path": "/portfolio",
+    "width": 360,
+    "sections": [
+      {
+        "class": "page-hero page-hero-default",
+        "heading": "Ideas that solve everyday challenges.",
+        "top": 77,
+        "height": 370.21875,
+        "background": "rgb(248, 250, 252)",
+        "padding": "56px"
+      },
+      {
+        "class": "section work-section",
+        "heading": "Online Examination Portal / Examify",
+        "top": 447.21875,
+        "height": 2706.5625,
+        "background": "rgb(248, 250, 252)",
+        "padding": "64px"
+      },
+      {
+        "class": "contact-cta",
+        "heading": "Have a Project in Mind?",
+        "top": 3153.78125,
+        "height": 517.53125,
+        "background": "rgb(20, 33, 61)",
+        "padding": "64px"
+      },
+      {
+        "class": "site-footer",
+        "heading": "Services",
+        "top": 3671.3125,
+        "height": 1448.09375,
+        "background": "rgb(20, 33, 61)",
+        "padding": "56px 28px"
+      }
+    ],
+    "clippedText": [],
+    "smallTargets": [
+      {
+        "text": "Discuss this solution",
+        "width": 150,
+        "height": 22.75
+      },
+      {
+        "text": "View full-size illustration",
+        "width": 328,
+        "height": 22.75
+      },
+      {
+        "text": "Discuss this solution",
+        "width": 150,
+        "height": 22.75
+      },
+      {
+        "text": "View full-size illustration",
+        "width": 328,
+        "height": 22.75
+      },
+      {
+        "text": "Discuss this solution",
+        "width": 150,
+        "height": 22.75
+      },
+      {
+        "text": "View full-size illustration",
+        "width": 328,
+        "height": 22.75
+      }
+    ],
+    "images": [
+      {
+        "alt": "Online Examination Portal / Examify - illustrative demo concept",
+        "fit": "contain",
+        "width": 284,
+        "height": 170,
+        "naturalWidth": 296,
+        "naturalHeight": 197
+      },
+      {
+        "alt": "Inventory Management System - illustrative demo concept",
+        "fit": "contain",
+        "width": 284,
+        "height": 170,
+        "naturalWidth": 296,
+        "naturalHeight": 197
+      },
+      {
+        "alt": "Learning Management System - illustrative demo concept",
+        "fit": "contain",
+        "width": 284,
+        "height": 170,
+        "naturalWidth": 296,
+        "naturalHeight": 197
+      }
+    ]
+  },
+  {
+    "path": "/portfolio",
+    "width": 390,
+    "sections": [
+      {
+        "class": "page-hero page-hero-default",
+        "heading": "Ideas that solve everyday challenges.",
+        "top": 77,
+        "height": 370.21875,
+        "background": "rgb(248, 250, 252)",
+        "padding": "56px"
+      },
+      {
+        "class": "section work-section",
+        "heading": "Online Examination Portal / Examify",
+        "top": 447.21875,
+        "height": 2675.421875,
+        "background": "rgb(248, 250, 252)",
+        "padding": "64px"
+      },
+      {
+        "class": "contact-cta",
+        "heading": "Have a Project in Mind?",
+        "top": 3122.640625,
+        "height": 449.390625,
+        "background": "rgb(20, 33, 61)",
+        "padding": "64px"
+      },
+      {
+        "class": "site-footer",
+        "heading": "Services",
+        "top": 3572.03125,
+        "height": 1448.09375,
+        "background": "rgb(20, 33, 61)",
+        "padding": "56px 28px"
+      }
+    ],
+    "clippedText": [],
+    "smallTargets": [
+      {
+        "text": "Discuss this solution",
+        "width": 150,
+        "height": 22.75
+      },
+      {
+        "text": "View full-size illustration",
+        "width": 358,
+        "height": 22.75
+      },
+      {
+        "text": "Discuss this solution",
+        "width": 150,
+        "height": 22.75
+      },
+      {
+        "text": "View full-size illustration",
+        "width": 358,
+        "height": 22.75
+      },
+      {
+        "text": "Discuss this solution",
+        "width": 150,
+        "height": 22.75
+      },
+      {
+        "text": "View full-size illustration",
+        "width": 358,
+        "height": 22.75
+      }
+    ],
+    "images": [
+      {
+        "alt": "Online Examination Portal / Examify - illustrative demo concept",
+        "fit": "contain",
+        "width": 314,
+        "height": 189,
+        "naturalWidth": 326,
+        "naturalHeight": 217
+      },
+      {
+        "alt": "Inventory Management System - illustrative demo concept",
+        "fit": "contain",
+        "width": 314,
+        "height": 189,
+        "naturalWidth": 326,
+        "naturalHeight": 217
+      },
+      {
+        "alt": "Learning Management System - illustrative demo concept",
+        "fit": "contain",
+        "width": 314,
+        "height": 189,
+        "naturalWidth": 326,
+        "naturalHeight": 217
+      }
+    ]
+  },
+  {
+    "path": "/portfolio",
+    "width": 768,
+    "sections": [
+      {
+        "class": "page-hero page-hero-default",
+        "heading": "Ideas that solve everyday challenges.",
+        "top": 77,
+        "height": 301.25,
+        "background": "rgb(248, 250, 252)",
+        "padding": "64px"
+      },
+      {
+        "class": "section work-section",
+        "heading": "Online Examination Portal / Examify",
+        "top": 378.25,
+        "height": 1865.765625,
+        "background": "rgb(248, 250, 252)",
+        "padding": "80px"
+      },
+      {
+        "class": "contact-cta",
+        "heading": "Have a Project in Mind?",
+        "top": 2244.015625,
+        "height": 363.875,
+        "background": "rgb(20, 33, 61)",
+        "padding": "88px"
+      },
+      {
+        "class": "site-footer",
+        "heading": "Services",
+        "top": 2607.890625,
+        "height": 717.09375,
+        "background": "rgb(20, 33, 61)",
+        "padding": "72px 32px"
+      }
+    ],
+    "clippedText": [],
+    "smallTargets": [
+      {
+        "text": "Discuss this solution",
+        "width": 150,
+        "height": 22.75
+      },
+      {
+        "text": "View full-size illustration",
+        "width": 298.1875,
+        "height": 22.75
+      },
+      {
+        "text": "Discuss this solution",
+        "width": 150,
+        "height": 22.75
+      },
+      {
+        "text": "View full-size illustration",
+        "width": 357.8125,
+        "height": 22.75
+      },
+      {
+        "text": "Discuss this solution",
+        "width": 150,
+        "height": 22.75
+      },
+      {
+        "text": "View full-size illustration",
+        "width": 298.1875,
+        "height": 22.75
+      }
+    ],
+    "images": [
+      {
+        "alt": "Online Examination Portal / Examify - illustrative demo concept",
+        "fit": "contain",
+        "width": 310,
+        "height": 185,
+        "naturalWidth": 704,
+        "naturalHeight": 469
+      },
+      {
+        "alt": "Inventory Management System - illustrative demo concept",
+        "fit": "contain",
+        "width": 250,
+        "height": 147,
+        "naturalWidth": 704,
+        "naturalHeight": 469
+      },
+      {
+        "alt": "Learning Management System - illustrative demo concept",
+        "fit": "contain",
+        "width": 310,
+        "height": 185,
+        "naturalWidth": 704,
+        "naturalHeight": 469
+      }
+    ]
+  },
+  {
+    "path": "/portfolio",
+    "width": 1024,
+    "sections": [
+      {
+        "class": "page-hero page-hero-default",
+        "heading": "Ideas that solve everyday challenges.",
+        "top": 89,
+        "height": 336.6875,
+        "background": "rgb(248, 250, 252)",
+        "padding": "80px"
+      },
+      {
+        "class": "section work-section",
+        "heading": "Online Examination Portal / Examify",
+        "top": 425.6875,
+        "height": 1676.625,
+        "background": "rgb(248, 250, 252)",
+        "padding": "104px"
+      },
+      {
+        "class": "contact-cta",
+        "heading": "Have a Project in Mind?",
+        "top": 2102.3125,
+        "height": 331.8125,
+        "background": "rgb(20, 33, 61)",
+        "padding": "88px"
+      },
+      {
+        "class": "site-footer",
+        "heading": "Services",
+        "top": 2434.125,
+        "height": 552.25,
+        "background": "rgb(20, 33, 61)",
+        "padding": "72px 32px"
+      }
+    ],
+    "clippedText": [],
+    "smallTargets": [
+      {
+        "text": "Discuss this solution",
+        "width": 150,
+        "height": 22.75
+      },
+      {
+        "text": "View full-size illustration",
+        "width": 372.25,
+        "height": 22.75
+      },
+      {
+        "text": "Discuss this solution",
+        "width": 150,
+        "height": 22.75
+      },
+      {
+        "text": "View full-size illustration",
+        "width": 539.75,
+        "height": 22.75
+      },
+      {
+        "text": "Discuss this solution",
+        "width": 150,
+        "height": 22.75
+      },
+      {
+        "text": "View full-size illustration",
+        "width": 372.25,
+        "height": 22.75
+      }
+    ],
+    "images": [
+      {
+        "alt": "Online Examination Portal / Examify - illustrative demo concept",
+        "fit": "contain",
+        "width": 492,
+        "height": 298,
+        "naturalWidth": 593,
+        "naturalHeight": 396
+      },
+      {
+        "alt": "Inventory Management System - illustrative demo concept",
+        "fit": "contain",
+        "width": 324,
+        "height": 194,
+        "naturalWidth": 593,
+        "naturalHeight": 396
+      },
+      {
+        "alt": "Learning Management System - illustrative demo concept",
+        "fit": "contain",
+        "width": 492,
+        "height": 298,
+        "naturalWidth": 593,
+        "naturalHeight": 396
+      }
+    ]
+  },
+  {
+    "path": "/portfolio",
+    "width": 1440,
+    "sections": [
+      {
+        "class": "page-hero page-hero-default",
+        "heading": "Ideas that solve everyday challenges.",
+        "top": 89,
+        "height": 418.21875,
+        "background": "rgb(248, 250, 252)",
+        "padding": "80px"
+      },
+      {
+        "class": "section work-section",
+        "heading": "Online Examination Portal / Examify",
+        "top": 507.21875,
+        "height": 1827.078125,
+        "background": "rgb(248, 250, 252)",
+        "padding": "104px"
+      },
+      {
+        "class": "contact-cta",
+        "heading": "Have a Project in Mind?",
+        "top": 2334.296875,
+        "height": 347.6875,
+        "background": "rgb(20, 33, 61)",
+        "padding": "88px"
+      },
+      {
+        "class": "site-footer",
+        "heading": "Services",
+        "top": 2681.984375,
+        "height": 533.25,
+        "background": "rgb(20, 33, 61)",
+        "padding": "72px 32px"
+      }
+    ],
+    "clippedText": [],
+    "smallTargets": [
+      {
+        "text": "Discuss this solution",
+        "width": 150,
+        "height": 22.75
+      },
+      {
+        "text": "View full-size illustration",
+        "width": 502.859375,
+        "height": 22.75
+      },
+      {
+        "text": "Discuss this solution",
+        "width": 150,
+        "height": 22.75
+      },
+      {
+        "text": "View full-size illustration",
+        "width": 729.140625,
+        "height": 22.75
+      },
+      {
+        "text": "Discuss this solution",
+        "width": 150,
+        "height": 22.75
+      },
+      {
+        "text": "View full-size illustration",
+        "width": 502.859375,
+        "height": 22.75
+      }
+    ],
+    "images": [
+      {
+        "alt": "Online Examination Portal / Examify - illustrative demo concept",
+        "fit": "contain",
+        "width": 681,
+        "height": 417,
+        "naturalWidth": 960,
+        "naturalHeight": 640
+      },
+      {
+        "alt": "Inventory Management System - illustrative demo concept",
+        "fit": "contain",
+        "width": 455,
+        "height": 275,
+        "naturalWidth": 960,
+        "naturalHeight": 640
+      },
+      {
+        "alt": "Learning Management System - illustrative demo concept",
+        "fit": "contain",
+        "width": 681,
+        "height": 417,
+        "naturalWidth": 960,
+        "naturalHeight": 640
+      }
+    ]
+  },
+  {
+    "path": "/portfolio",
+    "width": 1920,
+    "sections": [
+      {
+        "class": "page-hero page-hero-default",
+        "heading": "Ideas that solve everyday challenges.",
+        "top": 89,
+        "height": 418.21875,
+        "background": "rgb(248, 250, 252)",
+        "padding": "80px"
+      },
+      {
+        "class": "section work-section",
+        "heading": "Online Examination Portal / Examify",
+        "top": 507.21875,
+        "height": 1827.078125,
+        "background": "rgb(248, 250, 252)",
+        "padding": "104px"
+      },
+      {
+        "class": "contact-cta",
+        "heading": "Have a Project in Mind?",
+        "top": 2334.296875,
+        "height": 347.6875,
+        "background": "rgb(20, 33, 61)",
+        "padding": "88px"
+      },
+      {
+        "class": "site-footer",
+        "heading": "Services",
+        "top": 2681.984375,
+        "height": 533.25,
+        "background": "rgb(20, 33, 61)",
+        "padding": "72px 32px"
+      }
+    ],
+    "clippedText": [],
+    "smallTargets": [
+      {
+        "text": "Discuss this solution",
+        "width": 150,
+        "height": 22.75
+      },
+      {
+        "text": "View full-size illustration",
+        "width": 502.859375,
+        "height": 22.75
+      },
+      {
+        "text": "Discuss this solution",
+        "width": 150,
+        "height": 22.75
+      },
+      {
+        "text": "View full-size illustration",
+        "width": 729.140625,
+        "height": 22.75
+      },
+      {
+        "text": "Discuss this solution",
+        "width": 150,
+        "height": 22.75
+      },
+      {
+        "text": "View full-size illustration",
+        "width": 502.859375,
+        "height": 22.75
+      }
+    ],
+    "images": [
+      {
+        "alt": "Online Examination Portal / Examify - illustrative demo concept",
+        "fit": "contain",
+        "width": 681,
+        "height": 417,
+        "naturalWidth": 960,
+        "naturalHeight": 640
+      },
+      {
+        "alt": "Inventory Management System - illustrative demo concept",
+        "fit": "contain",
+        "width": 455,
+        "height": 275,
+        "naturalWidth": 960,
+        "naturalHeight": 640
+      },
+      {
+        "alt": "Learning Management System - illustrative demo concept",
+        "fit": "contain",
+        "width": 681,
+        "height": 417,
+        "naturalWidth": 960,
+        "naturalHeight": 640
+      }
+    ]
+  },
+  {
+    "path": "/products",
+    "width": 360,
+    "sections": [
+      {
+        "class": "page-hero page-hero-default",
+        "heading": "Exoite Social Media Platform",
+        "top": 77,
+        "height": 490.40625,
+        "background": "rgb(248, 250, 252)",
+        "padding": "56px"
+      },
+      {
+        "class": "section product-preview-section",
+        "top": 567.40625,
+        "height": 676.625,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "64px"
+      },
+      {
+        "class": "section section-neutral",
+        "heading": "The possibilities we're exploring.",
+        "top": 1244.03125,
+        "height": 1703.140625,
+        "background": "rgb(248, 250, 252)",
+        "padding": "64px"
+      },
+      {
+        "class": "section",
+        "heading": "From a daily challengeto a product direction.",
+        "top": 2947.171875,
+        "height": 635.1875,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "64px"
+      },
+      {
+        "class": "site-footer",
+        "heading": "Services",
+        "top": 3582.359375,
+        "height": 1448.09375,
+        "background": "rgb(20, 33, 61)",
+        "padding": "56px 28px"
+      }
+    ],
+    "clippedText": [],
+    "smallTargets": [],
+    "images": []
+  },
+  {
+    "path": "/products",
+    "width": 390,
+    "sections": [
+      {
+        "class": "page-hero page-hero-default",
+        "heading": "Exoite Social Media Platform",
+        "top": 77,
+        "height": 490.40625,
+        "background": "rgb(248, 250, 252)",
+        "padding": "56px"
+      },
+      {
+        "class": "section product-preview-section",
+        "top": 567.40625,
+        "height": 663.03125,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "64px"
+      },
+      {
+        "class": "section section-neutral",
+        "heading": "The possibilities we're exploring.",
+        "top": 1230.4375,
+        "height": 1622.140625,
+        "background": "rgb(248, 250, 252)",
+        "padding": "64px"
+      },
+      {
+        "class": "section",
+        "heading": "From a daily challengeto a product direction.",
+        "top": 2852.578125,
+        "height": 638.1875,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "64px"
+      },
+      {
+        "class": "site-footer",
+        "heading": "Services",
+        "top": 3490.765625,
+        "height": 1448.09375,
+        "background": "rgb(20, 33, 61)",
+        "padding": "56px 28px"
+      }
+    ],
+    "clippedText": [],
+    "smallTargets": [],
+    "images": []
+  },
+  {
+    "path": "/products",
+    "width": 768,
+    "sections": [
+      {
+        "class": "page-hero page-hero-default",
+        "heading": "Exoite Social Media Platform",
+        "top": 77,
+        "height": 399.34375,
+        "background": "rgb(248, 250, 252)",
+        "padding": "64px"
+      },
+      {
+        "class": "section product-preview-section",
+        "top": 476.34375,
+        "height": 778.625,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "80px"
+      },
+      {
+        "class": "section section-neutral",
+        "heading": "The possibilities we're exploring.",
+        "top": 1254.96875,
+        "height": 1273.5625,
+        "background": "rgb(248, 250, 252)",
+        "padding": "80px"
+      },
+      {
+        "class": "section",
+        "heading": "From a daily challengeto a product direction.",
+        "top": 2528.53125,
+        "height": 526,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "80px"
+      },
+      {
+        "class": "site-footer",
+        "heading": "Services",
+        "top": 3054.53125,
+        "height": 717.09375,
+        "background": "rgb(20, 33, 61)",
+        "padding": "72px 32px"
+      }
+    ],
+    "clippedText": [],
+    "smallTargets": [],
+    "images": []
+  },
+  {
+    "path": "/products",
+    "width": 1024,
+    "sections": [
+      {
+        "class": "page-hero page-hero-default",
+        "heading": "Exoite Social Media Platform",
+        "top": 89,
+        "height": 434.78125,
+        "background": "rgb(248, 250, 252)",
+        "padding": "80px"
+      },
+      {
+        "class": "section product-preview-section",
+        "top": 523.78125,
+        "height": 826.625,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "104px"
+      },
+      {
+        "class": "section section-neutral",
+        "heading": "The possibilities we're exploring.",
+        "top": 1350.40625,
+        "height": 963.09375,
+        "background": "rgb(248, 250, 252)",
+        "padding": "104px"
+      },
+      {
+        "class": "section",
+        "heading": "From a daily challengeto a product direction.",
+        "top": 2313.5,
+        "height": 518,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "104px"
+      },
+      {
+        "class": "site-footer",
+        "heading": "Services",
+        "top": 2831.5,
+        "height": 552.25,
+        "background": "rgb(20, 33, 61)",
+        "padding": "72px 32px"
+      }
+    ],
+    "clippedText": [],
+    "smallTargets": [],
+    "images": []
+  },
+  {
+    "path": "/products",
+    "width": 1440,
+    "sections": [
+      {
+        "class": "page-hero page-hero-default",
+        "heading": "Exoite Social Media Platform",
+        "top": 89,
+        "height": 452.59375,
+        "background": "rgb(248, 250, 252)",
+        "padding": "80px"
+      },
+      {
+        "class": "section product-preview-section",
+        "top": 541.59375,
+        "height": 826.625,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "104px"
+      },
+      {
+        "class": "section section-neutral",
+        "heading": "The possibilities we're exploring.",
+        "top": 1368.21875,
+        "height": 879.46875,
+        "background": "rgb(248, 250, 252)",
+        "padding": "104px"
+      },
+      {
+        "class": "section",
+        "heading": "From a daily challengeto a product direction.",
+        "top": 2247.6875,
+        "height": 462,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "104px"
+      },
+      {
+        "class": "site-footer",
+        "heading": "Services",
+        "top": 2709.6875,
+        "height": 533.25,
+        "background": "rgb(20, 33, 61)",
+        "padding": "72px 32px"
+      }
+    ],
+    "clippedText": [],
+    "smallTargets": [],
+    "images": []
+  },
+  {
+    "path": "/products",
+    "width": 1920,
+    "sections": [
+      {
+        "class": "page-hero page-hero-default",
+        "heading": "Exoite Social Media Platform",
+        "top": 89,
+        "height": 452.59375,
+        "background": "rgb(248, 250, 252)",
+        "padding": "80px"
+      },
+      {
+        "class": "section product-preview-section",
+        "top": 541.59375,
+        "height": 826.625,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "104px"
+      },
+      {
+        "class": "section section-neutral",
+        "heading": "The possibilities we're exploring.",
+        "top": 1368.21875,
+        "height": 881.375,
+        "background": "rgb(248, 250, 252)",
+        "padding": "104px"
+      },
+      {
+        "class": "section",
+        "heading": "From a daily challengeto a product direction.",
+        "top": 2249.59375,
+        "height": 462,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "104px"
+      },
+      {
+        "class": "site-footer",
+        "heading": "Services",
+        "top": 2711.59375,
+        "height": 533.25,
+        "background": "rgb(20, 33, 61)",
+        "padding": "72px 32px"
+      }
+    ],
+    "clippedText": [],
+    "smallTargets": [],
+    "images": []
+  },
+  {
+    "path": "/about",
+    "width": 360,
+    "sections": [
+      {
+        "class": "page-hero page-hero-default",
+        "heading": "A growing company. A practical outlook.",
+        "top": 77,
+        "height": 398.21875,
+        "background": "rgb(248, 250, 252)",
+        "padding": "56px"
+      },
+      {
+        "class": "section",
+        "heading": "Technology is useful when it makes work simpler.",
+        "top": 475.21875,
+        "height": 1126.4375,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "64px"
+      },
+      {
+        "class": "section section-neutral",
+        "heading": "Make digital progress practical.",
+        "top": 1601.65625,
+        "height": 666.375,
+        "background": "rgb(248, 250, 252)",
+        "padding": "64px"
+      },
+      {
+        "class": "section",
+        "heading": "A practical partner.A shared direction.",
+        "top": 2268.03125,
+        "height": 1130.15625,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "64px"
+      },
+      {
+        "class": "section section-neutral",
+        "heading": "Good choices.Solid foundations.",
+        "top": 3398.1875,
+        "height": 837.1875,
+        "background": "rgb(248, 250, 252)",
+        "padding": "64px"
+      },
+      {
+        "class": "section process-editorial",
+        "heading": "A clear path from\nfirst conversation to launch.",
+        "top": 4235.375,
+        "height": 1067.34375,
+        "background": "rgb(255, 255, 255)",
+        "padding": "64px"
+      },
+      {
+        "class": "contact-cta",
+        "heading": "Have a Project in Mind?",
+        "top": 5302.71875,
+        "height": 517.53125,
+        "background": "rgb(20, 33, 61)",
+        "padding": "64px"
+      },
+      {
+        "class": "site-footer",
+        "heading": "Services",
+        "top": 5820.25,
+        "height": 1448.09375,
+        "background": "rgb(20, 33, 61)",
+        "padding": "56px 28px"
+      }
+    ],
+    "clippedText": [],
+    "smallTargets": [],
+    "images": [
+      {
+        "alt": "Illustration of a collaborative technology workspace",
+        "fit": "contain",
+        "width": 328,
+        "height": 219,
+        "naturalWidth": 360,
+        "naturalHeight": 240
+      }
+    ]
+  },
+  {
+    "path": "/about",
+    "width": 390,
+    "sections": [
+      {
+        "class": "page-hero page-hero-default",
+        "heading": "A growing company. A practical outlook.",
+        "top": 77,
+        "height": 398.21875,
+        "background": "rgb(248, 250, 252)",
+        "padding": "56px"
+      },
+      {
+        "class": "section",
+        "heading": "Technology is useful when it makes work simpler.",
+        "top": 475.21875,
+        "height": 1101.640625,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "64px"
+      },
+      {
+        "class": "section section-neutral",
+        "heading": "Make digital progress practical.",
+        "top": 1576.859375,
+        "height": 666.375,
+        "background": "rgb(248, 250, 252)",
+        "padding": "64px"
+      },
+      {
+        "class": "section",
+        "heading": "A practical partner.A shared direction.",
+        "top": 2243.234375,
+        "height": 1077.5625,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "64px"
+      },
+      {
+        "class": "section section-neutral",
+        "heading": "Good choices.Solid foundations.",
+        "top": 3320.796875,
+        "height": 812.1875,
+        "background": "rgb(248, 250, 252)",
+        "padding": "64px"
+      },
+      {
+        "class": "section process-editorial",
+        "heading": "A clear path from\nfirst conversation to launch.",
+        "top": 4132.984375,
+        "height": 987.84375,
+        "background": "rgb(255, 255, 255)",
+        "padding": "64px"
+      },
+      {
+        "class": "contact-cta",
+        "heading": "Have a Project in Mind?",
+        "top": 5120.828125,
+        "height": 449.390625,
+        "background": "rgb(20, 33, 61)",
+        "padding": "64px"
+      },
+      {
+        "class": "site-footer",
+        "heading": "Services",
+        "top": 5570.21875,
+        "height": 1448.09375,
+        "background": "rgb(20, 33, 61)",
+        "padding": "56px 28px"
+      }
+    ],
+    "clippedText": [],
+    "smallTargets": [],
+    "images": [
+      {
+        "alt": "Illustration of a collaborative technology workspace",
+        "fit": "contain",
+        "width": 358,
+        "height": 239,
+        "naturalWidth": 390,
+        "naturalHeight": 260
+      }
+    ]
+  },
+  {
+    "path": "/about",
+    "width": 768,
+    "sections": [
+      {
+        "class": "page-hero page-hero-default",
+        "heading": "A growing company. A practical outlook.",
+        "top": 77,
+        "height": 333.640625,
+        "background": "rgb(248, 250, 252)",
+        "padding": "64px"
+      },
+      {
+        "class": "section",
+        "heading": "Technology is useful when it makes work simpler.",
+        "top": 410.640625,
+        "height": 969,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "80px"
+      },
+      {
+        "class": "section section-neutral",
+        "heading": "Make digital progress practical.",
+        "top": 1379.640625,
+        "height": 425.1875,
+        "background": "rgb(248, 250, 252)",
+        "padding": "80px"
+      },
+      {
+        "class": "section",
+        "heading": "A practical partner.A shared direction.",
+        "top": 1804.828125,
+        "height": 870.5625,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "80px"
+      },
+      {
+        "class": "section section-neutral",
+        "heading": "Good choices.Solid foundations.",
+        "top": 2675.390625,
+        "height": 578,
+        "background": "rgb(248, 250, 252)",
+        "padding": "80px"
+      },
+      {
+        "class": "section process-editorial",
+        "heading": "A clear path from\nfirst conversation to launch.",
+        "top": 3253.390625,
+        "height": 674.375,
+        "background": "rgb(255, 255, 255)",
+        "padding": "80px"
+      },
+      {
+        "class": "contact-cta",
+        "heading": "Have a Project in Mind?",
+        "top": 3927.765625,
+        "height": 363.875,
+        "background": "rgb(20, 33, 61)",
+        "padding": "88px"
+      },
+      {
+        "class": "site-footer",
+        "heading": "Services",
+        "top": 4291.640625,
+        "height": 717.09375,
+        "background": "rgb(20, 33, 61)",
+        "padding": "72px 32px"
+      }
+    ],
+    "clippedText": [],
+    "smallTargets": [],
+    "images": [
+      {
+        "alt": "Illustration of a collaborative technology workspace",
+        "fit": "contain",
+        "width": 352,
+        "height": 235,
+        "naturalWidth": 345,
+        "naturalHeight": 230
+      }
+    ]
+  },
+  {
+    "path": "/about",
+    "width": 1024,
+    "sections": [
+      {
+        "class": "page-hero page-hero-default",
+        "heading": "A growing company. A practical outlook.",
+        "top": 89,
+        "height": 369.078125,
+        "background": "rgb(248, 250, 252)",
+        "padding": "80px"
+      },
+      {
+        "class": "section",
+        "heading": "Technology is useful when it makes work simpler.",
+        "top": 458.078125,
+        "height": 814.71875,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "104px"
+      },
+      {
+        "class": "section section-neutral",
+        "heading": "Make digital progress practical.",
+        "top": 1272.796875,
+        "height": 445.1875,
+        "background": "rgb(248, 250, 252)",
+        "padding": "104px"
+      },
+      {
+        "class": "section",
+        "heading": "A practical partner.A shared direction.",
+        "top": 1717.984375,
+        "height": 751.375,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "104px"
+      },
+      {
+        "class": "section section-neutral",
+        "heading": "Good choices.Solid foundations.",
+        "top": 2469.359375,
+        "height": 598,
+        "background": "rgb(248, 250, 252)",
+        "padding": "104px"
+      },
+      {
+        "class": "section process-editorial",
+        "heading": "A clear path from\nfirst conversation to launch.",
+        "top": 3067.359375,
+        "height": 732.09375,
+        "background": "rgb(255, 255, 255)",
+        "padding": "104px"
+      },
+      {
+        "class": "contact-cta",
+        "heading": "Have a Project in Mind?",
+        "top": 3799.453125,
+        "height": 331.8125,
+        "background": "rgb(20, 33, 61)",
+        "padding": "88px"
+      },
+      {
+        "class": "site-footer",
+        "heading": "Services",
+        "top": 4131.265625,
+        "height": 552.25,
+        "background": "rgb(20, 33, 61)",
+        "padding": "72px 32px"
+      }
+    ],
+    "clippedText": [],
+    "smallTargets": [],
+    "images": [
+      {
+        "alt": "Illustration of a collaborative technology workspace",
+        "fit": "contain",
+        "width": 493,
+        "height": 329,
+        "naturalWidth": 460,
+        "naturalHeight": 307
+      }
+    ]
+  },
+  {
+    "path": "/about",
+    "width": 1440,
+    "sections": [
+      {
+        "class": "page-hero page-hero-default",
+        "heading": "A growing company. A practical outlook.",
+        "top": 89,
+        "height": 450.609375,
+        "background": "rgb(248, 250, 252)",
+        "padding": "80px"
+      },
+      {
+        "class": "section",
+        "heading": "Technology is useful when it makes work simpler.",
+        "top": 539.609375,
+        "height": 788.6875,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "104px"
+      },
+      {
+        "class": "section section-neutral",
+        "heading": "Make digital progress practical.",
+        "top": 1328.296875,
+        "height": 436.375,
+        "background": "rgb(248, 250, 252)",
+        "padding": "104px"
+      },
+      {
+        "class": "section",
+        "heading": "A practical partner.A shared direction.",
+        "top": 1764.671875,
+        "height": 751.375,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "104px"
+      },
+      {
+        "class": "section section-neutral",
+        "heading": "Good choices.Solid foundations.",
+        "top": 2516.046875,
+        "height": 598,
+        "background": "rgb(248, 250, 252)",
+        "padding": "104px"
+      },
+      {
+        "class": "section process-editorial",
+        "heading": "A clear path from\nfirst conversation to launch.",
+        "top": 3114.046875,
+        "height": 589.875,
+        "background": "rgb(255, 255, 255)",
+        "padding": "104px"
+      },
+      {
+        "class": "contact-cta",
+        "heading": "Have a Project in Mind?",
+        "top": 3703.921875,
+        "height": 347.6875,
+        "background": "rgb(20, 33, 61)",
+        "padding": "88px"
+      },
+      {
+        "class": "site-footer",
+        "heading": "Services",
+        "top": 4051.609375,
+        "height": 533.25,
+        "background": "rgb(20, 33, 61)",
+        "padding": "72px 32px"
+      }
+    ],
+    "clippedText": [],
+    "smallTargets": [],
+    "images": [
+      {
+        "alt": "Illustration of a collaborative technology workspace",
+        "fit": "contain",
+        "width": 669,
+        "height": 446,
+        "naturalWidth": 648,
+        "naturalHeight": 431
+      }
+    ]
+  },
+  {
+    "path": "/about",
+    "width": 1920,
+    "sections": [
+      {
+        "class": "page-hero page-hero-default",
+        "heading": "A growing company. A practical outlook.",
+        "top": 89,
+        "height": 450.609375,
+        "background": "rgb(248, 250, 252)",
+        "padding": "80px"
+      },
+      {
+        "class": "section",
+        "heading": "Technology is useful when it makes work simpler.",
+        "top": 539.609375,
+        "height": 790.59375,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "104px"
+      },
+      {
+        "class": "section section-neutral",
+        "heading": "Make digital progress practical.",
+        "top": 1330.203125,
+        "height": 436.375,
+        "background": "rgb(248, 250, 252)",
+        "padding": "104px"
+      },
+      {
+        "class": "section",
+        "heading": "A practical partner.A shared direction.",
+        "top": 1766.578125,
+        "height": 751.375,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "104px"
+      },
+      {
+        "class": "section section-neutral",
+        "heading": "Good choices.Solid foundations.",
+        "top": 2517.953125,
+        "height": 598,
+        "background": "rgb(248, 250, 252)",
+        "padding": "104px"
+      },
+      {
+        "class": "section process-editorial",
+        "heading": "A clear path from\nfirst conversation to launch.",
+        "top": 3115.953125,
+        "height": 591.78125,
+        "background": "rgb(255, 255, 255)",
+        "padding": "104px"
+      },
+      {
+        "class": "contact-cta",
+        "heading": "Have a Project in Mind?",
+        "top": 3707.734375,
+        "height": 347.6875,
+        "background": "rgb(20, 33, 61)",
+        "padding": "88px"
+      },
+      {
+        "class": "site-footer",
+        "heading": "Services",
+        "top": 4055.421875,
+        "height": 533.25,
+        "background": "rgb(20, 33, 61)",
+        "padding": "72px 32px"
+      }
+    ],
+    "clippedText": [],
+    "smallTargets": [],
+    "images": [
+      {
+        "alt": "Illustration of a collaborative technology workspace",
+        "fit": "contain",
+        "width": 669,
+        "height": 446,
+        "naturalWidth": 864,
+        "naturalHeight": 575
+      }
+    ]
+  },
+  {
+    "path": "/training",
+    "width": 360,
+    "sections": [
+      {
+        "class": "page-hero page-hero-education page-hero-with-visual",
+        "heading": "Learn by doing. Build with understanding.",
+        "top": 77,
+        "height": 793.3125,
+        "background": "rgb(255, 255, 255)",
+        "padding": "56px"
+      },
+      {
+        "class": "section section-neutral",
+        "heading": "Programs for the next step.",
+        "top": 870.3125,
+        "height": 3249.359375,
+        "background": "rgb(248, 250, 252)",
+        "padding": "64px"
+      },
+      {
+        "class": "section",
+        "heading": "A learning planthat fits your audience.",
+        "top": 4119.671875,
+        "height": 607.1875,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "64px"
+      },
+      {
+        "class": "contact-cta",
+        "heading": "Have a Project in Mind?",
+        "top": 4726.859375,
+        "height": 517.53125,
+        "background": "rgb(20, 33, 61)",
+        "padding": "64px"
+      },
+      {
+        "class": "site-footer",
+        "heading": "Services",
+        "top": 5244.390625,
+        "height": 1448.09375,
+        "background": "rgb(20, 33, 61)",
+        "padding": "56px 28px"
+      }
+    ],
+    "clippedText": [],
+    "smallTargets": [],
+    "images": [
+      {
+        "alt": "Illustrative coding and technology workshop",
+        "fit": "contain",
+        "width": 304,
+        "height": 228,
+        "naturalWidth": 272,
+        "naturalHeight": 181
+      }
+    ]
+  },
+  {
+    "path": "/training",
+    "width": 390,
+    "sections": [
+      {
+        "class": "page-hero page-hero-education page-hero-with-visual",
+        "heading": "Learn by doing. Build with understanding.",
+        "top": 77,
+        "height": 815.8125,
+        "background": "rgb(255, 255, 255)",
+        "padding": "56px"
+      },
+      {
+        "class": "section section-neutral",
+        "heading": "Programs for the next step.",
+        "top": 892.8125,
+        "height": 3159.171875,
+        "background": "rgb(248, 250, 252)",
+        "padding": "64px"
+      },
+      {
+        "class": "section",
+        "heading": "A learning planthat fits your audience.",
+        "top": 4051.984375,
+        "height": 610.1875,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "64px"
+      },
+      {
+        "class": "contact-cta",
+        "heading": "Have a Project in Mind?",
+        "top": 4662.171875,
+        "height": 449.390625,
+        "background": "rgb(20, 33, 61)",
+        "padding": "64px"
+      },
+      {
+        "class": "site-footer",
+        "heading": "Services",
+        "top": 5111.5625,
+        "height": 1448.09375,
+        "background": "rgb(20, 33, 61)",
+        "padding": "56px 28px"
+      }
+    ],
+    "clippedText": [],
+    "smallTargets": [],
+    "images": [
+      {
+        "alt": "Illustrative coding and technology workshop",
+        "fit": "contain",
+        "width": 334,
+        "height": 251,
+        "naturalWidth": 302,
+        "naturalHeight": 201
+      }
+    ]
+  },
+  {
+    "path": "/training",
+    "width": 768,
+    "sections": [
+      {
+        "class": "page-hero page-hero-education page-hero-with-visual",
+        "heading": "Learn by doing. Build with understanding.",
+        "top": 77,
+        "height": 919.296875,
+        "background": "rgb(255, 255, 255)",
+        "padding": "64px"
+      },
+      {
+        "class": "section section-neutral",
+        "heading": "Programs for the next step.",
+        "top": 996.296875,
+        "height": 1942.171875,
+        "background": "rgb(248, 250, 252)",
+        "padding": "80px"
+      },
+      {
+        "class": "section",
+        "heading": "A learning planthat fits your audience.",
+        "top": 2938.46875,
+        "height": 498,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "80px"
+      },
+      {
+        "class": "contact-cta",
+        "heading": "Have a Project in Mind?",
+        "top": 3436.46875,
+        "height": 363.875,
+        "background": "rgb(20, 33, 61)",
+        "padding": "88px"
+      },
+      {
+        "class": "site-footer",
+        "heading": "Services",
+        "top": 3800.34375,
+        "height": 717.09375,
+        "background": "rgb(20, 33, 61)",
+        "padding": "72px 32px"
+      }
+    ],
+    "clippedText": [],
+    "smallTargets": [],
+    "images": [
+      {
+        "alt": "Illustrative coding and technology workshop",
+        "fit": "contain",
+        "width": 626,
+        "height": 470,
+        "naturalWidth": 680,
+        "naturalHeight": 453
+      }
+    ]
+  },
+  {
+    "path": "/training",
+    "width": 1024,
+    "sections": [
+      {
+        "class": "page-hero page-hero-education page-hero-with-visual",
+        "heading": "Learn by doing. Build with understanding.",
+        "top": 89,
+        "height": 542.59375,
+        "background": "rgb(255, 255, 255)",
+        "padding": "80px"
+      },
+      {
+        "class": "section section-neutral",
+        "heading": "Programs for the next step.",
+        "top": 631.59375,
+        "height": 1881.796875,
+        "background": "rgb(248, 250, 252)",
+        "padding": "104px"
+      },
+      {
+        "class": "section",
+        "heading": "A learning planthat fits your audience.",
+        "top": 2513.390625,
+        "height": 490,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "104px"
+      },
+      {
+        "class": "contact-cta",
+        "heading": "Have a Project in Mind?",
+        "top": 3003.390625,
+        "height": 331.8125,
+        "background": "rgb(20, 33, 61)",
+        "padding": "88px"
+      },
+      {
+        "class": "site-footer",
+        "heading": "Services",
+        "top": 3335.203125,
+        "height": 552.25,
+        "background": "rgb(20, 33, 61)",
+        "padding": "72px 32px"
+      }
+    ],
+    "clippedText": [],
+    "smallTargets": [],
+    "images": [
+      {
+        "alt": "Illustrative coding and technology workshop",
+        "fit": "contain",
+        "width": 403,
+        "height": 302,
+        "naturalWidth": 440,
+        "naturalHeight": 293
+      }
+    ]
+  },
+  {
+    "path": "/training",
+    "width": 1440,
+    "sections": [
+      {
+        "class": "page-hero page-hero-education page-hero-with-visual",
+        "heading": "Learn by doing. Build with understanding.",
+        "top": 89,
+        "height": 637.09375,
+        "background": "rgb(255, 255, 255)",
+        "padding": "80px"
+      },
+      {
+        "class": "section section-neutral",
+        "heading": "Programs for the next step.",
+        "top": 726.09375,
+        "height": 1661.546875,
+        "background": "rgb(248, 250, 252)",
+        "padding": "104px"
+      },
+      {
+        "class": "section",
+        "heading": "A learning planthat fits your audience.",
+        "top": 2387.640625,
+        "height": 462,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "104px"
+      },
+      {
+        "class": "contact-cta",
+        "heading": "Have a Project in Mind?",
+        "top": 2849.640625,
+        "height": 347.6875,
+        "background": "rgb(20, 33, 61)",
+        "padding": "88px"
+      },
+      {
+        "class": "site-footer",
+        "heading": "Services",
+        "top": 3197.328125,
+        "height": 533.25,
+        "background": "rgb(20, 33, 61)",
+        "padding": "72px 32px"
+      }
+    ],
+    "clippedText": [],
+    "smallTargets": [],
+    "images": [
+      {
+        "alt": "Illustrative coding and technology workshop",
+        "fit": "contain",
+        "width": 555,
+        "height": 416,
+        "naturalWidth": 559,
+        "naturalHeight": 373
+      }
+    ]
+  },
+  {
+    "path": "/training",
+    "width": 1920,
+    "sections": [
+      {
+        "class": "page-hero page-hero-education page-hero-with-visual",
+        "heading": "Learn by doing. Build with understanding.",
+        "top": 89,
+        "height": 637.09375,
+        "background": "rgb(255, 255, 255)",
+        "padding": "80px"
+      },
+      {
+        "class": "section section-neutral",
+        "heading": "Programs for the next step.",
+        "top": 726.09375,
+        "height": 1662.5,
+        "background": "rgb(248, 250, 252)",
+        "padding": "104px"
+      },
+      {
+        "class": "section",
+        "heading": "A learning planthat fits your audience.",
+        "top": 2388.59375,
+        "height": 462,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "104px"
+      },
+      {
+        "class": "contact-cta",
+        "heading": "Have a Project in Mind?",
+        "top": 2850.59375,
+        "height": 347.6875,
+        "background": "rgb(20, 33, 61)",
+        "padding": "88px"
+      },
+      {
+        "class": "site-footer",
+        "heading": "Services",
+        "top": 3198.28125,
+        "height": 533.25,
+        "background": "rgb(20, 33, 61)",
+        "padding": "72px 32px"
+      }
+    ],
+    "clippedText": [],
+    "smallTargets": [],
+    "images": [
+      {
+        "alt": "Illustrative coding and technology workshop",
+        "fit": "contain",
+        "width": 555,
+        "height": 416,
+        "naturalWidth": 559,
+        "naturalHeight": 373
+      }
+    ]
+  },
+  {
+    "path": "/contact",
+    "width": 360,
+    "sections": [
+      {
+        "class": "page-hero page-hero-default",
+        "heading": "A good project starts with a conversation.",
+        "top": 77,
+        "height": 342.21875,
+        "background": "rgb(248, 250, 252)",
+        "padding": "56px"
+      },
+      {
+        "class": "section",
+        "heading": "What do you have in mind?",
+        "top": 419.21875,
+        "height": 2393.953125,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "64px"
+      },
+      {
+        "class": "site-footer",
+        "heading": "Services",
+        "top": 2813.171875,
+        "height": 1448.09375,
+        "background": "rgb(20, 33, 61)",
+        "padding": "56px 28px"
+      }
+    ],
+    "clippedText": [],
+    "smallTargets": [
+      {
+        "text": "Read the privacy policy draft",
+        "width": 176,
+        "height": 16
+      },
+      {
+        "text": "contact@exoiteitservices.com",
+        "width": 226,
+        "height": 20
+      },
+      {
+        "text": "+916394732841",
+        "width": 124,
+        "height": 20
+      }
+    ],
+    "images": []
+  },
+  {
+    "path": "/contact",
+    "width": 390,
+    "sections": [
+      {
+        "class": "page-hero page-hero-default",
+        "heading": "A good project starts with a conversation.",
+        "top": 77,
+        "height": 342.21875,
+        "background": "rgb(248, 250, 252)",
+        "padding": "56px"
+      },
+      {
+        "class": "section",
+        "heading": "What do you have in mind?",
+        "top": 419.21875,
+        "height": 2369.953125,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "64px"
+      },
+      {
+        "class": "site-footer",
+        "heading": "Services",
+        "top": 2789.171875,
+        "height": 1448.09375,
+        "background": "rgb(20, 33, 61)",
+        "padding": "56px 28px"
+      }
+    ],
+    "clippedText": [],
+    "smallTargets": [
+      {
+        "text": "contact@exoiteitservices.com",
+        "width": 226,
+        "height": 20
+      },
+      {
+        "text": "+916394732841",
+        "width": 124,
+        "height": 20
+      }
+    ],
+    "images": []
+  },
+  {
+    "path": "/contact",
+    "width": 768,
+    "sections": [
+      {
+        "class": "page-hero page-hero-default",
+        "heading": "A good project starts with a conversation.",
+        "top": 77,
+        "height": 301.25,
+        "background": "rgb(248, 250, 252)",
+        "padding": "64px"
+      },
+      {
+        "class": "section",
+        "heading": "What do you have in mind?",
+        "top": 378.25,
+        "height": 1865.296875,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "80px"
+      },
+      {
+        "class": "site-footer",
+        "heading": "Services",
+        "top": 2243.546875,
+        "height": 717.09375,
+        "background": "rgb(20, 33, 61)",
+        "padding": "72px 32px"
+      }
+    ],
+    "clippedText": [],
+    "smallTargets": [
+      {
+        "text": "Read the privacy policy draft",
+        "width": 176,
+        "height": 16
+      },
+      {
+        "text": "contact@exoiteitservices.com",
+        "width": 226,
+        "height": 20
+      },
+      {
+        "text": "+916394732841",
+        "width": 124,
+        "height": 20
+      }
+    ],
+    "images": []
+  },
+  {
+    "path": "/contact",
+    "width": 1024,
+    "sections": [
+      {
+        "class": "page-hero page-hero-default",
+        "heading": "A good project starts with a conversation.",
+        "top": 89,
+        "height": 336.6875,
+        "background": "rgb(248, 250, 252)",
+        "padding": "80px"
+      },
+      {
+        "class": "section",
+        "heading": "What do you have in mind?",
+        "top": 425.6875,
+        "height": 1157.5625,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "104px"
+      },
+      {
+        "class": "site-footer",
+        "heading": "Services",
+        "top": 1583.25,
+        "height": 552.25,
+        "background": "rgb(20, 33, 61)",
+        "padding": "72px 32px"
+      }
+    ],
+    "clippedText": [],
+    "smallTargets": [
+      {
+        "text": "Read the privacy policy draft",
+        "width": 176,
+        "height": 16
+      },
+      {
+        "text": "contact@exoiteitservices.com",
+        "width": 226,
+        "height": 20
+      },
+      {
+        "text": "+916394732841",
+        "width": 124,
+        "height": 20
+      }
+    ],
+    "images": []
+  },
+  {
+    "path": "/contact",
+    "width": 1440,
+    "sections": [
+      {
+        "class": "page-hero page-hero-default",
+        "heading": "A good project starts with a conversation.",
+        "top": 89,
+        "height": 418.21875,
+        "background": "rgb(248, 250, 252)",
+        "padding": "80px"
+      },
+      {
+        "class": "section",
+        "heading": "What do you have in mind?",
+        "top": 507.21875,
+        "height": 1117.0625,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "104px"
+      },
+      {
+        "class": "site-footer",
+        "heading": "Services",
+        "top": 1624.28125,
+        "height": 533.25,
+        "background": "rgb(20, 33, 61)",
+        "padding": "72px 32px"
+      }
+    ],
+    "clippedText": [],
+    "smallTargets": [
+      {
+        "text": "Read the privacy policy draft",
+        "width": 176,
+        "height": 16
+      },
+      {
+        "text": "contact@exoiteitservices.com",
+        "width": 226,
+        "height": 20
+      },
+      {
+        "text": "+916394732841",
+        "width": 124,
+        "height": 20
+      }
+    ],
+    "images": []
+  },
+  {
+    "path": "/contact",
+    "width": 1920,
+    "sections": [
+      {
+        "class": "page-hero page-hero-default",
+        "heading": "A good project starts with a conversation.",
+        "top": 89,
+        "height": 418.21875,
+        "background": "rgb(248, 250, 252)",
+        "padding": "80px"
+      },
+      {
+        "class": "section",
+        "heading": "What do you have in mind?",
+        "top": 507.21875,
+        "height": 1117.0625,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "104px"
+      },
+      {
+        "class": "site-footer",
+        "heading": "Services",
+        "top": 1624.28125,
+        "height": 533.25,
+        "background": "rgb(20, 33, 61)",
+        "padding": "72px 32px"
+      }
+    ],
+    "clippedText": [],
+    "smallTargets": [
+      {
+        "text": "Read the privacy policy draft",
+        "width": 176,
+        "height": 16
+      },
+      {
+        "text": "contact@exoiteitservices.com",
+        "width": 226,
+        "height": 20
+      },
+      {
+        "text": "+916394732841",
+        "width": 124,
+        "height": 20
+      }
+    ],
+    "images": []
+  }
+]

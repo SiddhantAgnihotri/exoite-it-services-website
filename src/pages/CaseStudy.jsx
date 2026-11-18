@@ -1,5 +1,6 @@
 import { Link, useParams } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
+import { projectSummaries } from "../data/visualContent";
 import { projects, projectStatus } from "../data/projects";
 import { projectImages } from "../data/projectImages";
 import PageHero from "../components/ui/PageHero";
@@ -17,7 +18,7 @@ export default function CaseStudy() {
       <PageHero
         label={`${project.category} / Solution study`}
         title={project.title}
-        description={project.overview}
+        description={projectSummaries[project.imageKey]}
       >
         <span className="status-badge">{projectStatus.type}</span>
       </PageHero>
@@ -27,7 +28,7 @@ export default function CaseStudy() {
           <div className="case-summary">
             <p className="small-note">
               This is a concept study, not a delivered-client case study.
-              Figures in the artwork are sample data.
+              Interface details illustrate possible workflows, not verified functionality.
             </p>
             <a
               className="text-link"
@@ -49,7 +50,7 @@ export default function CaseStudy() {
           <div className="prose">
             <p>{project.problem}</p>
             <h3 className="content-subheading">Potential workflow</h3>
-            <ol className="deliverable-list">
+            <ol className="deliverable-list workflow-path">
               {project.workflow.map((item) => (
                 <li key={item}>{item}</li>
               ))}
@@ -66,9 +67,7 @@ export default function CaseStudy() {
               <br />
               with evidence kept clear.
             </h2>
-            <p className="section-description">
-              {projectStatus.implementation}
-            </p>
+            <p className="section-description">Illustrative scope, with no verified client delivery.</p><details className="content-detail"><summary>Implementation status</summary><p>{projectStatus.implementation}</p></details>
           </div>
           <div>
             <ul className="deliverable-list">
@@ -92,11 +91,9 @@ export default function CaseStudy() {
             <h2>Verified detail comes first.</h2>
           </div>
           <div className="prose">
-            <p>{projectStatus.technologies}</p>
-            <p>{projectStatus.evidence}</p>
+            <ul className="scope-chips"><li>Concept interface</li><li>Stack unverified</li><li>Demo not supplied</li></ul><details className="content-detail"><summary>Evidence requirements</summary><p>{projectStatus.technologies}</p><p>{projectStatus.evidence}</p></details>
             <p>
-              No application technology list, implementation milestone, client
-              outcome or live-demo link is asserted without that evidence.
+              No client outcome or live-demo claim is made.
             </p>
           </div>
         </div>

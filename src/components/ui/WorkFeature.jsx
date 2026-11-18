@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { ArrowUpRight, ArrowRight } from "lucide-react";
 import ProjectVisual from "./ProjectVisual";
+import { projectSummaries } from "../../data/visualContent";
 import { projectImages } from "../../data/projectImages";
 
 export default function WorkFeature({
@@ -20,26 +21,23 @@ export default function WorkFeature({
       </div>
       <div className="work-story">
         <div className="work-meta">
+          {/* Concept/screenshot status is stated once, in the caption directly under the visual. */}
           <span>
             {String(index + 1).padStart(2, "0")} / {project.category}
-          </span>
-          <span>
-            {isScreenshot ? "Project screenshot" : "Illustrative concept"}
           </span>
         </div>
         <h3>
           <Link to={`/portfolio/${project.slug}`}>{project.title}</Link>
         </h3>
-        <p>{project.overview}</p>
-        <ul className="work-features" aria-label="Concept feature highlights">
+        <p>{projectSummaries[project.imageKey]}</p>
+        {detailed && <ul className="work-features" aria-label="Concept feature highlights">
           {project.features.map((feature) => (
             <li key={feature}>{feature}</li>
           ))}
-        </ul>
+        </ul>}
         {detailed && !isScreenshot && (
           <p className="solution-disclosure">
-            Figures and interface details in the artwork are illustrative, not
-            verified project results.
+            Interface details are illustrative, not verified project results.
           </p>
         )}
         <div className="work-actions">
@@ -52,7 +50,7 @@ export default function WorkFeature({
           >
             Discuss this solution <ArrowRight size={15} />
           </Link>
-          <a
+          {detailed && <a
             className="solution-image-link"
             href={image.large}
             target="_blank"
@@ -61,7 +59,7 @@ export default function WorkFeature({
             {isScreenshot
               ? "View full-size screenshot"
               : "View full-size illustration"}
-          </a>
+          </a>}
         </div>
       </div>
     </article>

@@ -1,0 +1,160 @@
+﻿/* Content-led visual refinement: original UI concepts and shorter reading paths. */
+.page-hero-description { max-width: 44ch; }
+.content-lead { font: 500 clamp(20px,2vw,25px)/1.5 var(--heading); color: var(--navy); max-width: 38ch; }
+.content-highlights { display: grid; gap: 14px; margin-top: 24px; }
+.content-highlights li { display: flex; align-items: flex-start; gap: 10px; color: var(--navy); font-size: 16px; line-height: 1.6; }
+.content-highlights svg { color: var(--blue); flex-shrink: 0; margin-top: 4px; }
+.scope-chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+.scope-chips li { padding: 7px 12px; border: 1px solid #cbd5e1; background: #f8fafc; border-radius: 6px; color: #334155; font-size: 14px; line-height: 1.5; }
+.content-detail { margin-top: 24px; border-block: 1px solid var(--border); padding: 4px 0; }
+.content-detail summary { cursor: pointer; color: var(--blue); font-weight: 500; font-size: 14px; min-height: 44px; padding: 10px 4px; }
+.content-detail summary:focus-visible { outline: 3px solid var(--blue); outline-offset: 4px; }
+.content-detail > p { margin: 12px 0 18px; font-size: 16px; line-height: 1.75; max-width: 65ch; }
+.service-scope-summary .content-subheading { margin-top: 24px; }
+.service-concept-visual { padding: 0; background: none; border: 1px solid var(--border); border-radius: 14px; overflow: hidden; box-shadow: var(--shadow-soft); }
+.service-concept-visual .capability-art { min-height: 300px; padding: 28px; border: 0; border-radius: 0; }
+.service-concept-visual .capability-heading { font-size: 16px; margin-bottom: 22px; }
+.service-concept-visual .capability-node { font-size: 16px; padding: 16px; }
+.service-concept-visual .capability-site { padding: 22px; }
+.service-concept-visual .capability-site strong { font-size: 28px; }
+.service-concept-visual .capability-record { font-size: 15px; padding-block: 14px; }
+.service-concept-visual .capability-app { padding: 20px; max-width: 320px; margin-inline: auto; }
+.service-concept-visual .capability-app strong { font-size: 23px; }
+.service-concept-visual .capability-app > span { font-size: 15px; margin-top: 14px; }
+.service-concept-visual figcaption, .about-concept figcaption { font-size: 13px; line-height: 1.65; padding: 14px 20px; color: var(--muted); background: var(--surface); }
+.capability-education { color: #22554c; background: #e9f4ee; border-color: #c9dfd3; }
+.capability-marketing { color: #493467; background: #f3edfa; border-color: #e0d5ed; }
+.capability-training, .capability-collaboration { color: #18376f; background: #edf3ff; }
+.capability-chatbot { color: #493467; background: #f3edfa; border-color: #e0d5ed; }
+.capability-integration { color: #22554c; background: #e9f4ee; border-color: #c9dfd3; }
+.capability-dashboard { color: #18376f; background: #edf3ff; }
+.capability-footnote { display: flex; align-items: center; gap: 8px; color: inherit; font-size: 12px; line-height: 1.6; }
+.capability-learning { display: grid; gap: 10px; }
+.capability-learning > span { display: flex; align-items: center; gap: 12px; padding: 15px; border: 1px solid #c9dfd3; border-radius: 7px; background: white; font-size: 15px; }
+.capability-search { display: flex; align-items: center; gap: 10px; padding: 14px; background: white; border: 1px solid #d8cde7; border-radius: 7px; font-size: 14px; }
+.capability-search-result { padding: 18px 4px; }
+.capability-search-result strong { display: block; font: 600 20px/1.4 var(--heading); }
+.capability-search-result > span { display: block; font-size: 13px; margin-top: 10px; }
+.capability-topic-row { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+.capability-topic-row > span { padding: 5px 10px; border: 1px solid currentColor; border-radius: 5px; font-size: 12px; line-height: 1.5; }
+.capability-code { background: #14213d; color: #e2e8f0; border-radius: 8px; padding: 18px 22px; }
+.capability-code > span { font-size: 12px; color: #bfdbfe; }
+.capability-code code { display: block; margin-top: 12px; font: 500 22px/1.65 ui-monospace,monospace; color: #e2e8f0; }
+.capability-chat { padding: 14px; margin: 8px 0 14px 24px; border-radius: 9px; border: 1px solid #d8cde7; background: white; font-size: 14px; }
+.capability-chat.answer { margin-left: 0; margin-right: 20px; background: #eee5f8; }
+.capability-connections { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 14px; position: relative; padding-block: 12px; }
+.capability-connections > span { background: white; border: 1px solid #cbd5e1; border-radius: 8px; display: flex; flex-direction: column; align-items: center; text-align: center; gap: 12px; padding: 20px 10px; font-size: 14px; position: relative; }
+.capability-connections > span:not(:last-child)::after { content: "→"; position: absolute; right: -16px; top: 40%; color: #526278; }
+.capability-dashboard .capability-node + .capability-node { margin-top: 10px; }
+.service-detail > .capability-art { width: 100%; margin-top: 22px; min-height: 210px; }
+.service-detail > p { max-width: 48ch; }
+.ai-services-grid article > .capability-art { width: 100%; margin-top: 22px; min-height: 220px; }
+.ai-services-grid article > p { margin-block: 18px 20px; }
+.ai-consideration-grid { gap: 24px; }
+.ai-consideration-grid article { background: white; padding: 24px; border: 1px solid var(--border); border-radius: 10px; }
+.ai-consideration-grid .consideration-icon { color: var(--blue); margin-bottom: 16px; }
+.ai-consideration-grid article > p { margin-top: 12px; font-size: 16px; max-width: 42ch; }
+.ai-consideration-grid .content-detail { margin-top: 16px; }
+.ai-connected-tools { display: grid; justify-items: stretch; }
+.ai-connected-tools > div { display: grid; grid-template-columns: 34px 1fr; gap: 3px 14px; padding: 18px; border: 1px solid #cbd5e1; border-radius: 9px; }
+.ai-connected-tools > div > svg { grid-row: span 2; align-self: center; }
+.ai-connected-tools strong { font-size: 16px; color: var(--navy); }
+.ai-connected-tools > div > span { font-size: 13px; color: #526278; }
+.ai-connected-tools .tool-source { background: #eff6ff; color: #1d4ed8; }
+.ai-connected-tools .tool-review { background: #f3edfa; color: #6b21a8; }
+.ai-connected-tools .tool-destination { background: #e9f4ee; color: #166534; }
+.ai-connected-tools .tool-connector { margin: 10px auto; color: #64748b; }
+.ai-connected-tools > .ai-board-label { margin-bottom: 16px; }
+.ai-connected-tools .ai-knowledge { margin-top: 18px; }
+.ai-concept-bar small, .ai-concept-label, .ai-node-status, .ai-flow-footer, .ai-flow-heading > span, .ai-chat-message > span, .ai-chat-message small { font-size: 12px; }
+.ai-concept figcaption { font-size: 13px; }
+.about-concept { border: 1px solid var(--border); border-radius: 12px; overflow: hidden; align-self: center; }
+.about-concept .capability-art { padding: 28px; min-height: 280px; border: 0; border-radius: 0; }
+.about-concept .capability-heading { font-size: 16px; }
+.about-concept .capability-footnote { font-size: 13px; margin-top: 24px; }
+.about-intro > p { max-width: 55ch; }
+.about-intro .content-highlights { margin-bottom: 22px; }
+.value-icon { color: var(--blue); flex-shrink: 0; margin-top: 4px; }
+.process-list { position: relative; }
+.process-list li { position: relative; }
+.process-icon { color: var(--blue); margin-bottom: 16px; }
+.process-list li:not(:last-child)::after { content: ""; width: 20px; height: 1px; background: #94a3b8; position: absolute; right: -20px; top: 0; }
+.workflow-path { position: relative; }
+.workflow-path li { position: relative; padding-left: 24px; }
+.workflow-path li::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--blue); position: absolute; top: 22px; left: 0; }
+.workflow-path li:not(:last-child)::after { content: ""; width: 1px; background: #94a3b8; left: 3px; top: 34px; bottom: -16px; position: absolute; }
+.homepage .industry-rows summary > .industry-icon { color: var(--blue); flex-shrink: 0; }
+.homepage .home-intro-copy > p:first-child { max-width: 28ch; }
+.homepage .home-intro-copy > p + p { margin-top: 12px; }
+.homepage .workflow-steps { position: relative; }
+.homepage .workflow-steps li { position: relative; }
+.homepage .workflow-steps li:not(:last-child)::after { content: "→"; position: absolute; top: 35%; right: -8px; z-index: 1; color: #526278; background: white; font-size: 12px; line-height: 14px; }
+.homepage .workflow-detail { min-height: 240px; }
+.homepage .workflow-detail h3 { margin-top: 10px; }
+.homepage .workflow-detail > p { margin-top: 10px; }
+.homepage .workflow-sample { margin-top: 14px; }
+.homepage .workflow-demo figcaption { color: #526278; }
+.homepage .product-showcase-copy > p:not(.eyebrow) { max-width: 45ch; }
+.homepage .work-story > p { max-width: 45ch; }
+.contact-next ol { position: relative; }
+.contact-next li { border-radius: 7px; }
+@media (max-width: 1100px) {
+  .homepage .workflow-detail { min-height: 280px; }
+  .process-list li:nth-child(3)::after { display: none; }
+}
+@media (max-width: 950px) {
+  .homepage .workflow-detail { min-height: 240px; }
+  .capability-connections { gap: 10px; }
+  .capability-connections > span { padding-inline: 8px; font-size: 13px; }
+  .capability-connections > span:not(:last-child)::after { right: -12px; }
+}
+@media (max-width: 700px) {
+  .page-hero-description, .page-hero-with-visual .page-hero-description { max-width: 36ch; font-size: 16px; line-height: 1.65; }
+  .content-highlights { gap: 12px; margin-top: 20px; }
+  .content-highlights li { font-size: 15px; }
+  .scope-chips { gap: 6px; }
+  .scope-chips li { font-size: 13px; padding: 6px 10px; }
+  .content-detail > p { font-size: 15px; }
+  .service-concept-visual .capability-art { padding: 20px; min-height: 280px; }
+  .service-concept-visual .capability-site strong { font-size: 25px; }
+  .service-concept-visual .capability-record { display: flex; font-size: 14px; }
+  .service-concept-visual .capability-record-label { display: none; }
+  .service-concept-visual .capability-app .capability-action { display: block; }
+  .service-concept-visual .capability-app > span svg { display: inline-block; }
+  .service-concept-visual .capability-heading { gap: 8px; flex-wrap: nowrap; }
+  .service-concept-visual .capability-node svg { display: block; }
+  .service-detail > .capability-art { min-height: 200px; padding: 18px; }
+  .ai-services-grid article > .capability-art { padding: 18px; }
+  .ai-consideration-grid article { padding: 20px; }
+  .ai-connected-tools > div { padding: 16px 12px; }
+  .ai-connected-tools strong { font-size: 15px; }
+  .about-concept .capability-art { padding: 20px; min-height: 240px; }
+  .capability-connections { grid-template-columns: 1fr; gap: 12px; }
+  .capability-connections > span { flex-direction: row; padding: 16px; font-size: 15px; }
+  .capability-connections > span:not(:last-child)::after { content: "↓"; right: 18px; top: auto; bottom: -18px; }
+  .homepage .workflow-detail { min-height: 292px; }
+  .homepage .workflow-steps li:nth-child(2)::after { display: none; }
+  .homepage .workflow-steps li:nth-child(3)::after { content: "↓"; left: 10px; top: -12px; right: auto; }
+  .homepage .workflow-steps li:nth-child(4)::after { display: none; }
+  .process-list li:nth-child(3)::after { display: block; }
+  .process-list li:nth-child(even)::after { display: none; }
+  .process-icon { margin-bottom: 10px; }
+  .homepage .home-process-steps { margin-top: 26px; }
+}
+@media (max-width: 389px) {
+  .homepage .workflow-detail { min-height: 316px; }
+}
+@media (max-width: 1100px) {
+  .homepage .workflow-steps li::after { display: none; }
+}
+@media (min-width: 701px) and (max-width: 950px) {
+  .homepage .workflow-steps li:not(:last-child)::after { display: block; }
+}
+@media (max-width: 700px) {
+  .homepage .workflow-steps li::after { display: none; }
+}
+.use-case-icon { color: var(--blue); margin-bottom: 12px; }
+.use-case-grid .use-case-number { display: inline-block; margin-left: 12px; font-size: 12px; vertical-align: top; line-height: 27px; }
+@media (max-width: 389px) {
+  .homepage .workflow-detail { min-height: 344px; }
+}

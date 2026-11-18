@@ -7,7 +7,7 @@ export default function Portfolio() {
       <PageHero
         label="Portfolio & concepts"
         title="Ideas that solve everyday challenges."
-        description="Explore demonstration concepts for education and business software. These illustrative previews show possible directions, not completed client projects."
+        description="Illustrative software concepts. Not completed client projects."
       />
       <FeaturedSolutions detailed />
       <CTA />

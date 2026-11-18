@@ -1,0 +1,5 @@
+import {readFile,writeFile} from 'node:fs/promises';
+const dir='artifacts/homepage-premium';
+let routes=await readFile('scripts/production-routes.browser.mjs','utf8');routes=routes.replaceAll('artifacts/production-fixes',dir).replace('[360, 390, 768, 1440]','[360, 390, 768, 1024, 1440, 1920]').replace("from './browser-network.mjs'","from '../scripts/browser-network.mjs'");await writeFile('.qa-tools/home-routes.mjs',routes);
+for(const [src,dest] of [['production-blockers','blockers'],['ai-services','ai']]){let s=await readFile(`scripts/${src}.browser.mjs`,'utf8');s=s.replaceAll('artifacts/production-fixes',dir).replaceAll('artifacts/ai-services',dir).replace('[360, 390, 768, 1440]','[360, 390, 768, 1024, 1440, 1920]');await writeFile(`.qa-tools/home-${dest}.mjs`,s);}
+let interactions=await readFile('artifacts/final-premium-review/automation-source/final-interactions.mjs.txt','utf8');interactions=interactions.replaceAll('artifacts/final-premium-review',dir);await writeFile('.qa-tools/home-interactions.mjs',interactions);

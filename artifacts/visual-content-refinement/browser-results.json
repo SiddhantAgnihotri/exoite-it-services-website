@@ -1,0 +1,154 @@
+{
+  "failures": [],
+  "summary": {
+    "routeOrInteractionFailures": 0,
+    "interactionChecks": 36
+  },
+  "interactions": [
+    {
+      "name": "390px mobile menu opens",
+      "passed": true
+    },
+    {
+      "name": "Escape closes mobile menu and restores focus",
+      "passed": true
+    },
+    {
+      "name": "Mobile navigation changes route and closes menu",
+      "passed": true
+    },
+    {
+      "name": "Product preview switches to Content after hydration",
+      "passed": true
+    },
+    {
+      "name": "Product preview switches back to Calendar",
+      "passed": true
+    },
+    {
+      "name": "FAQ opens with native disclosure",
+      "passed": true
+    },
+    {
+      "name": "FAQ toggles by keyboard",
+      "passed": true
+    },
+    {
+      "name": "Service enquiry preselects Website Development",
+      "passed": true
+    },
+    {
+      "name": "Service enquiry preselects Custom Software Development",
+      "passed": true
+    },
+    {
+      "name": "Service enquiry preselects Mobile App Development",
+      "passed": true
+    },
+    {
+      "name": "Service enquiry preselects School and Institute Solutions",
+      "passed": true
+    },
+    {
+      "name": "Service enquiry preselects Digital Marketing",
+      "passed": true
+    },
+    {
+      "name": "Service enquiry preselects IT Training",
+      "passed": true
+    },
+    {
+      "name": "Service enquiry preselects AI Automation Systems",
+      "passed": true
+    },
+    {
+      "name": "Service enquiry preselects AI Chatbots & Virtual Assistants",
+      "passed": true
+    },
+    {
+      "name": "Service enquiry preselects AI Workflow Integration",
+      "passed": true
+    },
+    {
+      "name": "Service enquiry preselects AI-Powered Business Software",
+      "passed": true
+    },
+    {
+      "name": "Empty required fields block network submission",
+      "passed": true
+    },
+    {
+      "name": "Invalid email blocked by native validation",
+      "passed": true
+    },
+    {
+      "name": "Short phone is rejected",
+      "passed": true
+    },
+    {
+      "name": "Overlong phone rejected by application validation",
+      "passed": true
+    },
+    {
+      "name": "Whitespace-only name rejected without submission",
+      "passed": true
+    },
+    {
+      "name": "Honeypot prevents submission",
+      "passed": true
+    },
+    {
+      "name": "WhatsApp fallback has correct number and encoded form context",
+      "passed": true
+    },
+    {
+      "name": "WhatsApp opens the expected destination with mocked handoff",
+      "passed": true
+    },
+    {
+      "name": "Submission loading disables button",
+      "passed": true
+    },
+    {
+      "name": "Confirmed success resets fields and avoids duplicate requests",
+      "passed": true
+    },
+    {
+      "name": "Provider http failure retains form data and fallback",
+      "passed": true
+    },
+    {
+      "name": "Provider rejected failure retains form data and fallback",
+      "passed": true
+    },
+    {
+      "name": "Provider malformed failure retains form data and fallback",
+      "passed": true
+    },
+    {
+      "name": "Provider network failure retains form data and fallback",
+      "passed": true
+    },
+    {
+      "name": "Desktop Services disclosure opens",
+      "passed": true
+    },
+    {
+      "name": "Escape closes Services disclosure and returns focus",
+      "passed": true
+    },
+    {
+      "name": "Skip link is first keyboard focus target",
+      "passed": true
+    },
+    {
+      "name": "Skip link targets main content",
+      "passed": true
+    },
+    {
+      "name": "Reduced motion disables smooth scroll",
+      "passed": true
+    }
+  ],
+  "previousInteractionAttempt": []
+}

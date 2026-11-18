@@ -1,4 +1,4 @@
-import { Link, useLocation } from "react-router-dom";
+﻿import { Link, useLocation } from "react-router-dom";
 import { useEffect, useRef, useState } from "react";
 import {
   Mail,
@@ -129,7 +129,7 @@ ${formData.message}`;
       <PageHero
         label="Contact Exoite"
         title="A good project starts with a conversation."
-        description="Tell us what you want to build, improve or explore. Share your requirements and we will discuss a practical way forward."
+        description="Tell us what you need to build or improve."
       />
       <section className="section">
         <div className="container contact-layout">
@@ -137,8 +137,7 @@ ${formData.message}`;
             <p className="eyebrow">Project enquiry</p>
             <h2>What do you have in mind?</h2>
             <p>
-              Fields marked * are required. A few details will help us
-              understand your project.
+              Fields marked * are required.
             </p>
             <div
               className="form-feedback"
@@ -264,7 +263,7 @@ ${formData.message}`;
                     maxLength={100}
                     value={formData.budget}
                     onChange={handleChange}
-                    placeholder="An approximate range, if you have one"
+                    placeholder="Approximate range, if known"
                   />
                 </div>
                 <div className="form-field">
@@ -292,7 +291,7 @@ ${formData.message}`;
                     required
                     value={formData.message}
                     onChange={handleChange}
-                    placeholder="Your goals, the challenges you want to solve and any features you have in mind..."
+                    placeholder="Your goal, key features and constraints..."
                   />
                 </div>
               </div>
@@ -328,8 +327,7 @@ ${formData.message}`;
             <p className="eyebrow">Prefer a direct conversation?</p>
             <h2>We're here to understand.</h2>
             <p>
-              Based in Kanpur, working remotely with businesses and institutions
-              across India and internationally.
+              Kanpur, India. Working remotely across India and internationally.
             </p>
             <div className="contact-method">
               <Mail size={20} aria-hidden="true" />

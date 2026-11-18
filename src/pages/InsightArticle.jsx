@@ -1,5 +1,6 @@
 import { Link, useParams } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
+import { insightSummaries } from "../data/visualContent";
 import { insights } from "../data/insights";
 import { serviceDetails } from "../data/serviceDetails";
 import PageHero from "../components/ui/PageHero";
@@ -19,7 +20,7 @@ export default function InsightArticle() {
       <PageHero
         label={article.category}
         title={article.title}
-        description={article.description}
+        description={insightSummaries[insights.indexOf(article)]}
       />
       <article className="container reading-layout">
         <p className="article-intro">{article.intro}</p>

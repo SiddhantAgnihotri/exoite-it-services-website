@@ -1,21 +1,22 @@
-import { ArrowUpRight } from "lucide-react";
+import { ArrowUpRight, Compass, PanelsTopLeft, MessagesSquare, LifeBuoy } from "lucide-react";
 import { Link } from "react-router-dom";
+const valueIcons = [Compass, PanelsTopLeft, MessagesSquare, LifeBuoy];
 const values = [
   [
     "Clarity before code",
-    "We ask questions, understand the workflow and agree on a practical direction before development begins.",
+    "Agree the workflow and direction before development.",
   ],
   [
     "A considered user experience",
-    "Clean interfaces and responsive layouts help people understand what to do and get on with their work.",
+    "Clear interfaces for real tasks, across devices.",
   ],
   [
     "Communication throughout",
-    "Direct conversations and requirement reviews keep the work connected to your business goals.",
+    "Keep requirements and decisions visible.",
   ],
   [
     "A plan beyond launch",
-    "Discuss maintenance, updates and ongoing support as part of a clear project scope.",
+    "Agree maintenance and support within your scope.",
   ],
 ];
 export default function WhyChooseUs() {
@@ -29,23 +30,22 @@ export default function WhyChooseUs() {
             <br />A shared direction.
           </h2>
           <p className="section-description">
-            Good software begins with understanding. We bring design,
-            development and a straightforward working approach together.
+            Design, development and clear working agreements.
           </p>
           <Link className="text-link" to="/about">
             Get to know Exoite <ArrowUpRight size={17} />
           </Link>
         </div>
         <div className="value-list">
-          {values.map(([title, description], index) => (
+          {values.map(([title, description], index) => { const Icon = valueIcons[index]; return (
             <article key={title}>
-              <span className="list-number">0{index + 1}</span>
+              <Icon className="value-icon" size={26} aria-hidden="true" />
               <div>
                 <h3>{title}</h3>
                 <p>{description}</p>
               </div>
             </article>
-          ))}
+          ); })}
         </div>
       </div>
     </section>

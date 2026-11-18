@@ -22,14 +22,15 @@ const faqs = [
     "No. It is in development. The interface shown on this website is an illustrative concept; features, supported channels, pricing and availability are not confirmed.",
   ],
 ];
-export default function FAQ() {
+export default function FAQ({ embedded = false }) {
+  const Wrapper = embedded ? "div" : "section";
   return (
-    <section className="section">
-      <div className="container faq-layout">
+    <Wrapper className={embedded ? "home-process-faq" : "section"}>
+      <div className={embedded ? "faq-layout" : "container faq-layout"}>
         <div>
           <p className="eyebrow">A few answers</p>
           <h2>
-            Before we
+            Before we{" "}
             <br />
             get started.
           </h2>
@@ -50,6 +51,6 @@ export default function FAQ() {
           ))}
         </div>
       </div>
-    </section>
+    </Wrapper>
   );
 }

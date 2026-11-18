@@ -1,0 +1,34 @@
+[
+  {
+    "name": "muted on white",
+    "found": true,
+    "text": "Practical coding and technology programs for students, schools, institutes and p",
+    "foreground": "rgb(95, 111, 133)",
+    "background": "rgb(255, 255, 255)",
+    "ratio": 5.123143243913022
+  },
+  {
+    "name": "muted on gray",
+    "found": true,
+    "text": "Topics and learning focus are outlined below. Contact us to confirm prerequisite",
+    "foreground": "rgb(95, 111, 133)",
+    "background": "rgb(245, 247, 250)",
+    "ratio": 4.773605014750875
+  },
+  {
+    "name": "white on navy",
+    "found": true,
+    "text": "Services",
+    "foreground": "rgb(255, 255, 255)",
+    "background": "rgb(20, 33, 61)",
+    "ratio": 15.973572602316318
+  },
+  {
+    "name": "white on blue",
+    "found": true,
+    "text": "Start Your Project",
+    "foreground": "rgb(255, 255, 255)",
+    "background": "rgb(37, 99, 235)",
+    "ratio": 5.168555560022562
+  }
+]

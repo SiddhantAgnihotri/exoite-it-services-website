@@ -1,0 +1,8 @@
+critical exit=0
+interactions exit=1
+routes exit=1
+blockers exit=0
+homepage exit=1
+ai-services exit=0
+illustration-contrast exit=0
+done

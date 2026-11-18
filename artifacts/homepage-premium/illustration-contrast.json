@@ -1,0 +1,96 @@
+[
+  {
+    "path": "/products",
+    "samples": [
+      {
+        "type": "poster",
+        "text": "Ideas, made useful.",
+        "color": "rgb(24, 55, 111)",
+        "background": "rgb(223, 234, 255)",
+        "decoration": "rgb(165, 192, 242)",
+        "decorative": "true",
+        "backgroundRatio": 9.560402110503576,
+        "decorationRatio": 6.293558530170862
+      },
+      {
+        "type": "poster",
+        "text": "A look behind the work.",
+        "color": "rgb(99, 51, 34)",
+        "background": "rgb(242, 221, 208)",
+        "decoration": "rgb(214, 171, 148)",
+        "decorative": "true",
+        "backgroundRatio": 7.907047740498023,
+        "decorationRatio": 4.988269776977867
+      },
+      {
+        "type": "poster",
+        "text": "Create a little clarity.",
+        "color": "rgb(73, 54, 108)",
+        "background": "rgb(232, 227, 246)",
+        "decoration": "rgb(188, 176, 221)",
+        "decorative": "true",
+        "backgroundRatio": 8.261179603403868,
+        "decorationRatio": 5.125764507759772
+      }
+    ]
+  },
+  {
+    "path": "/insights",
+    "samples": [
+      {
+        "type": "svg",
+        "text": "Start with a clear plan.",
+        "color": "rgb(20, 33, 61)",
+        "background": "#ffffff",
+        "accessibleImage": "Website planning: a clear structure and primary action",
+        "backgroundRatio": 15.973572602316318,
+        "decorationRatio": null
+      },
+      {
+        "type": "svg",
+        "text": "Information, with purpose.",
+        "color": "rgb(20, 33, 61)",
+        "background": "#ffffff",
+        "accessibleImage": "School website planning: information, access and responsibilities",
+        "backgroundRatio": 15.973572602316318,
+        "decorationRatio": null
+      },
+      {
+        "type": "svg",
+        "text": "A clearer way to work.",
+        "color": "rgb(20, 33, 61)",
+        "background": "#ffffff",
+        "accessibleImage": "Business workflow: capture, review and action",
+        "backgroundRatio": 15.973572602316318,
+        "decorationRatio": null
+      },
+      {
+        "type": "svg",
+        "text": "Capture",
+        "color": "rgb(20, 33, 61)",
+        "background": "#eff6ff",
+        "accessibleImage": "Business workflow: capture, review and action",
+        "backgroundRatio": 14.677774595581425,
+        "decorationRatio": null
+      },
+      {
+        "type": "svg",
+        "text": "Review",
+        "color": "rgb(20, 33, 61)",
+        "background": "#fef3c7",
+        "accessibleImage": "Business workflow: capture, review and action",
+        "backgroundRatio": 14.345110385499218,
+        "decorationRatio": null
+      },
+      {
+        "type": "svg",
+        "text": "Action",
+        "color": "rgb(20, 33, 61)",
+        "background": "#dcfce7",
+        "accessibleImage": "Business workflow: capture, review and action",
+        "backgroundRatio": 14.544466162603769,
+        "decorationRatio": null
+      }
+    ]
+  }
+]

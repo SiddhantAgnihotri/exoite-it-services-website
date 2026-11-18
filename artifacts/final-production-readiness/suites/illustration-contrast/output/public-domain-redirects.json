@@ -1,0 +1,95 @@
+{
+  "date": "2026-11-17",
+  "trace": [
+    {
+      "host": "exoiteitservices.com",
+      "path": "/",
+      "hops": [
+        {
+          "url": "https://exoiteitservices.com/",
+          "status": 200,
+          "location": null,
+          "server": "Vercel"
+        }
+      ]
+    },
+    {
+      "host": "www.exoiteitservices.com",
+      "path": "/",
+      "hops": [
+        {
+          "url": "https://www.exoiteitservices.com/",
+          "status": 308,
+          "location": "https://exoiteitservices.com/",
+          "server": "Vercel"
+        },
+        {
+          "url": "https://exoiteitservices.com/",
+          "status": 200,
+          "location": null,
+          "server": "Vercel"
+        }
+      ]
+    },
+    {
+      "host": "exoiteitservices.com",
+      "path": "/contact",
+      "hops": [
+        {
+          "url": "https://exoiteitservices.com/contact",
+          "status": 200,
+          "location": null,
+          "server": "Vercel"
+        }
+      ]
+    },
+    {
+      "host": "www.exoiteitservices.com",
+      "path": "/contact",
+      "hops": [
+        {
+          "url": "https://www.exoiteitservices.com/contact",
+          "status": 308,
+          "location": "https://exoiteitservices.com/contact",
+          "server": "Vercel"
+        },
+        {
+          "url": "https://exoiteitservices.com/contact",
+          "status": 200,
+          "location": null,
+          "server": "Vercel"
+        }
+      ]
+    },
+    {
+      "host": "exoiteitservices.com",
+      "path": "/services/ai-automation",
+      "hops": [
+        {
+          "url": "https://exoiteitservices.com/services/ai-automation",
+          "status": 404,
+          "location": null,
+          "server": "Vercel"
+        }
+      ]
+    },
+    {
+      "host": "www.exoiteitservices.com",
+      "path": "/services/ai-automation",
+      "hops": [
+        {
+          "url": "https://www.exoiteitservices.com/services/ai-automation",
+          "status": 308,
+          "location": "https://exoiteitservices.com/services/ai-automation",
+          "server": "Vercel"
+        },
+        {
+          "url": "https://exoiteitservices.com/services/ai-automation",
+          "status": 404,
+          "location": null,
+          "server": "Vercel"
+        }
+      ]
+    }
+  ]
+}

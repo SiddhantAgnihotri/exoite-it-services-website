@@ -1,0 +1,245 @@
+﻿/* Targeted refinements from the rendered homepage audit. */
+.homepage h2 { letter-spacing: -.02em; line-height: 1.22; }
+.homepage .hero h1 { letter-spacing: -.03em; line-height: 1.13; }
+.homepage .eyebrow { font-size: 12px; letter-spacing: .09em; }
+.homepage .button { font-weight: 600; letter-spacing: 0; }
+.homepage .digital-studio figcaption { font-size: 13px; line-height: 1.6; }
+/* The desktop retains its layers; the phone no longer covers the website message. */
+.homepage .studio-website { width: 38%; right: 2%; top: 6%; }
+.homepage .studio-site-content { padding: 2.7cqw 2.5cqw; }
+.homepage .studio-site-content p { display: none; }
+.homepage .studio-site-content > strong { font-size: 3.4cqw; }
+.homepage .studio-site-action { font-size: 1.9cqw; }
+.homepage .studio-mobile { width: 25%; right: 3%; bottom: 3%; }
+.homepage .studio-mobile-heading, .homepage .studio-mobile-tile :is(span,b) { font-size: 1.9cqw; }
+.studio-mobile-composition { display: none; }
+.homepage .home-company-facts span { font-size: 12px; }
+.homepage .home-service { grid-template-columns: .9fr 1.1fr 1fr; gap: 32px; padding-block: 28px; }
+.homepage .home-service-title h3 { max-width: none; letter-spacing: -.02em; }
+.homepage .home-service-index { font-size: 12px; }
+.homepage .home-service-copy p { margin: 0; font-size: 16px; line-height: 1.65; }
+.homepage .home-service-copy .text-link { margin-top: 12px; }
+/* Row stays static; feedback belongs to its actual links. */
+.homepage .home-service:hover { transform: none; border-color: var(--border); }
+.homepage .home-service:focus-within { outline: none; }
+.homepage .home-service h3 a:focus-visible { outline: 3px solid var(--blue); outline-offset: 5px; }
+.capability-art { border: 1px solid #d3deef; border-radius: 12px; padding: 18px; background: #edf3ff; color: #18376f; min-width: 0; min-height: 208px; }
+.capability-heading { display: flex; align-items: center; gap: 8px; font-size: 13px; font-weight: 600; line-height: 1.4; margin-bottom: 14px; }
+.capability-heading svg { flex-shrink: 0; }
+.capability-node { display: flex; align-items: center; gap: 10px; padding: 10px 12px; background: white; border: 1px solid #cad8f0; border-radius: 6px; font-size: 14px; }
+.capability-connector { display: block; margin: 4px auto; }
+.capability-website { background: #f3edfa; border-color: #e0d5ed; color: #493467; }
+.capability-site { border: 1px solid #e0d5ed; border-radius: 6px; background: white; padding: 14px; }
+.capability-site > span:first-child { font-size: 12px; }
+.capability-site strong { font: 600 19px/1.3 var(--heading); display: block; margin: 8px 0; letter-spacing: -.02em; }
+.capability-action { font-size: 12px; font-weight: 600; display: block; }
+.capability-software { background: #e9f4ee; border-color: #c9dfd3; color: #235740; }
+.capability-record { display: flex; justify-content: space-between; align-items: center; gap: 10px; padding: 10px 0; border-bottom: 1px solid #c9dfd3; font-size: 12px; line-height: 1.4; }
+.capability-record strong { font-weight: 500; }
+.capability-record > span:last-child { display: flex; align-items: center; gap: 3px; }
+.capability-footnote { font-size: 12px; margin-top: 10px; color: #235740; }
+.capability-mobile { background: #fbefe4; border-color: #e5d4c4; color: #734425; }
+.capability-app { border: 1px solid #e5d4c4; border-radius: 10px; padding: 14px; background: white; }
+.capability-app strong { font: 600 17px/1.3 var(--heading); display: block; margin-bottom: 10px; }
+.capability-app > span { display: flex; gap: 6px; align-items: center; font-size: 12px; margin-top: 8px; }
+.homepage .ai-feature-copy .small-note { font-size: 13px; }
+.homepage .workflow-topbar > span:last-child, .homepage .workflow-steps button > span:nth-child(2),
+.homepage .workflow-steps small, .homepage .workflow-detail-label { font-size: 12px; }
+.homepage .workflow-steps button { height: 92px; }
+/* Reserve the tallest workflow state at each layout, without excess blank space. */
+.homepage .workflow-detail { min-height: 264px; padding: 20px; }
+.homepage .workflow-detail > p { font-size: 14px; line-height: 1.65; }
+.homepage .workflow-detail > .workflow-caution, .homepage .workflow-demo figcaption { font-size: 13px; line-height: 1.6; }
+.homepage .workflow-demo-actions > span, .homepage .workflow-demo-actions button { font-size: 12px; }
+.homepage .workflow-demo figcaption { padding: 14px 20px; }
+.homepage .work-meta { font-size: 12px; margin-bottom: 12px; }
+.homepage .solution-visual figcaption { font-size: 13px; }
+.solution-visual figcaption, .work-story .solution-disclosure { font-size: 13px; }
+.homepage .work-actions { margin-top: 16px; gap: 0 20px; }
+.homepage .work-enquiry { font-size: 13px; }
+.homepage .work-story > p { line-height: 1.65; }
+.homepage .work-feature { padding-bottom: 32px; gap: 48px; }
+.homepage .industry-introduction { display: block; }
+.homepage .industry-introduction > .small-note { font-size: 13px; }
+.homepage .industry-rows summary > span, .homepage .industry-rows .text-link { font-size: 12px; }
+.homepage .insight-lead h2 { font-size: 30px; }
+.homepage .insight-secondary { align-self: stretch; display: grid; }
+.homepage .insight-secondary article { display: flex; flex-direction: column; justify-content: center; padding: 28px 0; }
+.homepage .insight-secondary article:first-child { padding-top: 16px; }
+.homepage .insight-secondary p { font-size: 15px; line-height: 1.7; margin-top: 14px; color: var(--muted); max-width: 40ch; }
+.homepage .article-category { font-size: 12px; }
+/* A full email address needs a real column rather than overflow-wrap:anywhere. */
+.contact-cta .cta-actions { flex-shrink: 0; min-width: max-content; }
+.contact-cta .cta-email { overflow-wrap: normal; white-space: nowrap; }
+.site-footer .footer-links { gap: 4px; align-items: stretch; }
+.site-footer .footer-links a, .site-footer .footer-contact > a, .footer-legal a { min-height: 44px; display: flex; align-items: center; }
+.site-footer h2 { margin-bottom: 12px; }
+.site-footer .footer-contact > a { margin-bottom: 0; }
+.site-footer .footer-contact .footer-enquiry { margin-top: 8px; }
+/* The product's real view switch remains, while its example text stays readable. */
+.software-preview .preview-label, .software-preview .preview-wordmark,
+.software-preview .preview-date, .software-preview .preview-date strong,
+.software-preview .preview-post-copy > p, .software-preview .preview-post-status,
+.software-preview .preview-bottom-note, .software-preview .view-switch button { font-size: 12px; }
+.software-preview .preview-wordmark { line-height: 1.4; }
+.software-preview figcaption { font-size: 13px; }
+.software-preview .poster-signature { display: none; }
+.software-preview .preview-art > strong { font-size: 19px; letter-spacing: -.02em; max-width: 13ch; }
+.software-preview .preview-art { min-height: 140px; }
+.software-preview .preview-title { font-size: 20px; line-height: 1.4; }
+.software-preview .content-view .preview-art > strong { display: none; }
+.software-preview .content-view .preview-art { min-height: 58px; }
+.preview-schedule { display: none; }
+@media (max-width: 1280px) {
+  .whatsapp-button[data-home] { display: none; } /* Inline WhatsApp actions remain. */
+}
+@media (max-width: 1100px) {
+  .homepage .home-service { grid-template-columns: 1fr 1.2fr 1fr; gap: 24px; }
+  .homepage .workflow-detail { min-height: 288px; }
+  .contact-cta .cta-layout { align-items: flex-start; gap: 32px; }
+}
+@media (max-width: 950px) {
+  .homepage .home-service { grid-template-columns: 1fr 1fr; gap: 18px 32px; }
+  .homepage .home-service-title { grid-column: 1 / -1; display: flex; align-items: center; }
+  .homepage .home-service-title h3 { font-size: 25px; }
+  .homepage .home-service-index { margin-right: 4px; }
+  .homepage .home-service-copy { grid-column: 1; grid-row: 2; align-self: start; }
+  .homepage .capability-art { grid-column: 2; grid-row: 2; }
+  .homepage .workflow-detail { min-height: 264px; }
+  .homepage .contact-cta .cta-layout { display: grid; grid-template-columns: 1fr; gap: 24px; }
+  .homepage .contact-cta .cta-actions { display: flex; flex-wrap: wrap; flex-direction: row; align-items: center; gap: 8px 24px; }
+  .homepage .contact-cta .cta-secondary { flex-basis: 100%; min-height: 44px; }
+  .site-footer .footer-grid { grid-template-columns: 1fr 1fr; gap: 28px; }
+  .site-footer .footer-intro { grid-column: 1 / -1; }
+  .site-footer .footer-contact { grid-column: 1 / -1; display: grid; grid-template-columns: 1fr 1fr; gap: 0 24px; padding-top: 24px; border-top: 1px solid #475569; }
+  .site-footer .footer-contact h2 { grid-column: 1 / -1; }
+  .site-footer .footer-contact p { margin: 8px 0; }
+  .site-footer .footer-contact .footer-enquiry { margin: 0; }
+  .site-footer .footer-intro > p { max-width: 66ch; }
+}
+@media (max-width: 700px) {
+  .homepage .hero h1 { line-height: 1.15; }
+  .homepage .hero-grid { gap: 24px; }
+  .homepage .studio-canvas { display: none; }
+  .homepage .studio-mobile-composition { display: block; background: #edf2fa; border: 1px solid #d3deef; border-radius: 14px; padding: 12px; }
+  .studio-mobile-bar { display: flex; align-items: center; gap: 10px; color: var(--navy); font-size: 13px; font-weight: 600; padding: 4px 2px 16px; }
+  .studio-mobile-bar > svg { margin-left: auto; }
+  .studio-mobile-content { background: white; padding: 18px 16px; border: 1px solid #d3deef; border-radius: 9px; }
+  .studio-mobile-label { font-size: 12px; color: var(--muted); }
+  .studio-mobile-content > strong { font: 600 23px/1.3 var(--heading); letter-spacing: -.02em; display: block; color: var(--navy); margin: 10px 0 20px; }
+  .studio-mobile-step { display: flex; gap: 12px; align-items: center; padding: 12px; margin-top: 10px; background: #edf3ff; border: 1px solid #d3deef; border-radius: 7px; color: #18376f; }
+  .studio-mobile-step > svg { flex-shrink: 0; width: 20px; }
+  .studio-mobile-step b { font-size: 14px; display: block; font-weight: 600; }
+  .studio-mobile-step span { font-size: 12px; display: block; }
+  .studio-mobile-step.violet { background: #f3edfa; border-color: #e0d5ed; color: #493467; }
+  .studio-mobile-step.green { background: #e9f4ee; border-color: #c9dfd3; color: #235740; }
+  .studio-mobile-capabilities { display: flex; flex-wrap: wrap; gap: 12px 20px; margin-top: 20px; font-size: 13px; color: var(--navy); }
+  .studio-mobile-capabilities span { display: flex; align-items: center; gap: 6px; }
+  .homepage .digital-studio figcaption, .homepage .hero-service-rail a { font-size: 13px; }
+  .homepage .home-service { grid-template-columns: minmax(0,1.15fr) minmax(0,1fr); gap: 16px; padding-block: 24px; }
+  .homepage .home-service-title { gap: 10px; }
+  .homepage .home-service-title h3 { font-size: 23px; line-height: 1.3; }
+  .homepage .home-service-title > svg { display: none; }
+  .homepage .home-service-copy p { font-size: 15px; line-height: 1.6; }
+  .homepage .home-service-copy .text-link { font-size: 13px; }
+  .capability-art { min-height: 182px; padding: 12px; border-radius: 8px; }
+  .capability-heading { font-size: 12px; gap: 6px; flex-wrap: wrap; margin-bottom: 12px; }
+  .capability-node { font-size: 12px; padding: 8px; gap: 6px; }
+  .capability-node svg { display: none; }
+  .capability-site { padding: 10px; }
+  .capability-site > span:first-child { display: none; }
+  .capability-site strong { font-size: 15px; }
+  .capability-record { display: block; padding: 6px 0; }
+  .capability-record:first-of-type { display: none; }
+  .capability-record > span:last-child { margin-top: 4px; }
+  .capability-app { padding: 10px; }
+  .capability-app strong { font-size: 15px; }
+  .capability-app > span svg { display: none; }
+  .capability-app .capability-action { display: none; }
+  .homepage .supporting-services { gap: 8px; }
+  .homepage .supporting-services article p { display: none; } /* Dedicated service pages retain descriptions. */
+  .homepage .supporting-services h3 { font-size: 17px; }
+  .homepage .supporting-services h3 a { width: 100%; min-height: 44px; justify-content: space-between; }
+  .homepage .ai-feature h2 { font-size: 32px; }
+  .homepage .workflow-steps button { height: 76px; padding: 10px; }
+  .homepage .workflow-step-icon { margin-bottom: 5px; }
+  .homepage .workflow-topbar > span:last-child { display: none; }
+  .homepage .workflow-detail { min-height: 320px; padding: 16px; }
+  .homepage .workflow-detail h3 { font-size: 21px; }
+  .homepage .workflow-sample { font-size: 13px; }
+  .homepage .workflow-demo-actions { align-items: center; flex-wrap: wrap; gap: 0 8px; }
+  .homepage .workflow-demo-actions button { margin-left: auto; }
+  .homepage .workflow-demo figcaption { padding-inline: 16px; }
+  .homepage .work-editorial { gap: 28px; }
+  .homepage .work-feature, .homepage .work-feature:nth-child(even) { gap: 18px; }
+  .homepage .work-feature h3 { font-size: 26px; }
+  .homepage .work-story { padding: 0; }
+  .homepage .work-story > p { font-size: 15px; }
+  .homepage .work-meta > span:last-child { display: none; } /* Full disclosure stays directly below the illustration. */
+  .homepage .work-actions { gap: 0 16px; margin-top: 12px; }
+  .homepage .work-actions .text-link { font-size: 14px; }
+  .homepage .industry-rows summary { padding-block: 18px; }
+  .homepage .industry-rows h3 { font-size: 16px; }
+  .homepage .curated-insights { gap: 20px; }
+  .homepage .insight-lead h2 { font-size: 27px; }
+  .homepage .insight-secondary article { padding-block: 22px; }
+  .homepage .insight-secondary h3 { font-size: 23px; }
+  .homepage .insight-secondary p { margin-top: 10px; }
+  .homepage .contact-cta .cta-actions { flex-direction: column; align-items: flex-start; }
+  .site-footer .footer-grid { gap: 24px 20px; }
+  .site-footer .footer-contact { display: block; }
+  .site-footer .footer-contact :is(a,p) { margin: 0; }
+  .site-footer .footer-contact h2 { margin-bottom: 8px; }
+  .site-footer .footer-intro > p { margin-top: 12px; }
+  .site-footer .footer-bottom { margin-top: 28px; padding-top: 20px; gap: 8px; }
+  .site-footer .footer-legal { gap: 4px 16px; }
+  .site-footer .footer-links a { line-height: 1.5; }
+  .software-preview .preview-sidebar, .software-preview .preview-topbar > .preview-label { display: none; }
+  .software-preview .preview-main { padding: 16px; }
+  .software-preview .preview-topbar { padding: 14px 16px; }
+  .software-preview .preview-title { font-size: 20px; }
+  .software-preview .preview-page-title { gap: 8px; }
+  .software-preview .preview-toolbar { gap: 8px; flex-wrap: wrap; }
+  .software-preview .view-switch button { min-height: 44px; }
+  .software-preview .preview-toolbar > .preview-label { display: none; }
+  .software-preview .preview-posts, .software-preview .preview-posts.content-view { grid-template-columns: 1fr; min-height: 328px; }
+  .software-preview .preview-post { display: none; }
+  .software-preview .preview-post:first-child { display: block; }
+  .software-preview .preview-date { font-size: 12px; padding: 10px 12px; }
+  .software-preview .preview-date strong { font-size: 14px; }
+  .software-preview .preview-art, .software-preview .content-view .preview-art { min-height: 170px; height: 170px; padding: 20px; margin: 0 10px 12px; }
+  .software-preview .preview-art > strong, .software-preview .content-view .preview-art > strong { display: block; font-size: 27px; max-width: 12ch; }
+  .software-preview .preview-post-copy, .software-preview .content-view .preview-post-copy { padding: 0 12px 12px; }
+  .software-preview .preview-post-copy > p { font-size: 15px; }
+  .software-preview .preview-post-status { font-size: 12px; }
+  .software-preview .preview-schedule { display: grid; gap: 10px; margin-top: 18px; }
+  .preview-schedule > p { font-size: 12px; color: var(--muted); }
+  .preview-schedule > div { display: grid; grid-template-columns: 70px 1fr; gap: 2px 10px; border-top: 1px solid var(--border); padding-top: 10px; font-size: 12px; color: var(--muted); }
+  .preview-schedule strong { font-size: 13px; color: var(--navy); font-weight: 500; }
+  .preview-schedule > div > span:last-child { grid-column: 2; }
+  .software-preview .preview-bottom-note { display: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .homepage .home-service { transform: none !important; }
+}
+/* Second pass after checking actual 360/390 and desktop screenshots. */
+.homepage .studio-mobile { width: 29%; }
+.homepage .studio-mobile-lines, .homepage .studio-mobile-nav { display: none; }
+@media (max-width: 700px) {
+  .homepage .capability-record-label { display: none; }
+  .studio-mobile-step { padding: 10px; }
+  .studio-mobile-step :is(b,span) { line-height: 1.45; }
+  .studio-mobile-content > strong { margin-bottom: 14px; }
+  .studio-mobile-capabilities { margin-top: 14px; }
+  .site-footer .footer-contact { display: grid; grid-template-columns: 1fr 1fr; gap: 0 12px; }
+  .site-footer .footer-contact h2, .site-footer .footer-contact > a:first-of-type,
+  .site-footer .footer-contact p, .site-footer .footer-contact .footer-enquiry { grid-column: 1 / -1; }
+  .site-footer .footer-contact a { font-size: 14px; }
+  .site-footer .footer-contact p { padding-block: 6px; }
+}
+@media (min-width: 480px) and (max-width: 700px) {
+  .homepage .workflow-detail { min-height: 280px; }
+}
+@media (max-width: 389px) {
+  .homepage .workflow-detail { min-height: 350px; }
+}

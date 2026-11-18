@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
-import { ArrowUpRight, Plus } from "lucide-react";
+import { ArrowUpRight, Plus, GraduationCap, BookOpen, ShoppingBag, HeartPulse, Utensils, BriefcaseBusiness } from "lucide-react";
+const industryIcons = [GraduationCap, BookOpen, ShoppingBag, HeartPulse, Utensils, BriefcaseBusiness];
 const industries = [
   [
     "Schools and educational institutions",
@@ -37,29 +38,21 @@ export default function Industries() {
     <section className="section industries-editorial" id="industries">
       <div className="container industries-layout">
         <div className="industry-introduction">
-          <p className="eyebrow">03 / Relevant to your world</p>
-          <h2>Different contexts. The same care for the details.</h2>
+          <p className="eyebrow">05 / Industries we serve</p>
+          <h2>Software for different ways of working.</h2>
           <p>
-            Education, commerce and everyday services each have their own
-            people, processes and constraints.
+            Different sectors. Clear tasks, access and information.
           </p>
-          <div className="industry-pullquote">
-            <span>Education technology</span>
-            <p>Built around learners. Considered for the people behind them.</p>
-            <Link to="/services/school-institute-solutions">
-              Explore education solutions <ArrowUpRight size={16} />
-            </Link>
-          </div>
           <p className="small-note">
             Potential use cases, not a claim of prior client work in these
             sectors.
           </p>
         </div>
         <div className="industry-rows">
-          {industries.map(([title, description, slug], index) => (
-            <details key={title} open={index === 0}>
+          {industries.map(([title, description, slug], index) => { const Icon = industryIcons[index]; return (
+            <details key={title}>
               <summary>
-                <span>0{index + 1}</span>
+                <Icon size={23} className="industry-icon" aria-hidden="true" />
                 <h3>{title}</h3>
                 <Plus size={17} className="accordion-plus" aria-hidden="true" />
               </summary>
@@ -68,7 +61,7 @@ export default function Industries() {
                 Explore a relevant service <ArrowUpRight size={15} />
               </Link>
             </details>
-          ))}
+          ); })}
         </div>
       </div>
     </section>

@@ -1,0 +1,21 @@
+{
+  "reportLinksMissing": [],
+  "commands": {
+    "build": 0,
+    "tests": 0,
+    "lint": 0
+  },
+  "matrix": {
+    "rendered": 156,
+    "failures": 0,
+    "accessibilityViolations": 0,
+    "consoleErrors": 0,
+    "networkFailures": 7,
+    "validatedImageCancellations": 7,
+    "unresolvedNetworkFailures": 0
+  },
+  "homepageChecks": 87,
+  "homepageFailures": 0,
+  "workflowScans": 24,
+  "screenshotsPresent": 156
+}
