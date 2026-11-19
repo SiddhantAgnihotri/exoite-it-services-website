@@ -1,5 +1,6 @@
 ﻿import { Link, useLocation } from "react-router-dom";
 import { useEffect, useRef, useState } from "react";
+import { trackLead } from "../analytics";
 import {
   Mail,
   MapPin,
@@ -96,6 +97,7 @@ ${formData.message}`;
 
     try {
       await submitEnquiry(formData);
+      trackLead(); // only after the provider confirmed success
 
       setStatus({
         loading: false,

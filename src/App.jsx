@@ -7,6 +7,7 @@ import NotFound from "./pages/NotFound";
 import Navbar from "./components/layout/Navbar";
 import Footer from "./components/layout/Footer";
 import WhatsAppButton from "./components/layout/WhatsAppButton";
+import Analytics from "./components/Analytics";
 
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -63,6 +64,7 @@ function App() {
 
       <Footer />
       <WhatsAppButton />
+      <Analytics />
     </>
   );
 }

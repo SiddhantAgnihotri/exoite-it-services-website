@@ -79,6 +79,7 @@ export default function Footer() {
         <div className="footer-legal">
           <Link to="/privacy-policy">Privacy Policy (draft)</Link>
           <Link to="/terms-of-service">Terms of Service (draft)</Link>
+          <button type="button" className="footer-analytics-settings" onClick={() => window.dispatchEvent(new Event("exoite:analytics-settings"))}>Analytics settings</button>
         </div>
       </div>
     </footer>

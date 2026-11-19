@@ -28,7 +28,7 @@ export const legalDocuments = {
       ],
       [
         "Cookies and analytics",
-        "No GA4 or advertising analytics loader is currently included in this website source. Hosting and service providers can still process technical data. Confirm the deployed configuration and any cookies or similar storage before finalising this section. Future analytics require a separate privacy and consent review.",
+        "Google Analytics 4 (measurement ID G-FER0ZN1GJZ) loads only after a visitor accepts analytics in the on-site notice, and the choice can be changed through Analytics settings in the footer. It records page views and clicks on WhatsApp, phone and email links, and confirmed enquiry-form submissions; names, emails, phone numbers and message contents are not sent, and advertising features are not enabled. Hosting and service providers can still process technical data. Confirm the deployed configuration and any cookies or similar storage before finalising this section. Future analytics require a separate privacy and consent review.",
       ],
       [
         "Questions and requests",
